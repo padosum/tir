@@ -22,4 +22,4 @@ Today I Read Challenge
 ## 😴 마음이 해이해질 때 
 
 ![code-complete2](img/IMG_7770.jpg)
-![kang-say](img/kang.png)
+![minister of foreign affair's good advice](img/kang.png)
