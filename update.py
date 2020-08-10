@@ -46,10 +46,10 @@ def main():
                 except ValueError:
                     pass
             continue
-
-        category = os.path.basename(root)
-
-        content += "### {}\n\n".format(category)
+        
+        if os.path.basename(root) != "img":
+            category = os.path.basename(root)
+            content += "### {}\n\n".format(category)
 
         for file in files:
             name = os.path.basename(file).split('.')[0]
