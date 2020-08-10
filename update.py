@@ -3,8 +3,7 @@
 import os
 
 
-HEADER="""# TIR
-# 📖 TIR
+HEADER="""# 📖 TIR
 Today I Read Challenge
 하루에 읽을거리를 하나씩 읽고 자신의 생각(후기)을 공유한다.   
 
@@ -18,7 +17,7 @@ Today I Read Challenge
 4. 카테고리로 폴더를 만든다. `.md`파일을 해당되는 카테고리 폴더에 넣는다.   
     - 카테고리는 개발 분야 외의 흥미가 가지는 것은 무엇이든지 가능하다.   
 
-## 📃 목차  
+## 📰 현재까지 읽은 글  
 """
 
 NEXT="""## 💬 기타  
