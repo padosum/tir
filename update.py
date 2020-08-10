@@ -21,8 +21,7 @@ Today I Read Challenge
 ## 📃 목차  
 """
 
-NEXT="""
-## 💬 기타  
+NEXT="""## 💬 기타  
 1. 더 잘 활용할 수 있는 의견이 있다면 제시한다.  
 2. 블로그의 글은 삭제될 수 있으니 두고두고 읽고 싶다면 스크랩 앱 등을 사용하는 것이 좋다.  
     - ex) [Notion](https://www.notion.so/), [Bear](https://bear.app/), [OneNote](https://www.onenote.com/), ⌨️직접 타이핑하기 등...
@@ -59,8 +58,9 @@ def main():
             content += "- [{}]({})\n".format(name, os.path.join(category, file))
         content += "\n"
 
+    content += NEXT
     with open("README.md", "w") as fd:
-        fd.write(content += NEXT)
+        fd.write(content)
 
 
 if __name__ == "__main__":
