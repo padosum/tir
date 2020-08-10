@@ -23,8 +23,6 @@ Today I Read Challenge
 - [Day01](Data Science/Day01.md)
 - [Gimzimean](Data Science/GIMZIMEAN.md)
 
-- [Screenshot_119](Data Science/Screenshot_119.png)
-
 ### Design
 
 - [Css Layout](Design/css-layout.md)
@@ -75,15 +73,6 @@ Today I Read Challenge
 ### Test
 
 - [What Is Tdd](Test/what-is-TDD.md)
-
-- [Ssr](Test/SSR.png)
-- [](Test/.DS_Store)
-- [Csr](Test/CSR.png)
-- [Kang](Test/kang.png)
-- [Else](Test/else.jpeg)
-- [Kakaodatatrend](Test/kakaodatatrend.png)
-- [Img_7770](Test/IMG_7770.jpg)
-- [Kakaodatatrend_bts](Test/kakaodatatrend_bts.png)
 
 ## 💬 기타  
 1. 더 잘 활용할 수 있는 의견이 있다면 제시한다.  
