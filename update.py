@@ -51,11 +51,11 @@ def main():
             category = os.path.basename(root)
             content += "### {}\n\n".format(category)
 
-        for file in files:
-            name = os.path.basename(file).split('.')[0]
-            name = " ".join(word.capitalize() for word in name.split('-'))
-            content += "- [{}]({})\n".format(name, os.path.join(category, file))
-        content += "\n"
+            for file in files:
+                name = os.path.basename(file).split('.')[0]
+                name = " ".join(word.capitalize() for word in name.split('-'))
+                content += "- [{}]({})\n".format(name, os.path.join(category, file))
+            content += "\n"
 
     content += NEXT
     with open("README.md", "w") as fd:
