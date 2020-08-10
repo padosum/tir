@@ -31,6 +31,7 @@ Today I Read Challenge
 ### Dev
 
 - [Github Seed Vault](Dev/github-seed-vault.md)
+- [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
 - [About Https](Dev/about-https.md)
 - [Introduction to svelte](Dev/Introduction to Svelte.md)
