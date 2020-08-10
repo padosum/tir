@@ -23,9 +23,7 @@ Today I Read Challenge
 - [Day01](Data Science/Day01.md)
 - [Gimzimean](Data Science/GIMZIMEAN.md)
 
-### img
-
-- [Screenshot_119](img/Screenshot_119.png)
+- [Screenshot_119](Data Science/Screenshot_119.png)
 
 ### Design
 
@@ -74,23 +72,18 @@ Today I Read Challenge
 - [Become A Better Developer By Building Projects](Study/become-a-better-developer-by-building-projects.md)
 - [The It Blog Is Not Dead Yet](Study/the-IT-blog-is-not-dead-yet.md)
 
-### TIR
-
-
 ### Test
 
 - [What Is Tdd](Test/what-is-TDD.md)
 
-### img
-
-- [Ssr](img/SSR.png)
-- [](img/.DS_Store)
-- [Csr](img/CSR.png)
-- [Kang](img/kang.png)
-- [Else](img/else.jpeg)
-- [Kakaodatatrend](img/kakaodatatrend.png)
-- [Img_7770](img/IMG_7770.jpg)
-- [Kakaodatatrend_bts](img/kakaodatatrend_bts.png)
+- [Ssr](Test/SSR.png)
+- [](Test/.DS_Store)
+- [Csr](Test/CSR.png)
+- [Kang](Test/kang.png)
+- [Else](Test/else.jpeg)
+- [Kakaodatatrend](Test/kakaodatatrend.png)
+- [Img_7770](Test/IMG_7770.jpg)
+- [Kakaodatatrend_bts](Test/kakaodatatrend_bts.png)
 
 ## 💬 기타  
 1. 더 잘 활용할 수 있는 의견이 있다면 제시한다.  
