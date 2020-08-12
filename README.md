@@ -63,6 +63,7 @@ Today I Read Challenge
 
 ### Study
 
+- [How Javascript Works Inside Engine](Study/how-javascript-works-inside-engine.md)
 - [Today Is Not The Only Day For Coding](Study/today-is-not-the-only-day-for-coding.md)
 - [The Fastest Way To Learn](Study/the-fastest-way-to-learn.md)
 - [Missing Semester](Study/missing-semester.md)
