@@ -36,6 +36,7 @@ Today I Read Challenge
 - [About Https](Dev/about-https.md)
 - [Introduction to svelte](Dev/Introduction to Svelte.md)
 - [What Is An Alt Tag And How Should You Use It](Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
+- [10 Tips For Starting And Creating Side Projects](Dev/10-tips-for-starting-and-creating-side-projects.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
 - [Why We Use React](Dev/why-we-use-react.md)
