@@ -33,6 +33,7 @@ Today I Read Challenge
 - [Github Seed Vault](Dev/github-seed-vault.md)
 - [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
+- [First Start Typescript](Dev/first-start-typescript.md)
 - [About Https](Dev/about-https.md)
 - [Introduction to svelte](Dev/Introduction to Svelte.md)
 - [What Is An Alt Tag And How Should You Use It](Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
