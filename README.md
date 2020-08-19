@@ -72,6 +72,7 @@ Today I Read Challenge
 - [The Fastest Way To Learn](Study/the-fastest-way-to-learn.md)
 - [Missing Semester](Study/missing-semester.md)
 - [Simple Is Best](Study/simple-is-best.md)
+- [How To Write Clean Code Function In Javascript](Study/how-to-write-clean-code-function-in-javascript.md)
 - [Software Learning Attitude](Study/software-learning-attitude.md)
 - [Burnout](Study/burnout.md)
 - [Things To Know When You Prepare Presentation First Time](Study/things-to-know-when-you-prepare-presentation-first-time.md)
