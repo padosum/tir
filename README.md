@@ -42,6 +42,7 @@ Today I Read Challenge
 - [Ui For Developers](Dev/ui-for-developers.md)
 - [Why We Use React](Dev/why-we-use-react.md)
 - [What Is The Difference Between Cookie And Session](Dev/what-is-the-difference-between-cookie-and-session.md)
+- [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
 - [No Hello](Dev/no-hello.md)
 - [What Is The Difference Between Ssr And Csr](Dev/what-is-the-difference-between-SSR-and-CSR.md)
 - [Javascript Trend 2020](Dev/javascript-trend-2020.md)
