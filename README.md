@@ -49,6 +49,7 @@ Today I Read Challenge
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
 - [Why Side Projects Are So Damn Important](Dev/why-side-projects-are-so-damn-important.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
+- [Read Me Project](Dev/read-me-project.md)
 - [Don't Use Else](Dev/don't-use-else.md)
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
 - [Show Daily Coding Time In Github](Dev/show-daily-coding-time-in-github.md)
