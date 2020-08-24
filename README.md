@@ -25,6 +25,7 @@ Today I Read Challenge
 
 ### Design
 
+- [Dialog Design Based On The Cancellation Problem Of Cancellation](Design/dialog-design-based-on-the-cancellation-problem-of-cancellation.md)
 - [Css Layout](Design/css-layout.md)
 - [Text Fields And Forms Design](Design/text-fields-and-forms-design.md)
 
