@@ -82,6 +82,7 @@ Today I Read Challenge
 - [Things To Know When You Prepare Presentation First Time](Study/things-to-know-when-you-prepare-presentation-first-time.md)
 - [Things That No One Told Me](Study/things-that-no-one-told-me.md)
 - [Become A Better Developer By Building Projects](Study/become-a-better-developer-by-building-projects.md)
+- [Javascript Understanding Of Prototype](Study/javascript-understanding-of-prototype.md)
 - [The It Blog Is Not Dead Yet](Study/the-IT-blog-is-not-dead-yet.md)
 
 ### Test
