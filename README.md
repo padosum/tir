@@ -55,6 +55,7 @@ Today I Read Challenge
 - [Read Me Project](Dev/read-me-project.md)
 - [Don't Use Else](Dev/don't-use-else.md)
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
+- [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
 - [Show Daily Coding Time In Github](Dev/show-daily-coding-time-in-github.md)
 - [Becoming A 10x Developer](Dev/becoming-a-10x-developer.md)
 - [How I Became A Better Programmer](Dev/how-i-became-a-better-programmer.md)
