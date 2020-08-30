@@ -68,6 +68,7 @@ Today I Read Challenge
 
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
 - [How To Get The Answer You Want](Life/how-to-get-the-answer-you-want.md)
+- [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 - [Indistractable](Life/indistractable.md)
 
 ### Study
