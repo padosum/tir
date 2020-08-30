@@ -35,6 +35,7 @@ Today I Read Challenge
 - [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
 - [First Start Typescript](Dev/first-start-typescript.md)
+- [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
 - [About Https](Dev/about-https.md)
 - [Introduction to svelte](Dev/Introduction to Svelte.md)
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
