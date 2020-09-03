@@ -40,6 +40,7 @@ Today I Read Challenge
 - [Javascript Trend 2020](Dev/javascript-trend-2020.md)
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
 - [Github Seed Vault](Dev/github-seed-vault.md)
+- [How To Increase Your Frontend App’s Performance 5 Coding Tips](Dev/how-to-increase-your-frontend-app’s-performance-5-coding-tips.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
 - [10 Tips For Starting And Creating Side Projects](Dev/10-tips-for-starting-and-creating-side-projects.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
