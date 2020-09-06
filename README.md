@@ -58,6 +58,7 @@ Today I Read Challenge
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
 - [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
 - [What Is An Alt Tag And How Should You Use It](Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
+- [Use Vscoce Like A Senior Developer](Dev/use-vscoce-like-a-senior-developer.md)
 - [Don't Use Else](Dev/don't-use-else.md)
 - [About Https](Dev/about-https.md)
 - [Read Me Project](Dev/read-me-project.md)
