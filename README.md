@@ -64,6 +64,7 @@ Today I Read Challenge
 - [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
 - [Why We Use React](Dev/why-we-use-react.md)
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
+- [History Of Javascript Modules And Bundlers](Dev/history-of-javascript-modules-and-bundlers.md)
 - [First Start Typescript](Dev/first-start-typescript.md)
 - [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
 
