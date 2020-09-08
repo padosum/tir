@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 
 import os
 
@@ -37,20 +38,20 @@ def main():
     content = ""
     content += HEADER
 
-    for root, dirs, files in os.walk("."):
+
+    for root, dirs, files in os.walk("./docs"):
         dirs.sort()
-        if root == '.':
-            for dir in ('.git', '.github'):
+        if root == './docs':
+            for dir in ('.git', '.github', 'node_modules'):
                 try:
                     dirs.remove(dir)
                 except ValueError:
                     pass
             continue
         
-        if os.path.basename(root) != "img":
+        if os.path.basename(root) != "img" :
             category = os.path.basename(root)
             content += "### {}\n\n".format(category)
-
             for file in files:
                 name = os.path.basename(file).split('.')[0]
                 name = " ".join(word.capitalize() for word in name.split('-'))
@@ -58,7 +59,7 @@ def main():
             content += "\n"
 
     content += NEXT
-    with open("README.md", "w") as fd:
+    with open("./docs/README.md", "w") as fd:
         fd.write(content)
 
 
