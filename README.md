@@ -28,5 +28,5 @@ Today I Read Challenge
 
 ## 😴 마음이 해이해질 때 
 
-![code-complete2](img/IMG_7770.jpg)
-![minister of foreign affair's good advice](img/kang.png)
+![code-complete2](./docs/img/IMG_7770.jpg)
+![minister of foreign affair's good advice](./docs/img/kang.png)
