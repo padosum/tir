@@ -1,6 +1,13 @@
-# 📖 TIR
-Today I Read Challenge
+# 📖 TIR  
+
+<p align="center">
+Today I Read Challenge  
+</p>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de8e11ab-e0d7-483c-b6a7-bf9a7bf31315/deploy-status)](https://app.netlify.com/sites/tir/deploys)  
+
 하루에 읽을거리를 하나씩 읽고 자신의 생각(후기)을 공유한다.   
+[https://tir.netlify.app/](https://tir.netlify.app/)
 
 ## 👩‍⚖️ 규칙  
 
@@ -11,93 +18,6 @@ Today I Read Challenge
     - **❗단, 읽은 글의 링크는 꼭 남긴다. (링크가 없는 책의 경우 제외)** 
 4. 카테고리로 폴더를 만든다. `.md`파일을 해당되는 카테고리 폴더에 넣는다.   
     - 카테고리는 개발 분야 외의 흥미가 가지는 것은 무엇이든지 가능하다.   
-
-## 📰 현재까지 읽은 글  
-### Business
-
-- [Salary Is Not The Result Of Ability](Business/Salary-is-not-the-result-of-ability..md)
-- [Naver Naver And Naver](Business/naver-naver-and-naver.md)
-
-### Data Science
-
-- [Gimzimean](Data Science/GIMZIMEAN.md)
-- [Day01](Data Science/Day01.md)
-
-### Design
-
-- [Dialog Design Based On The Cancellation Problem Of Cancellation](Design/dialog-design-based-on-the-cancellation-problem-of-cancellation.md)
-- [Text Fields And Forms Design](Design/text-fields-and-forms-design.md)
-- [Css Layout](Design/css-layout.md)
-
-### Dev
-
-- [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
-- [10 Tips For Starting And Creating Side Projects](Dev/10-tips-for-starting-and-creating-side-projects.md)
-- [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
-- [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
-- [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
-- [About Https](Dev/about-https.md)
-- [Introduction to svelte](Dev/Introduction to Svelte.md)
-- [Ui For Developers](Dev/ui-for-developers.md)
-- [2020 Naver Tech Concert Online](Dev/2020-naver-tech-concert-online.md)
-- [Don't Use Else](Dev/don't-use-else.md)
-- [How To Increase Your Frontend App’s Performance 5 Coding Tips](Dev/how-to-increase-your-frontend-app’s-performance-5-coding-tips.md)
-- [Goodbye Clean Code](Dev/goodbye-clean-code.md)
-- [First Start Typescript](Dev/first-start-typescript.md)
-- [Show Daily Coding Time In Github](Dev/show-daily-coding-time-in-github.md)
-- [Becoming A 10x Developer](Dev/becoming-a-10x-developer.md)
-- [No Hello](Dev/no-hello.md)
-- [Why Side Projects Are So Damn Important](Dev/why-side-projects-are-so-damn-important.md)
-- [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
-- [Why We Use React](Dev/why-we-use-react.md)
-- [What Is The Difference Between Cookie And Session](Dev/what-is-the-difference-between-cookie-and-session.md)
-- [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
-- [About Mvc](Dev/about-mvc.md)
-- [Read Me Project](Dev/read-me-project.md)
-- [How I Became A Better Programmer](Dev/how-i-became-a-better-programmer.md)
-- [Understanding Developers Terms](Dev/understanding-developers-terms.md)
-- [Javascript Trend 2020](Dev/javascript-trend-2020.md)
-- [Kakaodatatrend](Dev/kakaodatatrend.md)
-- [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
-- [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
-- [History Of Javascript Modules And Bundlers](Dev/history-of-javascript-modules-and-bundlers.md)
-- [What Is The Difference Between Ssr And Csr](Dev/what-is-the-difference-between-SSR-and-CSR.md)
-- [What Is An Alt Tag And How Should You Use It](Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
-- [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
-- [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
-- [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
-- [Use Vscoce Like A Senior Developer](Dev/use-vscoce-like-a-senior-developer.md)
-- [Github Seed Vault](Dev/github-seed-vault.md)
-
-### Life
-
-- [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
-- [Indistractable](Life/indistractable.md)
-- [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
-- [Randomness Jar](Life/randomness-jar.md)
-- [How To Get The Answer You Want](Life/how-to-get-the-answer-you-want.md)
-
-### Study
-
-- [Missing Semester](Study/missing-semester.md)
-- [Burnout](Study/burnout.md)
-- [Things To Know When You Prepare Presentation First Time](Study/things-to-know-when-you-prepare-presentation-first-time.md)
-- [The Fastest Way To Learn](Study/the-fastest-way-to-learn.md)
-- [Simple Is Best](Study/simple-is-best.md)
-- [The It Blog Is Not Dead Yet](Study/the-IT-blog-is-not-dead-yet.md)
-- [How Javascript Works Inside Engine](Study/how-javascript-works-inside-engine.md)
-- [Commit Message Guide](Study/commit-message-guide.md)
-- [Today Is Not The Only Day For Coding](Study/today-is-not-the-only-day-for-coding.md)
-- [Become A Better Developer By Building Projects](Study/become-a-better-developer-by-building-projects.md)
-- [Things That No One Told Me](Study/things-that-no-one-told-me.md)
-- [Javascript Understanding Of Prototype](Study/javascript-understanding-of-prototype.md)
-- [How To Write Clean Code Function In Javascript](Study/how-to-write-clean-code-function-in-javascript.md)
-- [What Is Javascript Made Of](Study/what-is-javascript-made-of.md)
-- [Software Learning Attitude](Study/software-learning-attitude.md)
-
-### Test
-
-- [What Is Tdd](Test/what-is-TDD.md)
 
 ## 💬 기타  
 1. 더 잘 활용할 수 있는 의견이 있다면 제시한다.  
