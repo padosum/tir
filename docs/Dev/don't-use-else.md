@@ -5,7 +5,7 @@
 # 🕳 else의 문제점
 - else 자체로는 문제가 안되지만 쓰지 않아도 되는 상황에서 중첩구조를 쓰게 되면 코드가 복잡해진다.
 
-![else](/img/else.jpeg)
+![else](../img/else.jpeg)
 
 # 💊 elary return
 - return 시켜서 뒷 코드를 타지 않도록 한다.
