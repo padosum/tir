@@ -51,6 +51,7 @@ Today I Read Challenge
 - [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Don't Use Else](Dev/don't-use-else.md)
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
+- [How Does Navigation Predict Arrival Time](Dev/how-does-navigation-predict-arrival-time.md)
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
