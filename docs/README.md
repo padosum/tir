@@ -60,6 +60,7 @@ Today I Read Challenge
 - [Read Me Project](Dev/read-me-project.md)
 - [Understanding Developers Terms](Dev/understanding-developers-terms.md)
 - [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
+- [Ir For Developers](Dev/ir-for-developers.md)
 - [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
 - [No Hello](Dev/no-hello.md)
 - [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
