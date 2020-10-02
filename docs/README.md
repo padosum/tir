@@ -53,6 +53,7 @@ Today I Read Challenge
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
 - [How Does Navigation Predict Arrival Time](Dev/how-does-navigation-predict-arrival-time.md)
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
+- [Six Figures In 6 Days](Dev/six-figures-in-6-days.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
