@@ -98,6 +98,7 @@ Today I Read Challenge
 - [Missing Semester](Study/missing-semester.md)
 - [How Javascript Works Inside Engine](Study/how-javascript-works-inside-engine.md)
 - [The Fastest Way To Learn](Study/the-fastest-way-to-learn.md)
+- [Javascript Debugging](Study/javascript-debugging.md)
 - [Become A Better Developer By Building Projects](Study/become-a-better-developer-by-building-projects.md)
 
 ### Test
