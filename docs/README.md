@@ -41,6 +41,7 @@ Today I Read Challenge
 - [Kakaodatatrend](Dev/kakaodatatrend.md)
 - [Why Side Projects Are So Damn Important](Dev/why-side-projects-are-so-damn-important.md)
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
+- [Nested Ternaries Are Great](Dev/nested-ternaries-are-great.md)
 - [2020 Naver Tech Concert Online](Dev/2020-naver-tech-concert-online.md)
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
 - [First Start Typescript](Dev/first-start-typescript.md)
