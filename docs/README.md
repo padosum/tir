@@ -56,6 +56,7 @@ Today I Read Challenge
 - [Six Figures In 6 Days](Dev/six-figures-in-6-days.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
+- [Why Can't We Find Front End Developers](Dev/why-can't-we-find-front-end-developers.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Show Daily Coding Time In Github](Dev/show-daily-coding-time-in-github.md)
 - [Read Me Project](Dev/read-me-project.md)
