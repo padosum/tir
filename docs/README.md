@@ -48,6 +48,7 @@ Today I Read Challenge
 - [About Https](Dev/about-https.md)
 - [What Is The Difference Between Ssr And Csr](Dev/what-is-the-difference-between-SSR-and-CSR.md)
 - [Becoming A 10x Developer](Dev/becoming-a-10x-developer.md)
+- [Zum Chrome Extension](Dev/zum-chrome-extension.md)
 - [What Is An Alt Tag And How Should You Use It](Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
 - [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Don't Use Else](Dev/don't-use-else.md)
