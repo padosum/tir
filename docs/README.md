@@ -48,6 +48,7 @@ Today I Read Challenge
 - [Don't Use Else](Dev/don't-use-else.md)
 - [A Good Developer In Terms Of Log And Monitoring](Dev/a-good-developer-in-terms-of-log-and-monitoring.md)
 - [Javascript Trend 2020](Dev/javascript-trend-2020.md)
+- [Mercedes Benz Programmer](Dev/mercedes-benz-programmer.md)
 - [No Hello](Dev/no-hello.md)
 - [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
 - [History Of Javascript Modules And Bundlers](Dev/history-of-javascript-modules-and-bundlers.md)
