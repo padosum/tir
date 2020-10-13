@@ -16,6 +16,7 @@ Today I Read Challenge
 ### Business
 
 - [Naver Naver And Naver](Business/naver-naver-and-naver.md)
+- [At A Younger Age A Way To Be Treated Better](Business/at-a-younger-age-a-way-to-be-treated-better.md)
 - [Salary Is Not The Result Of Ability](Business/Salary-is-not-the-result-of-ability..md)
 
 ### Data-Science
