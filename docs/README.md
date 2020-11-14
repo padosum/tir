@@ -37,6 +37,7 @@ Today I Read Challenge
 - [Introduction To Svelte](Dev/introduction-to-svelte.md)
 - [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
+- [Gitmoji](Dev/gitmoji.md)
 - [Kakaodatatrend](Dev/kakaodatatrend.md)
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
 - [Understanding Developers Terms](Dev/understanding-developers-terms.md)
