@@ -25,5 +25,5 @@ jobs:
       run: |
           git config --global user.name 'yjaalto'
           git config --global user.email 'makalu171@gmail.com'
-          git commit -am "Automated update of README.md" || true
+          git commit -am "🔮 Automated update of README.md" || true
           git push
