@@ -85,6 +85,7 @@ Today I Read Challenge
 ### Life
 
 - [Indistractable](Life/indistractable.md)
+- [No Portal News](Life/no-portal-news.md)
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 - [Overview Effect](Life/overview-effect.md)
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
