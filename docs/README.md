@@ -90,6 +90,7 @@ Today I Read Challenge
 - [Overview Effect](Life/overview-effect.md)
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
+- [Nightmare After Resignation](Life/nightmare-after-resignation.md)
 - [Randomness Jar](Life/randomness-jar.md)
 - [How To Get The Answer You Want](Life/how-to-get-the-answer-you-want.md)
 
