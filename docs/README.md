@@ -51,6 +51,7 @@ Today I Read Challenge
 - [A Good Developer In Terms Of Log And Monitoring](Dev/a-good-developer-in-terms-of-log-and-monitoring.md)
 - [History Of Javascript Modules And Bundlers](Dev/history-of-javascript-modules-and-bundlers.md)
 - [First Start Typescript](Dev/first-start-typescript.md)
+- [If(kakao)2020](Dev/if(kakao)2020.md)
 - [What Is The Difference Between Ssr And Csr](Dev/what-is-the-difference-between-SSR-and-CSR.md)
 - [Important Purpose Of Codereview](Dev/important-purpose-of-codereview.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
