@@ -86,6 +86,7 @@ Today I Read Challenge
 ### Life
 
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
+- [Who Cares](Life/who-cares.md)
 - [Overview Effect](Life/overview-effect.md)
 - [Randomness Jar](Life/randomness-jar.md)
 - [Indistractable](Life/indistractable.md)
