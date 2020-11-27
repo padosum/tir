@@ -90,6 +90,7 @@ Today I Read Challenge
 - [Overview Effect](Life/overview-effect.md)
 - [Randomness Jar](Life/randomness-jar.md)
 - [Indistractable](Life/indistractable.md)
+- [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Work Life Balance](Life/work-life-balance.md)
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
 - [No Portal News](Life/no-portal-news.md)
