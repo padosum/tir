@@ -71,6 +71,7 @@ Today I Read Challenge
 - [No Hello](Dev/no-hello.md)
 - [Understanding Javascript Closure](Dev/understanding-javascript-closure.md)
 - [Things I Learned To Become A Senior Software Engineer](Dev/things-i-learned-to-become-a-senior-software-engineer.md)
+- [Become The Developer Who Everyone Wants](Dev/become-the-developer-who-everyone-wants.md)
 - [Why Can't We Find Front End Developers](Dev/why-can't-we-find-front-end-developers.md)
 - [Read Me Project](Dev/read-me-project.md)
 - [About Mvc](Dev/about-mvc.md)
