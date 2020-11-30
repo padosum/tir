@@ -94,6 +94,7 @@ Today I Read Challenge
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Work Life Balance](Life/work-life-balance.md)
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
+- [Why Are There More And More Rich People Around?](Life/why-are-there-more-and-more-rich-people-around?.md)
 - [No Portal News](Life/no-portal-news.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
