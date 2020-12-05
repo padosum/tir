@@ -89,6 +89,7 @@ Today I Read Challenge
 ### Life
 
 - [Work Life Balance](Life/work-life-balance.md)
+- [M Nostalgia](Life/m-nostalgia.md)
 - [No Portal News](Life/no-portal-news.md)
 - [Indistractable](Life/indistractable.md)
 - [How To Get The Answer You Want](Life/how-to-get-the-answer-you-want.md)
