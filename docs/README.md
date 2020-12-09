@@ -20,6 +20,7 @@ Today I Read Challenge
 - [Naver Naver And Naver](Business/naver-naver-and-naver.md)
 - [At A Younger Age A Way To Be Treated Better](Business/at-a-younger-age-a-way-to-be-treated-better.md)
 - [Naver](Business/naver.md)
+- [Two Types Of Leaders](Business/two-types-of-leaders.md)
 
 ### Data-Science
 
