@@ -99,6 +99,7 @@ Today I Read Challenge
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [An En Doctor On How To Triage Your Busy Life](Life/an-en-doctor-on-how-to-triage-your-busy-life.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
+- [Changes That Occur When You Read 100 Books](Life/changes-that-occur-when-you-read-100-books.md)
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
 - [Overview Effect](Life/overview-effect.md)
 - [Randomness Jar](Life/randomness-jar.md)
