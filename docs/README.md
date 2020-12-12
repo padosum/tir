@@ -72,6 +72,7 @@ Today I Read Challenge
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Things I Learned To Become A Senior Software Engineer](Dev/things-i-learned-to-become-a-senior-software-engineer.md)
 - [A Good Developer In Terms Of Log And Monitoring](Dev/a-good-developer-in-terms-of-log-and-monitoring.md)
+- [Reveal 2020](Dev/reveal-2020.md)
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
 - [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
 - [Zum Chrome Extension](Dev/zum-chrome-extension.md)
