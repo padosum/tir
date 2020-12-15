@@ -68,7 +68,6 @@ Today I Read Challenge
 - [What Is The Difference Between Cookie And Session](Dev/what-is-the-difference-between-cookie-and-session.md)
 - [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
 - [2020 Naver Tech Concert Online](Dev/2020-naver-tech-concert-online.md)
-- [Nhn Forward 2020 Day 1](Dev/nhn-forward-2020-day-1.md)
 - [Understanding Javascript Closure](Dev/understanding-javascript-closure.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Things I Learned To Become A Senior Software Engineer](Dev/things-i-learned-to-become-a-senior-software-engineer.md)
@@ -87,6 +86,7 @@ Today I Read Challenge
 - [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
 - [How Does Navigation Predict Arrival Time](Dev/how-does-navigation-predict-arrival-time.md)
 - [Mercedes Benz Programmer](Dev/mercedes-benz-programmer.md)
+- [Nhn Forward 2020](Dev/nhn-forward-2020.md)
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
 
