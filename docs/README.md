@@ -97,6 +97,7 @@ Today I Read Challenge
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
 - [No Portal News](Life/no-portal-news.md)
+- [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
 - [Randomness Jar](Life/randomness-jar.md)
 - [The Old Man And The Media](Life/the-old-man-and-the-media.md)
 - [M Nostalgia](Life/m-nostalgia.md)
