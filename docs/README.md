@@ -20,6 +20,7 @@ Today I Read Challenge
 - [Two Types Of Leaders](Business/two-types-of-leaders.md)
 - [Naver](Business/naver.md)
 - [How The Blockchain Is Changing Money And Business](Business/how-the-blockchain-is-changing-money-and-business.md)
+- [The Most Important Thing Is Experience](Business/the-most-important-thing-is-experience.md)
 - [Salary Is Not The Result Of Ability](Business/Salary-is-not-the-result-of-ability..md)
 
 ### Data-Science
