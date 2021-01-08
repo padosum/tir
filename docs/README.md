@@ -98,6 +98,7 @@ Today I Read Challenge
 - [Indistractable](Life/indistractable.md)
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 - [Memos Bring Success](Life/memos-bring-success.md)
+- [Why Are There More And More Rich People Around](Life/why-are-there-more-and-more-rich-people-around.md)
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
 - [No Portal News](Life/no-portal-news.md)
 - [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
@@ -111,7 +112,6 @@ Today I Read Challenge
 - [Changes That Occur When You Read 100 Books](Life/changes-that-occur-when-you-read-100-books.md)
 - [Work Life Balance](Life/work-life-balance.md)
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
-- [Why Are There More And More Rich People Around?](Life/why-are-there-more-and-more-rich-people-around?.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
 
 ### Study
