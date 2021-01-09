@@ -17,6 +17,7 @@ Today I Read Challenge
 
 - [At A Younger Age A Way To Be Treated Better](Business/at-a-younger-age-a-way-to-be-treated-better.md)
 - [Naver Naver And Naver](Business/naver-naver-and-naver.md)
+- [The Era Of Many Job Has Come](Business/the-era-of-many-job-has-come.md)
 - [Two Types Of Leaders](Business/two-types-of-leaders.md)
 - [Naver](Business/naver.md)
 - [How The Blockchain Is Changing Money And Business](Business/how-the-blockchain-is-changing-money-and-business.md)
