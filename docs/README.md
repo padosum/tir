@@ -114,6 +114,7 @@ Today I Read Challenge
 - [Work Life Balance](Life/work-life-balance.md)
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
+- [In The New Year Lets Set A Goal Like Bowlings Number One Pin](Life/in-the-new-year-lets-set-a-goal-like-bowlings-number-one-pin.md)
 
 ### Study
 
