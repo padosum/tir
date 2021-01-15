@@ -106,6 +106,7 @@ Today I Read Challenge
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Work Life Balance](Life/work-life-balance.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
+- [Covid 19 Was A Rewriting Of The Vaccinology Textbook](Life/COVID-19-was-a-rewriting-of-the-vaccinology-textbook.md)
 - [In The New Year Lets Set A Goal Like Bowlings Number One Pin](Life/in-the-new-year-lets-set-a-goal-like-bowlings-number-one-pin.md)
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 - [Randomness Jar](Life/randomness-jar.md)
