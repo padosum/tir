@@ -41,6 +41,7 @@ Today I Read Challenge
 
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
 - [Use Vscoce Like A Senior Developer](Dev/use-vscoce-like-a-senior-developer.md)
+- [Typography For Easy To Read Webs](Dev/typography-for-easy-to-read-webs.md)
 - [How I Became A Better Programmer](Dev/how-i-became-a-better-programmer.md)
 - [Nhn Forward 2020](Dev/nhn-forward-2020.md)
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
