@@ -99,6 +99,7 @@ Today I Read Challenge
 ### Life
 
 - [How To Get The Answer You Want](Life/how-to-get-the-answer-you-want.md)
+- [Deinstitutionalization](Life/deinstitutionalization.md)
 - [Indistractable](Life/indistractable.md)
 - [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
