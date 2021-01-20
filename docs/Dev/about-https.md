@@ -13,3 +13,6 @@
 - 저번에 읽은 [이미지의 ALT 태그에 관한 글](https://github.com/yjaalto/TIR/blob/master/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)과 마찬가지로 검색엔진 최적화에 도움도 준다는 사실을 새롭게 알게되었다.  
     - 뭔가 아티클이 이렇게 연결되는 것이 기분이 좋다.  
 - SSL부터 사실 무슨말인지 모르겠다. 관련된 내용을 더 참고한 뒤에 나중에 다시 읽어봐야겠다.  
+
+## ⛓ 연결고리
+- [ALT 태그가 뭐지?](../Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
