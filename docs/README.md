@@ -74,6 +74,9 @@ Today I Read Challenge
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Why We Use React](Dev/why-we-use-react.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
+- [Linux And Mac Command Line Survival Guide For Beginner
+](Dev/linux-and-mac-command-line-survival-guide-for-beginner
+.md)
 - [A Secret Book Of Developer](Dev/a-secret-book-of-developer.md)
 - [To You Who Became A Software Developer](Dev/to-you-who-became-a-software-developer.md)
 - [Become The Developer Who Everyone Wants](Dev/become-the-developer-who-everyone-wants.md)
