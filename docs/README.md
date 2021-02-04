@@ -57,6 +57,7 @@ Today I Read Challenge
 - [Understanding Javascript Closure](Dev/understanding-javascript-closure.md)
 - [Don't Use Else](Dev/don't-use-else.md)
 - [Nested Ternaries Are Great](Dev/nested-ternaries-are-great.md)
+- [It Infrastructure Basics](Dev/it-infrastructure-basics.md)
 - [Deview 2020](Dev/deview-2020.md)
 - [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
 - [How To Become A Great Frontend Engineer](Dev/how-to-become-a-great-frontend-engineer.md)
