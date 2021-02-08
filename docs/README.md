@@ -19,6 +19,7 @@ Today I Read Challenge
 - [At A Younger Age A Way To Be Treated Better](Business/at-a-younger-age-a-way-to-be-treated-better.md)
 - [Technology Has No Conscience But People Do And We Must Exercise Our Conscience](Business/technology-has-no-conscience-but-people-do-and-we-must-exercise-our-conscience.md)
 - [The Era Of Many Job Has Come](Business/the-era-of-many-job-has-come.md)
+- [Irreplaceable Talent](Business/irreplaceable-talent.md)
 - [Two Types Of Leaders](Business/two-types-of-leaders.md)
 - [How The Blockchain Is Changing Money And Business](Business/how-the-blockchain-is-changing-money-and-business.md)
 - [Salary Is Not The Result Of Ability](Business/Salary-is-not-the-result-of-ability..md)
