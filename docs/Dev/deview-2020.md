@@ -16,3 +16,7 @@
   - 진즉에 검색하고 알아보면 될 것을... 
 - 세션 막바지에 전체 내용을 관통하는 말을 해주셨다.  
   - Typescript가 나온 것처럼, Deno가 나온 것처럼, "불편함"을 얘기하고 기여하는 것에 노력해야 한다고, 그런 개발자가 될 수 있도록 해야 한다는 얘기가 또 정신을 차리게 해주었다.  
+
+
+## ⛓ 연결고리
+- [토스 다큐멘터리 FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity.md)
