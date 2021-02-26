@@ -44,6 +44,7 @@ Today I Read Challenge
 - [Ir For Developers](Dev/ir-for-developers.md)
 - [Mistakes I Made When Learning To Code And How To Avoid Them By Fredrik Strand Oseberg](Dev/mistakes-i-made-when-learning-to-code-and-how-to-avoid-them-by-fredrik-strand-oseberg.md)
 - [Ui For Developers](Dev/ui-for-developers.md)
+- [Fintech Behind The Simplicity](Dev/fintech-behind-the-simplicity.md)
 - [If(kakao)2020](Dev/if(kakao)2020.md)
 - [Nested Ternaries Are Great](Dev/nested-ternaries-are-great.md)
 - [Github Seed Vault](Dev/github-seed-vault.md)
