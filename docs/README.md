@@ -16,6 +16,7 @@ Today I Read Challenge
 ### Business
 
 - [Irreplaceable Talent](Business/irreplaceable-talent.md)
+- [Naver Vs Coupang](Business/naver-vs-coupang.md)
 - [Two Types Of Leaders](Business/two-types-of-leaders.md)
 - [The Most Important Thing Is Experience](Business/the-most-important-thing-is-experience.md)
 - [Naver Naver And Naver](Business/naver-naver-and-naver.md)
