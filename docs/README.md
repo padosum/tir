@@ -106,6 +106,10 @@ Today I Read Challenge
 - [No Hello](Dev/no-hello.md)
 - [My Advice On Studying Algorithms](Dev/my-advice-on-studying-algorithms.md)
 
+### History
+
+- [The Gilt Bronze Incense Burner Of Baekje](History/the-gilt-bronze-incense-burner-of-baekje.md)
+
 ### Life
 
 - [In The New Year Lets Set A Goal Like Bowlings Number One Pin](Life/in-the-new-year-lets-set-a-goal-like-bowlings-number-one-pin.md)
