@@ -133,6 +133,7 @@ Today I Read Challenge
 - [Covid 19 Was A Rewriting Of The Vaccinology Textbook](Life/COVID-19-was-a-rewriting-of-the-vaccinology-textbook.md)
 - [Who Cares](Life/who-cares.md)
 - [Work Life Balance](Life/work-life-balance.md)
+- [The Mathematical Case Against Blaming People For Their Misfortune](Life/the-mathematical-case-against-blaming-people-for-their-misfortune.md)
 - [Working In A Field Realated To Your Fandom](Life/working-in-a-field-realated-to-your-fandom.md)
 
 ### Study
