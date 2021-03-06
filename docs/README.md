@@ -121,6 +121,7 @@ Today I Read Challenge
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
 - [M Nostalgia](Life/m-nostalgia.md)
+- [How Violence Is Displayed In Media](Life/how-violence-is-displayed-in-media.md)
 - [In The New Year Lets Set A Goal Like Bowlings Number One Pin](Life/in-the-new-year-lets-set-a-goal-like-bowlings-number-one-pin.md)
 - [Deinstitutionalization](Life/deinstitutionalization.md)
 - [Why Are There More And More Rich People Around](Life/why-are-there-more-and-more-rich-people-around.md)
