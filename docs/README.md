@@ -21,7 +21,7 @@ Today I Read Challenge
 - [How The Blockchain Is Changing Money And Business](Business/how-the-blockchain-is-changing-money-and-business.md)
 - [Technology Has No Conscience But People Do And We Must Exercise Our Conscience](Business/technology-has-no-conscience-but-people-do-and-we-must-exercise-our-conscience.md)
 - [Naver Vs Coupang](Business/naver-vs-coupang.md)
-- [Do All Ants Work Hard?](Business/do-all-ants-work-hard?.md)
+- [Do All Ants Work Hard](Business/do-all-ants-work-hard.md)
 - [The Most Important Thing Is Experience](Business/the-most-important-thing-is-experience.md)
 - [Irreplaceable Talent](Business/irreplaceable-talent.md)
 - [What Happens When Carrot Pay Appears](Business/what-happens-when-carrot-pay-appears.md)
