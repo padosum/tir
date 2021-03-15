@@ -161,6 +161,7 @@ Today I Read Challenge
 
 - [Googles Future](Technology/googles-future.md)
 - [Google Stop Ads Based On Tracked Individual Browsing History](Technology/google-stop-ads-based-on-tracked-individual-browsing-history.md)
+- [M Right](Technology/m-right.md)
 - [The Present And Future Of Quantum Computing With Ces 2021](Technology/the-present-and-future-of-quantum-computing-with-ces-2021.md)
 
 ### Test
