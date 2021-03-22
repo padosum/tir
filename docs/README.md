@@ -115,6 +115,7 @@ Today I Read Challenge
 ### Life
 
 - [No Portal News](Life/no-portal-news.md)
+- [Which Is More Important Practical Or Format](Life/which-is-more-important-practical-or-format.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
 - [Indistractable](Life/indistractable.md)
 - [Nightmare After Resignation](Life/nightmare-after-resignation.md)
