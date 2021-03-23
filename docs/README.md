@@ -100,6 +100,7 @@ Today I Read Challenge
 - [What Is The Difference Between Cookie And Session](Dev/what-is-the-difference-between-cookie-and-session.md)
 - [Show Daily Coding Time In Github](Dev/show-daily-coding-time-in-github.md)
 - [Six Figures In 6 Days](Dev/six-figures-in-6-days.md)
+- [Console Log Mistakes That Are Easy For Beginners To Experience](Dev/console-log-mistakes-that-are-easy-for-beginners-to-experience.md)
 - [Reveal 2020](Dev/reveal-2020.md)
 - [Cory](Dev/cory.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
