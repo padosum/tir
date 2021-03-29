@@ -159,6 +159,7 @@ Today I Read Challenge
 - [Things That No One Told Me](Study/things-that-no-one-told-me.md)
 - [How Javascript Works Inside Engine](Study/how-javascript-works-inside-engine.md)
 - [Commit Message Guide](Study/commit-message-guide.md)
+- [Why I Studied Full Time For 8 Months For A Google Interview](Study/why-i-studied-full-time-for-8-months-for-a-google-interview.md)
 
 ### Technology
 
