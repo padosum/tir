@@ -13,6 +13,10 @@ Today I Read Challenge
     - 카테고리는 개발 분야 외의 흥미가 가지는 것은 무엇이든지 가능하다.   
 
 ## 📰 현재까지 읽은 글  
+### Art
+
+- [Untitled Forever Love Perfect Adore](Art/untitled-forever-love-perfect-adore.md)
+
 ### Business
 
 - [Naver Vs Coupang](Business/naver-vs-coupang.md)
