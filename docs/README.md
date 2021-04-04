@@ -93,6 +93,7 @@ Today I Read Challenge
 - [Linux And Mac Command Line Survival Guide For Beginner
 ](Dev/linux-and-mac-command-line-survival-guide-for-beginner
 .md)
+- [Package Manager History](Dev/package-manager-history.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
 - [From Http To Websocket](Dev/from-HTTP-to-WEBSOCKET.md)
 - [Advice For Front End Developer](Dev/advice-for-front-end-developer.md)
