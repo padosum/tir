@@ -169,6 +169,7 @@ Today I Read Challenge
 ### Technology
 
 - [M Right](Technology/m-right.md)
+- [About Heic](Technology/about-heic.md)
 - [Google Stop Ads Based On Tracked Individual Browsing History](Technology/google-stop-ads-based-on-tracked-individual-browsing-history.md)
 - [The Present And Future Of Quantum Computing With Ces 2021](Technology/the-present-and-future-of-quantum-computing-with-ces-2021.md)
 - [All About Emoji](Technology/all-about-emoji.md)
