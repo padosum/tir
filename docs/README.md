@@ -172,6 +172,7 @@ Today I Read Challenge
 - [About Heic](Technology/about-heic.md)
 - [Google Stop Ads Based On Tracked Individual Browsing History](Technology/google-stop-ads-based-on-tracked-individual-browsing-history.md)
 - [The Present And Future Of Quantum Computing With Ces 2021](Technology/the-present-and-future-of-quantum-computing-with-ces-2021.md)
+- [Cryptocurrency System Using Body Activity Data](Technology/cryptocurrency-system-using-body-activity-data.md)
 - [All About Emoji](Technology/all-about-emoji.md)
 - [What Is Nft](Technology/what-is-nft.md)
 - [What Is Nft How To Buy And Sell Blockchain Ethereum](Technology/what-is-nft-how-to-buy-and-sell-blockchain-ethereum.md)
