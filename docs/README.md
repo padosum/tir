@@ -27,6 +27,7 @@ Today I Read Challenge
 - [How The Blockchain Is Changing Money And Business](Business/how-the-blockchain-is-changing-money-and-business.md)
 - [Two Types Of Leaders](Business/two-types-of-leaders.md)
 - [Technology Has No Conscience But People Do And We Must Exercise Our Conscience](Business/technology-has-no-conscience-but-people-do-and-we-must-exercise-our-conscience.md)
+- [Developer Sideline](Business/developer-sideline.md)
 - [Naver Naver And Naver](Business/naver-naver-and-naver.md)
 - [The Era Of Many Job Has Come](Business/the-era-of-many-job-has-come.md)
 - [Naver Vs Coupang](Business/naver-vs-coupang.md)
