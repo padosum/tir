@@ -70,6 +70,7 @@ Today I Read Challenge
 - [10 Tips For Starting And Creating Side Projects](Dev/10-tips-for-starting-and-creating-side-projects.md)
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
 - [Deview 2020](Dev/deview-2020.md)
+- [Data Validation](Dev/data-validation.md)
 - [Cory](Dev/cory.md)
 - [Mistakes I Made When Learning To Code And How To Avoid Them By Fredrik Strand Oseberg](Dev/mistakes-i-made-when-learning-to-code-and-how-to-avoid-them-by-fredrik-strand-oseberg.md)
 - [Gitmoji](Dev/gitmoji.md)
