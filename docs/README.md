@@ -54,6 +54,7 @@ Today I Read Challenge
 - [First Start Typescript](Dev/first-start-typescript.md)
 - [Developer And Ramen Recipe](Dev/developer-and-ramen-recipe.md)
 - [What Is The Difference Between Cookie And Session](Dev/what-is-the-difference-between-cookie-and-session.md)
+- [Is Javascript Closure Intended To Create Private Variables](Dev/is-javascript-closure-intended-to-create-private-variables.md)
 - [Become The Developer Who Everyone Wants](Dev/become-the-developer-who-everyone-wants.md)
 - [How I Became A Better Programmer](Dev/how-i-became-a-better-programmer.md)
 - [Kakaodatatrend](Dev/kakaodatatrend.md)
