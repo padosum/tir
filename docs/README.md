@@ -133,6 +133,7 @@ Today I Read Challenge
 - [The Mathematical Case Against Blaming People For Their Misfortune](Life/the-mathematical-case-against-blaming-people-for-their-misfortune.md)
 - [Why Are There More And More Rich People Around](Life/why-are-there-more-and-more-rich-people-around.md)
 - [Philosophy Lets Not Study](Life/philosophy-lets-not-study.md)
+- [Elegant To Failure](Life/elegant-to-failure.md)
 - [In The New Year Lets Set A Goal Like Bowlings Number One Pin](Life/in-the-new-year-lets-set-a-goal-like-bowlings-number-one-pin.md)
 - [Work Life Balance](Life/work-life-balance.md)
 - [No Portal News](Life/no-portal-news.md)
