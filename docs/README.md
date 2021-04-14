@@ -143,6 +143,7 @@ Today I Read Challenge
 - [The Old Man And The Media](Life/the-old-man-and-the-media.md)
 - [Memos Bring Success](Life/memos-bring-success.md)
 - [Randomness Jar](Life/randomness-jar.md)
+- [The Characteristics Of The 30s Who Will Succeeding](Life/the-characteristics-of-the-30s-who-will-succeeding.md)
 - [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
 - [Overview Effect](Life/overview-effect.md)
 - [How Violence Is Displayed In Media](Life/how-violence-is-displayed-in-media.md)
