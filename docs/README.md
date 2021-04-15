@@ -116,6 +116,7 @@ Today I Read Challenge
 - [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
 - [Ir For Developers](Dev/ir-for-developers.md)
 - [Understanding Developers Terms](Dev/understanding-developers-terms.md)
+- [How Browsers Work](Dev/how-browsers-work.md)
 - [Reveal 2020](Dev/reveal-2020.md)
 
 ### History
