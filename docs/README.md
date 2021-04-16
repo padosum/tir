@@ -42,6 +42,7 @@ Today I Read Challenge
 ### Design
 
 - [Test](Design/test.md)
+- [Graphics Aria](Design/graphics-aria.md)
 - [What Are The 10 Elements Of A Greate Website](Design/what-are-the-10-elements-of-a-greate-website.md)
 - [Css Layout](Design/css-layout.md)
 - [Dialog Design Based On The Cancellation Problem Of Cancellation](Design/dialog-design-based-on-the-cancellation-problem-of-cancellation.md)
