@@ -149,6 +149,7 @@ Today I Read Challenge
 - [Ancient Learning Modern Study What Do We Study For](Life/ancient-learning-modern-study-what-do-we-study-for.md)
 - [Overview Effect](Life/overview-effect.md)
 - [How Violence Is Displayed In Media](Life/how-violence-is-displayed-in-media.md)
+- [As Much As I Understand My Area Becomes Wider](Life/as-much-as-i-understand-my-area-becomes-wider.md)
 - [Covid 19 Was A Rewriting Of The Vaccinology Textbook](Life/COVID-19-was-a-rewriting-of-the-vaccinology-textbook.md)
 - [The Powerful Addiction Of Variable Rewards](Life/the-powerful-addiction-of-variable-rewards.md)
 - [Which Is More Important Practical Or Format](Life/which-is-more-important-practical-or-format.md)
