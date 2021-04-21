@@ -105,6 +105,7 @@ Today I Read Challenge
 - [How Does Navigation Predict Arrival Time](Dev/how-does-navigation-predict-arrival-time.md)
 - [Why We Use React](Dev/why-we-use-react.md)
 - [Don't Use Else](Dev/don't-use-else.md)
+- [History Of Web Developer Tools](Dev/history-of-web-developer-tools.md)
 - [How To Increase Your Frontend App’s Performance 5 Coding Tips](Dev/how-to-increase-your-frontend-app’s-performance-5-coding-tips.md)
 - [Zum Chrome Extension](Dev/zum-chrome-extension.md)
 - [Why Side Projects Are So Damn Important](Dev/why-side-projects-are-so-damn-important.md)
