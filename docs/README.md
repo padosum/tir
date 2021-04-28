@@ -114,6 +114,7 @@ Today I Read Challenge
 - [10 Tips For Starting And Creating Side Projects](Dev/10-tips-for-starting-and-creating-side-projects.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
 - [Whether Or Not To Put Semicolons In Javascript](Dev/whether-or-not-to-put-semicolons-in-javaScript.md)
+- [Ux Engineer Interview](Dev/ux-engineer-interview.md)
 - [First Start Typescript](Dev/first-start-typescript.md)
 - [Goodbye Clean Code](Dev/goodbye-clean-code.md)
 - [History Of Javascript Modules And Bundlers](Dev/history-of-javascript-modules-and-bundlers.md)
