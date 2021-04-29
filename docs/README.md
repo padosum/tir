@@ -155,6 +155,7 @@ Today I Read Challenge
 - [Changes That Occur When You Read 100 Books](Life/changes-that-occur-when-you-read-100-books.md)
 - [Who Cares](Life/who-cares.md)
 - [How Violence Is Displayed In Media](Life/how-violence-is-displayed-in-media.md)
+- [Fractal](Life/fractal.md)
 - [Indistractable](Life/indistractable.md)
 
 ### Study
