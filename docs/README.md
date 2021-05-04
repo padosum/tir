@@ -93,6 +93,7 @@ Today I Read Challenge
 - [Nhn Forward 2020](Dev/nhn-forward-2020.md)
 - [Becoming A 10x Developer](Dev/becoming-a-10x-developer.md)
 - [Don't Use Else](Dev/don't-use-else.md)
+- [Programming Is Easy](Dev/programming-is-easy.md)
 - [It Infrastructure Basics](Dev/it-infrastructure-basics.md)
 - [Understanding Developers Terms](Dev/understanding-developers-terms.md)
 - [Object Oriented Philosophy](Dev/object-oriented-philosophy.md)
