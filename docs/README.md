@@ -115,6 +115,7 @@ Today I Read Challenge
 - [About Shallow Copy And Deep Copy](Dev/about-shallow-copy-and-deep-copy.md)
 - [About Mvc](Dev/about-mvc.md)
 - [Use Chrome Devtools Like A Senior Frontend Developer](Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
+- [Before Jquery](Dev/before-jquery.md)
 - [Deview 2020](Dev/deview-2020.md)
 - [Mercedes Benz Programmer](Dev/mercedes-benz-programmer.md)
 - [How Does Navigation Predict Arrival Time](Dev/how-does-navigation-predict-arrival-time.md)
