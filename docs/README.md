@@ -97,6 +97,7 @@ Today I Read Challenge
 - [Fintech Behind The Simplicity](Dev/fintech-behind-the-simplicity.md)
 - [It Infrastructure Basics](Dev/it-infrastructure-basics.md)
 - [Ux Engineer Interview](Dev/ux-engineer-interview.md)
+- [Vscode Tips](Dev/vscode-tips.md)
 - [Why We Use React](Dev/why-we-use-react.md)
 - [What Is The Difference Between Ssr And Csr](Dev/what-is-the-difference-between-SSR-and-CSR.md)
 - [Read Me Project](Dev/read-me-project.md)
