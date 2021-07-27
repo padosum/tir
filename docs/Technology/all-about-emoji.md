@@ -1,3 +1,7 @@
+---
+title: 😀 그림으로 말해요! 이모지의 모든 것
+
+---
 # 😀 그림으로 말해요! 이모지의 모든 것
 
 - 링크: [https://www.inflearn.com/pages/weekly-inflearn-26](https://www.inflearn.com/pages/weekly-inflearn-26)

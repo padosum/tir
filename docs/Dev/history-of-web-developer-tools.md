@@ -1,3 +1,7 @@
+---
+title: 🕸️ 웹 개발자 도구의 역사
+
+---
 # 🕸️ 웹 개발자 도구의 역사
 
 - 링크: [https://dev.to/composite/-4675](https://dev.to/composite/-4675)

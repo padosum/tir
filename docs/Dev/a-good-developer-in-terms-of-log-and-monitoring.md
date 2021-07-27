@@ -1,3 +1,7 @@
+---
+title: 🖥 그런 개발자로 괜찮은가 - '로그 & 모니터링'편
+
+---
 # 🖥 그런 개발자로 괜찮은가 - '로그 & 모니터링'편
 
 - 링크: [https://taetaetae.github.io/2020/10/04/a-good-developer-in-terms-of-Log-and-Monitoring/](https://taetaetae.github.io/2020/10/04/a-good-developer-in-terms-of-Log-and-Monitoring/)

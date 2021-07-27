@@ -1,3 +1,7 @@
+---
+title:  📓 알고리즘 학습에 대한 조언 
+
+---
 #  📓 알고리즘 학습에 대한 조언 
 
 - 링크: [https://edykim.com/ko/post/advice-on-learning-algorithms/](https://edykim.com/ko/post/advice-on-learning-algorithms/)

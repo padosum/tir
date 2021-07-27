@@ -1,3 +1,7 @@
+---
+title: 💊 랜덤 기계를 이용한 생산성 올리기
+
+---
 # 💊 랜덤 기계를 이용한 생산성 올리기
 
 - 링크: [https://newspeppermint.com/2020/06/04/m-randomness/](https://newspeppermint.com/2020/06/04/m-randomness/)

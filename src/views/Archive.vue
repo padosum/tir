@@ -2,7 +2,11 @@
   <div>
     <div class="main list-container contents">
       <h1>Today I Read</h1>
-      <ul></ul>
+      <ul>
+        <li v-for="(value, key) in mdData" :key="key">
+          {{ value.meta.title }}
+        </li>
+      </ul>
     </div>
   </div>
 </template>

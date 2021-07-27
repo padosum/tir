@@ -1,3 +1,7 @@
+---
+title: 🏞 ALT 태그가 뭐지? 
+
+---
 # 🏞 ALT 태그가 뭐지? 
 
 - 링크: [ALT 태그가 뭐지?](https://ppss.kr/archives/221625)  

@@ -1,3 +1,7 @@
+---
+title: 📦 Webpack 설정을 이해하는 일의 가치
+
+---
 # 📦 Webpack 설정을 이해하는 일의 가치
 
 - 링크: [https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/](https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/)

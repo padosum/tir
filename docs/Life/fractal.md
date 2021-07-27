@@ -1,3 +1,7 @@
+---
+title: 🌲 인생의 프랙탈
+
+---
 # 🌲 인생의 프랙탈
 
 - 링크: [https://m.blog.naver.com/bryankim1225/221212253050](https://m.blog.naver.com/bryankim1225/221212253050)

@@ -1,3 +1,7 @@
+---
+title: 🎳 새해에는 볼링의 1번 핀 같은 목표를 세워보자
+
+---
 # 🎳 새해에는 볼링의 1번 핀 같은 목표를 세워보자
 
 - 링크: [https://brunch.co.kr/@jcmarkpark/113](https://brunch.co.kr/@jcmarkpark/113)

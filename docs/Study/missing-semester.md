@@ -1,3 +1,7 @@
+---
+title: 🍚 여러분의 CS 교육에서 누락된 학기 
+
+---
 # 🍚 여러분의 CS 교육에서 누락된 학기 
 
 - 링크: [https://missing-semester-kr.github.io/](https://missing-semester-kr.github.io/)

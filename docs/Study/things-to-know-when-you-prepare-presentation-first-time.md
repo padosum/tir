@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
+
+---
 ## 💡 Today I Read : https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
 
 ### #발표

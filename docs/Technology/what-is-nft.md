@@ -1,3 +1,7 @@
+---
+title: 📼 이 고양이를 7억으로 만든 NFT란?
+
+---
 # 📼 이 고양이를 7억으로 만든 NFT란?
 - 링크: [https://youtu.be/jZkTtph5Raw](https://youtu.be/jZkTtph5Raw)
 

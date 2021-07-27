@@ -1,3 +1,7 @@
+---
+title: 📚 철학, 되도록 공부하지 말자
+
+---
 # 📚 철학, 되도록 공부하지 말자
 
 - 링크: [https://ppss.kr/archives/168400](https://ppss.kr/archives/168400)

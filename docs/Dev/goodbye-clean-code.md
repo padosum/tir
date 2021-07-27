@@ -1,3 +1,7 @@
+---
+title: 🙋‍♀️ 잘가, 클린 코드
+
+---
 # 🙋‍♀️ 잘가, 클린 코드
 
 - 링크: [https://overreacted.io/ko/goodbye-clean-code/](https://overreacted.io/ko/goodbye-clean-code/)

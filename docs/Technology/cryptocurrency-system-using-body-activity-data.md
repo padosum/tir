@@ -1,3 +1,7 @@
+---
+title: 🧠 마이크로소프트, 뇌파와 체온에 의한 가상 통화 마이닝 시스템 특허 출원
+
+---
 # 🧠 마이크로소프트, 뇌파와 체온에 의한 가상 통화 마이닝 시스템 특허 출원
 
 - 링크: [http://www.thereport.co.kr/news/articleView.html?idxno=6768](http://www.thereport.co.kr/news/articleView.html?idxno=6768)

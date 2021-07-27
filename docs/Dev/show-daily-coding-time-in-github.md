@@ -1,3 +1,7 @@
+---
+title: ⌨️ Github 프로필에 Daily 코딩 시간 출력 
+
+---
 # ⌨️ Github 프로필에 Daily 코딩 시간 출력 
 
 - 링크: [https://fernando.kr/develop/2020-05-02-github-gist-posting/](https://fernando.kr/develop/2020-05-02-github-gist-posting/)

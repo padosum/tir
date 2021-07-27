@@ -1,3 +1,7 @@
+---
+title: 📳 개발자의 외계어 쉽게 이해하기
+
+---
 # 📳 개발자의 외계어 쉽게 이해하기
 
 - 링크: [https://brunch.co.kr/@businessinsight/65#comment](https://brunch.co.kr/@businessinsight/65#comment)

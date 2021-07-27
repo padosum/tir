@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
+
+---
 ## 💡 Today I Read : https://www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
 
 ### #개발자 #학습

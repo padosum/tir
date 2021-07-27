@@ -1,3 +1,7 @@
+---
+title: 🪡 두 종류의 리더
+
+---
 # 🪡 두 종류의 리더
 
 - 링크: [https://iamsang.com/blog/2020/12/08/two-types-of-leaders/](https://iamsang.com/blog/2020/12/08/two-types-of-leaders/)

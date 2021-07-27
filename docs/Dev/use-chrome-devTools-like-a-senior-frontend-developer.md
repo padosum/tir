@@ -1,3 +1,7 @@
+---
+title: 👻 시니어 프론트엔드 개발자처럼 크롬 DevTools 사용하기  
+
+---
 # 👻 시니어 프론트엔드 개발자처럼 크롬 DevTools 사용하기  
 
 - 링크: [https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a-senior-frontend-developer-99a4740674](https://medium.com/javascript-in-plain-english/use-chrome-devtools-like-a-senior-frontend-developer-99a4740674)  

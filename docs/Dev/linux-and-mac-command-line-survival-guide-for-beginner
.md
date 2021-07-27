@@ -1,3 +1,7 @@
+---
+title: 🖥 리눅스/맥 커맨드라인 셸 입문자를 위한 생존 가이드
+
+---
 # 🖥 리눅스/맥 커맨드라인 셸 입문자를 위한 생존 가이드
 
 - 링크: [https://www.44bits.io/ko/post/linux-and-mac-command-line-survival-guide-for-beginner](https://www.44bits.io/ko/post/linux-and-mac-command-line-survival-guide-for-beginner)

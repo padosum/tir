@@ -1,3 +1,7 @@
+---
+title: 👨‍🔬 구글, 애플에 있는 UX 엔지니어가 토스에 있는 이유
+
+---
 # 👨‍🔬 구글, 애플에 있는 UX 엔지니어가 토스에 있는 이유
 
 - 링크: [https://blog.toss.im/2021/04/06/tossteam/insight/ux-engineer-interview/](https://blog.toss.im/2021/04/06/tossteam/insight/ux-engineer-interview/)

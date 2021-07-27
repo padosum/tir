@@ -1,3 +1,7 @@
+---
+title: ⛰️ 실패에 우아할 것.
+
+---
 # ⛰️ 실패에 우아할 것.
 
 - 링크: [http://www.psychiatricnews.net/news/articleView.html?idxno=11210](http://www.psychiatricnews.net/news/articleView.html?idxno=11210)

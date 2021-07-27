@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
+
+---
 ## 💡 Today I Read : https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
 
 ### #else #cleancode #early *

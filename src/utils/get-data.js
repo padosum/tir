@@ -2,21 +2,29 @@ const fs = require('fs')
 const path = require('path')
 const md = require('./markdown')
 
-function isDir(fliename) {
-  return fs.statSync(fliename).isDirectory()
+function isDir(filename) {
+  return fs.statSync(filename).isDirectory()
 }
 
 function findFiles(source) {
-  let fileArr = source.map(filename => {
-    if (isDir(filename)) {
-      const subFiles = fs
-        .readdirSync(filename)
-        .map(file => path.join(filename, file))
+  let fileArr = source
+    .filter(filename => {
+      if (filename.startsWith('docs/img')) {
+        return false
+      }
+      return true
+    })
+    .map(filename => {
+      if (isDir(filename)) {
+        const subFiles = fs
+          .readdirSync(filename)
+          .map(file => path.join(filename, file))
 
-      return findFiles(subFiles)
-    }
-    return filename
-  })
+        return findFiles(subFiles)
+      }
+      return filename
+    })
+
   return fileArr.join(',').split(',')
 }
 
@@ -27,6 +35,7 @@ function readMdFile(filePath) {
 
 module.exports = function generate(source) {
   source = Array.isArray(source) ? source : [source]
+
   const filePaths = findFiles(source)
   let data = []
   filePaths.forEach(elem => {

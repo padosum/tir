@@ -1,3 +1,7 @@
+---
+title: 🧑‍🎓 내가 구글 인터뷰를 풀 타임으로 8개월 동안 공부한 이유
+
+---
 # 🧑‍🎓 내가 구글 인터뷰를 풀 타임으로 8개월 동안 공부한 이유
 
 - 링크: [https://usecode.pw/why-i-studied-full-time-for-8-months-for-a-google-interview/](https://usecode.pw/why-i-studied-full-time-for-8-months-for-a-google-interview/)

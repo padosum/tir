@@ -1,3 +1,7 @@
+---
+title: 🏢 개발자를 위한 인프라 기초 총정리
+
+---
 # 🏢 개발자를 위한 인프라 기초 총정리
 
 - 링크: [https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/](https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/)

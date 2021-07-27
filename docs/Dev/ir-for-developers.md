@@ -1,3 +1,7 @@
+---
+title: ⌨️ 개발자를 위한 정보 검색 팁
+
+---
 # ⌨️ 개발자를 위한 정보 검색 팁
 
 - 링크: [https://boxnwhis.kr/2020/09/27/ir-for-developers.html](https://boxnwhis.kr/2020/09/27/ir-for-developers.html)

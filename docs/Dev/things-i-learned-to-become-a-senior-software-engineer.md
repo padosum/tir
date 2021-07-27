@@ -1,3 +1,7 @@
+---
+title: 📕 시니어 소프트웨어 엔지니어가 되기 위해 배운 것들
+
+---
 # 📕 시니어 소프트웨어 엔지니어가 되기 위해 배운 것들
 
 - 링크: [https://neilkakkar.com/things-I-learned-to-become-a-senior-software-engineer.html](https://neilkakkar.com/things-I-learned-to-become-a-senior-software-engineer.html)

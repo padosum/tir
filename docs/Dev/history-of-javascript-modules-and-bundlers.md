@@ -1,3 +1,7 @@
+---
+title: 💨 JavaScript 번들러로 본 조선시대 붕당의 이해
+
+---
 # 💨 JavaScript 번들러로 본 조선시대 붕당의 이해
 
 - 링크: [https://wormwlrm.github.io/2020/08/12/History-of-JavaScript-Modules-and-Bundlers.html](https://wormwlrm.github.io/2020/08/12/History-of-JavaScript-Modules-and-Bundlers.html)

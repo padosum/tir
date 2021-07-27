@@ -1,3 +1,7 @@
+---
+title: 👩‍💻 JavaScript Closure는 Private 변수를 만드는 용도인가?
+
+---
 # 👩‍💻 JavaScript Closure는 Private 변수를 만드는 용도인가?
 
 - 링크: [https://medium.com/naver-place-dev/javascript-closure는-private-변수-만드는-용도인가-d5868489c421](https://medium.com/naver-place-dev/javascript-closure는-private-변수-만드는-용도인가-d5868489c421)

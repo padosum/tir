@@ -1,3 +1,7 @@
+---
+title: 🕵️ 한국 인터넷에서 잘못 끼워진 첫 단추, 그 이름은 네이버 (NAVER)
+
+---
 # 🕵️ 한국 인터넷에서 잘못 끼워진 첫 단추, 그 이름은 네이버 (NAVER)
 
 - 링크: [https://sungmooncho.com/2010/03/21/naver/](https://sungmooncho.com/2010/03/21/naver/)

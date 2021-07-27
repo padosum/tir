@@ -1,3 +1,7 @@
+---
+title: GitHub 오픈소스 북극 저장소 방문기 
+
+---
 # GitHub 오픈소스 북극 저장소 방문기 
 
 - 링크: [https://tykimos.github.io/2020/07/22/Github_Seed_Vault/](https://tykimos.github.io/2020/07/22/Github_Seed_Vault/)

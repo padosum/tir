@@ -1,3 +1,7 @@
+---
+title: 🏞 '돈이 되는 말'을 하는 법 가장 중요한 건 '경험'이다
+
+---
 # 🏞 '돈이 되는 말'을 하는 법: 가장 중요한 건 '경험'이다
 
 - 링크: [https://brunch.co.kr/@rollia/13](https://brunch.co.kr/@rollia/13)

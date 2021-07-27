@@ -1,3 +1,7 @@
+---
+title: 🙄 백신이 나와서 다행이에요. 하지만 내가 예전과 같은 삶을 원하는지는 모르겠어요.
+
+---
 # 🙄 백신이 나와서 다행이에요. 하지만 내가 예전과 같은 삶을 원하는지는 모르겠어요.
 
 - 링크: [https://newspeppermint.com/2020/12/03/m-nostalgia/?utm_source=feedly&utm_medium=rss&utm_campaign=m-nostalgia](https://newspeppermint.com/2020/12/03/m-nostalgia/?utm_source=feedly&utm_medium=rss&utm_campaign=m-nostalgia)

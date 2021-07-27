@@ -1,3 +1,7 @@
+---
+title: 🤽‍♀️ 10배 뛰어난 개발자 되기 
+
+---
 # 🤽‍♀️ 10배 뛰어난 개발자 되기 
 
 - 링크: [https://muchtrans.com/translations/10xdeveloper.ko.html](https://muchtrans.com/translations/10xdeveloper.ko.html)

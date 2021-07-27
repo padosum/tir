@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//velog.io/@denmark-choco/MVC-design-pattern
+
+---
 ## 💡 Today I Read : https://velog.io/@denmark-choco/MVC-design-pattern
 
 ### #MVC

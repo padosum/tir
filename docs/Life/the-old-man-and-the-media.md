@@ -1,3 +1,7 @@
+---
+title: 👵 노인과 미디어
+
+---
 # 👵 노인과 미디어
 
 - 링크: [노인과 미디어 - 슬로우뉴스](https://slownews.kr/78774?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+slownews+%28%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%89%B4%EC%8A%A4%29)

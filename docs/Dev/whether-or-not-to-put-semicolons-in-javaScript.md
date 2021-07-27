@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
+
+---
 ## 💡 Today I Read : https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
 
 ### #자바스크립트 #세미콜론 #ASI

@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  http//channy.creation.net/blog/1332
+
+---
 ## 💡 Today I Read : http://channy.creation.net/blog/1332
 
 ### #블로그 #글쓰기

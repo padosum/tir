@@ -1,3 +1,7 @@
+---
+title:  😎사이드 프로젝트가 개 중요한 이유 
+
+---
 #  😎사이드 프로젝트가 개 중요한 이유 
 
 - 링크: [Why-side-projects-are-so-damn-important](https://usecode.pw/why-side-projects-are-so-damn-important/)

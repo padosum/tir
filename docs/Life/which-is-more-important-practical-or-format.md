@@ -1,3 +1,7 @@
+---
+title: 💁 실용과 형식, 무엇이 더 중요한가?
+
+---
 # 💁 실용과 형식, 무엇이 더 중요한가?
 
 - 링크: [https://ppss.kr/archives/237607](https://ppss.kr/archives/237607)

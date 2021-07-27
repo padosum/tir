@@ -1,3 +1,7 @@
+---
+title: 👨‍💻 시니어 개발자처럼 VSCode 사용하기
+
+---
 # 👨‍💻 시니어 개발자처럼 VSCode 사용하기
 
 - 링크: [https://junwoo45.github.io/2020-09-02-use_vscode_like_a_senior_developer/](https://junwoo45.github.io/2020-09-02-use_vscode_like_a_senior_developer/)

@@ -1,3 +1,7 @@
+---
+title: 🎙 프론트엔드 개발자는 왜 구하기 어렵나요?
+
+---
 # 🎙 프론트엔드 개발자는 왜 구하기 어렵나요?
 
 - 링크: [https://taegon.kim/archives/4810](https://taegon.kim/archives/4810)

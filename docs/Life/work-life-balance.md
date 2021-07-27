@@ -1,3 +1,7 @@
+---
+title: ⏰ 정말 근무 시간만이 워라밸의 전부일까?
+
+---
 # ⏰ 정말 근무 시간만이 워라밸의 전부일까?
 
 - 링크: [https://evan-moon.github.io/2020/09/27/work-life-balance/](https://evan-moon.github.io/2020/09/27/work-life-balance/)

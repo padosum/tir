@@ -1,3 +1,7 @@
+---
+title: 🏺 앱의 프론트엔드 성능을 향상시키는 방법 - 5가지 코딩 팁
+
+---
 # 🏺 앱의 프론트엔드 성능을 향상시키는 방법 - 5가지 코딩 팁
 
 - 링크: [https://junwoo45.github.io/2019-10-05-frontend-performance/](https://junwoo45.github.io/2019-10-05-frontend-performance/)

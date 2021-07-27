@@ -1,3 +1,7 @@
+---
+title: 🙅‍🙅 구글, "내년부터 이용자 인터넷 기록 추적하지 않겠다"
+
+---
 # 🙅‍🙅 구글, "내년부터 이용자 인터넷 기록 추적하지 않겠다"
 
 - 링크: [https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history](https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history)

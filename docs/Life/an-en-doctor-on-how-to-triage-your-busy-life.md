@@ -1,3 +1,7 @@
+---
+title: 🤯 미치게 바쁠 때도 일을 처리하는 방법 
+
+---
 # 🤯 미치게 바쁠 때도 일을 처리하는 방법 
 
 - 링크: [https://ppss.kr/archives/222530](https://ppss.kr/archives/222530)

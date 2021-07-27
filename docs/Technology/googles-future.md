@@ -1,3 +1,7 @@
+---
+title: 🌏 모든 것을 인터넷으로 연결하는 꿈을 꾸는 구글
+
+---
 # 🌏 모든 것을 인터넷으로 연결하는 꿈을 꾸는 구글
 
 - 링크: [https://newspeppermint.com/2021/03/09/googlesfuture/](https://newspeppermint.com/2021/03/09/googlesfuture/)

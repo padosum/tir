@@ -1,3 +1,7 @@
+---
+title: 🍵 더 젊은 나이에, 더 높은 대우를 받기 위한 방법
+
+---
 # 🍵 더 젊은 나이에, 더 높은 대우를 받기 위한 방법
 
 - 링크: [https://brunch.co.kr/@seunghoon82/122](https://brunch.co.kr/@seunghoon82/122)

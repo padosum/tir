@@ -1,3 +1,7 @@
+---
+title: 📺 FINTECH-BEHIND THE SIMPLICITY
+
+---
 # 📺 FINTECH-BEHIND THE SIMPLICITY
 
 - 링크: [https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title](https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title)

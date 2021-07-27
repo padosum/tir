@@ -1,3 +1,7 @@
+---
+title: 🖥 읽기 쉬운 웹을 위한 타이포그래피
+
+---
 # 🖥 읽기 쉬운 웹을 위한 타이포그래피
 
 - 링크: [https://parksb.github.io/article/37.html](https://parksb.github.io/article/37.html)

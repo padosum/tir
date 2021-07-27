@@ -1,3 +1,7 @@
+---
+title: 🗞 포털 뉴스 보지 않기
+
+---
 # 🗞 포털 뉴스 보지 않기
 
 - 링크: [https://iamsang.com/blog/2018/06/27/no-portal-news/](https://iamsang.com/blog/2018/06/27/no-portal-news/)

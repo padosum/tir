@@ -1,3 +1,7 @@
+---
+title: 🍚 밥 한번 안 해본 사람이 설계한 '시스템'이 문제다
+
+---
 # 🍚 밥 한번 안 해본 사람이 설계한 '시스템'이 문제다
 
 - 링크: [https://www.youtube.com/watch?v=tCZEhrriB6U&t=1s](https://www.youtube.com/watch?v=tCZEhrriB6U&t=1s)

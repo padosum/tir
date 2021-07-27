@@ -1,3 +1,7 @@
+---
+title: 🍜 개발자와 라면 조리법
+
+---
 # 🍜 개발자와 라면 조리법
 
 - 링크: [https://soojin.ro/blog/programmer-and-ramyun](https://soojin.ro/blog/programmer-and-ramyun)

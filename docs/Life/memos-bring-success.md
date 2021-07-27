@@ -1,3 +1,7 @@
+---
+title: 📋 메모는 성공을 가져온다
+
+---
 # 📋 메모는 성공을 가져온다
 
 - 링크: [https://brunch.co.kr/@marksknowledge/64](https://brunch.co.kr/@marksknowledge/64)

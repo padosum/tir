@@ -1,3 +1,7 @@
+---
+title: 📊 사람을 위한 정보 그래픽 디자인
+
+---
 # 📊 사람을 위한 정보 그래픽 디자인
 
 - 링크: [https://a11y.gitbook.io/graphics-aria/](https://a11y.gitbook.io/graphics-aria/)

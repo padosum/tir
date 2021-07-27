@@ -1,3 +1,7 @@
+---
+title: 🔧 탁월한 프론트엔드 엔지니어가 되는 법
+
+---
 # 🔧 탁월한 프론트엔드 엔지니어가 되는 법
 
 - 링크: [https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)

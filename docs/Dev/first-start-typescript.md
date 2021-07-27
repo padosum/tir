@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//nomadcoders.co/typescript-for-beginners (~ 0.5)
+
+---
 ## 💡 Today I Read : https://nomadcoders.co/typescript-for-beginners (~ #0.5)
 
 ### #typescript #javascript

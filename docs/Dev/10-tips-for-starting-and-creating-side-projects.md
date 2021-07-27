@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//velog.io/@chris/10-tips-for-starting-and-creating-side-projects
+
+---
 ## 💡 Today I Read : https://velog.io/@chris/10-tips-for-starting-and-creating-side-projects
 
 ### #사이드 프로젝트

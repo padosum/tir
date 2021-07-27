@@ -1,3 +1,7 @@
+---
+title: 📚 고대의 학문, 현대인의 공부 우리는 무엇을 위해 공부하는가
+
+---
 # 📚 고대의 학문, 현대인의 공부: 우리는 무엇을 위해 공부하는가
 
 - 링크: [https://ppss.kr/archives/232271?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29](https://ppss.kr/archives/232271?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)

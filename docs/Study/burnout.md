@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//www.youtube.com/watch?v=5kjrJaFIAls
+
+---
 ## 💡 Today I Read : https://www.youtube.com/watch?v=5kjrJaFIAls
 
 ### #개발자 #번아웃 #휴식

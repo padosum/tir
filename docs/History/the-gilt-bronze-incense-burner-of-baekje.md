@@ -1,3 +1,7 @@
+---
+title: 💧 물웅덩이 속 금동대향로는 백제멸망 순간의 증거였다.
+
+---
 # 💧 물웅덩이 속 금동대향로는 백제멸망 순간의 증거였다.
 
 - 링크: [https://m.khan.co.kr/view.html?art_id=202103020600001&code=960100](https://m.khan.co.kr/view.html?art_id=202103020600001&code=960100)

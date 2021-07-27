@@ -1,3 +1,7 @@
+---
+title: 🎡 프론트엔드 개발자라면 알고 있어야할 브라우저의 동작 과정
+
+---
 # 🎡 프론트엔드 개발자라면 알고 있어야할 브라우저의 동작 과정
 
 - 링크: [https://wormwlrm.github.io/2021/03/27/How-browsers-work.html](https://wormwlrm.github.io/2021/03/27/How-browsers-work.html)

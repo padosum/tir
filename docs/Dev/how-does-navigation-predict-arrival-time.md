@@ -1,3 +1,7 @@
+---
+title: 🚗 내비게이션은 어떻게 도착시간을 예측하나요?
+
+---
 # 🚗 내비게이션은 어떻게 도착시간을 예측하나요?
 
 - 링크: [http://www.bloter.net/archives/425722](http://www.bloter.net/archives/425722)

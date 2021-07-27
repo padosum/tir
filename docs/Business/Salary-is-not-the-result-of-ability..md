@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  http//channy.creation.net/blog/1186
+
+---
 ## 💡 Today I Read : http://channy.creation.net/blog/1186
 
 ### #연봉 #몸값

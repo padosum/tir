@@ -1,3 +1,7 @@
+---
+title: ✅ jQuery 보다 먼저 알았으면 좋았을 것들
+
+---
 # ✅ jQuery 보다 먼저 알았으면 좋았을 것들
 
 - 링크: [https://jeonghwan-kim.github.io/2018/01/25/before-jquery.html](https://jeonghwan-kim.github.io/2018/01/25/before-jquery.html)

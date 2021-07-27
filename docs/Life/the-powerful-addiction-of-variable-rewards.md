@@ -1,3 +1,7 @@
+---
+title: 💊 가변적 보상이 가진 강력한 중독성
+
+---
 # 💊 가변적 보상이 가진 강력한 중독성
 
 - 링크: [https://newspeppermint.com/2020/11/26/m-variable/?utm_source=feedly&utm_medium=rss&utm_campaign=m-variable](https://newspeppermint.com/2020/11/26/m-variable/?utm_source=feedly&utm_medium=rss&utm_campaign=m-variable)

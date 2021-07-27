@@ -1,3 +1,7 @@
+---
+title: 🎠 2020년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)
+
+---
 # 🎠 2020년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)
 
 - 링크: [https://d2.naver.com/helloworld/4268738](https://d2.naver.com/helloworld/4268738)

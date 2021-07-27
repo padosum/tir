@@ -1,3 +1,7 @@
+---
+title: ⛓ 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
+
+---
 # ⛓ 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
 
 - 링크: [https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be](https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be)

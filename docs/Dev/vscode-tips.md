@@ -1,3 +1,7 @@
+---
+title: ⌨️ 알아두면 쓸데있는 VSCode 노하우
+
+---
 # ⌨️ 알아두면 쓸데있는 VSCode 노하우
 
 - 링크: [https://youtu.be/_QCNqV_EfzE](https://youtu.be/_QCNqV_EfzE)

@@ -1,3 +1,7 @@
+---
+title: 🌚 퇴사 후 나는 지금도 악몽을 꾼다
+
+---
 # 🌚 퇴사 후 나는 지금도 악몽을 꾼다
 
 - 링크: [https://1boon.kakao.com/COMPANYTIMES/jobplanet67](https://1boon.kakao.com/COMPANYTIMES/jobplanet67)

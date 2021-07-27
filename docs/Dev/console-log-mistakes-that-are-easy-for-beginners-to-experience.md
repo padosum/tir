@@ -1,3 +1,7 @@
+---
+title: 🖨️ 입문자가 겪기 쉬운 console.log 실수
+
+---
 # 🖨️ 입문자가 겪기 쉬운 console.log 실수
 
 - 링크: [https://www.zerocho.com/category/JavaScript/post/5b2b45cf1350f9001b662ba6](https://www.zerocho.com/category/JavaScript/post/5b2b45cf1350f9001b662ba6)

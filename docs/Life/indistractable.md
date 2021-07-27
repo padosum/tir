@@ -1,3 +1,7 @@
+---
+title: 🎆 다양한 핑곗거리로 매번 방해받는 당신에게
+
+---
 # 🎆 다양한 핑곗거리로 매번 방해받는 당신에게
 
 - 링크: [https://brunch.co.kr/@nanotoly/13](https://brunch.co.kr/@nanotoly/13)

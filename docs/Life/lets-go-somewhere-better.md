@@ -1,3 +1,7 @@
+---
+title: 🧭 돈 없고 빽없는 사람이 더 좋은 곳으로 가려면 
+
+---
 # 🧭 돈 없고 빽없는 사람이 더 좋은 곳으로 가려면 
 
 - 링크: [https://brunch.co.kr/@annejeong/99](https://brunch.co.kr/@annejeong/99)

@@ -1,3 +1,7 @@
+---
+title: 🔍 Frontend 바로 알기
+
+---
 # 🔍 Frontend 바로 알기
 
 - 링크: [https://blueshw.github.io/2020/05/05/know-front-end-right-away/](https://blueshw.github.io/2020/05/05/know-front-end-right-away/)

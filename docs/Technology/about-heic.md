@@ -1,3 +1,7 @@
+---
+title: 📷 HEIF(HEIC)에 대해 알아보자
+
+---
 # 📷 HEIF(HEIC)에 대해 알아보자
 
 - 링크: [https://blog.naver.com/musediet/222252856340](https://blog.naver.com/musediet/222252856340)

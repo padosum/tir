@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//udacity.github.io/git-styleguide/
+
+---
 ## 💡 Today I Read : https://udacity.github.io/git-styleguide/
 
 ### #git #commit #message

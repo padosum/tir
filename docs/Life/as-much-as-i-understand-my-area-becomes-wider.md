@@ -1,3 +1,7 @@
+---
+title: 🗺️ 내가 알아듣는 만큼 내 영역도 넓어진다
+
+---
 # 🗺️ 내가 알아듣는 만큼 내 영역도 넓어진다
 
 - 링크: [https://brunch.co.kr/@jcmarkpark/100](https://brunch.co.kr/@jcmarkpark/100)

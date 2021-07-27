@@ -1,3 +1,7 @@
+---
+title: 🧤 카카오, 빅데이터 검색·조회 서비스 ‘데이터트렌드’ 출시
+
+---
 # 🧤 카카오, 빅데이터 검색·조회 서비스 ‘데이터트렌드’ 출시
 
 - 링크: [http://www.bloter.net/archives/398130https에 대해 알아야 할 것들](http://www.bloter.net/archives/398130)  

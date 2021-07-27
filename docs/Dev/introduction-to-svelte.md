@@ -1,3 +1,7 @@
+---
+title: 💡 Today I Read  https//ui.toast.com/weekly-pick/ko_20191002/
+
+---
 ## 💡 Today I Read : https://ui.toast.com/weekly-pick/ko_20191002/
 
 ### #프론트엔드 #Svelte

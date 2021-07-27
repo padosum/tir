@@ -1,3 +1,7 @@
+---
+title: 👨‍💻 기술엔 양심이 없지만 사람에겐 있으며 우리는 양심을 발휘해야 한다
+
+---
 # 👨‍💻 기술엔 양심이 없지만 사람에겐 있으며 우리는 양심을 발휘해야 한다
 
 - 링크: [http://www.bloter.net/archives/515723](http://www.bloter.net/archives/515723)

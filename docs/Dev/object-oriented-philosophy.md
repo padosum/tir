@@ -1,3 +1,7 @@
+---
+title: 🏋 객체지향 철학 그리고 5대 개념
+
+---
 # 🏋 객체지향 철학 그리고 5대 개념
 
 - 링크: [https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios](https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios)

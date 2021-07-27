@@ -1,3 +1,7 @@
+---
+title:  🌃 이제 소프트웨어 개발자가 된 젊은 그대에게 
+
+---
 #  🌃 이제 소프트웨어 개발자가 된 젊은 그대에게 
 
 - 링크: [https://brunch.co.kr/@lkj28/136#comment](https://brunch.co.kr/@lkj28/136#comment)

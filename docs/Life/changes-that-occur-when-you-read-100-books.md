@@ -1,3 +1,7 @@
+---
+title: 📕 책 100권을 읽으면 일어나는 변화
+
+---
 # 📕 책 100권을 읽으면 일어나는 변화
 
 - 링크: [https://brunch.co.kr/@yonycompany/29#comment](https://brunch.co.kr/@yonycompany/29#comment)

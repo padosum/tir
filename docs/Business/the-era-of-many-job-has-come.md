@@ -1,3 +1,7 @@
+---
+title: 🕵️ 직업이 여러개인 시대가 왔다
+
+---
 # 🕵️ 직업이 여러개인 시대가 왔다
 
 - 링크: [https://brunch.co.kr/@halihali/34](https://brunch.co.kr/@halihali/34)

@@ -1,3 +1,7 @@
+---
+title: 🐡 소프트웨어 학습 태도
+
+---
 # 🐡 소프트웨어 학습 태도
 
 - 링크: [https://brunch.co.kr/@godrm77/16](https://brunch.co.kr/@godrm77/16)

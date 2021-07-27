@@ -1,3 +1,7 @@
+---
+title: 👤 2020 NAVER TECH CONCERT ONLINE
+
+---
 # 👤 2020 NAVER TECH CONCERT ONLINE
 
 - 링크: [https://d2.naver.com/news/6137384](https://d2.naver.com/news/6137384)

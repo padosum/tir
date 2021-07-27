@@ -1,3 +1,7 @@
+---
+title: 🏀 프로그래밍은 쉬워요
+
+---
 # 🏀 프로그래밍은 쉬워요
 
 - 링크: [https://sungdoo.dev/retrospective-or-psa/programming-is-easy/](https://sungdoo.dev/retrospective-or-psa/programming-is-easy/)

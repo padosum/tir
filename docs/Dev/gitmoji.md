@@ -1,3 +1,7 @@
+---
+title: 🌝 복잡한 커밋 로그를 정리해줄 구원자, gitmoji
+
+---
 # 🌝 복잡한 커밋 로그를 정리해줄 구원자, gitmoji
 
 - 링크: [https://pilgwon.github.io/post/gitmoji](https://pilgwon.github.io/post/gitmoji)
