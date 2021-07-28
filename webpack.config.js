@@ -14,11 +14,30 @@ module.exports = {
         test: /\.css$/,
         use: ['vue-style-loader', 'css-loader'],
       },
+      // {
+      //   test: /\.vue\.s[ac]ss/,
+      //   use: ['vue-style-loader', 'css-loader', 'sass-loader'],
+      // },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          'vue-style-loader',
+          // Translates CSS into CommonJS
+          'css-loader',
+          // Compiles Sass to CSS
+          'sass-loader',
+        ],
+      },
       {
         test: /\.vue$/,
         loader: 'vue-loader',
         options: {
-          loaders: {},
+          loaders: {
+            // Since sass-loader (weirdly) has SCSS as its default parse mode, we map
+            // the "scss" and "sass" values for the lang attribute to the right configs here.
+            // other preprocessors should work out of the box, no loader config like this necessary.
+          },
           // other vue-loader options go here
         },
       },
@@ -44,8 +63,9 @@ module.exports = {
     alias: {
       vue$: 'vue/dist/vue.esm.js',
       '@': path.resolve('./src'),
+      assets: path.resolve('./src/assets'),
     },
-    extensions: ['*', '.js', '.vue', '.json'],
+    extensions: ['*', '.js', '.vue', '.json', '.scss'],
   },
   devServer: {
     historyApiFallback: true,
