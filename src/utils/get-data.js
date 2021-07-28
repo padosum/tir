@@ -46,6 +46,7 @@ module.exports = function generate(source) {
       ...mdfile,
       filepath: path.join(process.cwd(), elem),
       filename: mdfilename,
+      category: path.dirname(elem).substr(5),
     })
   })
   data.sort((a, b) => {
