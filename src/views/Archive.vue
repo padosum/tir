@@ -17,6 +17,7 @@
           <router-link :to="'/' + value.category">
             #{{ value.category }}
           </router-link>
+          <span>{{ value.meta.publishDate.slice(0, 10) }}</span>
         </li>
       </ul>
     </div>

@@ -1,6 +1,10 @@
 <template>
   <div class="contents">
     <h1>{{ this.postData.meta.title }}</h1>
+    <p class="origin-link">
+      <a :href="originLink">🔗 {{ originLink }}</a>
+    </p>
+    <p>{{ this.postData.meta.publishDate.slice(0, 10) }}</p>
     <div v-html="this.postData.content.contents" class="markdown-body"></div>
   </div>
 </template>
@@ -13,6 +17,11 @@ export default {
   },
   mounted() {
     console.log(this.postData)
+  },
+  computed: {
+    originLink() {
+      return this.postData.meta.link
+    },
   },
 }
 </script>
@@ -36,5 +45,8 @@ h6 {
 }
 .markdown-body {
   margin-top: 80px;
+}
+.origin-link {
+  text-align: center;
 }
 </style>
