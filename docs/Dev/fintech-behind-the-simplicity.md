@@ -1,10 +1,9 @@
 ---
 title: 📺 FINTECH-BEHIND THE SIMPLICITY
-
+publishDate: 2021-02-26
 ---
-# 📺 FINTECH-BEHIND THE SIMPLICITY
 
-- 링크: [https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title](https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title)
+link: [https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title](https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title)
 
 ## 📝 요약 
 - 토스의 다큐멘터리  

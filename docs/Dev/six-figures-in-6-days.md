@@ -1,11 +1,8 @@
 ---
 title: 💰 6일만에 1억 벌기
-
+publishDate: 2020-10-02
+link: https://tr.af/6
 ---
-# 💰 6일만에 1억 벌기
-
-- 링크: [https://tr.af/6](https://tr.af/6)
-
 ## 📝 요약 
 
 - iOS14 업데이트 후 홈화면에 사용하는 아이콘을 파는 디자이너  

@@ -1,11 +1,8 @@
 ---
 title: 👤 2020 NAVER TECH CONCERT ONLINE
-
+publishDate: 2020-09-08
+link: https://d2.naver.com/news/6137384
 ---
-# 👤 2020 NAVER TECH CONCERT ONLINE
-
-- 링크: [https://d2.naver.com/news/6137384](https://d2.naver.com/news/6137384)
-
 ## 📝 요약 
 - 온라인으로 진행된 NAVER TECH CONCERT 발표영상 공유 자료 
 - 네이버 개발자는 어떻게 개발을 하고, 어떻게 입사하여 성장하고 있는지 ? 

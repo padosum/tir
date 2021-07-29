@@ -1,11 +1,8 @@
 ---
 title: 🧑‍🦽 탈시설을 아십니까
-
+publishDate: 2021-01-19
+link: https://slownews.kr/79165
 ---
-# 🧑‍🦽 탈시설을 아십니까
-
-- 링크: [https://slownews.kr/79165](https://slownews.kr/79165)
-
 ## 📝 요약 
 - 탈시설이 무엇인지, 왜 필요한지에 대한 기사  
 

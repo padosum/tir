@@ -1,11 +1,8 @@
 ---
 title: 🤽‍♀️ 10배 뛰어난 개발자 되기 
-
+publishDate: 2020-09-08
+link: https://muchtrans.com/translations/10xdeveloper.ko.html
 ---
-# 🤽‍♀️ 10배 뛰어난 개발자 되기 
-
-- 링크: [https://muchtrans.com/translations/10xdeveloper.ko.html](https://muchtrans.com/translations/10xdeveloper.ko.html)
-
 ## 📝 요약 
 
 > 10배 뛰어난 엔지니어는 남들보다 10배 뛰어난 사람이 아니라, 주변 사람을 10배 뛰어나게 만드는 사람이다.  

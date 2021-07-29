@@ -1,10 +1,9 @@
 ---
-title:  👩‍💻 개발자 비급 
-
+title: 👩‍💻 개발자 비급 
+publishDate: 2020-09-08
+link: http://channy.creation.net/blog/1186
 ---
-#  👩‍💻 개발자 비급 
 
-- 링크: [개발자 비급](http://channy.creation.net/blog/1186)
 
 ## 📝 요약 
 

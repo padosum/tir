@@ -1,10 +1,8 @@
 ---
 title: 🎨 CSS Layout 
-
+publishDate: 2020-09-08
+link: https://csslayout.io/
 ---
-# 🎨 CSS Layout 
-
-- 링크: [Css Layout](https://csslayout.io/)  
 
 - 91가지 레이아웃 패턴들이 있다.  
 - 나중에 정말 도움이 많이될 것 같아서 남긴다.  

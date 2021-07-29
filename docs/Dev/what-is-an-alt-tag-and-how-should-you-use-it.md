@@ -1,10 +1,9 @@
 ---
 title: 🏞 ALT 태그가 뭐지? 
-
+publishDate: 2021-01-20
+link: https://ppss.kr/archives/221625
 ---
-# 🏞 ALT 태그가 뭐지? 
-
-- 링크: [ALT 태그가 뭐지?](https://ppss.kr/archives/221625)  
+ 
 
 ## 🤔 생각하기 
 - 2년전에 웹 접근성 교육들었던 것이 생각이 났다.  

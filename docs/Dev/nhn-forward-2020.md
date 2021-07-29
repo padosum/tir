@@ -1,12 +1,8 @@
 ---
 title: ▶︎ NHN FORWARD 2020
-
+publishDate: 2020-12-15
+link: https://forward.nhn.com/home
 ---
-# ▶︎ NHN FORWARD 2020
-
-- 링크: [https://forward.nhn.com/home](https://forward.nhn.com/home)
-- 영상: https://www.youtube.com/watch?v=CTtoHa1g8I4&feature=emb_title
-
 ## 📝 요약 
 - NHN 온라인 기술 컨퍼런스  
 

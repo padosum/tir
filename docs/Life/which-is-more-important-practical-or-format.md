@@ -1,11 +1,8 @@
 ---
 title: 💁 실용과 형식, 무엇이 더 중요한가?
-
+publishDate: 2021-03-22
+link: https://ppss.kr/archives/237607
 ---
-# 💁 실용과 형식, 무엇이 더 중요한가?
-
-- 링크: [https://ppss.kr/archives/237607](https://ppss.kr/archives/237607)
-
 ## 📝 요약   
 - 형식은 실용의 결정체이고, 실용은 형식의 이유가 된다.  
 

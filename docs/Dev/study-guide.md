@@ -1,11 +1,8 @@
 ---
 title: 📓 초보 웹 개발자를 위한 학습 안내서
-
+publishDate: 2021-06-30
+link: https://subicura.com/2021/06/27/study-guide.html
 ---
-# 📓 초보 웹 개발자를 위한 학습 안내서
-
-- 링크: [https://subicura.com/2021/06/27/study-guide.html](https://subicura.com/2021/06/27/study-guide.html)
-
 ## 📝 요약 
 - 초보 웹 개발자를 위한 조언(공부법 등...)
 

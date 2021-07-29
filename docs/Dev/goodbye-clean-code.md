@@ -1,12 +1,8 @@
 ---
 title: 🙋‍♀️ 잘가, 클린 코드
-
+publishDate: 2020-09-08
+link: https://overreacted.io/ko/goodbye-clean-code/
 ---
-# 🙋‍♀️ 잘가, 클린 코드
-
-- 링크: [https://overreacted.io/ko/goodbye-clean-code/](https://overreacted.io/ko/goodbye-clean-code/)
-
-
 ## 📝 요약
 
 - 클린 코드를 배우되, 얽매이지 마라  

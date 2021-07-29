@@ -1,11 +1,8 @@
 ---
 title: 🧤 카카오, 빅데이터 검색·조회 서비스 ‘데이터트렌드’ 출시
-
+publishDate: 2020-09-10
+link: http://www.bloter.net/archives/398130
 ---
-# 🧤 카카오, 빅데이터 검색·조회 서비스 ‘데이터트렌드’ 출시
-
-- 링크: [http://www.bloter.net/archives/398130https에 대해 알아야 할 것들](http://www.bloter.net/archives/398130)  
-
 ## 📝 요약 
 
 - 카카오가 포털 다음 통합 검색어 정보를 다양한 기준으로 검색하고 조회할 수 있는 서비스를 시작했다.  

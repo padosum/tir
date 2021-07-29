@@ -1,11 +1,9 @@
 ---
-title: 💡 Today I Read  https//udacity.github.io/git-styleguide/
-
+title: https//udacity.github.io/git-styleguide/
+publishDate: 2020-09-08
+tags: 
+  - git
 ---
-## 💡 Today I Read : https://udacity.github.io/git-styleguide/
-
-### #git #commit #message
-
 #  📝 메시지 타입
 - feat : 새로운 기능 추가
 - fix : 버그 수정, 기능 수정

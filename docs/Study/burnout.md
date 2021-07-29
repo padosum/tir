@@ -1,11 +1,11 @@
 ---
-title: 💡 Today I Read  https//www.youtube.com/watch?v=5kjrJaFIAls
-
+title: https//www.youtube.com/watch?v=5kjrJaFIAls
+publishDate: 2020-09-08
+tags: 
+  - 번아웃
+  - 휴식
+  - developer
 ---
-## 💡 Today I Read : https://www.youtube.com/watch?v=5kjrJaFIAls
-
-### #개발자 #번아웃 #휴식
-
 #  💉 번아웃을 예방하는 방법
 1. 자신이 개발자 이상의 인간임을 자각한다.
     - 프로그래밍은 내가 하는 일 중 하나여야 한다.

@@ -1,11 +1,8 @@
 ---
 title: 📊 사람을 위한 정보 그래픽 디자인
-
+publishDate: 2021-04-16
+link: https://a11y.gitbook.io/graphics-aria/
 ---
-# 📊 사람을 위한 정보 그래픽 디자인
-
-- 링크: [https://a11y.gitbook.io/graphics-aria/](https://a11y.gitbook.io/graphics-aria/)
-
 ## 📝 요약 
 - 정보 디자인에 대한 이야기  
 

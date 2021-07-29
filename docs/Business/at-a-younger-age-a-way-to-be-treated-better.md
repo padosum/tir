@@ -1,11 +1,8 @@
 ---
 title: 🍵 더 젊은 나이에, 더 높은 대우를 받기 위한 방법
-
+publishDate: 2020-10-13
+link: https://brunch.co.kr/@seunghoon82/122
 ---
-# 🍵 더 젊은 나이에, 더 높은 대우를 받기 위한 방법
-
-- 링크: [https://brunch.co.kr/@seunghoon82/122](https://brunch.co.kr/@seunghoon82/122)
-
 ## 📝 요약 
 - 나와 비전이 부합하고
 - 서비스 적으로도 내가 contribute할 수 있으며

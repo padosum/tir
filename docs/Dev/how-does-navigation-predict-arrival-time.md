@@ -1,11 +1,8 @@
 ---
 title: 🚗 내비게이션은 어떻게 도착시간을 예측하나요?
-
+publishDate: 2020-09-30
+link: http://www.bloter.net/archives/425722
 ---
-# 🚗 내비게이션은 어떻게 도착시간을 예측하나요?
-
-- 링크: [http://www.bloter.net/archives/425722](http://www.bloter.net/archives/425722)
-
 ## 📝 요약 
 - 도착 예정 시간을 결정짓는 3대 변수: 도로별 주행소요시간, 회전 시간, 신호대기 시간 
   - 가장 비중이 높은 도로별 주행소요시간에 "AI 알고리즘"이 사용된다.  

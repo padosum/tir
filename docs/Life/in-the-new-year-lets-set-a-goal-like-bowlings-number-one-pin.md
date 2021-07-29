@@ -1,10 +1,8 @@
 ---
 title: 🎳 새해에는 볼링의 1번 핀 같은 목표를 세워보자
-
+publishDate: 2021-01-11
+link: https://brunch.co.kr/@jcmarkpark/113
 ---
-# 🎳 새해에는 볼링의 1번 핀 같은 목표를 세워보자
-
-- 링크: [https://brunch.co.kr/@jcmarkpark/113](https://brunch.co.kr/@jcmarkpark/113)
 
 ## 📝 요약 
 - 볼링을 잘 치는 방법 → 맨 앞의 핀을 정면이 아닌 대각선 각도로 1번과 2번 또는 3번 사이를 노려 그 뒤의 모든 핀을 쓰러뜨리는 것 → 일종의 연쇄효과 

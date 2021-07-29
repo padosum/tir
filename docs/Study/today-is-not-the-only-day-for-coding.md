@@ -1,11 +1,10 @@
 ---
-title: 💡 Today I Read  https//velog.io/@snoop2head/self-coaching
-
+title: https//velog.io/@snoop2head/self-coaching
+publishDate: 2020-09-08
+tags: 
+  - 자기관리
+  - 건강
 ---
-## 💡 Today I Read : https://velog.io/@snoop2head/self-coaching
-
-### #자기관리 #건강
-
 # ⏰ 모든 자원은 한정적이다.
 - 내 몸은 로봇이 아니기 때문에 모니터 앞에 앉아있을 수 있는 시간은 굉장히 한정적이다.
     - (앉아있으려면 그럴 순 있을지는 몰라도) 한정된 자원을 위해서 **적당히** 할 줄 알아야 한다는 것!

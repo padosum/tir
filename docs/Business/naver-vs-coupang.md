@@ -1,11 +1,8 @@
 ---
 title: 🤝 네이버와 CJ는 왜 손을 잡았을까?
-
+publishDate: 2021-03-01
+link: https://ppss.kr/archives/235742
 ---
-# 🤝 네이버와 CJ는 왜 손을 잡았을까?
-
-- 링크: [https://ppss.kr/archives/235742](https://ppss.kr/archives/235742)
-
 ## 📝 요약 
 - 네이버와 쿠팡의 경쟁구도  
 - 네이버와 CJ가 지분 교환을 하게 된 배경  

@@ -1,11 +1,8 @@
 ---
 title: 🪡 두 종류의 리더
-
+publishDate: 2020-12-09
+link: https://iamsang.com/blog/2020/12/08/two-types-of-leaders/
 ---
-# 🪡 두 종류의 리더
-
-- 링크: [https://iamsang.com/blog/2020/12/08/two-types-of-leaders/](https://iamsang.com/blog/2020/12/08/two-types-of-leaders/)
-
 ## 📝 요약 
 - 두 종류의 리더를 겪은 경험담  
 

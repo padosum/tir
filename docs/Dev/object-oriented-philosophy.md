@@ -1,11 +1,8 @@
 ---
 title: 🏋 객체지향 철학 그리고 5대 개념
-
+publishDate: 2020-09-08
+link: https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios
 ---
-# 🏋 객체지향 철학 그리고 5대 개념
-
-- 링크: [https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios](https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios)
-
 ## 📝 요약 
 - 객체지향과 철학, 그리고 객체지향의 5대 개념의 대한 정리한 슬라이드 
 

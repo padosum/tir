@@ -1,11 +1,8 @@
 ---
 title: 🔨 크롬 확장프로그램 개발 회고
-
+publishDate: 2020-10-06
+link: https://zuminternet.github.io/Zum-Chrome-Extension/
 ---
-# 🔨 크롬 확장프로그램 개발 회고
-
-- 링크: [https://zuminternet.github.io/Zum-Chrome-Extension/](https://zuminternet.github.io/Zum-Chrome-Extension/)
-
 ## 📝 요약 
 
 - 줌인터넷의 크롬 확장프로그램 개발기 

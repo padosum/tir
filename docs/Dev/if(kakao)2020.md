@@ -1,10 +1,9 @@
 ---
 title: 🌏 if(kakao)2020
-
+publishDate: 2020-11-20
+link: https://if.kakao.com/
 ---
-# 🌏 if(kakao)2020
 
-- 링크: [https://if.kakao.com/](https://if.kakao.com/)
 
 ## 📝 요약 
 - if(kakao)2020 온라인 컨퍼런스

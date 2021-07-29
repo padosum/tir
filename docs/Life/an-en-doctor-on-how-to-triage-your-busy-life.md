@@ -1,12 +1,9 @@
 ---
 title: 🤯 미치게 바쁠 때도 일을 처리하는 방법 
-
+publishDate: 2020-09-08
+link: https://ppss.kr/archives/222530
 ---
-# 🤯 미치게 바쁠 때도 일을 처리하는 방법 
-
-- 링크: [https://ppss.kr/archives/222530](https://ppss.kr/archives/222530)
 - [TED영상](https://www.ted.com/talks/darria_long_an_er_doctor_on_triaging_your_crazy_busy_life?language=ko#t-49332)
-
 ## 📝 요약
 
 - 응급실 의사가 바쁜 삶을 조율해 나가는 방법 

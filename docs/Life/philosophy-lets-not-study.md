@@ -1,11 +1,8 @@
 ---
 title: 📚 철학, 되도록 공부하지 말자
-
+publishDate: 2020-11-11
+link: https://ppss.kr/archives/168400
 ---
-# 📚 철학, 되도록 공부하지 말자
-
-- 링크: [https://ppss.kr/archives/168400](https://ppss.kr/archives/168400)
-
 ## 📝 요약 
 - 무엇에 있어 '전문가'라는 칭호가 꼭 '전문성'을 보장하는 것은 아님 
   - 가령 '의사'는 이공계가 아니라 응용 기술자나 예술가에 더 가깝다.

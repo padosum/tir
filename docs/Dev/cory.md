@@ -1,11 +1,8 @@
 ---
 title: ⚽️ 코드리뷰가 쏘아올린 작은공
-
+publishDate: 2021-02-16
+link: https://woowabros.github.io/experience/2021/02/09/cory.html
 ---
-# ⚽️ 코드리뷰가 쏘아올린 작은공
-
-- 링크: [https://woowabros.github.io/experience/2021/02/09/cory.html](https://woowabros.github.io/experience/2021/02/09/cory.html)
-
 ## 📝 요약 
 - '우아한형제들'에서 얕은 코드리뷰를 도입한 이야기  
 

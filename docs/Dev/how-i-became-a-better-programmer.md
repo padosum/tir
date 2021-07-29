@@ -1,10 +1,8 @@
 ---
 title: 🧑‍💻 나는 어떻게 더 나은 프로그래머가 되었는가 
-
+publishDate: 2020-09-08
+link: https://rinae.dev/posts/how-i-became-a-better-programmer-kr
 ---
-# 🧑‍💻 나는 어떻게 더 나은 프로그래머가 되었는가 
-
-- 링크: [How I Became a Better Programmer](https://rinae.dev/posts/how-i-became-a-better-programmer-kr)
 
 ## 🤔 생각하기 
  

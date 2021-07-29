@@ -1,11 +1,8 @@
 ---
 title: 🎡 프론트엔드 개발자라면 알고 있어야할 브라우저의 동작 과정
-
+publishDate: 2021-04-15
+link: https://wormwlrm.github.io/2021/03/27/How-browsers-work.html
 ---
-# 🎡 프론트엔드 개발자라면 알고 있어야할 브라우저의 동작 과정
-
-- 링크: [https://wormwlrm.github.io/2021/03/27/How-browsers-work.html](https://wormwlrm.github.io/2021/03/27/How-browsers-work.html)
-
 ## 📝 요약 
 - 브라우저에서 어떤 과정을 통해 렌더링이 실행되는지에 대해 
 

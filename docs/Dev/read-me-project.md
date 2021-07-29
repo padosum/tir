@@ -1,11 +1,8 @@
 ---
 title: 🐱 The ReadME Project
-
+publishDate: 2020-09-08
+link: https://github.com/readme/sonia-john
 ---
-# 🐱 The ReadME Project
-
-- 링크: [https://github.com/readme/sonia-john](https://github.com/readme/sonia-john)
-
 ## 📝 요약 
 
 - github가 오픈소스에 대한 경험 등을 공유하는 공간을 만들었다. 이름하야 **"ReadME Project"**  

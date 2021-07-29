@@ -1,11 +1,8 @@
 ---
 title: 🔧 탁월한 프론트엔드 엔지니어가 되는 법
-
+publishDate: 2020-09-08
+link: https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/
 ---
-# 🔧 탁월한 프론트엔드 엔지니어가 되는 법
-
-- 링크: [https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/](https://hyunseob.github.io/2016/02/21/how-to-become-a-great-frontend-engineer/)
-
 ## 📝 요약 
 - 구글 엔지니어 [Philip Walton](https://github.com/philipwalton)의 [How to Become a Great Front-End Engineer](https://philipwalton.com/articles/how-to-become-a-great-front-end-engineer/) 번역글  
 

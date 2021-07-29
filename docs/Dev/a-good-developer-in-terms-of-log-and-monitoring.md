@@ -1,11 +1,8 @@
 ---
 title: 🖥 그런 개발자로 괜찮은가 - '로그 & 모니터링'편
-
+publishDate: 2020-10-07
+link: https://taetaetae.github.io/2020/10/04/a-good-developer-in-terms-of-Log-and-Monitoring/
 ---
-# 🖥 그런 개발자로 괜찮은가 - '로그 & 모니터링'편
-
-- 링크: [https://taetaetae.github.io/2020/10/04/a-good-developer-in-terms-of-Log-and-Monitoring/](https://taetaetae.github.io/2020/10/04/a-good-developer-in-terms-of-Log-and-Monitoring/)
-
 ## 📝 요약 
 - 로그는 할 수 있는 만큼 최대한 많이, 필요없는 것은 지우거나 로그 레벨 낮추기  
 - 로그가 가져다 주는 또 다른 세상 

@@ -1,11 +1,8 @@
 ---
 title: 💰 왜 주변에 부자들이 점점 늘어날까?
-
+publishDate: 2021-01-08
+link: https://ppss.kr/archives/229976
 ---
-# 💰 왜 주변에 부자들이 점점 늘어날까?
-
-- 링크: [https://ppss.kr/archives/229976](https://ppss.kr/archives/229976)
-
 ## 📝 요약 
 - 부자가 늘어나는 이유에 대해 역사적인 관점에서 돌아본다.  
   - 사람이 살아가기 위해 의식주가 충족되어야 했음  

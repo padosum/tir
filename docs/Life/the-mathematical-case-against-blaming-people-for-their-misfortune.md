@@ -1,11 +1,8 @@
 ---
 title: 📰 사람은 자신의 불운에 어느 정도 책임을 져야 할까요?
-
+publishDate: 2021-03-04
+link: https://newspeppermint.com/2021/02/04/m-complexity
 ---
-# 📰 사람은 자신의 불운에 어느 정도 책임을 져야 할까요?
-
-- 링크: [https://newspeppermint.com/2021/02/04/m-complexity](https://newspeppermint.com/2021/02/04/m-complexity)
-
 ## 📝 요약 
 - 복잡하고 불안정한 세상에서 불운을 맞이한 이에게 자신의 책임이라며 비난을 가하는 것이 아닌 동정심을 가져야 한다는 내용
 

@@ -1,10 +1,8 @@
 ---
 title: 💊 가변적 보상이 가진 강력한 중독성
-
+publishDate: 2020-11-27
+link: https://newspeppermint.com/2020/11/26/m-variable/
 ---
-# 💊 가변적 보상이 가진 강력한 중독성
-
-- 링크: [https://newspeppermint.com/2020/11/26/m-variable/?utm_source=feedly&utm_medium=rss&utm_campaign=m-variable](https://newspeppermint.com/2020/11/26/m-variable/?utm_source=feedly&utm_medium=rss&utm_campaign=m-variable)
 
 ## 📝 요약 
 - 지난 10년 동안 실리콘밸리에서 나온 대부분의 인기 서비스는 **가변적 보상(variable rewards)**을 핵심 기술로 삼았다.  

@@ -1,11 +1,8 @@
 ---
 title: ⛰️ 실패에 우아할 것.
-
+publishDate: 2021-04-13
+link: http://www.psychiatricnews.net/news/articleView.html?idxno=11210
 ---
-# ⛰️ 실패에 우아할 것.
-
-- 링크: [http://www.psychiatricnews.net/news/articleView.html?idxno=11210](http://www.psychiatricnews.net/news/articleView.html?idxno=11210)
-
 ## 📝 요약 
 - 심리학과 교수가 말해주는 실패 경험을 우아하게 마주하는 자세에 대하여 
 

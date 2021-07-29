@@ -1,11 +1,8 @@
 ---
 title: 📳 개발자의 외계어 쉽게 이해하기
-
+publishDate: 2020-09-08
+link: https://brunch.co.kr/@businessinsight/65
 ---
-# 📳 개발자의 외계어 쉽게 이해하기
-
-- 링크: [https://brunch.co.kr/@businessinsight/65#comment](https://brunch.co.kr/@businessinsight/65#comment)
-
 ## 📝 요약 
 - 서버, 클라이언트, api등 개발자가 사용하는 외계어(?)에 대해 쉽게 이해하기 
 

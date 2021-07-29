@@ -1,10 +1,10 @@
 ---
-title: 💡 Today I Read  https//ui.toast.com/weekly-pick/ko_20191002/
-
+title: https//ui.toast.com/weekly-pick/ko_20191002/
+publishDate: 2020-09-08
+tags: 
+  - front-end
+  - svelte
 ---
-## 💡 Today I Read : https://ui.toast.com/weekly-pick/ko_20191002/
-
-### #프론트엔드 #Svelte
 
 # 🤔 Svelte가 뭐야?
 

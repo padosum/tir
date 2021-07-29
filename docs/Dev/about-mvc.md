@@ -1,10 +1,9 @@
 ---
-title: 💡 Today I Read  https//velog.io/@denmark-choco/MVC-design-pattern
-
+title:  💡 Today I Read  https//velog.io/@denmark-choco/MVC-design-pattern
+publishDate: 2020-09-08
+tags: 
+  - MVC
 ---
-## 💡 Today I Read : https://velog.io/@denmark-choco/MVC-design-pattern
-
-### #MVC
 
 # MVC가 뭐냐면
 1. Model

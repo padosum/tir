@@ -1,11 +1,8 @@
 ---
 title: 📕 책 100권을 읽으면 일어나는 변화
-
+publishDate: 2020-12-10
+link: https://brunch.co.kr/@yonycompany/29
 ---
-# 📕 책 100권을 읽으면 일어나는 변화
-
-- 링크: [https://brunch.co.kr/@yonycompany/29#comment](https://brunch.co.kr/@yonycompany/29#comment)
-
 ## 📝 요약 
 - 독서는 양질 전환의 법칙을 따른다.  
   - 독서 100권 - 한 분야의 전문가가 될 수 있다.

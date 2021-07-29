@@ -1,10 +1,9 @@
 ---
-title: 💡 Today I Read  https//velog.io/@chris/10-tips-for-starting-and-creating-side-projects
-
+title: https//velog.io/@chris/10-tips-for-starting-and-creating-side-projects
+publishDate: 2020-09-08
+tags: 
+  - 사이드프로젝트
 ---
-## 💡 Today I Read : https://velog.io/@chris/10-tips-for-starting-and-creating-side-projects
-
-### #사이드 프로젝트
 
 # 🔑 사이드 프로젝트를 위한 꿀팁
 1. 하루에 1시간이든, 일주일에 하루든 항상 꾸준히 진행해라.

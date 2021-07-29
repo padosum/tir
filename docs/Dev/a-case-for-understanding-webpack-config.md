@@ -1,11 +1,8 @@
 ---
 title: 📦 Webpack 설정을 이해하는 일의 가치
-
+publishDate: 2021-02-01
+link: https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/
 ---
-# 📦 Webpack 설정을 이해하는 일의 가치
-
-- 링크: [https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/](https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/)
-
 ## 📝 요약 
 - Webpack 관련 작업을 하다 떠올린 끈기 있는 학습 과정에 대한 이야기 
 

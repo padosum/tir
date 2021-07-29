@@ -1,11 +1,8 @@
 ---
 title: 🌏 모든 것을 인터넷으로 연결하는 꿈을 꾸는 구글
-
+publishDate: 2021-03-11
+link: https://newspeppermint.com/2021/03/09/googlesfuture/
 ---
-# 🌏 모든 것을 인터넷으로 연결하는 꿈을 꾸는 구글
-
-- 링크: [https://newspeppermint.com/2021/03/09/googlesfuture/](https://newspeppermint.com/2021/03/09/googlesfuture/)
-
 ## 📝 요약 
 - 빅테크 기업들의 특허를 소개 하는 글  
 

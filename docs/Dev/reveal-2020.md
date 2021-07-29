@@ -1,12 +1,9 @@
 ---
 title: 🚚 Reveal 2020 - Coupang Developer Conference
-
+publishDate: 2020-12-12
+link: https://event.coupangcorp.com/
 ---
-# 🚚 Reveal 2020 - Coupang Developer Conference
-
-- 링크: [https://event.coupangcorp.com/](https://event.coupangcorp.com/)  
-- 링크가 계속 유효할진 모르겠다.  
-
+link가 계속 유효할진 모르겠다.  
 ## 📝 요약 
 - 쿠팡의 첫 번째 개발자 컨퍼런스 
 - 쿠팡 소프트웨어 엔지니어들의 라이프사이클 세션만 보았다.  

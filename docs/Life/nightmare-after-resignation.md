@@ -1,11 +1,8 @@
 ---
 title: 🌚 퇴사 후 나는 지금도 악몽을 꾼다
-
+publishDate: 2020-11-18
+link: https://1boon.kakao.com/COMPANYTIMES/jobplanet67
 ---
-# 🌚 퇴사 후 나는 지금도 악몽을 꾼다
-
-- 링크: [https://1boon.kakao.com/COMPANYTIMES/jobplanet67](https://1boon.kakao.com/COMPANYTIMES/jobplanet67)
-
 ## 📝 요약 
 
 - 잡플래닛 이용자들이 남긴 실제 사례를 근거로 재구성한 글 

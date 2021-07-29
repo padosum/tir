@@ -1,11 +1,8 @@
 ---
-title:  😎사이드 프로젝트가 개 중요한 이유 
-
+title: 😎사이드 프로젝트가 개 중요한 이유 
+publishDate: 2020-09-08
+link: https://usecode.pw/why-side-projects-are-so-damn-important/
 ---
-#  😎사이드 프로젝트가 개 중요한 이유 
-
-- 링크: [Why-side-projects-are-so-damn-important](https://usecode.pw/why-side-projects-are-so-damn-important/)
-
 ## 🤔 생각하기 
  
 사이드 프로젝트가 참 중요하다 중요하다 하지만 섣불리 시작을 못 하고 있다.. 계속 회사 일 핑계를 대고 앉아있다.  

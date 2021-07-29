@@ -1,11 +1,10 @@
 ---
-title: 💡 Today I Read  https//www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
-
+title: https//www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
+publishDate: 2020-09-08
+tags: 
+  - developer
+  - 학습
 ---
-## 💡 Today I Read : https://www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
-
-### #개발자 #학습
-
 # 좋은 프론트엔드 학습방법
 1. 실천하는 것만큼 좋은 학습 방법은 없다.
     - 세상엔 많은 튜토리얼과 문서가 있지만 응용과 연습 없이는 내 것으로 만들 수 없다.

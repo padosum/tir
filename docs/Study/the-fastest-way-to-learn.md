@@ -1,11 +1,10 @@
 ---
-title: 💡 Today I Read  https//velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC
-
+title: https//velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC
+publishDate: 2020-09-08
+tags: 
+  - developer
+  - 학습
 ---
-## 💡 Today I Read : https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC
-
-### #개발자 #학습
-
 # ✍ 공개적으로 학습하라!
 
 - 블로그, 튜토리얼 등 글쓰기

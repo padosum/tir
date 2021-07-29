@@ -1,11 +1,8 @@
 ---
 title: 📛 Deview 2020
-
+publishDate: 2021-02-26
+link: https://tv.naver.com/v/16970963
 ---
-# 📛 Deview 2020
-
-- 링크: [https://tv.naver.com/v/16970963](https://tv.naver.com/v/16970963)
-
 ## 📝 요약 
 - Deno를 통해 알아보는 Javascript 세상 이야기
   - Javascript의 역사를 간략하게 알아보고 단점으로 인해 나타난 Typescript 

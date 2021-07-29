@@ -1,11 +1,8 @@
 ---
 title: 🎑 자바스크립트의 동작원리 엔진, 런타임, 호출 스택
-
+publishDate: 2020-09-08
+link: https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/
 ---
-# 🎑 자바스크립트의 동작원리: 엔진, 런타임, 호출 스택
-
-- 링크: [https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/](https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/)
-
 ## 📝 요약 
 
 - "How JavaScript works: an overview of the engine, the runtime, and the call stack" 번역글 

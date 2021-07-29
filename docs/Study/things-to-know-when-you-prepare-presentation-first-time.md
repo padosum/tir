@@ -1,11 +1,9 @@
 ---
-title: 💡 Today I Read  https//rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
-
+title: https//rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
+publishDate: 2020-09-08
+tags: 
+  - 발표
 ---
-## 💡 Today I Read : https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
-
-### #발표
-
 # 발표를 하게 되면 얻게 되는 것들
 - 알고 있는 내용을 더 깊게 정리하는 계기를 가진다.
 - 알지 못하는 내용을 직접 습득하기 위한 노력을 한다.

@@ -1,11 +1,8 @@
 ---
 title: 🍚 밥 한번 안 해본 사람이 설계한 '시스템'이 문제다
-
+publishDate: 2020-11-23
+link: https://www.youtube.com/watch?v=tCZEhrriB6U&t=1s
 ---
-# 🍚 밥 한번 안 해본 사람이 설계한 '시스템'이 문제다
-
-- 링크: [https://www.youtube.com/watch?v=tCZEhrriB6U&t=1s](https://www.youtube.com/watch?v=tCZEhrriB6U&t=1s)
-
 ## 📝 요약 
 - '돌봄노동'에 대한 한국여성노동자회 배진경 대표의 이야기 
 - 돌봄 노동 

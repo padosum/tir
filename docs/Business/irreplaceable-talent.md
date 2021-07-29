@@ -1,11 +1,8 @@
 ---
 title: 🧔 조직에 필요한 인재는 '대체 불가한 인재'가 아니다
-
+publishDate: 2021-02-08
+link: https://ppss.kr/archives/234980
 ---
-# 🧔 조직에 필요한 인재는 '대체 불가한 인재'가 아니다
-
-- 링크: [https://ppss.kr/archives/234980](https://ppss.kr/archives/234980)
-
 ## 📝 요약 
 - "대체 불가한 인재"가 되라는 말이 끼치는 해악  
 

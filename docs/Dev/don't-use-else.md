@@ -1,10 +1,11 @@
 ---
-title: 💡 Today I Read  https//velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
-
+title: https//velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
+publishDate: 2020-09-10
+tags: 
+  - cleancode" 
+  - "early" 
+  - "else"
 ---
-## 💡 Today I Read : https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
-
-### #else #cleancode #early *
 
 # 🕳 else의 문제점
 - else 자체로는 문제가 안되지만 쓰지 않아도 되는 상황에서 중첩구조를 쓰게 되면 코드가 복잡해진다.

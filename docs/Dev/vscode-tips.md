@@ -1,11 +1,8 @@
 ---
 title: ⌨️ 알아두면 쓸데있는 VSCode 노하우
-
+publishDate: 2021-06-02
+link: https://youtu.be/_QCNqV_EfzE
 ---
-# ⌨️ 알아두면 쓸데있는 VSCode 노하우
-
-- 링크: [https://youtu.be/_QCNqV_EfzE](https://youtu.be/_QCNqV_EfzE)
-
 ## 📝 요약 
 - VSCode 팁을 공유하는 영상  
 

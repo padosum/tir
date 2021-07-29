@@ -1,11 +1,11 @@
 ---
-title: 💡 Today I Read  https//bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
-
+title: https//bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
+publishDate: 2020-09-08
+tags: 
+  - javascript
+  - semicolon
+  - asi
 ---
-## 💡 Today I Read : https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
-
-### #자바스크립트 #세미콜론 #ASI
-
 # 🤔 세미콜론을 써야 하나 말아야 하나
 결론부터 말하자면 쓰지 않아도 된다. 자바스크립트에선 ASI라는 기능을 통해 세미콜론을 자동으로 붙여주고 있다.
 이 ASI는 대개는 적절한 위치를 추론하기 때문에 문제를 자주 일으키지는 않는다.

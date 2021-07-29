@@ -1,11 +1,10 @@
 ---
-title: 💡 Today I Read  http//channy.creation.net/blog/1332
-
+title: http//channy.creation.net/blog/1332
+publishDate: 2020-09-08
+tags: 
+  - blog
+  - writing
 ---
-## 💡 Today I Read : http://channy.creation.net/blog/1332
-
-### #블로그 #글쓰기
-
 # ✍ 글쓰기는 사라지지 않는다!
 
 최근 페이스북, 유투브는 정보를 공유하는 도구가 되었다. 글을 저작하고 배포하는 플랫폼만 바뀔 뿐 글쓰기는 사라지지 않는다.

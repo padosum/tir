@@ -1,11 +1,8 @@
 ---
 title: 🐛 크롬 개발자 도구를 이용한 자바스크립트 디버깅
-
+publishDate: 2020-10-03
+link: https://subicura.com/2018/02/14/javascript-debugging.html
 ---
-# 🐛 크롬 개발자 도구를 이용한 자바스크립트 디버깅
-
-- 링크: [https://subicura.com/2018/02/14/javascript-debugging.html](https://subicura.com/2018/02/14/javascript-debugging.html)
-
 ## 📝 요약 
 
 - 크롬 개발자 도구를 이용한 자바스크립트 디버깅 방법 소개 

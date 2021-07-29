@@ -1,11 +1,8 @@
 ---
 title: 🚘 벤츠 타는 프로그래머
-
+publishDate: 2020-10-11
+link: https://ridibooks.com/books/852000840
 ---
-# 🚘 벤츠 타는 프로그래머
-
-- 링크: [https://ridibooks.com/books/852000840](https://ridibooks.com/books/852000840)
-
 ## 📝 요약 
 - 행복한 프로그래밍을 위한 선배 개발자의 조언 
 

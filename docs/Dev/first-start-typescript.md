@@ -1,10 +1,10 @@
 ---
-title: 💡 Today I Read  https//nomadcoders.co/typescript-for-beginners (~ 0.5)
-
+title: https//nomadcoders.co/typescript-for-beginners (~ 0.5)
+publishDate: 2020-09-08
+tags: 
+  - typescript
+  - javascript
 ---
-## 💡 Today I Read : https://nomadcoders.co/typescript-for-beginners (~ #0.5)
-
-### #typescript #javascript
 
 # typescript란
 - 자바스크립트는 타입이 없는 언어로 한 변수에 문자, 숫자, boolean 등 여러 타입의 값을 넣을 수 있다. 따라서 비교적 유연하게 개발할 수 있는 환경이지만

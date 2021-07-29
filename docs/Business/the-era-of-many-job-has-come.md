@@ -1,11 +1,8 @@
 ---
 title: 🕵️ 직업이 여러개인 시대가 왔다
-
+publishDate: 2021-01-09
+link: https://brunch.co.kr/@halihali/34
 ---
-# 🕵️ 직업이 여러개인 시대가 왔다
-
-- 링크: [https://brunch.co.kr/@halihali/34](https://brunch.co.kr/@halihali/34)
-
 ## 📝 요약 
 - 부업의 시대에 대한 이야기  
 

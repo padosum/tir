@@ -1,11 +1,8 @@
 ---
 title: 🏉 자바스크립트는 무엇으로 구성되어 있을까?
-
+publishDate: 2020-09-08
+link: https://ui.toast.com/weekly-pick/ko_20200219/
 ---
-# 🏉 자바스크립트는 무엇으로 구성되어 있을까?
-
-- 링크: [https://ui.toast.com/weekly-pick/ko_20200219/](https://ui.toast.com/weekly-pick/ko_20200219/)
-
 ## 📝 요약 
 - [https://overreacted.io/what-is-javascript-made-of/](https://overreacted.io/what-is-javascript-made-of/) 의 번역글  
 - 글쓴이가 프레임워크로 웹사이트를 만들 수 있지만 기초에 대한 확실한 이해가 없었기에 구직 면접을 두려워했다.  

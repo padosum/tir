@@ -1,11 +1,8 @@
 ---
 title: ⌨️ 개발자를 위한 정보 검색 팁
-
+publishDate: 2020-10-01
+link: https://boxnwhis.kr/2020/09/27/ir-for-developers.html
 ---
-# ⌨️ 개발자를 위한 정보 검색 팁
-
-- 링크: [https://boxnwhis.kr/2020/09/27/ir-for-developers.html](https://boxnwhis.kr/2020/09/27/ir-for-developers.html)
-
 ## 📝 요약 
 - 구글링
 - 영문으로 검색

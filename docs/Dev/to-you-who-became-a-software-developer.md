@@ -1,11 +1,8 @@
 ---
-title:  🌃 이제 소프트웨어 개발자가 된 젊은 그대에게 
-
+title: 🌃 이제 소프트웨어 개발자가 된 젊은 그대에게 
+publishDate: 2020-09-08
+link: https://brunch.co.kr/@lkj28/136
 ---
-#  🌃 이제 소프트웨어 개발자가 된 젊은 그대에게 
-
-- 링크: [https://brunch.co.kr/@lkj28/136#comment](https://brunch.co.kr/@lkj28/136#comment)
-
 ## 📝 요약 
 
 - 비지니스 도메인과 기술 도메인

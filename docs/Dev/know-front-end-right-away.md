@@ -1,11 +1,8 @@
 ---
 title: 🔍 Frontend 바로 알기
-
+publishDate: 2021-01-20
+link: https://blueshw.github.io/2020/05/05/know-front-end-right-away/
 ---
-# 🔍 Frontend 바로 알기
-
-- 링크: [https://blueshw.github.io/2020/05/05/know-front-end-right-away/](https://blueshw.github.io/2020/05/05/know-front-end-right-away/)
-
 ## 📝 요약 
 - 프론트엔드 기반 기술에 관한 포스팅 시리즈  
   - 문법이나 사용법이 아닌, 기본적인 작동 원리, 상호관계 등 프론트엔드 개발자라면 필수로 알아야 할 지식  

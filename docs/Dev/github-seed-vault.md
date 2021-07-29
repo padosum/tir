@@ -1,11 +1,8 @@
 ---
 title: GitHub 오픈소스 북극 저장소 방문기 
-
+publishDate: 2020-09-08
+link: https://tykimos.github.io/2020/07/22/Github_Seed_Vault/
 ---
-# GitHub 오픈소스 북극 저장소 방문기 
-
-- 링크: [https://tykimos.github.io/2020/07/22/Github_Seed_Vault/](https://tykimos.github.io/2020/07/22/Github_Seed_Vault/)
-
 ## 📝 요약 
 
 - Github가 오픈소스를 북극저장소에 저장하는데 실제 방문을 한 분의 글 
