@@ -1,10 +1,7 @@
 <template>
   <div>
-    <div v-if="category">
-      <h1>#{{ category }}</h1>
-    </div>
-    <div class="contents" v-else>
-      <p class="banner">Today I Read</p>
+    <p class="banner">{{ category ? category : 'Today I Read' }}</p>
+    <div class="contents">
       <ul>
         <li v-for="(value, key) in mdData" :key="key">
           <div class="title">
@@ -30,6 +27,9 @@ export default {
     data: {
       type: Object,
     },
+    filtedData: {
+      type: Array,
+    },
     category: {
       type: String,
       default: '',
@@ -37,7 +37,11 @@ export default {
   },
   computed: {
     mdData() {
-      return this.data.markdown
+      if (this.category == '') {
+        return this.data.markdown
+      } else {
+        return this.filtedData
+      }
     },
   },
   mounted() {},

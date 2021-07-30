@@ -15,7 +15,16 @@ const routes = [
   {
     path: '/:category?',
     component: () => import('@/views/Archive.vue'),
-    props: true,
+    props: route => {
+      let category = route.params.category
+      let filteredData = data.markdown.filter(item => {
+        return item.category === category
+      })
+      return {
+        filtedData: filteredData,
+        category,
+      }
+    },
   },
   {
     path: '/:category/:post',
