@@ -15,9 +15,7 @@ export default {
   data() {
     return {}
   },
-  mounted() {
-    console.log(this.postData)
-  },
+  mounted() {},
   computed: {
     originLink() {
       return this.postData.meta.link

@@ -1,20 +1,23 @@
 <template>
-  <div>
-    <p class="banner">{{ category ? category : 'Today I Read' }}</p>
-    <div class="contents">
-      <ul>
+  <div class="main">
+    <session-bar></session-bar>
+    <div class="content">
+      <ul class="post-list">
         <li v-for="(value, key) in mdData" :key="key">
-          <div class="title">
-            <h3>
-              <router-link :to="'/' + value.category + '/' + value.filename">
-                {{ value.meta.title }}
-              </router-link>
-            </h3>
-          </div>
+          <h3>
+            <router-link
+              :to="'/' + value.category + '/' + value.filename"
+              class="post-link"
+            >
+              {{ value.meta.title }}
+            </router-link>
+          </h3>
+          <span class="post-meta">
+            <span>{{ value.meta.publishDate.slice(0, 10) }}</span>
+          </span>
           <router-link :to="'/' + value.category">
             #{{ value.category }}
           </router-link>
-          <span>{{ value.meta.publishDate.slice(0, 10) }}</span>
         </li>
       </ul>
     </div>
@@ -22,7 +25,11 @@
 </template>
 
 <script>
+import SessionBar from '@/components/SessionBar.vue'
 export default {
+  components: {
+    SessionBar,
+  },
   props: {
     data: {
       type: Object,
@@ -48,15 +55,4 @@ export default {
 }
 </script>
 
-<style scoped>
-.title a {
-  font-weight: 600;
-}
-.banner {
-  font-size: 4.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-  display: flex;
-  align-items: center;
-}
-</style>
+<style></style>
