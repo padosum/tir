@@ -1,8 +1,6 @@
 const remark = require('remark')
-const jsonml = require('jsonml.js')
 const YFM = require('yaml-front-matter')
 const html = require('remark-html')
-const github = require('remark-github')
 const highlight = require('remark-highlight.js')
 const cardlink = require('./remark-plugin-cardlink')
 
