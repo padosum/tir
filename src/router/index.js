@@ -13,6 +13,10 @@ const routes = [
     },
   },
   {
+    path: '/login',
+    component: () => import('@/views/Login.vue'),
+  },
+  {
     path: '/:category?',
     component: () => import('@/views/Archive.vue'),
     props: route => {

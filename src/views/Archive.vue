@@ -1,7 +1,7 @@
 <template>
   <div class="main">
-    <session-bar></session-bar>
-    <div class="content">
+    <nav-bar></nav-bar>
+    <div class="contents">
       <ul class="post-list">
         <li v-for="(value, key) in mdData" :key="key">
           <h3>
@@ -13,9 +13,9 @@
             </router-link>
           </h3>
           <span class="post-meta">
-            <span>{{ value.meta.publishDate.slice(0, 10) }}</span>
+            {{ value.meta.publishDate.slice(0, 10) }}
           </span>
-          <router-link :to="'/' + value.category">
+          <router-link :to="'/' + value.category" class="post-category">
             #{{ value.category }}
           </router-link>
         </li>
@@ -23,12 +23,11 @@
     </div>
   </div>
 </template>
-
 <script>
-import SessionBar from '@/components/SessionBar.vue'
+import NavBar from '@/components/NavBar.vue'
 export default {
   components: {
-    SessionBar,
+    NavBar,
   },
   props: {
     data: {
@@ -54,5 +53,36 @@ export default {
   mounted() {},
 }
 </script>
+<style scoped>
+.contents {
+  width: 100%;
+}
+.post-list {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+/* unvisited link */
+.post-list .post-link {
+  color: #654781;
+  font-size: 1rem;
+  font-weight: 500;
+}
 
-<style></style>
+/* mouse over link */
+.post-list .post-link:hover {
+  color: #bb54b5;
+}
+ul {
+  list-style-type: none;
+}
+
+.post-meta,
+.post-category {
+  color: #98969a;
+}
+
+.post-category:hover {
+  color: #b797c2;
+}
+</style>

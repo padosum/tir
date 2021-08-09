@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <div class="wrapper">
-      <nav-bar></nav-bar>
+      <session-bar></session-bar>
       <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
+import SessionBar from '@/components/SessionBar.vue'
 export default {
   components: {
-    NavBar,
+    SessionBar,
   },
   name: 'app',
   data() {
@@ -31,4 +31,14 @@ export default {
 <style lang>
 @import url('~assets/style/base.scss');
 @import url('~assets/style/main.scss');
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  background-color: #fbfaf9;
+}
 </style>
