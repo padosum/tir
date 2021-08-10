@@ -35,6 +35,9 @@ export default {}
 </script>
 
 <style scoped>
+ul {
+  list-style: none;
+}
 .login-wrap {
   position: absolute;
   top: 50%;
@@ -113,5 +116,57 @@ export default {}
 
 .login-right .login-box input::placeholder {
   color: #b6b6b6;
+}
+
+.login-right .login-box input[type='checkbox'] {
+  width: 0;
+  height: 0;
+}
+
+.login-right .login-box input[type='checkbox'] + label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  font-size: 15px;
+  color: #bebebe;
+  cursor: pointer;
+}
+
+.login-right .login-box input[type='checkbox'] + label::after {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #cbcbcb;
+  display: block;
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.login-right .login-box input[type='checkbox']:checked + label::after {
+  display: block;
+  position: absolute;
+  content: '\f00c';
+  font-size: 14px;
+  color: #949494;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  text-align: center;
+}
+
+.login-right .login-box a {
+  display: inline-block;
+  width: 440px;
+  padding: 20px 25px;
+  font-size: 15px;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.login-right .login-box .btn-login {
+  background: #000;
 }
 </style>
