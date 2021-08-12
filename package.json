@@ -2,6 +2,7 @@
   "name": "tir",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "scripts": {
     "serve": "vue-cli-service serve",
     "dev": "webpack-dev-server --open --hot",
