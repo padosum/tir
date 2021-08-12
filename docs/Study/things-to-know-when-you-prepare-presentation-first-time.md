@@ -1,6 +1,8 @@
 ---
-title: https//rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
-publishDate: 2020-09-08
+title: 처음 발표를 준비하는 개발자들이 알아두면 좋을 것들
+link: https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
+author: the1020
+publishDate: 2020-07-25
 tags: 
   - 발표
 ---

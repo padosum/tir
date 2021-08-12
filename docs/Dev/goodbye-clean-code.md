@@ -1,7 +1,8 @@
 ---
-title: 🙋‍♀️ 잘가, 클린 코드
-publishDate: 2020-09-08
+title: 잘가, 클린 코드
 link: https://overreacted.io/ko/goodbye-clean-code/
+author: padosum
+publishDate: 2020-08-03
 ---
 ## 📝 요약
 

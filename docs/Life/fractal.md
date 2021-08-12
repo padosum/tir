@@ -1,7 +1,8 @@
 ---
-title: 🌲 인생의 프랙탈
-publishDate: 2021-04-29
+title: 인생의 프랙탈
 link: https://m.blog.naver.com/bryankim1225/221212253050
+author: padosum
+publishDate: 2021-04-29
 tags: 
   - 필사
 ---

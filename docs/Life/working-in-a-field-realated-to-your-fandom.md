@@ -1,7 +1,8 @@
 ---
-title: 💓 덕업일치
-publishDate: 2020-09-08
+title: 덕업일치
 link: https://www.thestartupbible.com/2020/08/doing-what-you-love.html
+author: padosum
+publishDate: 2020-08-30
 ---
 ## 📝 요약 
 - 밀레니얼 세대의 직업 이야기인 파일럿 프로그램 "아무튼 출근"의 후기(?)글 

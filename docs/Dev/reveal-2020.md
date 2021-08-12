@@ -1,7 +1,8 @@
 ---
-title: 🚚 Reveal 2020 - Coupang Developer Conference
-publishDate: 2020-12-12
+title: Reveal 2020 - Coupang Developer Conference
 link: https://event.coupangcorp.com/
+author: padosum
+publishDate: 2020-12-12
 ---
 link가 계속 유효할진 모르겠다.  
 ## 📝 요약 

@@ -1,7 +1,8 @@
 ---
-title: 📕 시니어 소프트웨어 엔지니어가 되기 위해 배운 것들
-publishDate: 2020-09-15
+title: 시니어 소프트웨어 엔지니어가 되기 위해 배운 것들
 link: https://neilkakkar.com/things-I-learned-to-become-a-senior-software-engineer.html
+author: padosum
+publishDate: 2020-09-15
 ---
 ## 📝 요약 
 - 블룸버그에서 일하는 sw 엔지니어가 배운 것들 

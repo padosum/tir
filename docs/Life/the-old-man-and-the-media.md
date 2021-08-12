@@ -1,7 +1,8 @@
 ---
-title: 👵 노인과 미디어
-publishDate: 2020-12-19
+title: 노인과 미디어
 link: https://slownews.kr/78774
+author: padosum
+publishDate: 2020-12-19
 ---
 
 ## 📝 요약 

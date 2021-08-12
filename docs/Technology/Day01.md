@@ -1,6 +1,9 @@
 ---
 title: AI, Data Science, ML, 그리고 DL의 차이점?
-publishDate: 2020-09-08
+author: gimzimean
+publishDate: 2020-07-21
+tags: 
+	- data-science
 ---
 1. Artificial Intelligence (AI) : 순수하게 수학과 과학인데, 기계가 인간의 실제 능력을 따라할 수 있는것을 말한다. 예를 들면, "인간의 일"이라고 하는 결정과 같은 것이다. 
 	- General AI : 계획 수립, 결정, 물건 확인하기, 소리 알아채기, 사회&비즈니스 거래

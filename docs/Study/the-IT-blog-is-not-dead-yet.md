@@ -1,6 +1,8 @@
 ---
-title: http//channy.creation.net/blog/1332
-publishDate: 2020-09-08
+title: IT 블로그는 아직 죽지않았다
+link: http://channy.creation.net/blog/1332
+author: the1020
+publishDate: 2020-07-24
 tags: 
   - blog
   - writing

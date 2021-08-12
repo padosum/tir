@@ -1,7 +1,8 @@
 ---
-title: 🗺️ 내가 알아듣는 만큼 내 영역도 넓어진다
-publishDate: 2021-04-19
+title: 내가 알아듣는 만큼 내 영역도 넓어진다
 link: https://brunch.co.kr/@jcmarkpark/100
+author: padosum
+publishDate: 2021-04-19
 ---
 
 ## 📝 요약 
@@ -15,5 +16,5 @@ link: https://brunch.co.kr/@jcmarkpark/100
   - 그리고 나도 이런 정보를 나눌 수 있는 사람이 되어야지  
 
 ## ⛓ 연결고리  
-- [대성할 30대 실무자들의 특징.](../Life/the-characteristics-of-the-30s-who-will-succeeding.md)  
+- [대성할 30대 실무자들의 특징.](../Life/the-characteristics-of-the-30s-who-will-succeeding)  
   - 호기심을 가지는 것, 그걸 알아내려 주위에 접근하는 태도를 가지는 것 

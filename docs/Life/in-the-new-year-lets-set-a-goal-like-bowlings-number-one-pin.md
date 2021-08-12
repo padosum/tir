@@ -1,7 +1,8 @@
 ---
-title: 🎳 새해에는 볼링의 1번 핀 같은 목표를 세워보자
-publishDate: 2021-01-11
+title: 새해에는 볼링의 1번 핀 같은 목표를 세워보자
 link: https://brunch.co.kr/@jcmarkpark/113
+author: padosum
+publishDate: 2021-01-11
 ---
 
 ## 📝 요약 
@@ -19,4 +20,4 @@ link: https://brunch.co.kr/@jcmarkpark/113
   - 어떤 to do 이든 쪼개서 실천하기 → 할 수 있다는 자신감 
 
 ## ⛓ 연결고리 
-- [직업이 여러개인 시대가 왔다](../Business/the-era-of-many-job-has-come.md)
+- [직업이 여러개인 시대가 왔다](../Business/the-era-of-many-job-has-come)

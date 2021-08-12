@@ -1,7 +1,8 @@
 ---
-title: 👩‍💻 개발자 비급 
-publishDate: 2020-09-08
+title: 개발자 비급 
 link: http://channy.creation.net/blog/1186
+author: padosum
+publishDate: 2020-07-25
 ---
 
 

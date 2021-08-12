@@ -1,9 +1,11 @@
 ---
-title: 📺 FINTECH-BEHIND THE SIMPLICITY
+title: FINTECH-BEHIND THE SIMPLICITY
+link: https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title
+author: padosum
 publishDate: 2021-02-26
 ---
 
-link: [https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title](https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title)
+
 
 ## 📝 요약 
 - 토스의 다큐멘터리  
@@ -22,7 +24,7 @@ link: [https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title](https://ww
 
 
 ## ⛓ 연결고리
-- [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+slownews+%28%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%89%B4%EC%8A%A4%29)  
-- [Deview 2020](../Dev/deview-2020.md)  
+- [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681)  
+- [Deview 2020](../Dev/deview-2020)  
   - Deno를 통해 알아보는 Javascript 세상 이야기에 나온 불편함에 관한 이야기를 토스가 해낸 것이라 생각이 든다.  
 

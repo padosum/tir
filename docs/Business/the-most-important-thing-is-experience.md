@@ -1,7 +1,7 @@
 ---
-title: 🏞 '돈이 되는 말'을 하는 법 가장 중요한 건 '경험'이다
-publishDate: 2021-01-07
+title: "'돈이 되는 말'을 하는 법 가장 중요한 건 '경험'이다"
 link: https://brunch.co.kr/@rollia/13
+publishDate: 2021-01-07
 ---
 ## 📝 요약 
 - 견문각지(見聞覺知): 보고, 듣고, 깨닫고, 아는 것. 일반적인 의미에서 견문각지가 많다는 것은 경험이 풍부하다는 뜻으로 해석되기도 한다.(https://ko.wikipedia.org/wiki/%EA%B2%AC%EB%AC%B8%EA%B0%81%EC%A7%80#cite_note-4)  
@@ -18,5 +18,5 @@ link: https://brunch.co.kr/@rollia/13
 
 
 ## ⛓ 연결고리
-- [우리 삶의 어떤 경험도 버릴 것이 없습니다](../Life/overview-effect.md)
-- [가변적 보상이 가진 강력한 중독성](../Life/the-powerful-addiction-of-variable-rewards.md)
+- [우리 삶의 어떤 경험도 버릴 것이 없습니다](../Life/overview-effect)
+- [가변적 보상이 가진 강력한 중독성](../Life/the-powerful-addiction-of-variable-rewards)

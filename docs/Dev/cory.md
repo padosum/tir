@@ -1,7 +1,8 @@
 ---
-title: ⚽️ 코드리뷰가 쏘아올린 작은공
-publishDate: 2021-02-16
+title: 코드리뷰가 쏘아올린 작은공
 link: https://woowabros.github.io/experience/2021/02/09/cory.html
+author: padosum
+publishDate: 2021-02-16
 ---
 ## 📝 요약 
 - '우아한형제들'에서 얕은 코드리뷰를 도입한 이야기  
@@ -15,5 +16,5 @@ link: https://woowabros.github.io/experience/2021/02/09/cory.html
 - 나도 새로운 팀에 들어가게 된다면 해당 코드리뷰 문화를 겪으며 동료애를 느끼고 싶어졌다!! 🤩   
 
 ## ⛓ 연결고리  
-- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview.md)
+- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview)
   - 코드리뷰란, "코드에 대한 책임이 그 코드를 만든 사람 혼자에게 있지 않고 우리 모두에게 있다는 문화를 만드는 데 있다."

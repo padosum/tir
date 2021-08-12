@@ -1,6 +1,8 @@
 ---
-title: http//channy.creation.net/blog/1186
-publishDate: 2020-09-08
+title: 연봉은 실력의 결과가 아니다
+link: http://channy.creation.net/blog/1186
+author: the1020
+publishDate: 2020-07-25
 tags: 
   - 연봉
   - 몸값

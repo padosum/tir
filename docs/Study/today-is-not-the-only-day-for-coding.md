@@ -1,6 +1,8 @@
 ---
-title: https//velog.io/@snoop2head/self-coaching
-publishDate: 2020-09-08
+title: 오늘만 코딩할 건 아니잖아
+link: https://velog.io/@snoop2head/self-coaching
+author: the1020
+publishDate: 2020-07-26
 tags: 
   - 자기관리
   - 건강

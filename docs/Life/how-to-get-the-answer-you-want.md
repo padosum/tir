@@ -1,6 +1,8 @@
 ---
-title: https//blog.2dal.com/2020/04/01/%eb%b9%a0%eb%a5%b4%ea%b3%a0-%ec%a0%95%ed%99%95%ed%95%98%ea%b2%8c-%eb%8b%b5%eb%b3%80%ec%9d%84-%eb%b0%9b%ec%9d%84-%ec%88%98-%ec%9e%88%eb%8a%94-%ec%a7%88%eb%ac%b8%ed%95%98%eb%8a%94-%eb%b2%95/
-publishDate: 2020-09-08
+title: 빠르고 정확하게 답변을 받을 수 있는 질문하는 법
+link: https://blog.2dal.com/2020/04/01/%eb%b9%a0%eb%a5%b4%ea%b3%a0-%ec%a0%95%ed%99%95%ed%95%98%ea%b2%8c-%eb%8b%b5%eb%b3%80%ec%9d%84-%eb%b0%9b%ec%9d%84-%ec%88%98-%ec%9e%88%eb%8a%94-%ec%a7%88%eb%ac%b8%ed%95%98%eb%8a%94-%eb%b2%95/
+author: the1020
+publishDate: 2020-08-03
 ---
 ### #빠르고 정확하게 답변을 받기 위한 팁
 

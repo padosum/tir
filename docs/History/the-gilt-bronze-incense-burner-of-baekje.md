@@ -1,7 +1,8 @@
 ---
-title: 💧 물웅덩이 속 금동대향로는 백제멸망 순간의 증거였다.
-publishDate: 2021-03-02
+title: 물웅덩이 속 금동대향로는 백제멸망 순간의 증거였다.
 link: https://m.khan.co.kr/view.html?art_id=202103020600001&code=960100
+author: padosum
+publishDate: 2021-03-02
 ---
 ## 📝 요약 
 - 금동대향로가 발견됐을 때의 이야기  

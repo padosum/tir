@@ -1,5 +1,7 @@
 ---
-title: https//velog.io/@zansol/%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0-%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81SSR-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81CSR
+title: SSR & CSR 
+link: https://velog.io/@zansol/%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0-%EC%84%9C%EB%B2%84%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81SSR-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EC%82%AC%EC%9D%B4%EB%93%9C%EB%A0%8C%EB%8D%94%EB%A7%81CSR
+author: the1020
 publishDate: 2020-09-10
 tags: 
   - ssr
@@ -19,8 +21,8 @@ tags:
    - 서버사이드의 경우 View를 서버에서 렌더링하여 가져오므로 첫 로딩 속도가 빠르다.(물론 js 파일을 모두 받기 전까지 반응하지 않지만, 사용자 입장에선 화면이 먼저 뜨기 때문에 빠르다고 생각하게 된다.)
    - 클라이언트사이드의 경우 HTML을 다운받은 후 각 리소스를 다운받고 브라우저에서 렌더링하기 때문에 로딩이 오래 걸림
 
-     ![SSR](../img/SSR.png)
-     ![CSR](../img/CSR.png)
+     ![SSR](../../docs/img/SSR.png)
+     ![CSR](../../docs/img/CSR.png)
 
 2) SEO(검색엔진최적화)
 

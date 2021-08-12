@@ -1,6 +1,8 @@
 ---
-title: https//velog.io/@chris/10-tips-for-starting-and-creating-side-projects
-publishDate: 2020-09-08
+title: 당신의 사이드 프로젝트를 위한 10가지 팁
+link: https://velog.io/@chris/10-tips-for-starting-and-creating-side-projects
+author: the1020
+publishDate: 2020-08-15
 tags: 
   - 사이드프로젝트
 ---

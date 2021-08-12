@@ -1,6 +1,8 @@
 ---
-title: https//velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC
-publishDate: 2020-09-08
+title: 공개적으로 학습하라!
+link: https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC
+author: the1020
+publishDate: 2020-07-22
 tags: 
   - developer
   - 학습

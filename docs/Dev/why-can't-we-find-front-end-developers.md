@@ -1,7 +1,8 @@
 ---
-title: 🎙 프론트엔드 개발자는 왜 구하기 어렵나요?
-publishDate: 2020-10-04
+title: 프론트엔드 개발자는 왜 구하기 어렵나요?
 link: https://taegon.kim/archives/4810
+author: padosum
+publishDate: 2020-10-04
 ---
 ## 📝 요약 
 [Why can‘t we find Front End Developers (2014)](https://whycantwefindfed.jjperezaguinaga.com/)의 번역글 

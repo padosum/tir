@@ -1,6 +1,8 @@
 ---
-title:  💡 Today I Read  https//velog.io/@denmark-choco/MVC-design-pattern
-publishDate: 2020-09-08
+title: MVC design pattern
+link: https://velog.io/@denmark-choco/MVC-design-pattern
+author: padosum
+publishDate: 2020-08-06
 tags: 
   - MVC
 ---

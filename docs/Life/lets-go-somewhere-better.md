@@ -1,7 +1,8 @@
 ---
-title: 🧭 돈 없고 빽없는 사람이 더 좋은 곳으로 가려면 
-publishDate: 2021-04-23
+title: 돈 없고 빽없는 사람이 더 좋은 곳으로 가려면 
 link: https://brunch.co.kr/@annejeong/99
+author: padosum
+publishDate: 2021-04-23
 ---
 ## 📝 요약 
 - '더 좋은 곳으로 가자' 저자 정문정님의 세바시에서 강의한 대본 내용  

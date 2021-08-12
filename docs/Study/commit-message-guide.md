@@ -1,6 +1,8 @@
 ---
-title: https//udacity.github.io/git-styleguide/
-publishDate: 2020-09-08
+title: Udacity Git Commit Message Style Guide
+link: https://udacity.github.io/git-styleguide/
+author: the1020
+publishDate: 2020-08-23
 tags: 
   - git
 ---

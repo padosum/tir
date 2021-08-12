@@ -1,5 +1,5 @@
 ---
-title: 🥕 '당근페이'가 등장하면 벌어질 일
+title: "'당근페이'가 등장하면 벌어질 일"
 publishDate: 2021-03-03
 link: http://blog.wishket.com/당근페이가-등장하면-벌어질-일/
 ---

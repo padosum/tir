@@ -1,7 +1,8 @@
 ---
-title: 💊 가변적 보상이 가진 강력한 중독성
-publishDate: 2020-11-27
+title: 가변적 보상이 가진 강력한 중독성
 link: https://newspeppermint.com/2020/11/26/m-variable/
+author: padosum
+publishDate: 2020-11-27
 ---
 
 ## 📝 요약 
@@ -22,7 +23,7 @@ link: https://newspeppermint.com/2020/11/26/m-variable/
   - 오늘 날 훌륭한 제품들의 기획자들은 대부분 이 개념을 안다.  
 
 ## 🤔 생각하기 
-- 니르 이얄의 생각에 대해서는 [랜덤 기계를 이용한 생산성 올리기](./Life/../randomness-jar.md)에서도 읽었다.  
+- 니르 이얄의 생각에 대해서는 [랜덤 기계를 이용한 생산성 올리기](../Life/randomness-jar)에서도 읽었다.  
   - 랜덤기계 또한 가변적 보상에 대한 내용이었다.  
 - 현재 SNS는 안하지만 유튜브가 진짜 문제다.  
   - 최근에 가변적보상에 대해 절실히 느낀것은 유튜브에 30초 이하의 영상을 모아놓은 섹션에서다.

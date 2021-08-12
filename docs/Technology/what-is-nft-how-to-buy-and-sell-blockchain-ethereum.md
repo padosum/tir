@@ -1,9 +1,9 @@
 ---
-title: ⛓️ 화제의 가상 자산'NFT'는 도대체 무엇일까?
+title: 화제의 가상 자산'NFT'는 도대체 무엇일까?
+link: https://hypebeast.kr/2021/3/what-is-nft-how-to-buy-and-sell-blockchain-ethereum
+author: padosum
 publishDate: 2021-04-01
 ---
-
-link: [https://hypebeast.kr/2021/3/what-is-nft-how-to-buy-and-sell-blockchain-ethereum](https://hypebeast.kr/2021/3/what-is-nft-how-to-buy-and-sell-blockchain-ethereum)
 
 ## 📝 요약 
 - NFT가 무엇인지, 어떻게 사고파는지, 블록체인과는 무슨 관련인지에 대한 내용  
@@ -18,6 +18,6 @@ link: [https://hypebeast.kr/2021/3/what-is-nft-how-to-buy-and-sell-blockchain-et
 
 
 ## ⛓️ 연결고리 
-- [이 고양이를 7억으로 만든 NFT란?](../Technology/what-is-nft.md)
+- [이 고양이를 7억으로 만든 NFT란?](../Technology/what-is-nft)
 - [http://www.newspenguin.com/news/articleView.html?idxno=4176](http://www.newspenguin.com/news/articleView.html?idxno=4176)
   - 비트코인의 기후 악영향에 관한 기사 

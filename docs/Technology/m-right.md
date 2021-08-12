@@ -1,7 +1,8 @@
 ---
-title: 👩‍⚖️ 기술의 발전이 옳고 그름을 바꿀 때
-publishDate: 2021-03-15
+title: 기술의 발전이 옳고 그름을 바꿀 때
 link: https://newspeppermint.com/2021/03/11/m-right
+author: padosum
+publishDate: 2021-03-15
 ---
 ## 📝 요약 
 - 기술이 기하급수적으로 발전하고 있는 오늘날에 우리가 옳고 그름에 대해 어떤 입장을 가져야 하는지에 대한 이야기  

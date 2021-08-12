@@ -1,7 +1,8 @@
 ---
-title: 😀 그림으로 말해요! 이모지의 모든 것
-publishDate: 2021-04-02
+title: 그림으로 말해요! 이모지의 모든 것
 link: https://www.inflearn.com/pages/weekly-inflearn-26
+author: padosum
+publishDate: 2021-04-02
 ---
 ## 📝 요약 
 - 이모지의 탄생배경과 여러 이야기들   

@@ -1,7 +1,8 @@
 ---
-title: 🏄‍♂️ 텍스트를 입력하세요  
-publishDate: 2020-09-08
+title: 텍스트를 입력하세요  
 link: https://brunch.co.kr/@bundi/36
+author: padosum
+publishDate: 2020-07-26
 ---
 
   

@@ -1,7 +1,8 @@
 ---
-title: 🏞 ALT 태그가 뭐지? 
-publishDate: 2021-01-20
+title: ALT 태그가 뭐지? 
 link: https://ppss.kr/archives/221625
+author: padosum
+publishDate: 2020-07-23
 ---
  
 
@@ -33,4 +34,4 @@ link: https://ppss.kr/archives/221625
 
 
 ## ⛓ 연결고리 
-- [Frontend 바로 알기](../Dev/know-front-end-right-away.md)
+- [Frontend 바로 알기](../Dev/know-front-end-right-away)

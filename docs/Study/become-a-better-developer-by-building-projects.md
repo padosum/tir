@@ -1,6 +1,8 @@
 ---
-title: https//www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
-publishDate: 2020-09-08
+title: How to Become a Better Front-end Developer by Building Projects
+link: https://www.freecodecamp.org/news/become-a-better-developer-by-building-projects/
+author: the1020
+publishDate: 2020-08-05
 tags: 
   - developer
   - 학습

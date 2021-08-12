@@ -1,8 +1,9 @@
 ---
-title: 🏞 우리 삶의 어떤 경험도 버릴 것이 없습니다
+title: 우리 삶의 어떤 경험도 버릴 것이 없습니다
+author: padosum
 publishDate: 2020-11-13
 ---
-![overview-effect](../img/overview-effect.png)
+![overview-effect](../docs/../docs/img/overview-effect.png)
 
 
 ## 📝 요약 

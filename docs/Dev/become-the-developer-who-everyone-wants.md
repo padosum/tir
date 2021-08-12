@@ -1,7 +1,8 @@
 ---
-title: 👩‍💻 누구나 원하는 개발자되기
-publishDate: 2020-11-28
+title: 누구나 원하는 개발자되기
 link: https://blog.shiren.dev/2020-11-23/
+author: padosum
+publishDate: 2020-11-28
 ---
 ## 📝 요약 
 - 채용 담당자의 경험으로서 느끼는 선배개발자로서의 몇가지 조언들을 정리한 글 

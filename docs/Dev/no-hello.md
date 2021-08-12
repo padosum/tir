@@ -1,7 +1,8 @@
 ---
-title: ✋ 채팅에서 그냥 "안녕하세요"라고 말하지 마세요. 
-publishDate: 2020-09-08
+title: 채팅에서 그냥 "안녕하세요"라고 말하지 마세요. 
 link: https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3
+author: padosum
+publishDate: 2020-08-09
 ---
 ## 📝 요약 
 - 원문: [https://www.nohello.com/](https://www.nohello.com/)

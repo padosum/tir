@@ -1,7 +1,8 @@
 ---
-title: 📓 알고리즘 학습에 대한 조언 
-publishDate: 2020-09-08
+title: 알고리즘 학습에 대한 조언 
 link: https://edykim.com/ko/post/advice-on-learning-algorithms/
+author: padosum
+publishDate: 2020-08-07
 ---
 ## 📝 요약 
 

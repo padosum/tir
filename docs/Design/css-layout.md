@@ -1,7 +1,8 @@
 ---
-title: 🎨 CSS Layout 
-publishDate: 2020-09-08
+title: CSS Layout 
 link: https://csslayout.io/
+author: padosum
+publishDate: 2020-07-24
 ---
 
 - 91가지 레이아웃 패턴들이 있다.  

@@ -1,7 +1,8 @@
 ---
-title: 🤽‍♀️ 10배 뛰어난 개발자 되기 
-publishDate: 2020-09-08
+title: 10배 뛰어난 개발자 되기 
 link: https://muchtrans.com/translations/10xdeveloper.ko.html
+author: padosum
+publishDate: 2020-08-08
 ---
 ## 📝 요약 
 

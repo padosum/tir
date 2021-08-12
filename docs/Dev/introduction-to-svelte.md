@@ -1,6 +1,8 @@
 ---
-title: https//ui.toast.com/weekly-pick/ko_20191002/
-publishDate: 2020-09-08
+title: 처음 만나는 Svelte
+link: https://ui.toast.com/weekly-pick/ko_20191002/
+author: 1020
+publishDate: 2020-07-20
 tags: 
   - front-end
   - svelte

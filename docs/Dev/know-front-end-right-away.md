@@ -1,7 +1,8 @@
 ---
-title: 🔍 Frontend 바로 알기
-publishDate: 2021-01-20
+title: Frontend 바로 알기
 link: https://blueshw.github.io/2020/05/05/know-front-end-right-away/
+author: padosum
+publishDate: 2021-01-20
 ---
 ## 📝 요약 
 - 프론트엔드 기반 기술에 관한 포스팅 시리즈  
@@ -17,5 +18,5 @@ link: https://blueshw.github.io/2020/05/05/know-front-end-right-away/
 
 
 ## ⛓ 연결고리  
-- [ALT 태그가 뭐지?](../Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
-- [HTTPS에 대해 알아야 할 것들](../Dev/about-https.md)
+- [ALT 태그가 뭐지?](../Dev/what-is-an-alt-tag-and-how-should-you-use-it)
+- [HTTPS에 대해 알아야 할 것들](../Dev/about-https)

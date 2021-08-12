@@ -1,7 +1,8 @@
 ---
-title: 🧑‍🦽 탈시설을 아십니까
-publishDate: 2021-01-19
+title: 탈시설을 아십니까
 link: https://slownews.kr/79165
+author: padosum
+publishDate: 2021-01-19
 ---
 ## 📝 요약 
 - 탈시설이 무엇인지, 왜 필요한지에 대한 기사  
@@ -15,5 +16,5 @@ link: https://slownews.kr/79165
   - 이건 우리나라도 다르지 않았다.  
 
 ## ⛓ 연결고리
-- [밥 한번 안 해본 사람이 설계한 '시스템'이 문제다](../Life/who-cares.md)
+- [밥 한번 안 해본 사람이 설계한 '시스템'이 문제다](../Life/who-cares)
 - [해외 코로나19 사망자 절반이 시설거주인… “긴급 탈시설이 답”](https://www.beminor.com/news/articleView.html?idxno=20382)

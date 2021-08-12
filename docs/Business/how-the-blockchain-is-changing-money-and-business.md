@@ -1,7 +1,8 @@
 ---
-title: ⛓ 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
-publishDate: 2020-12-04
+title: 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
 link: https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be
+publishDate: 2020-12-04
+author: padosum
 ---
 
 ## 📝 요약 

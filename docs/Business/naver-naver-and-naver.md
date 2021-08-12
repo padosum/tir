@@ -1,7 +1,8 @@
 ---
-title: 🎾 네이버, 네이버, 그리고 네이버 
-publishDate: 2020-09-16
+title: 네이버, 네이버, 그리고 네이버 
 link: http://www.bloter.net/archives/396706
+publishDate: 2020-07-21
+author: padosum
 ---
 
 ## 🤔 생각하기 

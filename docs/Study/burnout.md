@@ -1,6 +1,8 @@
 ---
-title: https//www.youtube.com/watch?v=5kjrJaFIAls
-publishDate: 2020-09-08
+title: 개발자 번아웃 대처방법의 모든 것
+link: https://www.youtube.com/watch?v=5kjrJaFIAls
+author: the1020
+publishDate: 2020-08-13
 tags: 
   - 번아웃
   - 휴식

@@ -1,7 +1,8 @@
 ---
-title: 🤝 네이버와 CJ는 왜 손을 잡았을까?
-publishDate: 2021-03-01
+title: 네이버와 CJ는 왜 손을 잡았을까?
 link: https://ppss.kr/archives/235742
+publishDate: 2021-03-01
+author: padosum
 ---
 ## 📝 요약 
 - 네이버와 쿠팡의 경쟁구도  
@@ -27,6 +28,6 @@ link: https://ppss.kr/archives/235742
   - 그 안에 포함될 수 있기를 소망해본다.
 
 ## ⛓ 연결고리
-- [FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity.md)
+- [FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity)
   - **얼마나 더 편리할 수 있느냐**가 관건
   

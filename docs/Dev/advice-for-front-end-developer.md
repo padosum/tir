@@ -1,7 +1,8 @@
 ---
-title: 🔰 신입 프론트엔드 개발자를 위한 면접 조언
-publishDate: 2020-09-08
+title: 신입 프론트엔드 개발자를 위한 면접 조언
 link: https://taegon.kim/archives/5770
+author: padosum
+publishDate: 2020-08-02
 ---
 ## 📝 요약
 

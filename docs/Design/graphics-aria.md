@@ -1,7 +1,8 @@
 ---
-title: 📊 사람을 위한 정보 그래픽 디자인
-publishDate: 2021-04-16
+title: 사람을 위한 정보 그래픽 디자인
 link: https://a11y.gitbook.io/graphics-aria/
+author: padosum
+publishDate: 2021-04-16
 ---
 ## 📝 요약 
 - 정보 디자인에 대한 이야기  
@@ -16,7 +17,7 @@ link: https://a11y.gitbook.io/graphics-aria/
 
 
 ## ⛓ 연결고리 
-- [ALT 태그가 뭐지?](../Dev/what-is-an-alt-tag-and-how-should-you-use-it.md)
+- [ALT 태그가 뭐지?](../Dev/what-is-an-alt-tag-and-how-should-you-use-it)
   - 접근성 이야기  
-- [FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity.md)
+- [FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity)
   - 접근성을 이야기한 내용이 있었음

@@ -1,7 +1,8 @@
 ---
-title: 🚙 자바스크립트 패키지 매니저의 여정
-publishDate: 2021-04-04
+title: 자바스크립트 패키지 매니저의 여정
 link: https://www.cleancoder.dev/package-manager-history/
+author: padosum
+publishDate: 2021-04-04
 ---
 ## 📝 요약 
 - 자바스크립트 패키지 매니저 역사  

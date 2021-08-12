@@ -1,7 +1,8 @@
 ---
-title: 🧔 조직에 필요한 인재는 '대체 불가한 인재'가 아니다
-publishDate: 2021-02-08
+title: 조직에 필요한 인재는 '대체 불가한 인재'가 아니다
 link: https://ppss.kr/archives/234980
+publishDate: 2021-02-08
+author: padosum
 ---
 ## 📝 요약 
 - "대체 불가한 인재"가 되라는 말이 끼치는 해악  
@@ -20,5 +21,5 @@ link: https://ppss.kr/archives/234980
   - 물론 번아웃을 피하기 위해 내 감정도 엄청 중요하다. 균형이 필요하다.  
 
 ## ⛓ 연결고리
-- [10배 뛰어난 개발자 되기](../Dev/becoming-a-10x-developer.md)
+- [10배 뛰어난 개발자 되기](../Dev/becoming-a-10x-developer)
   - 10배 뛰어난 엔지니어는 남들보다 10배 뛰어난 사람이 아니라, 주변 사람을 10배 뛰어나게 만드는 사람이다.

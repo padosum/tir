@@ -1,7 +1,8 @@
 ---
-title: 🎑 자바스크립트의 동작원리 엔진, 런타임, 호출 스택
-publishDate: 2020-09-08
+title: 자바스크립트의 동작원리 엔진, 런타임, 호출 스택
 link: https://joshua1988.github.io/web-development/translation/javascript/how-js-works-inside-engine/
+author: padosum
+publishDate: 2020-08-12
 ---
 ## 📝 요약 
 
