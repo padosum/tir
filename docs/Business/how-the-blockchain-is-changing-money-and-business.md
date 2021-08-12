@@ -1,13 +1,13 @@
-# ⛓ 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
-
-- 링크: [https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be](https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be)
-- 정리글: [https://brunch.co.kr/@michellelalala/71#comment](https://brunch.co.kr/@michellelalala/71#comment)
-
+---
+title: 블록체인이 어떻게 돈과 비즈니스를 바꾸는가
+link: https://www.youtube.com/watch?v=Pl8OlkkwRpc&feature=youtu.be
+publishDate: 2020-12-04
+author: padosum
+---
 
 ## 📝 요약 
 - 블록체인의 작동원리와 활용  
-
-
+- 정리글: [https://brunch.co.kr/@michellelalala/71](https://brunch.co.kr/@michellelalala/71)
 ## 🤔 생각하기 
 - 최근에 비트코인이 다시 상승중이라는 뉴스 기사를 보고 이제서야 블록체인이 뭔지 궁금해져 찾아본 영상이다.
 - 잘 활용된다면 정말정말 좋은 기술이라고 생각이 드는데, 최근에 [인간의 흑역사](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791155812396) 라는 책을 읽다보니 어떻게 될지는 아무도 모르지 않을까 하는 생각이 든다.  

@@ -1,6 +1,10 @@
-#  👩‍💻 개발자 비급 
+---
+title: 개발자 비급 
+link: http://channy.creation.net/blog/1186
+author: padosum
+publishDate: 2020-07-25
+---
 
-- 링크: [개발자 비급](http://channy.creation.net/blog/1186)
 
 ## 📝 요약 
 

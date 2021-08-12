@@ -1,7 +1,9 @@
-# 🖥 읽기 쉬운 웹을 위한 타이포그래피
-
-- 링크: [https://parksb.github.io/article/37.html](https://parksb.github.io/article/37.html)
-
+---
+title: 읽기 쉬운 웹을 위한 타이포그래피
+link: https://parksb.github.io/article/37.html
+author: padosum
+publishDate: 2021-01-18
+---
 ## 📝 요약 
 - 조판 원칙을 통해 가독성을 높여 읽기 쉬운 웹을 만드는 법 
 

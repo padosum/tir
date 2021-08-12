@@ -1,7 +1,9 @@
-# 🏀 프로그래밍은 쉬워요
-
-- 링크: [https://sungdoo.dev/retrospective-or-psa/programming-is-easy/](https://sungdoo.dev/retrospective-or-psa/programming-is-easy/)
-
+---
+title: 프로그래밍은 쉬워요
+link: https://sungdoo.dev/retrospective-or-psa/programming-is-easy/
+author: padosum
+publishDate: 2021-05-04
+---
 ## 📝 요약 
 - 뭔가를 배우는 일을 통해 알아보는 프로그래밍을 빠르게 배우는 법에 대한 이야기   
 

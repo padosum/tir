@@ -1,7 +1,11 @@
-## 💡 Today I Read : https://udacity.github.io/git-styleguide/
-
-### #git #commit #message
-
+---
+title: Udacity Git Commit Message Style Guide
+link: https://udacity.github.io/git-styleguide/
+author: the1020
+publishDate: 2020-08-23
+tags: 
+  - git
+---
 #  📝 메시지 타입
 - feat : 새로운 기능 추가
 - fix : 버그 수정, 기능 수정

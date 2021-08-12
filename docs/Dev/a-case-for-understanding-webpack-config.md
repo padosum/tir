@@ -1,7 +1,9 @@
-# 📦 Webpack 설정을 이해하는 일의 가치
-
-- 링크: [https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/](https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/)
-
+---
+title: Webpack 설정을 이해하는 일의 가치
+link: https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/
+author: padosum
+publishDate: 2021-02-01
+---
 ## 📝 요약 
 - Webpack 관련 작업을 하다 떠올린 끈기 있는 학습 과정에 대한 이야기 
 
@@ -14,5 +16,5 @@
 - 지금 나에게 주어진 시간은 정말로 충분하기에, 무엇이든 끈기 있게 배워나가야겠다.  
 
 ## ⛓ 연결고리
-- [우리 삶의 어떤 경험도 버릴 것이 없습니다](../Life/overview-effect.md)
-- ['돈이 되는 말'을 하는 법: 가장 중요한 건 '경험'이다](../Business/the-most-important-thing-is-experience.md)
+- [우리 삶의 어떤 경험도 버릴 것이 없습니다](../Life/overview-effect)
+- ['돈이 되는 말'을 하는 법: 가장 중요한 건 '경험'이다](../Business/the-most-important-thing-is-experience)

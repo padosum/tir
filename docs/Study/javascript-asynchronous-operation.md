@@ -1,7 +1,9 @@
-# 🤙 자바스크립트 비동기 처리와 콜백 함수
-
-- 링크: [https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/](https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/)
-
+---
+title: 자바스크립트 비동기 처리와 콜백 함수
+link: https://joshua1988.github.io/web-development/javascript/javascript-asynchronous-operation/
+author: padosum
+publishDate: 2021-05-24
+---
 ## 📝 요약 
 - 자바스크립트 비동기 처리에 대해 설명한 글 
 - 시리즈물 함께 읽기 

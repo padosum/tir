@@ -1,7 +1,11 @@
-## 💡 Today I Read : https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e
-
-### #TDD #테스트 주도 방법론
-
+---
+title: 다 함께 TDD
+link: https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e
+author: 1020
+publishDate: 2020-08-09
+tags: 
+  - TDD
+---
 # 🔩 TDD(Test Driven Development)
 - 테스트 코드를 먼저 작성하고 그 테스트 코드를 통과하는 실제 코드를 나중에 작성하는 개발 방법
 - Clean code that works!

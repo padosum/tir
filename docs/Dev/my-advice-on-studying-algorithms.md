@@ -1,7 +1,9 @@
-#  📓 알고리즘 학습에 대한 조언 
-
-- 링크: [https://edykim.com/ko/post/advice-on-learning-algorithms/](https://edykim.com/ko/post/advice-on-learning-algorithms/)
-
+---
+title: 알고리즘 학습에 대한 조언 
+link: https://edykim.com/ko/post/advice-on-learning-algorithms/
+author: padosum
+publishDate: 2020-08-07
+---
 ## 📝 요약 
 
 - Buck Shlegeris의 [My advice on studying algorithms](http://shlegeris.com/2016/08/14/algorithms) 번역글

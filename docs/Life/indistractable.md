@@ -1,7 +1,9 @@
-# 🎆 다양한 핑곗거리로 매번 방해받는 당신에게
-
-- 링크: [https://brunch.co.kr/@nanotoly/13](https://brunch.co.kr/@nanotoly/13)
-
+---
+title: 다양한 핑곗거리로 매번 방해받는 당신에게
+link: https://brunch.co.kr/@nanotoly/13
+author: padosum
+publishDate: 2020-08-16
+---
 ## 📝 요약 
 - '니르 이얄' 책 <초집중>에서 우리를 방해하는 외부 요소를 `외부 계기`라고 하는데, 이 외부 계기로부터 방해받지 않는 몇 가지 방법을 소개  
 

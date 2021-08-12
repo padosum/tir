@@ -1,7 +1,9 @@
-# 📕 책 100권을 읽으면 일어나는 변화
-
-- 링크: [https://brunch.co.kr/@yonycompany/29#comment](https://brunch.co.kr/@yonycompany/29#comment)
-
+---
+title: 책 100권을 읽으면 일어나는 변화
+link: https://brunch.co.kr/@yonycompany/29
+author: padosum
+publishDate: 2020-12-10
+---
 ## 📝 요약 
 - 독서는 양질 전환의 법칙을 따른다.  
   - 독서 100권 - 한 분야의 전문가가 될 수 있다.
@@ -31,5 +33,5 @@
     - 그래서 1페이지라도 읽는 것을 목표로 해야겠다.  
   - 성과 확인하기 부분도 공감이가는게 게임은 나한테 실질적인 뭔가 생기는 게 아닌데 기분이 좋다.  
     - 게임 아이템 등을 통해... 책도 보상이 있어야하는데... 
-    - [랜덤 기계를 이용한 생산성 올리기](../Life/randomness-jar.md)을 독서에도 적용시켜보는 게 좋을까?  
+    - [랜덤 기계를 이용한 생산성 올리기](../Life/randomness-jar)을 독서에도 적용시켜보는 게 좋을까?  
     - 일단 기록을 하고 내 스스로 칭찬할 줄 아는 마인드를 배워야겠다!! 

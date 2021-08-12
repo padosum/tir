@@ -1,6 +1,10 @@
-# 🏞 ALT 태그가 뭐지? 
-
-- 링크: [ALT 태그가 뭐지?](https://ppss.kr/archives/221625)  
+---
+title: ALT 태그가 뭐지? 
+link: https://ppss.kr/archives/221625
+author: padosum
+publishDate: 2020-07-23
+---
+ 
 
 ## 🤔 생각하기 
 - 2년전에 웹 접근성 교육들었던 것이 생각이 났다.  
@@ -30,4 +34,4 @@
 
 
 ## ⛓ 연결고리 
-- [Frontend 바로 알기](../Dev/know-front-end-right-away.md)
+- [Frontend 바로 알기](../Dev/know-front-end-right-away)

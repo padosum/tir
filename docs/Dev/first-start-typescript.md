@@ -1,6 +1,12 @@
-## 💡 Today I Read : https://nomadcoders.co/typescript-for-beginners (~ #0.5)
-
-### #typescript #javascript
+---
+title: Typescript로 블록체인 만들기
+link: https://nomadcoders.co/typescript-for-beginners
+author: the1020
+publishDate: 2020-08-18
+tags: 
+  - typescript
+  - javascript
+---
 
 # typescript란
 - 자바스크립트는 타입이 없는 언어로 한 변수에 문자, 숫자, boolean 등 여러 타입의 값을 넣을 수 있다. 따라서 비교적 유연하게 개발할 수 있는 환경이지만

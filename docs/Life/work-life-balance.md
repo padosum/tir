@@ -1,7 +1,9 @@
-# ⏰ 정말 근무 시간만이 워라밸의 전부일까?
-
-- 링크: [https://evan-moon.github.io/2020/09/27/work-life-balance/](https://evan-moon.github.io/2020/09/27/work-life-balance/)
-
+---
+title: 정말 근무 시간만이 워라밸의 전부일까?
+link: https://evan-moon.github.io/2020/09/27/work-life-balance/
+author: padosum
+publishDate: 2020-11-19
+---
 ## 📝 요약 
 - 대한민국 워라밸의 현 주소
   - 2018년 1년 간 평균 근로시간 통계 2위 

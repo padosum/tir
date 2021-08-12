@@ -1,7 +1,12 @@
-## 💡 Today I Read : https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0
-
-### #리액트 #프론트앤드
-
+---
+title: React를 사용하는 이유
+link: https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0
+author: the1020
+publishDate: 2020-08-07
+tags: 
+  - front-end
+  - react
+---
 # 프론트앤드 라이브러리/프레임워크의 역할
 - DOM 관리와 상태 변화 관리를 최소화(DOM 요소의 변화가 반복될수록 비효율성이 높아진다.)
 

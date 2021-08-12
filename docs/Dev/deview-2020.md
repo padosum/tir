@@ -1,7 +1,9 @@
-# 📛 Deview 2020
-
-- 링크: [https://tv.naver.com/v/16970963](https://tv.naver.com/v/16970963)
-
+---
+title: Deview 2020
+link: https://tv.naver.com/v/16970963
+author: padosum
+publishDate: 2020-12-26
+---
 ## 📝 요약 
 - Deno를 통해 알아보는 Javascript 세상 이야기
   - Javascript의 역사를 간략하게 알아보고 단점으로 인해 나타난 Typescript 
@@ -19,4 +21,4 @@
 
 
 ## ⛓ 연결고리
-- [토스 다큐멘터리 FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity.md)
+- [토스 다큐멘터리 FINTECH-BEHIND THE SIMPLICITY](../Dev/fintech-behind-the-simplicity)

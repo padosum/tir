@@ -1,7 +1,9 @@
-# 🌝 복잡한 커밋 로그를 정리해줄 구원자, gitmoji
-
-- 링크: [https://pilgwon.github.io/post/gitmoji](https://pilgwon.github.io/post/gitmoji)
-
+---
+title: 복잡한 커밋 로그를 정리해줄 구원자, gitmoji
+link: https://pilgwon.github.io/post/gitmoji
+author: padosum
+publishDate: 2020-11-14
+---
 ## 📝 요약 
 
 - 코드 리뷰할 때 변경된 코드를 이해하는 시간을 줄이기 위해 모든 커밋앞에 emoji를 붙이는 방법

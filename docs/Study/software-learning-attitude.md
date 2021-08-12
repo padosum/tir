@@ -1,7 +1,9 @@
-# 🐡 소프트웨어 학습 태도
-
-- 링크: [https://brunch.co.kr/@godrm77/16](https://brunch.co.kr/@godrm77/16)
-
+---
+title: 소프트웨어 학습 태도
+link: https://brunch.co.kr/@godrm77/16
+author: padosum
+publishDate: 2020-08-18
+---
 ## 📝 요약 
 - 소프트웨어를 학습하는 누구나 시도해야할 7가지 학습 태도  
   - 소프트웨어를 학습하면서 좌절했거나 힘들거나 성장하고 싶거나 시작하는 사람이 시도해보길 바란다.  

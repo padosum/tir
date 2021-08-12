@@ -1,7 +1,9 @@
-# ✅ 데이터 검정은 언제, 얼마나 해야 할까?
-
-- 링크: [https://elvanov.com/2414](https://elvanov.com/2414)
-
+---
+title: 데이터 검정은 언제, 얼마나 해야 할까?
+link: https://elvanov.com/2414
+author: padosum
+publishDate: 2021-04-08
+---
 ## 📝 요약 
 - '데이터 검증을 언제 얼마나 해야 하는가'에 대한 의견  
 

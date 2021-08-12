@@ -1,6 +1,9 @@
-# 📼 이 고양이를 7억으로 만든 NFT란?
-- 링크: [https://youtu.be/jZkTtph5Raw](https://youtu.be/jZkTtph5Raw)
-
+---
+title: 이 고양이를 7억으로 만든 NFT란?
+link: https://youtu.be/jZkTtph5Raw
+author: padosum
+publishDate: 2021-03-19
+---
 ## 📝 요약 
 - NFT(Non-Fungible Token)이란 무엇인가?
   - 대체불가자산

@@ -1,7 +1,12 @@
-## 💡 Today I Read : http://channy.creation.net/blog/1186
-
-### #연봉 #몸값
-
+---
+title: 연봉은 실력의 결과가 아니다
+link: http://channy.creation.net/blog/1186
+author: the1020
+publishDate: 2020-07-25
+tags: 
+  - 연봉
+  - 몸값
+---
 # 💎 연봉이 실력의 결과가 아니면 무엇?
 나를 결정짓는 절대적 잣대가 아니라 상대적인 것이라고 생각하면 마음이 편해진다.
 비슷한 경력과 실력을 가졌어도 각자 다른 패턴의 이직과 그 외의 요인들로 연봉 차이는 날 수 밖에 없다.

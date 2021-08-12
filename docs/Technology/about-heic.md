@@ -1,7 +1,9 @@
-# 📷 HEIF(HEIC)에 대해 알아보자
-
-- 링크: [https://blog.naver.com/musediet/222252856340](https://blog.naver.com/musediet/222252856340)
-
+---
+title: HEIF(HEIC)에 대해 알아보자
+link: https://blog.naver.com/musediet/222252856340
+author: padosum
+publishDate: 2021-04-05
+---
 ## 📝 요약 
 - HEIC (High Efficiency Image Container)가 무엇인지, 그리고 대중화를 위해 넘어야 할 산은 무엇인지
 

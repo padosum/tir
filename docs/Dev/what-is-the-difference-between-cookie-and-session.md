@@ -1,7 +1,13 @@
-## 💡 Today I Read : https://velog.io/@stay136/%EA%B8%B0%EC%88%A0-%EC%BF%A0%ED%82%A4%EC%99%80-%EC%84%B8%EC%85%98%EC%9D%98-%EC%B0%A8%EC%9D%B4
-
-### #쿠키 #세션 #HTTP
-
+---
+title: 쿠키와 세션의 차이
+link: https://velog.io/@stay136/%EA%B8%B0%EC%88%A0-%EC%BF%A0%ED%82%A4%EC%99%80-%EC%84%B8%EC%85%98%EC%9D%98-%EC%B0%A8%EC%9D%B4
+author: the1020
+publishDate: 2020-07-28
+tags: 
+  - cookie 
+  - session
+  - http
+---
 # HTTP 프로토콜의 특징
 - 비연결지향
 - 상태정보유지안함

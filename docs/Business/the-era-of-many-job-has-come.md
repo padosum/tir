@@ -1,7 +1,9 @@
-# 🕵️ 직업이 여러개인 시대가 왔다
-
-- 링크: [https://brunch.co.kr/@halihali/34](https://brunch.co.kr/@halihali/34)
-
+---
+title: 직업이 여러개인 시대가 왔다
+link: https://brunch.co.kr/@halihali/34
+publishDate: 2021-01-09
+author: padosum
+---
 ## 📝 요약 
 - 부업의 시대에 대한 이야기  
 
@@ -17,5 +19,5 @@
   - 거기에 맞는 인재상이 되려면, 즉 그 시대에도 먹고살려면... 그때까지 내가 즐거울 수 있는 일을 찾는 여정의 시간은 충분하지 않을까 하는 생각도 들었다. 
 
 ## ⛓ 연결고리 
-- [왜 주변에 부자들이 점점 늘어날까?](../Life/why-are-there-more-and-more-rich-people-around.md)
-- [워라밸](../Life/work-life-balance.md)
+- [왜 주변에 부자들이 점점 늘어날까?](../Life/why-are-there-more-and-more-rich-people-around)
+- [워라밸](../Life/work-life-balance)

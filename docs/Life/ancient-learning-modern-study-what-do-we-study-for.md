@@ -1,7 +1,9 @@
-# 📚 고대의 학문, 현대인의 공부: 우리는 무엇을 위해 공부하는가
-
-- 링크: [https://ppss.kr/archives/232271?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29](https://ppss.kr/archives/232271?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ppss+%28%E3%85%8D%E3%85%8D%E3%85%85%E3%85%85%29)
-
+---
+title: 고대의 학문, 현대인의 공부 우리는 무엇을 위해 공부하는가
+link: https://ppss.kr/archives/232271
+author: padosum
+publishDate: 2021-01-05
+---
 ## 📝 요약 
 - 우리는 공부하지 않는 삶을 살기 위해 악착같이 공부를 하는 역설 가운데 살고 있다.  
 - 과거의 인간에게 공부는 가진 자의 특권  
@@ -24,7 +26,7 @@
 
 
 ## 🤔 생각하기 
-- '관조'에 관한 부분은 예전에 읽고 TIR에 남기진 않았던 [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+slownews+%28%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%89%B4%EC%8A%A4%29) 글이 생각났다.  
+- '관조'에 관한 부분은 예전에 읽고 TIR에 남기진 않았던 [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681) 글이 생각났다.  
   - 결국 트렌드를 파악하려는 그 사소한 습관을 통해 나만의 철학이 만들어지고 그게 나에게 이득이 되는 것일까?  
   - 그러고 그런 인문학, 철학을 가진 사람이 더 확실한 자유민이 되어가는 시대인 듯 하다.  
 - 겉만 자유민이 아닌 진정한 자유민이 될 수 있도록 즐겁게 공부를 하자.  
@@ -33,5 +35,5 @@
 
 
 ## ⛓️ 연결고리
-- [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+slownews+%28%EC%8A%AC%EB%A1%9C%EC%9A%B0%EB%89%B4%EC%8A%A4%29)
-- [왜 주변에 부자들이 점점 늘어날까?](../Life/why-are-there-more-and-more-rich-people-around?.md)
+- [트렌드 읽는 '사소한' 습관](https://slownews.kr/77681)
+- [왜 주변에 부자들이 점점 늘어날까?](../Life/why-are-there-more-and-more-rich-people-around)

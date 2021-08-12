@@ -1,6 +1,9 @@
-# 🌏 MZ가 현실에서 단절된 관계를 대안공간에서 확장하는 방법 
-- 링크: [https://brunch.co.kr/@xpleat/58](https://brunch.co.kr/@xpleat/58)
-
+---
+title: MZ가 현실에서 단절된 관계를 대안공간에서 확장하는 방법 
+link: https://brunch.co.kr/@xpleat/58
+author: padosum
+publishDate: 2021-07-04
+---
 ## 📝 요약
 - 메타버스의 정의, 활용 사례
 

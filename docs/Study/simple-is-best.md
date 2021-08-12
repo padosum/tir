@@ -1,7 +1,12 @@
-## 💡 Today I Read : https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4
-
-### #쉽게 #개발하기
-
+---
+title: 개발도 쉽게 풀어가야 합니다.
+link: https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4
+author: the1020
+publishDate: 2020-08-05
+tags: 
+  - 쉽게
+  - 개발하기
+---
 # 스스로 개발을 어렵게 하는 것들
 1. 새로운 스택을 배우는 것은 좋지만 **본인의 상황과 능력치를 고려**하지 않은채로 그저 요즘 유행한다더라 해서 시작하게 된다면 높은 확률로 개발이 힘들어진다.
 

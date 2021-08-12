@@ -1,4 +1,9 @@
-## 💡 Today I Read : https://velog.io/@mowinckel/%EC%95%84%EB%AC%B4%EB%8F%84-%EA%B0%80%EB%A5%B4%EC%B3%90-%EC%A3%BC%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%83
+---
+title: 아무도 가르쳐 주지 않는 것
+link: https://velog.io/@mowinckel/%EC%95%84%EB%AC%B4%EB%8F%84-%EA%B0%80%EB%A5%B4%EC%B3%90-%EC%A3%BC%EC%A7%80-%EC%95%8A%EB%8A%94-%EA%B2%83
+author: the1020
+publishDate: 2020-07-27
+---
 ### #알았다면 좋았을 것들 #지금이라도 알아두자
 
 # 📊 Log

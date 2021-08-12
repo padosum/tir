@@ -1,11 +1,18 @@
-## 💡 Today I Read : https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
-
-### #else #cleancode #early *
+---
+title: 니들은 else 같은거 쓰지마라
+link: https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
+author: the1020
+publishDate: 2020-07-21
+tags: 
+  - cleancode" 
+  - "early" 
+  - "else"
+---
 
 # 🕳 else의 문제점
 - else 자체로는 문제가 안되지만 쓰지 않아도 되는 상황에서 중첩구조를 쓰게 되면 코드가 복잡해진다.
 
-![else](../img/else.jpeg)
+![else](../../docs/img/else.jpeg)
 
 # 💊 elary return
 - return 시켜서 뒷 코드를 타지 않도록 한다.

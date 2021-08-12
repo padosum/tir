@@ -1,7 +1,13 @@
-## 💡 Today I Read : https://www.youtube.com/watch?v=5kjrJaFIAls
-
-### #개발자 #번아웃 #휴식
-
+---
+title: 개발자 번아웃 대처방법의 모든 것
+link: https://www.youtube.com/watch?v=5kjrJaFIAls
+author: the1020
+publishDate: 2020-08-13
+tags: 
+  - 번아웃
+  - 휴식
+  - developer
+---
 #  💉 번아웃을 예방하는 방법
 1. 자신이 개발자 이상의 인간임을 자각한다.
     - 프로그래밍은 내가 하는 일 중 하나여야 한다.

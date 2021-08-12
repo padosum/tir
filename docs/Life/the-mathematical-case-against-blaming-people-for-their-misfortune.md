@@ -1,7 +1,9 @@
-# 📰 사람은 자신의 불운에 어느 정도 책임을 져야 할까요?
-
-- 링크: [https://newspeppermint.com/2021/02/04/m-complexity](https://newspeppermint.com/2021/02/04/m-complexity)
-
+---
+title: 사람은 자신의 불운에 어느 정도 책임을 져야 할까요?
+link: https://newspeppermint.com/2021/02/04/m-complexity 
+author: padosum
+publishDate: 2021-03-04
+---
 ## 📝 요약 
 - 복잡하고 불안정한 세상에서 불운을 맞이한 이에게 자신의 책임이라며 비난을 가하는 것이 아닌 동정심을 가져야 한다는 내용
 
@@ -19,5 +21,5 @@
 
 
 ## ⛓ 연결고리
-- [밥 한번 안 해본 사람이 설계한 '시스템'이 문제다](../Life/who-cares.md)
-- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview.md)
+- [밥 한번 안 해본 사람이 설계한 '시스템'이 문제다](../Life/who-cares)
+- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview)

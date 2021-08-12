@@ -1,7 +1,9 @@
-# 🕸️ 웹 개발자 도구의 역사
-
-- 링크: [https://dev.to/composite/-4675](https://dev.to/composite/-4675)
-
+---
+title: 웹 개발자 도구의 역사
+link: https://dev.to/composite/-4675
+author: padosum
+publishDate: 2021-04-21
+---
 ## 📝 요약 
 - 플랫폼별 웹 개발자 도구의 역사  
 
@@ -12,4 +14,4 @@
   - 글 끝부분 처럼, 소중하고 감사하게 생각하고 열심히 활용해야겠다.  
 
 ## ⛓ 연결고리
-- [시니어 프론트엔드 개발자처럼 크롬 DevTools 사용하기](../Dev/use-chrome-devTools-like-a-senior-frontend-developer.md)
+- [시니어 프론트엔드 개발자처럼 크롬 DevTools 사용하기](../Dev/use-chrome-devTools-like-a-senior-frontend-developer)

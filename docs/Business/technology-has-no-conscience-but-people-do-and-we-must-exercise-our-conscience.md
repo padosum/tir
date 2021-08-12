@@ -1,7 +1,9 @@
-# 👨‍💻 기술엔 양심이 없지만 사람에겐 있으며 우리는 양심을 발휘해야 한다
-
-- 링크: [http://www.bloter.net/archives/515723](http://www.bloter.net/archives/515723)
-
+---
+title: 기술엔 양심이 없지만 사람에겐 있으며 우리는 양심을 발휘해야 한다
+link: http://www.bloter.net/archives/515723
+publishDate: 2021-01-14
+author: padosum
+---
 ## 📝 요약 
 - CES 2021(국제전자제품박람회) 에서 마이크로소프트 브래드 스미스(Brad Smith) 사장의 기조연설  
 

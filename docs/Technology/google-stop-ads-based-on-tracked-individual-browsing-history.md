@@ -1,7 +1,9 @@
-# 🙅‍🙅 구글, "내년부터 이용자 인터넷 기록 추적하지 않겠다"
-
-- 링크: [https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history](https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history)
-
+---
+title: 구글, "내년부터 이용자 인터넷 기록 추적하지 않겠다"
+link: https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history
+author: padosum
+publishDate: 2021-03-05
+---
 ## 📝 요약 
 - 구글 앞으로 개인의 인터넷 서핑 기록을 이용한 광고를 판매하지 않을 계획이라고 밝혔다.  
 ## 🤔 생각하기  
@@ -14,5 +16,5 @@
 
 ## ⛓ 연결고리
 - [프라이버시 샌드박스에 관한 기사](https://www.ciokorea.com/tags/129534/%ED%94%84%EB%9D%BC%EC%9D%B4%EB%B2%84%EC%8B%9C%20%EC%83%8C%EB%93%9C%EB%B0%95%EC%8A%A4/180614)
-- [네이버와 CJ는 왜 손을 잡았을까?](./Business/../../Business/naver-vs-coupang.md)
+- [네이버와 CJ는 왜 손을 잡았을까?](../Business/naver-vs-coupang)
   - 네이버의 디스플레이 광고 경쟁자는 구글이다.  

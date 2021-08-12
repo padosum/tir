@@ -1,10 +1,11 @@
-# ✋ 채팅에서 그냥 "안녕하세요"라고 말하지 마세요. 
-
-- 링크: [https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3](https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3)  
-- 원문: [https://www.nohello.com/](https://www.nohello.com/)
-
+---
+title: 채팅에서 그냥 "안녕하세요"라고 말하지 마세요. 
+link: https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3
+author: padosum
+publishDate: 2020-08-09
+---
 ## 📝 요약 
-
+- 원문: [https://www.nohello.com/](https://www.nohello.com/)
 - 업무중에 채팅에서 "안녕하세요"라고 말하며 시작하는 것은 생산성을 낮춘다.  
 
 ## 🤔 생각하기  

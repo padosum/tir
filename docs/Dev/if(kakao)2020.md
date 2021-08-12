@@ -1,6 +1,10 @@
-# 🌏 if(kakao)2020
+---
+title: if(kakao)2020
+link: https://if.kakao.com/
+author: padosum
+publishDate: 2020-11-20
+---
 
-- 링크: [https://if.kakao.com/](https://if.kakao.com/)
 
 ## 📝 요약 
 - if(kakao)2020 온라인 컨퍼런스

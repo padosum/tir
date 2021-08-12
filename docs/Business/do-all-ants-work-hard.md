@@ -1,7 +1,9 @@
-# 🐜 개미들은 모두 열심히 일할까?
-
-- 링크: [https://ppss.kr/archives/235236](https://ppss.kr/archives/235236)
-
+---
+title: 개미들은 모두 열심히 일할까?
+link: https://ppss.kr/archives/235236
+author: padosum
+publishDate: 2021-03-07
+---
 ## 📝 요약 
 - 파레토 법칙으로 살펴보는 경영인, 관리자의 자세  
 
@@ -12,4 +14,4 @@
 - 사회의 복지와 더불어 지도자들이 파레토 법칙을 명심해 잘 이끌어 나간다면 능력주의의 아쉬운 점이 보완되겠다는 생각도 들었다.  
 
 ## ⛓ 연결고리 
-- [사람은 자신의 불운에 어느 정도 책임을 져야 할까요?](../Life/the-mathematical-case-against-blaming-people-for-their-misfortune.md)
+- [사람은 자신의 불운에 어느 정도 책임을 져야 할까요?](../Life/the-mathematical-case-against-blaming-people-for-their-misfortune)

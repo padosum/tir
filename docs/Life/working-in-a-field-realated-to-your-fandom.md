@@ -1,7 +1,9 @@
-# 💓 덕업일치
-
-- 링크: [https://www.thestartupbible.com/2020/08/doing-what-you-love.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+baenefit%2FslXh+%28baenefit.com%29](https://www.thestartupbible.com/2020/08/doing-what-you-love.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+baenefit%2FslXh+%28baenefit.com%29)
-
+---
+title: 덕업일치
+link: https://www.thestartupbible.com/2020/08/doing-what-you-love.html
+author: padosum
+publishDate: 2020-08-30
+---
 ## 📝 요약 
 - 밀레니얼 세대의 직업 이야기인 파일럿 프로그램 "아무튼 출근"의 후기(?)글 
   - 필자는 덕업일치인 젊은 세대를 응원하고 있다. 

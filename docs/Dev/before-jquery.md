@@ -1,7 +1,9 @@
-# ✅ jQuery 보다 먼저 알았으면 좋았을 것들
-
-- 링크: [https://jeonghwan-kim.github.io/2018/01/25/before-jquery.html](https://jeonghwan-kim.github.io/2018/01/25/before-jquery.html)
-
+---
+title: jQuery 보다 먼저 알았으면 좋았을 것들
+link: https://jeonghwan-kim.github.io/2018/01/25/before-jquery.html
+author: padosum
+publishDate: 2021-05-25
+---
 ## 📝 요약 
 - 프레임워크를 익히기 전 알았으면 좋았을 JavaScript에 대한 기본 내용들 
 

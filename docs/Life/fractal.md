@@ -1,7 +1,11 @@
-# 🌲 인생의 프랙탈
-
-- 링크: [https://m.blog.naver.com/bryankim1225/221212253050](https://m.blog.naver.com/bryankim1225/221212253050)
-
+---
+title: 인생의 프랙탈
+link: https://m.blog.naver.com/bryankim1225/221212253050
+author: padosum
+publishDate: 2021-04-29
+tags: 
+  - 필사
+---
 ## 📝 요약 
 - 프랙탈과 비슷한 우리의 인생에 대한 이야기  
 

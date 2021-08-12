@@ -1,7 +1,9 @@
-# 🔌 개발자도 알면 좋은 UI  디자인
-
-- 링크: [https://joshua1988.github.io/web-development/design/ui-for-developers/](https://joshua1988.github.io/web-development/design/ui-for-developers/)
-
+---
+title: 개발자도 알면 좋은 UI  디자인
+link: https://joshua1988.github.io/web-development/design/ui-for-developers/
+author: padosum
+publishDate: 2020-08-11
+---
 ## 📝 요약 
 - 개발자도 높은 디자인 기준과 UI, UX를 구분할 줄 아는 능력이 필요하다는 생각이 바탕이 된 UI 디자인 팁(?)
 

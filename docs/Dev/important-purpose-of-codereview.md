@@ -1,4 +1,11 @@
-## 💡 Today I Read : https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/
+---
+title: 코드리뷰의 진짜 목적은 따로있다. 
+link: https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/
+publishDate: 2020-08-10
+author: the1020
+tags: 
+  - 코드리뷰
+---
 
 ### #코드리뷰
 

@@ -1,7 +1,9 @@
-# 🗞 포털 뉴스 보지 않기
-
-- 링크: [https://iamsang.com/blog/2018/06/27/no-portal-news/](https://iamsang.com/blog/2018/06/27/no-portal-news/)
-
+---
+title: 포털 뉴스 보지 않기
+link: https://iamsang.com/blog/2018/06/27/no-portal-news/
+author: padosum
+publishDate: 2020-11-17
+---
 ## 📝 요약 
 - 자극적이고 편파적인 별로 중요하지 않은 이야기들로 가득한 포털 뉴스는 보지 않은 지 오래되었음  
   - 언론사 페이지는 광고로 도배되어 들어가고 싶지 않음 
