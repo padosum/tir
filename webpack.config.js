@@ -1,5 +1,4 @@
-var path = require('path')
-var webpack = require('webpack')
+const path = require('path')
 
 module.exports = {
   entry: './src/main.js',
@@ -14,10 +13,6 @@ module.exports = {
         test: /\.css$/,
         use: ['vue-style-loader', 'css-loader'],
       },
-      // {
-      //   test: /\.vue\.s[ac]ss/,
-      //   use: ['vue-style-loader', 'css-loader', 'sass-loader'],
-      // },
       {
         test: /\.s[ac]ss$/i,
         use: [
@@ -26,7 +21,12 @@ module.exports = {
           // Translates CSS into CommonJS
           'css-loader',
           // Compiles Sass to CSS
-          'sass-loader',
+          {
+            loader: 'sass-loader',
+            options: {
+              data: '@import "./src/assets/style/vars.scss";',
+            },
+          },
         ],
       },
       {

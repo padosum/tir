@@ -17,6 +17,10 @@ const routes = [
     component: () => import('@/views/Login.vue'),
   },
   {
+    path: '/add',
+    component: () => import('@/views/PostAdd.vue'),
+  },
+  {
     path: '/:category?',
     component: () => import('@/views/Archive.vue'),
     props: route => {
@@ -25,8 +29,24 @@ const routes = [
         return item.category === category
       })
       return {
-        filtedData: filteredData,
+        filteredData,
         category,
+      }
+    },
+  },
+  {
+    path: '/tags/:tag',
+    component: () => import('@/views/Tags.vue'),
+    props: route => {
+      let tag = route.params.tag
+      let filteredData = data.markdown.filter(item => {
+        if (typeof item.meta.tags !== 'undefined') {
+          return item.meta.tags.includes(tag)
+        }
+      })
+      return {
+        filteredData,
+        tag,
       }
     },
   },
@@ -47,6 +67,14 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      document.getElementById('app').scrollIntoView()
+      return { el: '#app' }
+    }
+  },
 })
 
 export default router

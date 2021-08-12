@@ -1,39 +1,64 @@
 <template>
-  <div class="main">
-    <nav-bar></nav-bar>
-    <div class="contents">
-      <ul class="post-list">
-        <li v-for="(value, key) in mdData" :key="key">
-          <h3>
-            <router-link
-              :to="'/' + value.category + '/' + value.filename"
-              class="post-link"
-            >
+  <main class="l-main">
+    <div class="bd-container archive__container">
+      <div class="title">{{ title }}</div>
+      <section class="section" v-if="isMain">
+        <div class="heatmap">
+          <calendar-heatmap
+            :values="heatMapData"
+            :end-date="today"
+            :max="5"
+            tooltip-unit="read"
+            @day-click="handleDayClick"
+          ></calendar-heatmap>
+        </div>
+        <h3>{{ selectedDate }}</h3>
+        <ul class="selected-list">
+          <li v-for="(value, key) in selectedList" :key="key">
+            <router-link :to="'/' + value.category + '/' + value.filename">
               {{ value.meta.title }}
             </router-link>
-          </h3>
-          <span class="post-meta">
-            {{ value.meta.publishDate.slice(0, 10) }}
+          </li>
+          <span v-if="!selectedList.length && selectedDate"
+            >Nothing 🏀 ⚽ 🎾 🏐
           </span>
-          <router-link :to="'/' + value.category" class="post-category">
-            #{{ value.category }}
-          </router-link>
-        </li>
-      </ul>
+        </ul>
+      </section>
+      <section class="section">
+        <h3 v-if="isMain">All</h3>
+        <ul class="post-list">
+          <post-list
+            v-for="postItem in postItems"
+            :key="postItem.filepath"
+            :postItem="postItem"
+          >
+          </post-list>
+        </ul>
+      </section>
     </div>
-  </div>
+  </main>
 </template>
 <script>
-import NavBar from '@/components/NavBar.vue'
+import { CalendarHeatmap } from 'vue-calendar-heatmap'
+import PostList from '@/components/PostList.vue'
+import { formatDate } from '@/utils/format'
+
 export default {
   components: {
-    NavBar,
+    CalendarHeatmap,
+    PostList,
+  },
+  data() {
+    return {
+      selectedList: [],
+      selectedDate: '',
+    }
   },
   props: {
     data: {
       type: Object,
     },
-    filtedData: {
+    filteredData: {
       type: Array,
     },
     category: {
@@ -42,47 +67,71 @@ export default {
     },
   },
   computed: {
-    mdData() {
+    title() {
+      return this.category === '' ? 'Today I Read' : this.category
+    },
+    isMain() {
+      return this.category === ''
+    },
+    postItems() {
       if (this.category == '') {
         return this.data.markdown
       } else {
-        return this.filtedData
+        return this.filteredData
       }
+    },
+    heatMapData() {
+      let meta = this.data.markdown.map(item => {
+        return item.meta
+      })
+      let group = meta.reduce((acc, obj) => {
+        let key = formatDate(obj.publishDate)
+        let idx = acc.findIndex(x => {
+          return x.date === key
+        })
+        if (idx === -1) {
+          acc.push({
+            date: key,
+            count: 1,
+          })
+        } else {
+          acc[idx].date = key
+          acc[idx].count = ++acc[idx].count
+        }
+        return acc
+      }, [])
+
+      return group
+    },
+    today() {
+      var today = new Date()
+      var dd = String(today.getDate()).padStart(2, '0')
+      var mm = String(today.getMonth() + 1).padStart(2, '0')
+      var yyyy = today.getFullYear()
+
+      today = mm + '/' + dd + '/' + yyyy
+
+      return today
+    },
+  },
+  methods: {
+    handleDayClick(day) {
+      let selected = []
+      this.data.markdown.forEach((element, index) => {
+        if (formatDate(element.meta.publishDate) === formatDate(day.date)) {
+          selected.push(this.data.markdown[index])
+        }
+      })
+      this.selectedList = selected
+      let d = formatDate(day.date)
+      this.selectedDate = `What I Read in ${d}`
     },
   },
   mounted() {},
 }
 </script>
 <style scoped>
-.contents {
-  width: 100%;
-}
-.post-list {
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 20px;
-}
-/* unvisited link */
-.post-list .post-link {
-  color: #654781;
-  font-size: 1rem;
-  font-weight: 500;
-}
-
-/* mouse over link */
-.post-list .post-link:hover {
-  color: #bb54b5;
-}
-ul {
-  list-style-type: none;
-}
-
-.post-meta,
-.post-category {
-  color: #98969a;
-}
-
-.post-category:hover {
-  color: #b797c2;
+.heatmap {
+  padding: 10px;
 }
 </style>

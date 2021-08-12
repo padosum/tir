@@ -1,66 +1,60 @@
 <template>
-  <div class="main">
-    <nav-bar></nav-bar>
+  <section class="section bd-container">
     <div class="contents">
-      <h1>{{ this.postData.meta.title }}</h1>
-      <p class="origin-link">
-        <a :href="originLink">🔗 {{ originLink }}</a>
+      <h1 class="post-title">
+        <span v-if="!hasLink">{{ this.postData.meta.title }}</span>
+        <a :href="this.postData.meta.link" target="_blank" v-else>
+          {{ this.postData.meta.title }}
+        </a>
+        <i class="bx bx-link" v-if="hasLink"></i>
+      </h1>
+      <p class="post-date">
+        <i class="bx bx-calendar"></i>
+        {{ this.postData.meta.publishDate.slice(0, 10) }}
       </p>
-      <p>{{ this.postData.meta.publishDate.slice(0, 10) }}</p>
+      <div class="post-tags">
+        <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
+          {{ value }}
+        </a>
+      </div>
       <div v-html="this.postData.content.contents" class="markdown-body"></div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue'
 export default {
-  components: {
-    NavBar,
-  },
+  components: {},
   props: ['postData'],
   data() {
     return {}
   },
   mounted() {},
   computed: {
-    originLink() {
-      return this.postData.meta.link
+    hasLink() {
+      return this.postData.meta.link !== undefined
+    },
+    tags() {
+      return this.postData.meta.tags
     },
   },
 }
 </script>
 
-<style lang="scss" scoped>
-@import url('~assets/style/markdown.scss');
+<style scoped>
+@import url('~assets/style/github-markdown.css');
 @import url('~assets/style/highlight.scss');
-
-.contents {
-  width: 100%;
-  margin-top: 60px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  text-align: center;
-  font-size: 28px;
-  color: #8a4aa9;
-}
-
-h6 {
-  text-align: center;
-  font-size: 12px;
-  color: rgba($color: #000000, $alpha: 0.55);
-}
 .markdown-body {
-  margin-top: 80px;
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
 }
-.origin-link {
-  text-align: center;
-}
-.origin-link a {
-  color: #bb54b5;
+
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
 }
 </style>
