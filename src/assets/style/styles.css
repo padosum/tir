@@ -67,6 +67,7 @@ body.dark-theme {
   --text-color: #C7D1CC;
   --body-color: #2e353c;
   --container-color: #272b30;
+  --first-color-alt: #a5cdfa;
 }
 /* button dark/light */
 .change-theme {
@@ -373,7 +374,7 @@ img {
   background: var(--container-color);
   box-shadow: 0px 1px 2px rgba(167, 79, 79, 0.1);
   border-radius: 4px;
-  padding: .3rem;
+  padding: .5rem;
   color: var(--text-color);
   margin-bottom: 10px;
   margin-right: 5px;
@@ -412,18 +413,9 @@ img {
   color: var(--first-color-alt);
 }
 
-/* post add */
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  transition: .3s;
-}
-
-.button:hover{
-  background-color: var(--first-color-alt);
+/* comments */
+.utterances {
+  max-width: 100% !important;
 }
 
 /* media queries */

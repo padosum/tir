@@ -88,6 +88,20 @@ export default {
       document.body.classList.toggle(darkTheme)
       themeButton.classList.toggle(iconTheme)
 
+      // change utteraces theme
+      const commentTheme =
+        localStorage.getItem('selected-theme') === 'dark'
+          ? 'boxy-light'
+          : 'dark-blue'
+
+      const message = {
+        type: 'set-theme',
+        theme: commentTheme,
+      }
+      document
+        .querySelector('iframe.utterances-frame')
+        .contentWindow.postMessage(message, 'https://utteranc.es')
+
       localStorage.setItem('selected-theme', this.getCurrentTheme(darkTheme))
       localStorage.setItem(
         'selected-icon',

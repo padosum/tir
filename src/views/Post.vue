@@ -1,30 +1,39 @@
 <template>
-  <section class="section bd-container">
-    <div class="contents">
-      <h1 class="post-title">
-        <span v-if="!hasLink">{{ this.postData.meta.title }}</span>
-        <a :href="this.postData.meta.link" target="_blank" v-else>
-          {{ this.postData.meta.title }}
-        </a>
-        <i class="bx bx-link" v-if="hasLink"></i>
-      </h1>
-      <p class="post-date">
-        <i class="bx bx-calendar"></i>
-        {{ this.postData.meta.publishDate.slice(0, 10) }}
-      </p>
-      <div class="post-tags">
-        <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
-          {{ value }}
-        </a>
+  <main class="l-main">
+    <section class="section bd-container">
+      <div class="contents">
+        <h1 class="post-title">
+          <span v-if="!hasLink">{{ this.postData.meta.title }}</span>
+          <a :href="this.postData.meta.link" target="_blank" v-else>
+            {{ this.postData.meta.title }}
+            <i class="bx bx-link" v-if="hasLink"></i>
+          </a>
+        </h1>
+        <p class="post-date">
+          <i class="bx bx-calendar"></i>
+          {{ this.postData.meta.publishDate.slice(0, 10) }}
+        </p>
+        <div class="post-tags">
+          <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
+            {{ value }}
+          </a>
+        </div>
+        <div
+          v-html="this.postData.content.contents"
+          class="markdown-body"
+        ></div>
       </div>
-      <div v-html="this.postData.content.contents" class="markdown-body"></div>
-    </div>
-  </section>
+      <comment></comment>
+    </section>
+  </main>
 </template>
 
 <script>
+import Comment from '@/components/Comment.vue'
 export default {
-  components: {},
+  components: {
+    Comment,
+  },
   props: ['postData'],
   data() {
     return {}
