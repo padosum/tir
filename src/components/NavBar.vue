@@ -48,9 +48,8 @@
           </li>
 
           <li>
-            <i class="bx bx-pencil writing" @click="routeWritePage"></i>
+            <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
-
           <li>
             <i
               class="bx bx-moon change-theme"
@@ -78,8 +77,8 @@ export default {
         ? 'nav__link selected'
         : 'nav__link'
     },
-    routeWritePage() {
-      this.$router.push(`/add`)
+    routeTagsPage() {
+      this.$router.push(`/tags`)
     },
     changeTheme() {
       const themeButton = document.getElementById('theme-button')

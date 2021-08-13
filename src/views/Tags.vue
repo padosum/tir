@@ -1,38 +1,24 @@
 <template>
   <main class="l-main">
     <div class="bd-container">
-      <div class="title">{{ this.tag }}</div>
+      <div class="title">Tags</div>
       <section class="section">
-        <ul class="post-list">
-          <post-list
-            v-for="postItem in postItems"
-            :key="postItem.filepath"
-            :postItem="postItem"
-          >
-          </post-list>
-        </ul>
+        <div class="post-tags">
+          <a v-for="tag in tags" :key="tag.name" :href="'/tags/' + tag.name">
+            {{ tag.name }}
+            <sup>{{ tag.count }}</sup>
+          </a>
+        </div>
       </section>
     </div>
   </main>
 </template>
 
 <script>
-import PostList from '@/components/PostList.vue'
 export default {
-  components: {
-    PostList,
-  },
   props: {
-    filteredData: {
+    tags: {
       type: Array,
-    },
-    tag: {
-      type: String,
-    },
-  },
-  computed: {
-    postItems() {
-      return this.filteredData
     },
   },
 }

@@ -78,7 +78,7 @@ body.dark-theme {
   cursor: pointer;
 }
 
-.writing {
+.tags {
   position: absolute;
   right: 3rem;
   top: 1.8rem;
@@ -366,13 +366,14 @@ img {
 
 .post-tags {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .post-tags a {
-  background: var(--body-color);
+  background: var(--container-color);
   box-shadow: 0px 1px 2px rgba(167, 79, 79, 0.1);
   border-radius: 4px;
-  padding: .2rem;
+  padding: .3rem;
   color: var(--text-color);
   margin-bottom: 10px;
   margin-right: 5px;
@@ -410,6 +411,21 @@ img {
 .post-category:hover {
   color: var(--first-color-alt);
 }
+
+/* post add */
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #FFF;
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
 /* media queries */
 @media screen and (min-width: 576px) {
   
@@ -450,7 +466,7 @@ img {
     margin-left: var(--mb-2);
   }
 
-  .writing {
+  .tags {
     position: initial;
     margin-left: var(--mb-2);
   }

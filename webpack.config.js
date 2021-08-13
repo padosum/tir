@@ -28,12 +28,7 @@ module.exports = {
           // Translates CSS into CommonJS
           'css-loader',
           // Compiles Sass to CSS
-          {
-            loader: 'sass-loader',
-            options: {
-              data: '@import "./src/assets/style/vars.scss";',
-            },
-          },
+          'sass-loader',
         ],
       },
       {

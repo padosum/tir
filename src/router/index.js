@@ -13,15 +13,40 @@ const routes = [
     },
   },
   {
-    path: '/login',
-    component: () => import('@/views/Login.vue'),
+    path: '/tags',
+    component: () => import('@/views/Tags.vue'),
+    props: route => {
+      let meta = data.markdown.map(item => {
+        return item.meta
+      })
+      let tags = meta.reduce((acc, obj) => {
+        let objTags = obj.tags
+        if (typeof objTags !== 'undefined') {
+          objTags.forEach(tag => {
+            let idx = acc.findIndex(x => {
+              return x.name === tag
+            })
+            if (idx === -1) {
+              acc.push({
+                name: tag,
+                count: 1,
+              })
+            } else {
+              acc[idx].name = tag
+              acc[idx].count = ++acc[idx].count
+            }
+          })
+        }
+        return acc
+      }, [])
+
+      return {
+        tags,
+      }
+    },
   },
   {
-    path: '/add',
-    component: () => import('@/views/PostAdd.vue'),
-  },
-  {
-    path: '/:category?',
+    path: '/:category',
     component: () => import('@/views/Archive.vue'),
     props: route => {
       let category = route.params.category
@@ -36,7 +61,7 @@ const routes = [
   },
   {
     path: '/tags/:tag',
-    component: () => import('@/views/Tags.vue'),
+    component: () => import('@/views/Tag.vue'),
     props: route => {
       let tag = route.params.tag
       let filteredData = data.markdown.filter(item => {
