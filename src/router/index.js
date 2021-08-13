@@ -40,6 +40,10 @@ const routes = [
         return acc
       }, [])
 
+      tags.sort((a, b) => {
+        return b.count - a.count
+      })
+
       return {
         tags,
       }
