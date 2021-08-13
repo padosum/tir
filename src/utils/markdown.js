@@ -14,6 +14,5 @@ module.exports = function md(markdown) {
   delete raw.__content
   data.meta = raw
 
-  return data
-  // return raw.title && raw.publishDate ? data : false
+  return raw.title && raw.publishDate ? data : false
 }
