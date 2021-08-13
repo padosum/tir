@@ -1,8 +1,9 @@
 ---
 title: 크롬 확장프로그램 개발 회고
 link: https://zuminternet.github.io/Zum-Chrome-Extension/
-author: padosum
-publishDate: 2020-10-06
+publishDate: 2020-10-06  
+tags:
+  - 회고
 ---
 ## 📝 요약 
 

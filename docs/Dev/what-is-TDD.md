@@ -1,7 +1,6 @@
 ---
 title: 다 함께 TDD
 link: https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e
-author: 1020
 publishDate: 2020-08-09
 tags: 
   - TDD

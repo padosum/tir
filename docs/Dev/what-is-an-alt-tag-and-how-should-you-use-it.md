@@ -1,7 +1,6 @@
 ---
 title: ALT 태그가 뭐지? 
 link: https://ppss.kr/archives/221625
-author: padosum
 publishDate: 2020-07-23
 ---
  

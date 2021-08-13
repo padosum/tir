@@ -1,8 +1,11 @@
 ---
 title: 나는 어떻게 더 나은 프로그래머가 되었는가 
 link: https://rinae.dev/posts/how-i-became-a-better-programmer-kr
-author: padosum
 publishDate: 2020-07-22
+tags:  
+  - developer
+  - 성장
+  - work
 ---
 
 ## 🤔 생각하기 

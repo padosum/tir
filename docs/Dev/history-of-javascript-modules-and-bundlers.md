@@ -1,8 +1,9 @@
 ---
 title: JavaScript 번들러로 본 조선시대 붕당의 이해
 link: https://wormwlrm.github.io/2020/08/12/History-of-JavaScript-Modules-and-Bundlers.html
-author: padosum
 publishDate: 2020-09-06
+tags:
+  - javascript
 ---
 ## 📝 요약 
 - JavaScript 모듈, 번들러의 역사 

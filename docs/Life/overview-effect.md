@@ -1,7 +1,9 @@
 ---
 title: 우리 삶의 어떤 경험도 버릴 것이 없습니다
-author: padosum
 publishDate: 2020-11-13
+tags:
+  - 건강
+  - 자기관리
 ---
 ![overview-effect](../docs/../docs/img/overview-effect.png)
 

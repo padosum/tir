@@ -1,8 +1,9 @@
 ---
 title: 개발자를 위한 정보 검색 팁
 link: https://boxnwhis.kr/2020/09/27/ir-for-developers.html
-author: padosum
 publishDate: 2020-10-01
+tags:  
+  - developer
 ---
 ## 📝 요약 
 - 구글링

@@ -1,8 +1,9 @@
 ---
 title: 앱의 프론트엔드 성능을 향상시키는 방법 - 5가지 코딩 팁
 link: https://junwoo45.github.io/2019-10-05-frontend-performance/
-author: padosum
 publishDate: 2020-09-04
+tags:
+  - front-end
 ---
 ## 📝 요약 
 - Tomasz Świstak의 [How to increase your frontend app’s performance - 5 coding tips](https://www.synergycodes.com/blog/how-to-increase-your-frontend-apps-performance)를 번역한 글

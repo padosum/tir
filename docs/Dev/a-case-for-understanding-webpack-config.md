@@ -1,8 +1,10 @@
 ---
 title: Webpack 설정을 이해하는 일의 가치
 link: https://ahnheejong.name/articles/a-case-for-understanding-webpack-config/
-author: padosum
 publishDate: 2021-02-01
+tags:
+  - 성장
+  - 학습
 ---
 ## 📝 요약 
 - Webpack 관련 작업을 하다 떠올린 끈기 있는 학습 과정에 대한 이야기 

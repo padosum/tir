@@ -2,7 +2,8 @@
 title: 한국 인터넷에서 잘못 끼워진 첫 단추, 그 이름은 네이버 (NAVER)
 link: https://sungmooncho.com/2010/03/21/naver/
 publishDate: 2020-12-07
-author: padosum
+tags:
+  - 기업
 ---
 ## 📝 요약 
 - 한국의 주 검색 사이트를 네이버가 독점하면서 생겨난 문제에 대하여...

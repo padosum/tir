@@ -1,7 +1,6 @@
 ---
 title: 개발도 쉽게 풀어가야 합니다.
 link: https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4
-author: the1020
 publishDate: 2020-08-05
 tags: 
   - 쉽게

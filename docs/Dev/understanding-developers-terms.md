@@ -1,8 +1,9 @@
 ---
 title: 개발자의 외계어 쉽게 이해하기
 link: https://brunch.co.kr/@businessinsight/65
-author: padosum
-publishDate: 2020-09-02
+publishDate: 2020-09-02  
+tags:
+  - developer
 ---
 ## 📝 요약 
 - 서버, 클라이언트, api등 개발자가 사용하는 외계어(?)에 대해 쉽게 이해하기 

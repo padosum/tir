@@ -1,8 +1,9 @@
 ---
 title: 3항 연산자의 재발견 
 link: https://medium.com/hayanmind-tech-blog-kr/3%ED%95%AD-%EC%97%B0%EC%82%B0%EC%9E%90%EC%9D%98-%EC%9E%AC%EB%B0%9C%EA%B2%AC-a3f815bcdbb8
-author: padosum
-publishDate: 2020-10-05
+publishDate: 2020-10-05  
+tags:
+  - javascript
 ---
 ## 📝 요약 
 

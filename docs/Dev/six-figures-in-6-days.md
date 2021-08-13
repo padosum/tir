@@ -1,7 +1,6 @@
 ---
 title: 6일만에 1억 벌기
 link: https://tr.af/6
-author: padosum
 publishDate: 2020-10-02
 ---
 ## 📝 요약 

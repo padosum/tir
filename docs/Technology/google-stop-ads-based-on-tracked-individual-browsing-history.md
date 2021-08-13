@@ -1,8 +1,9 @@
 ---
 title: 구글, "내년부터 이용자 인터넷 기록 추적하지 않겠다"
 link: https://hypebeast.kr/2021/3/google-stop-ads-based-on-tracked-individual-browsing-history
-author: padosum
-publishDate: 2021-03-05
+publishDate: 2021-03-05  
+tags:
+  - news
 ---
 ## 📝 요약 
 - 구글 앞으로 개인의 인터넷 서핑 기록을 이용한 광고를 판매하지 않을 계획이라고 밝혔다.  

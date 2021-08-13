@@ -1,7 +1,6 @@
 ---
 title: HEIF(HEIC)에 대해 알아보자
 link: https://blog.naver.com/musediet/222252856340
-author: padosum
 publishDate: 2021-04-05
 ---
 ## 📝 요약 

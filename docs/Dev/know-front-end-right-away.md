@@ -1,8 +1,9 @@
 ---
 title: Frontend 바로 알기
 link: https://blueshw.github.io/2020/05/05/know-front-end-right-away/
-author: padosum
 publishDate: 2021-01-20
+tags:
+  - front-end
 ---
 ## 📝 요약 
 - 프론트엔드 기반 기술에 관한 포스팅 시리즈  

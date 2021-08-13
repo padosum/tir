@@ -1,7 +1,6 @@
 ---
 title: 자바스크립트, 세미콜론을 써야 하나 말아야 하나
 link: https://bakyeono.net/post/2018-01-19-javascript-use-semicolon-or-not.html
-author: the1020
 publishDate: 2020-08-30
 tags: 
   - javascript

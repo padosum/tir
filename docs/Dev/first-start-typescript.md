@@ -1,11 +1,11 @@
 ---
 title: Typescript로 블록체인 만들기
 link: https://nomadcoders.co/typescript-for-beginners
-author: the1020
 publishDate: 2020-08-18
 tags: 
   - typescript
   - javascript
+  - 블록체인
 ---
 
 # typescript란

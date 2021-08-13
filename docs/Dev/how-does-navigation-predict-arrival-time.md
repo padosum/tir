@@ -1,7 +1,6 @@
 ---
 title: 내비게이션은 어떻게 도착시간을 예측하나요?
 link: http://www.bloter.net/archives/425722
-author: padosum
 publishDate: 2020-09-30
 ---
 ## 📝 요약 

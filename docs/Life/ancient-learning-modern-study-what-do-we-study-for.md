@@ -1,8 +1,10 @@
 ---
 title: 고대의 학문, 현대인의 공부 우리는 무엇을 위해 공부하는가
 link: https://ppss.kr/archives/232271
-author: padosum
 publishDate: 2021-01-05
+tags:
+  - 학습
+  - 철학
 ---
 ## 📝 요약 
 - 우리는 공부하지 않는 삶을 살기 위해 악착같이 공부를 하는 역설 가운데 살고 있다.  

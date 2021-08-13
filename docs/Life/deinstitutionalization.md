@@ -1,8 +1,9 @@
 ---
 title: 탈시설을 아십니까
 link: https://slownews.kr/79165
-author: padosum
-publishDate: 2021-01-19
+publishDate: 2021-01-19  
+tags:
+  - news
 ---
 ## 📝 요약 
 - 탈시설이 무엇인지, 왜 필요한지에 대한 기사  

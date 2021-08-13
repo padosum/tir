@@ -1,8 +1,9 @@
 ---
 title: 네이버, 네이버, 그리고 네이버 
 link: http://www.bloter.net/archives/396706
-publishDate: 2020-07-21
-author: padosum
+publishDate: 2020-07-21 
+tags: 
+  - 기업
 ---
 
 ## 🤔 생각하기 

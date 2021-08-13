@@ -1,12 +1,11 @@
 ---
 title: 니들은 else 같은거 쓰지마라
 link: https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88
-author: the1020
 publishDate: 2020-07-21
 tags: 
-  - cleancode" 
-  - "early" 
-  - "else"
+  - cleancode
+  - earlys
+  - else
 ---
 
 # 🕳 else의 문제점

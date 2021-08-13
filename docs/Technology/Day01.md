@@ -1,6 +1,5 @@
 ---
 title: AI, Data Science, ML, 그리고 DL의 차이점?
-author: gimzimean
 publishDate: 2020-07-21
 tags: 
 	- data-science

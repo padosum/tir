@@ -1,8 +1,9 @@
 ---
 title: 시니어 개발자처럼 VSCode 사용하기
 link: https://junwoo45.github.io/2020-09-02-use_vscode_like_a_senior_developer/
-author: padosum
-publishDate: 2020-09-07
+publishDate: 2020-09-07  
+tags:
+  - tip
 ---
 ## 📝 요약 
 - VSCode 팁 모음 

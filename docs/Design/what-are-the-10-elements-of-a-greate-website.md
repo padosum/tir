@@ -1,7 +1,6 @@
 ---
 title: 훌륭한 웹 사이트 10가지 요소는 무엇인가?
 link: https://www.designlog.org/2512855
-author: padosum
 publishDate: 2021-03-24
 ---
 ## 📝 요약 

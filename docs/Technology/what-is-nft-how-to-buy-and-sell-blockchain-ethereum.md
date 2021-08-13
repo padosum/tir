@@ -1,7 +1,6 @@
 ---
 title: 화제의 가상 자산'NFT'는 도대체 무엇일까?
 link: https://hypebeast.kr/2021/3/what-is-nft-how-to-buy-and-sell-blockchain-ethereum
-author: padosum
 publishDate: 2021-04-01
 ---
 

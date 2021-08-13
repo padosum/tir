@@ -1,8 +1,9 @@
 ---
 title: 웹 개발자 도구의 역사
 link: https://dev.to/composite/-4675
-author: padosum
 publishDate: 2021-04-21
+tags:
+  - front-end
 ---
 ## 📝 요약 
 - 플랫폼별 웹 개발자 도구의 역사  

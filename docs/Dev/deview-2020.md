@@ -1,8 +1,9 @@
 ---
 title: Deview 2020
 link: https://tv.naver.com/v/16970963
-author: padosum
 publishDate: 2020-12-26
+tags:
+  - conference
 ---
 ## 📝 요약 
 - Deno를 통해 알아보는 Javascript 세상 이야기

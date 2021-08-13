@@ -1,8 +1,9 @@
 ---
 title: NHN FORWARD 2020
 link: https://forward.nhn.com/home
-author: padosum
 publishDate: 2020-12-15
+tags:
+  - conference
 ---
 ## 📝 요약 
 - NHN 온라인 기술 컨퍼런스  

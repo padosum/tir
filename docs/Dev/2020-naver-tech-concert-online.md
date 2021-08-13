@@ -1,8 +1,9 @@
 ---
 title: 2020 NAVER TECH CONCERT ONLINE
 link: https://d2.naver.com/news/6137384
-author: padosum
-publishDate: 2020-08-23
+publishDate: 2020-08-23  
+tags:
+  - conference
 ---
 ## 📝 요약 
 - 온라인으로 진행된 NAVER TECH CONCERT 발표영상 공유 자료 

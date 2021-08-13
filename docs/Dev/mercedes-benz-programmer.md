@@ -1,8 +1,9 @@
 ---
 title: 벤츠 타는 프로그래머
 link: https://ridibooks.com/books/852000840
-author: padosum
-publishDate: 2020-10-11
+publishDate: 2020-10-11  
+tags:
+  - 책
 ---
 ## 📝 요약 
 - 행복한 프로그래밍을 위한 선배 개발자의 조언 

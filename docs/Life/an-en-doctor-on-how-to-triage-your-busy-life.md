@@ -1,8 +1,10 @@
 ---
 title: 미치게 바쁠 때도 일을 처리하는 방법 
 link: https://ppss.kr/archives/222530
-author: padosum
-publishDate: 2020-08-01
+publishDate: 2020-08-01  
+tags:
+  - video
+  - work
 ---
 - [TED영상](https://www.ted.com/talks/darria_long_an_er_doctor_on_triaging_your_crazy_busy_life?language=ko#t-49332)
 ## 📝 요약

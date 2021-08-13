@@ -1,8 +1,9 @@
 ---
 title: CES 2021로 본 '양자 컴퓨팅'의 현재와 미래
 link: http://www.bloter.net/archives/516689
-author: padosum
-publishDate: 2021-01-21
+publishDate: 2021-01-21  
+tags:
+  - news
 ---
 ## 📝 요약 
 - CES 2021 양자 컴퓨팅 기술이 현대 사회에 어떤 영향을 미칠 수 있는지, 또 어떻게 활용할 수 있는지에 대한 전문가 세션 내용 

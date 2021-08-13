@@ -2,7 +2,8 @@
 title: 직업이 여러개인 시대가 왔다
 link: https://brunch.co.kr/@halihali/34
 publishDate: 2021-01-09
-author: padosum
+tags:
+  - work
 ---
 ## 📝 요약 
 - 부업의 시대에 대한 이야기  

@@ -1,8 +1,10 @@
 ---
 title: 더 젊은 나이에, 더 높은 대우를 받기 위한 방법
 link: https://brunch.co.kr/@seunghoon82/122
-author: padosum
 publishDate: 2020-10-13
+tags:
+  - 성장
+  - work
 ---
 ## 📝 요약 
 - 나와 비전이 부합하고

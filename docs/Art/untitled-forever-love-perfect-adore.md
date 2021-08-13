@@ -1,7 +1,6 @@
 ---
 title: 제목 없는 영원한 사랑 완벽한 애도
 link: http://bizart.co.kr/제목-없는-영원한-사랑-완벽한-애도/
-author: padosum
 publishDate: 2021-03-30
 ---
 

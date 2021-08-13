@@ -1,8 +1,10 @@
 ---
 title: FINTECH-BEHIND THE SIMPLICITY
 link: https://www.youtube.com/watch?v=AuMyGHuxvOM&feature=emb_title
-author: padosum
 publishDate: 2021-02-26
+tags:
+  - 기업
+  - documentary
 ---
 
 

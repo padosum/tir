@@ -1,8 +1,9 @@
 ---
 title: 2020년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)
 link: https://d2.naver.com/helloworld/4268738
-author: padosum
 publishDate: 2020-08-06
+tags:
+  - javascript
 ---
 ## 📝 요약
 

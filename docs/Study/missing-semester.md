@@ -1,8 +1,9 @@
 ---
 title: 여러분의 CS 교육에서 누락된 학기 
 link: https://missing-semester-kr.github.io/
-author: padosum
-publishDate: 2020-07-31
+publishDate: 2020-07-31  
+tags:
+  - 학습  
 ---
 ## 📝 요약  
 - MIT 컴퓨터 학부 조교들이 신입생을 위해 마련한 수업, youtube영상과 수업 노트   

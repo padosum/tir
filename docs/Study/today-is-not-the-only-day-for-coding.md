@@ -1,11 +1,11 @@
 ---
 title: 오늘만 코딩할 건 아니잖아
 link: https://velog.io/@snoop2head/self-coaching
-author: the1020
 publishDate: 2020-07-26
 tags: 
   - 자기관리
   - 건강
+  - developer
 ---
 # ⏰ 모든 자원은 한정적이다.
 - 내 몸은 로봇이 아니기 때문에 모니터 앞에 앉아있을 수 있는 시간은 굉장히 한정적이다.

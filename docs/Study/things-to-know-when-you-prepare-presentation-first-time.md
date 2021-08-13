@@ -1,10 +1,10 @@
 ---
 title: 처음 발표를 준비하는 개발자들이 알아두면 좋을 것들
 link: https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time
-author: the1020
 publishDate: 2020-07-25
 tags: 
   - 발표
+  - developer
 ---
 # 발표를 하게 되면 얻게 되는 것들
 - 알고 있는 내용을 더 깊게 정리하는 계기를 가진다.

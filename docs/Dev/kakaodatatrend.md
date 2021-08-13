@@ -1,7 +1,6 @@
 ---
 title: 카카오, 빅데이터 검색·조회 서비스 ‘데이터트렌드’ 출시
 link: http://www.bloter.net/archives/398130
-author: padosum
 publishDate: 2020-07-30
 ---
 ## 📝 요약 

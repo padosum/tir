@@ -1,8 +1,9 @@
 ---
 title: 입문자가 겪기 쉬운 console.log 실수
 link: https://www.zerocho.com/category/JavaScript/post/5b2b45cf1350f9001b662ba6
-author: padosum
 publishDate: 2021-03-23
+tags:
+  - javascript
 ---
 ## 📝 요약 
 - console.log 팁  

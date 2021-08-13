@@ -1,8 +1,9 @@
 ---
 title: 정말 근무 시간만이 워라밸의 전부일까?
 link: https://evan-moon.github.io/2020/09/27/work-life-balance/
-author: padosum
-publishDate: 2020-11-19
+publishDate: 2020-11-19  
+tags:
+  - work
 ---
 ## 📝 요약 
 - 대한민국 워라밸의 현 주소

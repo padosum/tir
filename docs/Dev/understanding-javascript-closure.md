@@ -1,8 +1,9 @@
 ---
 title: 자바스크립트 클로져 아주 쉽게 이해하기
 link: https://kstblog.aww.kr/4s66Q/BhV6Q
-author: padosum
 publishDate: 2020-11-03
+tags:
+  - javascript
 ---
 ## 📝 요약 
 - 자바스크립트 클로저를 이해하기 위한 쉬운 설명글  

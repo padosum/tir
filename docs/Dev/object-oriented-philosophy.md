@@ -1,7 +1,6 @@
 ---
 title: 객체지향 철학 그리고 5대 개념
 link: https://www.slideshare.net/sunnykwak90/5-44213056?from_m_app=ios
-author: padosum
 publishDate: 2020-08-27
 ---
 ## 📝 요약 

@@ -1,7 +1,6 @@
 ---
 title: The ReadME Project
 link: https://github.com/readme/sonia-john
-author: padosum
 publishDate: 2020-08-21
 ---
 ## 📝 요약 

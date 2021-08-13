@@ -1,8 +1,9 @@
 ---
 title: 내가 알아듣는 만큼 내 영역도 넓어진다
 link: https://brunch.co.kr/@jcmarkpark/100
-author: padosum
-publishDate: 2021-04-19
+publishDate: 2021-04-19  
+tags:
+  - 학습
 ---
 
 ## 📝 요약 

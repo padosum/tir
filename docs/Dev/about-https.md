@@ -1,8 +1,9 @@
 ---
 title: HTTPS에 대해 알아야 할 것들 
 link: https://www.mimul.com/blog/about-https/
-author: padosum
 publishDate: 2020-07-27
+tags:
+  - http
 ---
 
 ## 📝 요약 

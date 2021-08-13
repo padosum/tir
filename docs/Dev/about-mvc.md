@@ -1,7 +1,6 @@
 ---
 title: MVC design pattern
 link: https://velog.io/@denmark-choco/MVC-design-pattern
-author: padosum
 publishDate: 2020-08-06
 tags: 
   - MVC

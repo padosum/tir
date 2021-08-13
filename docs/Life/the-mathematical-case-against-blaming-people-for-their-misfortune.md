@@ -1,7 +1,6 @@
 ---
 title: 사람은 자신의 불운에 어느 정도 책임을 져야 할까요?
 link: https://newspeppermint.com/2021/02/04/m-complexity 
-author: padosum
 publishDate: 2021-03-04
 ---
 ## 📝 요약 

@@ -1,8 +1,10 @@
 ---
 title: 개발자를 위한 인프라 기초 총정리
 link: https://futurecreator.github.io/2018/11/09/it-infrastructure-basics/
-author: padosum
 publishDate: 2021-02-04
+tags:  
+  - developer
+  - infrastructure
 ---
 ## 📝 요약 
 - 개발자를 위한 인프라 기초에 대한 정리글  

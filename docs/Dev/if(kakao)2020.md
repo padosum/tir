@@ -1,8 +1,9 @@
 ---
 title: if(kakao)2020
 link: https://if.kakao.com/
-author: padosum
 publishDate: 2020-11-20
+tags:
+  - conference
 ---
 
 

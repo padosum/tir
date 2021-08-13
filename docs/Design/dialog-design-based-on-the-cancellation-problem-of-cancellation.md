@@ -1,8 +1,9 @@
 ---
 title: "'취소'의 [취소] 문제에서 생각하는 다이얼로그 디자인"
 link: https://medium.com/@herulu/%EC%B7%A8%EC%86%8C-%EC%9D%98-%EC%B7%A8%EC%86%8C-%EB%AC%B8%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0-%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94-%EB%8B%A4%EC%9D%B4%EC%96%BC%EB%A1%9C%EA%B7%B8-%EB%94%94%EC%9E%90%EC%9D%B8-d12a17bcf4f6
-author: padosum
 publishDate: 2020-08-25
+tags:
+  - UI
 ---
 ## 📝 요약 
 - 다이얼로그에 대해서, 그리고 문구와 버튼명, 디자인에 대해 효율적인 방법을 제시하는 글이다.

@@ -1,8 +1,9 @@
 ---
 title: 새해에는 볼링의 1번 핀 같은 목표를 세워보자
 link: https://brunch.co.kr/@jcmarkpark/113
-author: padosum
 publishDate: 2021-01-11
+tags:
+  - 자기관리
 ---
 
 ## 📝 요약 

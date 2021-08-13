@@ -1,8 +1,10 @@
 ---
 title: 개발자 부업, 어디까지 해봤니?
 link: https://taegon.kim/archives/10292
-author: padosum
 publishDate: 2021-04-07
+tags: 
+  - developer
+  - work
 ---
 ## 📝 요약 
 - 개발자로서 경험한 부업의 종류들과 후기  

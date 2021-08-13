@@ -1,8 +1,9 @@
 ---
 title: HTTP에서부터 WEBSOCKET까지
 link: https://medium.com/@chullino/http%EC%97%90%EC%84%9C%EB%B6%80%ED%84%B0-websocket%EA%B9%8C%EC%A7%80-94df91988788
-author: padosum
 publishDate: 2021-01-08
+tags:
+  - http
 ---
 ## 📝 요약 
 - HTTP의 등장부터 웹소켓이 나오게 된 이유와 차이점에 대해 정리한 글  

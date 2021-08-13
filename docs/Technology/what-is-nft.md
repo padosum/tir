@@ -1,7 +1,6 @@
 ---
 title: 이 고양이를 7억으로 만든 NFT란?
 link: https://youtu.be/jZkTtph5Raw
-author: padosum
 publishDate: 2021-03-19
 ---
 ## 📝 요약 

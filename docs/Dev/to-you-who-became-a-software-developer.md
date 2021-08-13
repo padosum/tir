@@ -1,8 +1,9 @@
 ---
 title: 이제 소프트웨어 개발자가 된 젊은 그대에게 
 link: https://brunch.co.kr/@lkj28/136
-author: padosum
 publishDate: 2020-08-10
+tags:
+  - developer
 ---
 ## 📝 요약 
 

@@ -1,8 +1,9 @@
 ---
 title: 코드리뷰가 쏘아올린 작은공
 link: https://woowabros.github.io/experience/2021/02/09/cory.html
-author: padosum
 publishDate: 2021-02-16
+tags:
+  - 코드리뷰
 ---
 ## 📝 요약 
 - '우아한형제들'에서 얕은 코드리뷰를 도입한 이야기  

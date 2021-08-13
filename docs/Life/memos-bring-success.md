@@ -1,8 +1,9 @@
 ---
 title: 메모는 성공을 가져온다
 link: https://brunch.co.kr/@marksknowledge/64
-author: padosum
 publishDate: 2021-01-06
+tags:
+  - 자기관리
 ---
 ## 📝 요약 
 - 성공한 수많은 사람들의 공통적인 습관 → 메모  

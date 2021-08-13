@@ -1,8 +1,9 @@
 ---
 title: 퇴사 후 나는 지금도 악몽을 꾼다
 link: https://1boon.kakao.com/COMPANYTIMES/jobplanet67
-author: padosum
 publishDate: 2020-11-18
+tags:
+  - work
 ---
 ## 📝 요약 
 

@@ -1,8 +1,9 @@
 ---
 title: 복잡한 커밋 로그를 정리해줄 구원자, gitmoji
 link: https://pilgwon.github.io/post/gitmoji
-author: padosum
-publishDate: 2020-11-14
+publishDate: 2020-11-14 
+tags:
+  - 코드리뷰
 ---
 ## 📝 요약 
 

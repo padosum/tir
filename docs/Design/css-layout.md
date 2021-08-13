@@ -1,7 +1,6 @@
 ---
 title: CSS Layout 
 link: https://csslayout.io/
-author: padosum
 publishDate: 2020-07-24
 ---
 
