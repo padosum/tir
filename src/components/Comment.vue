@@ -4,6 +4,9 @@
 
 <script>
 export default {
+  props: {
+    repo: String,
+  },
   mounted() {
     const utterances = document.createElement('script')
 
@@ -19,7 +22,7 @@ export default {
 
     utterances.setAttribute('issue-term', 'pathname')
     utterances.setAttribute('theme', theme)
-    utterances.setAttribute('repo', `padosum/tir`)
+    utterances.setAttribute('repo', this.repo)
 
     // script tag 삽입
     this.$refs.comment.appendChild(utterances)

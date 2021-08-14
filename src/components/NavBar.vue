@@ -98,9 +98,10 @@ export default {
         type: 'set-theme',
         theme: commentTheme,
       }
-      document
-        .querySelector('iframe.utterances-frame')
-        .contentWindow.postMessage(message, 'https://utteranc.es')
+
+      const commentFrame = document.querySelector('iframe.utterances-frame')
+      if (commentFrame !== null)
+        commentFrame.contentWindow.postMessage(message, 'https://utteranc.es')
 
       localStorage.setItem('selected-theme', this.getCurrentTheme(darkTheme))
       localStorage.setItem(

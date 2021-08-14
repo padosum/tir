@@ -23,7 +23,7 @@
           class="markdown-body"
         ></div>
       </div>
-      <comment></comment>
+      <comment :repo="'padosum/tir'"></comment>
     </section>
   </main>
 </template>
