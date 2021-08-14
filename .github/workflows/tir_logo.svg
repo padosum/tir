@@ -1,0 +1,13 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 264" width="512" height="264">
+	<title>cgapp_logo@2x</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #707070 } 
+		.txt1 { font-size: 92px;fill: #707070;font-weight: 400;font-family: "NotoSansKR-Regular", "Noto Sans KR" } 
+	</style>
+	<path id="Layer" fill-rule="evenodd" class="shp0" d="M223 92L223 161.95L218.25 161.95C218.16 161.96 218.09 162 218 162L148.06 162C146.04 162.05 143.68 162.76 143.12 165.64C143.05 166.05 143 166.5 143 167C143 171.03 145.75 171.94 148.06 172L223 172L223 182L148 182C141.97 182 133 178.01 133 167L133 97C133 86 141.97 82 148 82L213 82C218.52 82 223 86.48 223 92ZM213 92L203 92L203 127L193 122L183 127L183 92L148 92C145.75 92.06 143 92.97 143 97L143 152L213 152L213 92Z" />
+	<text id="TIR " style="transform: matrix(1,0,0,1,240.198,165.646)" >
+		<tspan x="0" y="0" class="txt1">T</tspan><tspan  y="0" class="txt1">I</tspan><tspan  y="0" class="txt1">R</tspan><tspan  y="0" class="txt1">
+</tspan>
+	</text>
+</svg>
