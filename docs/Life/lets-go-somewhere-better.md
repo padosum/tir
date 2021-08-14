@@ -4,6 +4,7 @@ link: https://brunch.co.kr/@annejeong/99
 publishDate: 2021-04-23
 tags:
   - 자기관리
+  - 능력주의
 ---
 ## 📝 요약 
 - '더 좋은 곳으로 가자' 저자 정문정님의 세바시에서 강의한 대본 내용  
