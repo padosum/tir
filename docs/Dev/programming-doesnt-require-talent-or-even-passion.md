@@ -1,5 +1,5 @@
 ---
-title: 재능과 열정 없어도 프로그래밍을 하는 사람들
+title: 재능과 열정 없이도 프로그래밍을 하는 사람들
 link: https://flearning-blog.tistory.com/237
 publishDate: 2021-08-23
 tags:

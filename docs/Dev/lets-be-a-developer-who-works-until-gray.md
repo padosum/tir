@@ -24,4 +24,4 @@ tags:
 - [한중일 출신이 구글에서 더 올라가지 못하는 3가지 이유](https://youtu.be/BgaWOzvH49A) 
 
 ## ⛓️ 연결고리
-- [재능과 열정 없어도 프로그래밍을 하는 사람들](../Dev/programming-doesnt-require-talent-or-even-passion.md)
+- [재능과 열정 없이도 프로그래밍을 하는 사람들](../Dev/programming-doesnt-require-talent-or-even-passion.md)
