@@ -10,7 +10,6 @@ module.exports = {
     // "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
     "prettier/prettier": ['error', {
       singleQuote: true,
-      semi: false,
       useTabs: false, 
       tabWidth: 2,
       trailingComma: 'all',
