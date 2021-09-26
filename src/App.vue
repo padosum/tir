@@ -10,26 +10,26 @@
   </div>
 </template>
 
-<script>
-import { scrollTop } from '@/utils/scroll'
-import NavBar from '@/components/NavBar.vue'
-import Footer from '@/components/Footer.vue'
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { scrollTop } from '@/utils/scroll';
+import NavBar from '@/components/NavBar.vue';
+import Footer from '@/components/Footer.vue';
+
+export default defineComponent({
   components: {
     NavBar,
     Footer,
   },
-  name: 'app',
-  data() {
-    return {}
+  setup() {
+    return {};
   },
-  computed: {},
   mounted() {
-    window.addEventListener('scroll', scrollTop)
+    window.addEventListener('scroll', scrollTop);
   },
-}
+});
 </script>
 
 <style>
-@import url('~assets/style/styles.css');
+@import '~@/assets/style/styles.css';
 </style>

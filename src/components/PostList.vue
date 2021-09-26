@@ -2,17 +2,17 @@
   <li>
     <h3>
       <router-link
-        :to="'/' + postItem.category + '/' + postItem.filename"
+        :to="'/' + postItem.section + '/' + postItem.title"
         class="post-link"
       >
-        {{ postItem.meta.title }}
+        {{ postItem.title }}
       </router-link>
     </h3>
     <span class="post-meta">
-      {{ postItem.meta.publishDate.slice(0, 10) }}
+      {{ postItem.publishDate.slice(0, 10) }}
     </span>
-    <router-link :to="'/' + postItem.category" class="post-category">
-      #{{ postItem.category }}
+    <router-link :to="'/' + postItem.section" class="post-category">
+      #{{ postItem.section }}
     </router-link>
   </li>
 </template>
@@ -25,7 +25,7 @@ export default {
       require: true,
     },
   },
-}
+};
 </script>
 
 <style></style>

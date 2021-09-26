@@ -29,30 +29,30 @@
 </template>
 
 <script>
-import Comment from '@/components/Comment.vue'
+import Comment from '@/components/Comment.vue';
 export default {
   components: {
     Comment,
   },
   props: ['postData'],
   data() {
-    return {}
+    return {};
   },
   mounted() {},
   computed: {
     hasLink() {
-      return this.postData.meta.link !== undefined
+      return this.postData.meta.link !== undefined;
     },
     tags() {
-      return this.postData.meta.tags
+      return this.postData.meta.tags;
     },
   },
-}
+};
 </script>
 
 <style scoped>
-@import url('~assets/style/github-markdown.css');
-@import url('~assets/style/highlight.scss');
+@import '~@/assets/style/github-markdown.css';
+@import '~@/assets/style/highlight.scss';
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;
