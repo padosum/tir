@@ -4,7 +4,7 @@
     <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <nav-bar></nav-bar>
+    <NavBar :sections="sections"></NavBar>
     <Suspense>
       <template #default>
         <router-view />
@@ -16,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, inject } from 'vue';
 import { scrollTop } from '@/utils/scroll';
 import NavBar from '@/components/NavBar.vue';
 import Footer from '@/components/Footer.vue';
@@ -27,7 +27,8 @@ export default defineComponent({
     Footer,
   },
   setup() {
-    return {};
+    const sections = inject('sections', []);
+    return { sections };
   },
   methods: {
     topClick() {

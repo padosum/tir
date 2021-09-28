@@ -6,47 +6,14 @@
       </router-link>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li class="nav__item">
-            <router-link :to="'/Art'" :class="selectedMenu('Art')"
-              >Art</router-link
+          <li v-for="section of sections" :key="section" class="nav__item">
+            <router-link
+              :to="`/${section}`"
+              class="nav__link"
+              exact-active-class="selected"
+              >{{ section }}</router-link
             >
           </li>
-          <li class="nav__item">
-            <router-link :to="'/Business'" :class="selectedMenu('Business')"
-              >Business</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Design'" :class="selectedMenu('Design')"
-              >Design</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Dev'" :class="selectedMenu('Dev')"
-              >Dev</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/History'" :class="selectedMenu('History')"
-              >History</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Life'" :class="selectedMenu('Life')"
-              >Life</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Study'" :class="selectedMenu('Study')"
-              >Study</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Technology'" :class="selectedMenu('Technology')"
-              >Technology</router-link
-            >
-          </li>
-
           <li>
             <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
@@ -67,16 +34,20 @@
   </header>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent, ref } from 'vue';
 import { showMenu, linkAction } from '@/utils/menu';
 import { scrollHeader } from '@/utils/scroll';
-export default {
-  methods: {
-    selectedMenu(name) {
-      return this.$route.params.category === name
-        ? 'nav__link selected'
-        : 'nav__link';
+
+const tag = 'NavBar';
+
+export default defineComponent({
+  props: {
+    sections: {
+      type: [],
     },
+  },
+  methods: {
     routeTagsPage() {
       this.$router.push(`/tags`);
     },
@@ -99,7 +70,9 @@ export default {
         theme: commentTheme,
       };
 
-      const commentFrame = document.querySelector('iframe.utterances-frame');
+      const commentFrame: any = document.querySelector(
+        'iframe.utterances-frame',
+      );
       if (commentFrame !== null)
         commentFrame.contentWindow.postMessage(message, 'https://utteranc.es');
 
@@ -142,7 +115,16 @@ export default {
       );
     }
   },
-};
+  setup() {
+    const showDropdown = ref(false);
+    const collapseMenu = ref(true);
+
+    return {
+      showDropdown,
+      collapseMenu,
+    };
+  },
+});
 </script>
 
 <style></style>
