@@ -18,6 +18,9 @@
             <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
           <li>
+            <i class="bx bx-dice-3 random" @click="randomPage"></i>
+          </li>
+          <li>
             <i
               class="bx bx-moon change-theme"
               id="theme-button"
@@ -35,9 +38,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
+import { defineComponent, inject } from 'vue';
 import { showMenu, linkAction } from '@/utils/menu';
 import { scrollHeader } from '@/utils/scroll';
+import { PostIndex } from '@/types/PostIndex';
 
 const tag = 'NavBar';
 
@@ -50,6 +54,12 @@ export default defineComponent({
   methods: {
     routeTagsPage() {
       this.$router.push(`/tags`);
+    },
+    randomPage() {
+      const { section, id } =
+        this.postsIndex[Math.floor(Math.random() * this.postsIndex.length)];
+
+      this.$router.push(`/${section}/${id}`);
     },
     changeTheme() {
       const themeButton = document.getElementById('theme-button');
@@ -116,12 +126,9 @@ export default defineComponent({
     }
   },
   setup() {
-    const showDropdown = ref(false);
-    const collapseMenu = ref(true);
-
+    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
     return {
-      showDropdown,
-      collapseMenu,
+      postsIndex,
     };
   },
 });
