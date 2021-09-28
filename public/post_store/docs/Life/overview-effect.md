@@ -5,7 +5,7 @@ tags:
   - 건강
   - 자기관리
 ---
-![overview-effect](../docs/../docs/img/overview-effect.png)
+![overview-effect](post_store/assets/overview-effect.png)
 
 
 ## 📝 요약 
