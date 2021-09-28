@@ -3,5 +3,7 @@ export type PostIndex = {
   id: string;
   section: string;
   title: string;
+  link: string;
   url: string;
+  tags: string[];
 };
