@@ -3,7 +3,7 @@ title: 마틴 스콜세지가 딸에게 쓴 편지
 link: https://cafe.naver.com/boogiesmoive/7668
 publishDate: 2021-08-19
 ---  
-- [원문](https://www.vanityfair.com/hollywood/2014/01/martin-scorsese-open-letter-daughter/amp)  
+- [원문](https://www.vanityfair.com/hollywood/2014/01/martin-scorsese-open-letter-daughter/amp)
 
 ## 📝 요약 
 - 마틴 스콜세지의 영화 산업에 대한 생각이 담겨있는 딸에게 쓴 편지  
