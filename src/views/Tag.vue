@@ -5,8 +5,8 @@
       <section class="section">
         <ul class="post-list">
           <post-list
-            v-for="postItem in postItems"
-            :key="postItem.filepath"
+            v-for="postItem in posts"
+            :key="postItem.id"
             :postItem="postItem"
           >
           </post-list>
@@ -15,27 +15,35 @@
     </div>
   </main>
 </template>
+<script lang="ts">
+import { defineComponent, inject } from 'vue';
+import { PostIndex } from '@/types/PostIndex';
 
-<script>
-import PostList from '@/components/PostList.vue'
-export default {
+import PostList from '@/components/PostList.vue';
+
+export default defineComponent({
   components: {
     PostList,
   },
   props: {
-    filteredData: {
-      type: Array,
-    },
     tag: {
       type: String,
+      default: '',
     },
   },
-  computed: {
-    postItems() {
-      return this.filteredData
-    },
+  setup(props) {
+    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const posts =
+      postsIndex.filter(({ tags }) => {
+        if (typeof tags !== 'undefined') {
+          return tags.includes(props.tag.toString());
+        }
+      }) || {};
+    return {
+      posts,
+    };
   },
-}
+});
 </script>
 
 <style></style>

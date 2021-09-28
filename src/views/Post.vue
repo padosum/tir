@@ -3,51 +3,93 @@
     <section class="section bd-container">
       <div class="contents">
         <h1 class="post-title">
-          <span v-if="!hasLink">{{ this.postData.meta.title }}</span>
-          <a :href="this.postData.meta.link" target="_blank" v-else>
-            {{ this.postData.meta.title }}
-            <i class="bx bx-link" v-if="hasLink"></i>
+          <span v-if="!link">{{ title }}</span>
+          <a :href="link" target="_blank" v-else>
+            {{ title }}
+            <i class="bx bx-link"></i>
           </a>
         </h1>
+
         <p class="post-date">
           <i class="bx bx-calendar"></i>
-          {{ this.postData.meta.publishDate.slice(0, 10) }}
+          {{ publishDate }}
         </p>
         <div class="post-tags">
           <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
             {{ value }}
           </a>
         </div>
-        <div
-          v-html="this.postData.content.contents"
-          class="markdown-body"
-        ></div>
+        <div v-html="postHtml" class="markdown-body"></div>
       </div>
-      <comment :repo="'padosum/tir'"></comment>
+      <Comment :repo="'padosum/tir'"></Comment>
     </section>
   </main>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent, inject } from 'vue';
+import { onBeforeRouteUpdate } from 'vue-router';
+import { PostIndex } from '@/types/PostIndex';
 import Comment from '@/components/Comment.vue';
-export default {
+import axios from 'redaxios';
+import MarkdownIt from 'markdown-it';
+import emoji from 'markdown-it-emoji';
+import router from '@/router';
+
+const { NODE_ENV, BASE_URL = '/' } = process.env;
+
+const tag = '[Post]';
+
+const markDownIt = new MarkdownIt({ html: true }).use(emoji);
+
+export default defineComponent({
   components: {
     Comment,
   },
-  props: ['postData'],
-  data() {
-    return {};
-  },
-  mounted() {},
-  computed: {
-    hasLink() {
-      return this.postData.meta.link !== undefined;
+  props: {
+    section: {
+      type: String,
+      default: '',
     },
-    tags() {
-      return this.postData.meta.tags;
+    id: {
+      type: String,
+      default: '',
     },
   },
-};
+  async setup(props) {
+    /* Hacky navigation when a href link is clicked within the compiled html Post */
+    // onBeforeRouteUpdate(() => {
+    //   location.reload();
+    // });
+
+    // fetch post
+    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const {
+      url = '',
+      title,
+      link,
+      tags,
+      publishDate,
+    } = postsIndex.find(({ id }) => id === props.id) || {};
+
+    const { data: markDownSource } = await axios.get(`../${url}`);
+
+    const [, , content] = markDownSource.split('---');
+    const postHtml = markDownIt.render(content);
+
+    const hasHistory = () => window.history?.length > 2;
+
+    return {
+      hasHistory,
+      postHtml,
+      router,
+      title,
+      link,
+      tags,
+      publishDate,
+    };
+  },
+});
 </script>
 
 <style scoped>

@@ -1,11 +1,16 @@
 <template>
   <div id="app">
     <!--======= scrolltop =======-->
-    <a href="#" class="scrolltop" id="scroll-top">
+    <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
     <nav-bar></nav-bar>
-    <router-view></router-view>
+    <Suspense>
+      <template #default>
+        <router-view />
+      </template>
+      <template #fallback>Load...</template>
+    </Suspense>
     <Footer></Footer>
   </div>
 </template>
@@ -23,6 +28,11 @@ export default defineComponent({
   },
   setup() {
     return {};
+  },
+  methods: {
+    topClick() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
   },
   mounted() {
     window.addEventListener('scroll', scrollTop);

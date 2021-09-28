@@ -2,7 +2,7 @@
   <li>
     <h3>
       <router-link
-        :to="'/' + postItem.section + '/' + postItem.title"
+        :to="'/' + postItem.section + '/' + postItem.id"
         class="post-link"
       >
         {{ postItem.title }}
