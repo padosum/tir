@@ -4,9 +4,9 @@
       <div class="title">Tags</div>
       <section class="section">
         <div class="post-tags">
-          <a v-for="tag in tags" :key="tag.name" :href="'/tags/' + tag.name">
-            {{ tag.name }}
-            <sup>{{ tag.count }}</sup>
+          <a v-for="(count, tag) in sortTags" :key="tag" :href="'/tags/' + tag">
+            {{ tag }}
+            <sup>{{ count }}</sup>
           </a>
         </div>
       </section>
@@ -24,33 +24,24 @@ export default defineComponent({
   setup() {
     const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
 
-    const tags = postsIndex.reduce((acc, obj) => {
-      let objTags = obj.tags;
-      if (typeof objTags !== 'undefined') {
-        objTags.forEach(tag => {
-          let idx = acc.findIndex(x => {
-            return x.name === tag;
-          });
-          if (idx === -1) {
-            acc.push({
-              name: tag,
-              count: 1,
-            });
-          } else {
-            acc[idx].name = tag;
-            acc[idx].count = ++acc[idx].count;
-          }
+    const tags = postsIndex.reduce((acc, { tags }) => {
+      let prev = acc;
+      if (typeof tags !== 'undefined') {
+        tags.forEach(tag => {
+          prev = prev[tag]
+            ? { ...prev, [tag]: prev[tag] + 1 }
+            : { ...prev, [tag]: 1 };
         });
       }
+      acc = prev;
       return acc;
-    }, []);
+    }, {});
 
-    tags.sort((a, b) => {
-      return b.count - a.count;
-    });
-
+    const sortTags = Object.fromEntries(
+      Object.entries(tags).sort(([, a]: any, [, b]: any) => b - a),
+    );
     return {
-      tags,
+      sortTags,
     };
   },
 });

@@ -133,19 +133,12 @@ export default defineComponent({
       currentPage: 1,
     });
 
-    const heatMapData = postsIndex.reduce((acc, obj) => {
-      const key = obj.publishDate;
-      const idx = acc.findIndex(x => {
-        return x.date === key;
-      });
+    const heatMapData = postsIndex.reduce((acc, { publishDate }) => {
+      let idx = acc.findIndex(x => x.date === publishDate);
       if (idx === -1) {
-        acc.push({
-          date: key,
-          count: 1,
-        });
+        acc.push({ date: publishDate, count: 1 });
       } else {
-        acc[idx].date = key;
-        acc[idx].count = ++acc[idx].count;
+        acc[idx].count = acc[idx].count + 1;
       }
       return acc;
     }, []);
