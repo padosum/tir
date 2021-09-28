@@ -31,14 +31,14 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: master
+          ref: gh-pages
 
       - run: rm -rf data
 
       - uses: actions/download-artifact@v2
         with:
           name: data_artifact
-          path: public/post_store
+          path: post_store
 
       - run: |
           git config --local user.email "posts_hook@github.com"
@@ -48,5 +48,5 @@ jobs:
 
       - uses: ad-m/github-push-action@master
         with:
-          branch: master
+          branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
