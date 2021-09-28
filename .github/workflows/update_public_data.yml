@@ -31,7 +31,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: gh-pages
+          ref: master
 
       - run: rm -rf data
 
@@ -44,7 +44,7 @@ jobs:
           git config --local user.email "posts_hook@github.com"
           git config --local user.name "Posts Hook"
           git add post_store
-          git commit -m "[CI:deploy] deploy_data job"
+          git commit -m "👷‍♂️ [CI:deploy] deploy_data job"
 
       - uses: ad-m/github-push-action@master
         with:
