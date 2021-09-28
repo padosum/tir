@@ -1,14 +1,12 @@
-name: update_public_data
+name: deploy_to_gh_pages
 on:
-  push:
-    branches: [master]
-    paths:
-      - public/post_store/docs/**/*
-      - public/post_store/assets/**/*
+  release:
+    types: [created]
 
 jobs:
-  build_index:
+  build_dist:
     runs-on: ubuntu-18.04
+    needs: sync_badges
     steps:
       - uses: actions/checkout@v2
         with:
@@ -19,32 +17,34 @@ jobs:
       - run: |
           npm i
           npm run build:index
-
+          npm run build
       - uses: actions/upload-artifact@v2
         with:
-          name: data_artifact
-          path: public/post_store
+          name: dist_artifact
+          path: dist/**/*
 
-  deploy_data:
+  deploy_dist:
     runs-on: ubuntu-18.04
-    needs: build_index
+    needs: build_dist
     steps:
       - uses: actions/checkout@v2
         with:
           ref: gh-pages
 
-      - run: rm -rf data
+      - run: rm -rf ./*
 
       - uses: actions/download-artifact@v2
         with:
-          name: data_artifact
-          path: post_store
+          name: dist_artifact
+          path: ./
 
       - run: |
+          ## Uncomment if deploying with custom domain enabled in your repo's GitHub pages settings. Must match your (sub)domain name
+          # echo "your.domain.com" > CNAME
           git config --local user.email "posts_hook@github.com"
           git config --local user.name "Posts Hook"
-          git add post_store
-          git commit -m "👷‍♀️ [CI:deploy] deploy_data job"
+          git add .
+          git commit -m "👷‍♀️ [CI:deploy] deploy_dist job"
 
       - uses: ad-m/github-push-action@master
         with:
