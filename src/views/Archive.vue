@@ -13,17 +13,17 @@
           >
           </CalendarHeatmap>
         </div>
-        <!-- <h3>{{ selectedDate }}</h3>
-        <ul class="selected-list">
+        <h3>{{ selectedDate }}</h3>
+        <ul class="selected-list" v-if="selectedDate">
           <li v-for="(value, key) in selectedList" :key="key">
-            <router-link :to="'/' + value.category + '/' + value.filename">
-              {{ value.meta.title }}
+            <router-link :to="'/' + value.section + '/' + value.id">
+              {{ value.title }}
             </router-link>
           </li>
-          <span v-if="!selectedList.length && selectedDate"
-            >Nothing 🏀 ⚽ 🎾 🏐
+          <span v-if="!selectedList.length && selectedDate">
+            조회된 항목이 없습니다.
           </span>
-        </ul> -->
+        </ul>
       </section>
       <section class="section">
         <ul class="post-list">
@@ -37,24 +37,35 @@
       </section>
 
       <!-- PAGINATION -->
-      <u
+      <ul
+        class="pagination"
         v-if="pageStatus.endPage > pageStatus.startPage"
         style="cursor: pointer"
       >
-        <li @click="currentPage = pageStatus.startPage">
-          <a>{{ pageStatus.startPage }}</a>
+        <li
+          class="page-item"
+          :class="currentPage == pageStatus.startPage ? 'active' : ''"
+          @click="currentPage = pageStatus.startPage"
+        >
+          <a class="page-link"> {{ pageStatus.startPage }}</a>
         </li>
         <li
           v-for="(page, index) in pageStatus.midPages"
           :key="index"
+          class="page-item"
+          :class="currentPage == page ? 'active' : ''"
           @click="currentPage = page"
         >
-          <a>{{ page }}</a>
+          <a class="page-link">{{ page }}</a>
         </li>
-        <li @click="currentPage = pageStatus.endPage">
-          <a>{{ pageStatus.endPage }}</a>
+        <li
+          class="page-item"
+          :class="currentPage == pageStatus.endPage ? 'active' : ''"
+          @click="currentPage = pageStatus.endPage"
+        >
+          <a class="page-link">{{ pageStatus.endPage }}</a>
         </li>
-      </u>
+      </ul>
     </div>
   </main>
 </template>
@@ -64,11 +75,9 @@ import { PostIndex } from '@/types/PostIndex';
 import { CalendarHeatmap } from 'vue3-calendar-heatmap';
 import PostList from '@/components/PostList.vue';
 import paginate from '@/utils/paginate';
-const {
-  VUE_APP_POSTS_PER_PAGE = 10,
-  VUE_APP_MAIN_BG_CSS_COLOR = 'white',
-  VUE_APP_MAIN_TEXT_CSS_COLOR = 'black',
-} = process.env;
+const { VUE_APP_POSTS_PER_PAGE } = process.env;
+
+const tag = 'Archive';
 
 export default defineComponent({
   components: {
@@ -80,6 +89,12 @@ export default defineComponent({
       type: String,
       default: '',
     },
+  },
+  data() {
+    return {
+      selectedDate: '',
+      selectedList: [],
+    };
   },
   computed: {
     title() {
@@ -95,15 +110,17 @@ export default defineComponent({
   },
   methods: {
     handleDayClick(day) {
-      // let selected = [];
-      // this.data.markdown.forEach((element, index) => {
-      //   if (formatDate(element.meta.publishDate) === formatDate(day.date)) {
-      //     selected.push(this.data.markdown[index]);
-      //   }
-      // });
-      // this.selectedList = selected;
-      // let d = formatDate(day.date);
-      // this.selectedDate = `What I Read in ${d}`;
+      const d = new Date();
+
+      this.selectedDate = new Date(day.date - d.getTimezoneOffset() * 60000)
+        .toISOString()
+        .split('T')[0];
+
+      this.selectedList = this.postsIndex.filter(({ publishDate }) => {
+        return publishDate === this.selectedDate;
+      });
+
+      this.selectedDate = `📖 ${this.selectedDate}`;
     },
   },
   setup(props) {
@@ -136,7 +153,7 @@ export default defineComponent({
       const { startPage, endPage, startIndex, endIndex } = paginate(
         categoryPosts.length,
         state.currentPage,
-        props.section ? VUE_APP_POSTS_PER_PAGE : 50,
+        VUE_APP_POSTS_PER_PAGE,
       );
 
       const prev =
@@ -159,8 +176,6 @@ export default defineComponent({
     return {
       ...toRefs(state),
       pageStatus,
-      VUE_APP_MAIN_BG_CSS_COLOR,
-      VUE_APP_MAIN_TEXT_CSS_COLOR,
       postsIndex,
       heatMapData,
     };
