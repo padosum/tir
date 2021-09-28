@@ -7,9 +7,9 @@
     <NavBar :sections="sections"></NavBar>
     <Suspense>
       <template #default>
-        <router-view />
+        <router-view :key="$route.fullPath" />
       </template>
-      <template #fallback>Load...</template>
+      <template #fallback> </template>
     </Suspense>
     <Footer></Footer>
   </div>
