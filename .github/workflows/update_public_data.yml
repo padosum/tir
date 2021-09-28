@@ -31,22 +31,22 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: gh-pages
+          ref: master
 
       - run: rm -rf data
 
       - uses: actions/download-artifact@v2
         with:
           name: data_artifact
-          path: post_store
+          path: public/post_store
 
       - run: |
           git config --local user.email "posts_hook@github.com"
           git config --local user.name "Posts Hook"
-          git add post_store
+          git add public/post_store
           git commit -m "👷‍♀️ [CI:deploy] deploy_data job"
 
       - uses: ad-m/github-push-action@master
         with:
-          branch: gh-pages
+          branch: master
           github_token: ${{ secrets.GITHUB_TOKEN }}
