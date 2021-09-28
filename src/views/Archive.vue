@@ -2,7 +2,7 @@
   <main class="l-main">
     <div class="bd-container archive__container">
       <div class="title">{{ title }}</div>
-      <section class="section" v-if="!section">
+      <section class="section" v-if="!section && !tag">
         <div class="heatmap">
           <CalendarHeatmap
             :values="heatMapData"
@@ -89,6 +89,10 @@ export default defineComponent({
       type: String,
       default: '',
     },
+    tag: {
+      type: String,
+      default: '',
+    },
   },
   data() {
     return {
@@ -98,7 +102,7 @@ export default defineComponent({
   },
   computed: {
     title() {
-      return this.section === '' ? 'Today I Read' : this.section;
+      return this.section ? this.section : this.tag ? this.tag : 'Today I Read';
     },
     today() {
       let today = new Date();
@@ -147,9 +151,17 @@ export default defineComponent({
     }, []);
 
     const pageStatus = computed(() => {
-      const categoryPosts = props.section
+      const isHome = !props.section && !props.tag;
+      const categoryPosts = isHome
+        ? postsIndex
+        : props.section
         ? postsIndex.filter(({ section }) => section === props.section)
-        : postsIndex;
+        : postsIndex.filter(({ tags }) => {
+            if (typeof tags !== 'undefined') {
+              return tags.includes(props.tag.toString());
+            }
+          });
+
       const { startPage, endPage, startIndex, endIndex } = paginate(
         categoryPosts.length,
         state.currentPage,
