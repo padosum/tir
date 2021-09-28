@@ -14,13 +14,13 @@
               >{{ section }}</router-link
             >
           </li>
-          <li>
+          <li class="tools">
             <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
-          <li>
+          <li class="tools">
             <i class="bx bx-dice-3 random" @click="randomPage"></i>
           </li>
-          <li>
+          <li class="tools">
             <i
               class="bx bx-moon change-theme"
               id="theme-button"
@@ -105,6 +105,9 @@ export default defineComponent({
     /*========================= remove menu mobile =================================*/
     const navLink = document.querySelectorAll('.nav__link');
     navLink.forEach(n => n.addEventListener('click', linkAction));
+
+    const tools = document.querySelectorAll('.tools');
+    tools.forEach(n => n.addEventListener('click', linkAction));
 
     window.addEventListener('scroll', scrollHeader);
 

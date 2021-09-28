@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
+  <div>
+    <NavBar :sections="sections"></NavBar>
     <!--======= scrolltop =======-->
     <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <NavBar :sections="sections"></NavBar>
     <Suspense>
       <template #default>
         <router-view :key="$route.fullPath" />
       </template>
       <template #fallback> </template>
     </Suspense>
-    <Footer></Footer>
+    <Footer />
   </div>
 </template>
 
