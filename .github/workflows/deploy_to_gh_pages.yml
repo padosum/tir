@@ -1,7 +1,7 @@
 name: deploy_to_gh_pages
 on:
-  release:
-    types: [created]
+  push:
+    branches: [master]
 
 jobs:
   build_dist:
