@@ -20,8 +20,8 @@ tags:
    - 서버사이드의 경우 View를 서버에서 렌더링하여 가져오므로 첫 로딩 속도가 빠르다.(물론 js 파일을 모두 받기 전까지 반응하지 않지만, 사용자 입장에선 화면이 먼저 뜨기 때문에 빠르다고 생각하게 된다.)
    - 클라이언트사이드의 경우 HTML을 다운받은 후 각 리소스를 다운받고 브라우저에서 렌더링하기 때문에 로딩이 오래 걸림
 
-     ![SSR](../../docs/img/SSR.png)
-     ![CSR](../../docs/img/CSR.png)
+     ![SSR](post_store/assets/SSR.png)
+     ![CSR](post_store/assets/CSR.png)
 
 2) SEO(검색엔진최적화)
 

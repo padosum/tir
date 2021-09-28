@@ -6,4 +6,4 @@ tags:
 ---
 ## 30days reading and keeping project
 
-![code-complete2](../docs/img/Screenshot_119.png)
+![code-complete2](post_store/assets/Screenshot_119.png)

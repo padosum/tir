@@ -6,51 +6,21 @@
       </router-link>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li class="nav__item">
-            <router-link :to="'/Art'" :class="selectedMenu('Art')"
-              >Art</router-link
+          <li v-for="section of sections" :key="section" class="nav__item">
+            <router-link
+              :to="`/${section}`"
+              class="nav__link"
+              exact-active-class="selected"
+              >{{ section }}</router-link
             >
           </li>
-          <li class="nav__item">
-            <router-link :to="'/Business'" :class="selectedMenu('Business')"
-              >Business</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Design'" :class="selectedMenu('Design')"
-              >Design</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Dev'" :class="selectedMenu('Dev')"
-              >Dev</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/History'" :class="selectedMenu('History')"
-              >History</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Life'" :class="selectedMenu('Life')"
-              >Life</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Study'" :class="selectedMenu('Study')"
-              >Study</router-link
-            >
-          </li>
-          <li class="nav__item">
-            <router-link :to="'/Technology'" :class="selectedMenu('Technology')"
-              >Technology</router-link
-            >
-          </li>
-
-          <li>
+          <li class="tools">
             <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
-          <li>
+          <li class="tools">
+            <i class="bx bx-dice-3 random" @click="randomPage"></i>
+          </li>
+          <li class="tools">
             <i
               class="bx bx-moon change-theme"
               id="theme-button"
@@ -67,82 +37,104 @@
   </header>
 </template>
 
-<script>
-import { showMenu, linkAction } from '@/utils/menu'
-import { scrollHeader } from '@/utils/scroll'
-export default {
-  methods: {
-    selectedMenu(name) {
-      return this.$route.params.category === name
-        ? 'nav__link selected'
-        : 'nav__link'
+<script lang="ts">
+import { defineComponent, inject } from 'vue';
+import { showMenu, linkAction } from '@/utils/menu';
+import { scrollHeader } from '@/utils/scroll';
+import { PostIndex } from '@/types/PostIndex';
+
+const tag = 'NavBar';
+
+export default defineComponent({
+  props: {
+    sections: {
+      type: [],
     },
+  },
+  methods: {
     routeTagsPage() {
-      this.$router.push(`/tags`)
+      this.$router.push(`/tags`);
+    },
+    randomPage() {
+      const { section, id } =
+        this.postsIndex[Math.floor(Math.random() * this.postsIndex.length)];
+
+      this.$router.push(`/${section}/${id}`);
     },
     changeTheme() {
-      const themeButton = document.getElementById('theme-button')
-      const darkTheme = 'dark-theme'
-      const iconTheme = 'bx-sun'
+      const themeButton = document.getElementById('theme-button');
+      const darkTheme = 'dark-theme';
+      const iconTheme = 'bx-sun';
 
-      document.body.classList.toggle(darkTheme)
-      themeButton.classList.toggle(iconTheme)
+      document.body.classList.toggle(darkTheme);
+      themeButton.classList.toggle(iconTheme);
 
       // change utteraces theme
       const commentTheme =
         localStorage.getItem('selected-theme') === 'dark'
           ? 'boxy-light'
-          : 'dark-blue'
+          : 'dark-blue';
 
       const message = {
         type: 'set-theme',
         theme: commentTheme,
-      }
+      };
 
-      const commentFrame = document.querySelector('iframe.utterances-frame')
+      const commentFrame: any = document.querySelector(
+        'iframe.utterances-frame',
+      );
       if (commentFrame !== null)
-        commentFrame.contentWindow.postMessage(message, 'https://utteranc.es')
+        commentFrame.contentWindow.postMessage(message, 'https://utteranc.es');
 
-      localStorage.setItem('selected-theme', this.getCurrentTheme(darkTheme))
+      localStorage.setItem('selected-theme', this.getCurrentTheme(darkTheme));
       localStorage.setItem(
         'selected-icon',
         this.getCurrentIcon(iconTheme, themeButton),
-      )
+      );
     },
     getCurrentTheme(darkTheme) {
-      return document.body.classList.contains(darkTheme) ? 'dark' : 'light'
+      return document.body.classList.contains(darkTheme) ? 'dark' : 'light';
     },
     getCurrentIcon(iconTheme, themeButton) {
-      return themeButton.classList.contains(iconTheme) ? 'bx-moon' : 'bx-sun'
+      return themeButton.classList.contains(iconTheme) ? 'bx-moon' : 'bx-sun';
     },
   },
   mounted() {
-    showMenu('nav-toggle', 'nav-menu')
+    showMenu('nav-toggle', 'nav-menu');
 
     /*========================= remove menu mobile =================================*/
-    const navLink = document.querySelectorAll('.nav__link')
-    navLink.forEach(n => n.addEventListener('click', linkAction))
+    const navLink = document.querySelectorAll('.nav__link');
+    navLink.forEach(n => n.addEventListener('click', linkAction));
 
-    window.addEventListener('scroll', scrollHeader)
+    const tools = document.querySelectorAll('.tools');
+    tools.forEach(n => n.addEventListener('click', linkAction));
+
+    window.addEventListener('scroll', scrollHeader);
 
     // previously selected theme
-    const themeButton = document.getElementById('theme-button')
-    const darkTheme = 'dark-theme'
-    const iconTheme = 'bx-sun'
+    const themeButton = document.getElementById('theme-button');
+    const darkTheme = 'dark-theme';
+    const iconTheme = 'bx-sun';
 
-    const selectedTheme = localStorage.getItem('selected-theme')
-    const selectedIcon = localStorage.getItem('selected-icon')
+    const selectedTheme = localStorage.getItem('selected-theme');
+    const selectedIcon = localStorage.getItem('selected-icon');
 
     if (selectedTheme) {
       document.body.classList[selectedTheme == 'dark' ? 'add' : 'remove'](
         darkTheme,
-      )
+      );
       themeButton.classList[selectedIcon == 'bx-moon' ? 'add' : 'remove'](
         iconTheme,
-      )
+      );
     }
   },
-}
+  setup() {
+    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    return {
+      postsIndex,
+    };
+  },
+});
 </script>
 
 <style></style>

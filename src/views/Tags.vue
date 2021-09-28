@@ -4,9 +4,9 @@
       <div class="title">Tags</div>
       <section class="section">
         <div class="post-tags">
-          <a v-for="tag in tags" :key="tag.name" :href="'/tags/' + tag.name">
-            {{ tag.name }}
-            <sup>{{ tag.count }}</sup>
+          <a v-for="(count, tag) in sortTags" :key="tag" :href="'/tags/' + tag">
+            {{ tag }}
+            <sup>{{ count }}</sup>
           </a>
         </div>
       </section>
@@ -14,14 +14,37 @@
   </main>
 </template>
 
-<script>
-export default {
-  props: {
-    tags: {
-      type: Array,
-    },
+<script lang="ts">
+import { defineComponent, inject } from 'vue';
+import { PostIndex } from '@/types/PostIndex';
+
+const tag = 'Tags';
+
+export default defineComponent({
+  setup() {
+    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+
+    const tags = postsIndex.reduce((acc, { tags }) => {
+      let prev = acc;
+      if (typeof tags !== 'undefined') {
+        tags.forEach(tag => {
+          prev = prev[tag]
+            ? { ...prev, [tag]: prev[tag] + 1 }
+            : { ...prev, [tag]: 1 };
+        });
+      }
+      acc = prev;
+      return acc;
+    }, {});
+
+    const sortTags = Object.fromEntries(
+      Object.entries(tags).sort(([, a]: any, [, b]: any) => b - a),
+    );
+    return {
+      sortTags,
+    };
   },
-}
+});
 </script>
 
 <style></style>

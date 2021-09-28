@@ -42,10 +42,10 @@
 
 ## 마음이 해이해질 때 😴 
 
-![code-complete2](./docs/img/IMG_7770.jpg)
+![code-complete2](public/post_store/assets/IMG_7770.jpg)
 [CODE COMPLETE 2 - Steve McConnell](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788956742564)
 
-![minister of foreign affair's good advice](./docs/img/kang.png)
+![minister of foreign affair's good advice](public/post_store/assets/kang.png)
 [[Interview] Women Leaders: South Korean Foreign Minister Kang Kyung-wha](https://youtu.be/5a8yiGfrI7s)
 
 ## Assets used from ⚡

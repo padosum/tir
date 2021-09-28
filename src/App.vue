@@ -1,35 +1,46 @@
 <template>
-  <div id="app">
+  <div>
+    <NavBar :sections="sections"></NavBar>
     <!--======= scrolltop =======-->
-    <a href="#" class="scrolltop" id="scroll-top">
+    <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <nav-bar></nav-bar>
-    <router-view></router-view>
-    <Footer></Footer>
+    <Suspense>
+      <template #default>
+        <router-view :key="$route.fullPath" />
+      </template>
+      <template #fallback> </template>
+    </Suspense>
+    <Footer />
   </div>
 </template>
 
-<script>
-import { scrollTop } from '@/utils/scroll'
-import NavBar from '@/components/NavBar.vue'
-import Footer from '@/components/Footer.vue'
-export default {
+<script lang="ts">
+import { defineComponent, inject } from 'vue';
+import { scrollTop } from '@/utils/scroll';
+import NavBar from '@/components/NavBar.vue';
+import Footer from '@/components/Footer.vue';
+
+export default defineComponent({
   components: {
     NavBar,
     Footer,
   },
-  name: 'app',
-  data() {
-    return {}
+  setup() {
+    const sections = inject('sections', []);
+    return { sections };
   },
-  computed: {},
+  methods: {
+    topClick() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+  },
   mounted() {
-    window.addEventListener('scroll', scrollTop)
+    window.addEventListener('scroll', scrollTop);
   },
-}
+});
 </script>
 
 <style>
-@import url('~assets/style/styles.css');
+@import '~@/assets/style/styles.css';
 </style>
