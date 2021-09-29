@@ -1,5 +1,13 @@
 [
     {
+        "id": "its-not-ruined-lets-make-good-failures",
+        "section": "Life",
+        "title": "안망했어요, 우리 좋은 실패들을 해요",
+        "link": "https://univ20.com/105312",
+        "publishDate": "2021-09-29",
+        "url": "post_store/docs/Life/its-not-ruined-lets-make-good-failures.md"
+    },
+    {
         "id": "uncertainty",
         "section": "Life",
         "title": "인간은 불확실성을 두려워한다",
@@ -1329,17 +1337,6 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
-    },
-    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1352,6 +1349,17 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
+    },
+    {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1398,17 +1406,6 @@
         "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
-        "id": "what-is-TDD",
-        "section": "Dev",
-        "title": "다 함께 TDD",
-        "link": "https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e",
-        "publishDate": "2020-08-09",
-        "tags": [
-            "TDD"
-        ],
-        "url": "post_store/docs/Dev/what-is-TDD.md"
-    },
-    {
         "id": "no-hello",
         "section": "Dev",
         "title": "채팅에서 그냥 \"안녕하세요\"라고 말하지 마세요.",
@@ -1418,6 +1415,17 @@
             "work"
         ],
         "url": "post_store/docs/Dev/no-hello.md"
+    },
+    {
+        "id": "what-is-TDD",
+        "section": "Dev",
+        "title": "다 함께 TDD",
+        "link": "https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e",
+        "publishDate": "2020-08-09",
+        "tags": [
+            "TDD"
+        ],
+        "url": "post_store/docs/Dev/what-is-TDD.md"
     },
     {
         "id": "becoming-a-10x-developer",
@@ -1456,6 +1464,17 @@
         "url": "post_store/docs/Dev/my-advice-on-studying-algorithms.md"
     },
     {
+        "id": "about-mvc",
+        "section": "Dev",
+        "title": "MVC design pattern",
+        "link": "https://velog.io/@denmark-choco/MVC-design-pattern",
+        "publishDate": "2020-08-06",
+        "tags": [
+            "MVC"
+        ],
+        "url": "post_store/docs/Dev/about-mvc.md"
+    },
+    {
         "id": "javascript-trend-2020",
         "section": "Dev",
         "title": "2020년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)",
@@ -1467,15 +1486,16 @@
         "url": "post_store/docs/Dev/javascript-trend-2020.md"
     },
     {
-        "id": "about-mvc",
-        "section": "Dev",
-        "title": "MVC design pattern",
-        "link": "https://velog.io/@denmark-choco/MVC-design-pattern",
-        "publishDate": "2020-08-06",
+        "id": "simple-is-best",
+        "section": "Study",
+        "title": "개발도 쉽게 풀어가야 합니다.",
+        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "publishDate": "2020-08-05",
         "tags": [
-            "MVC"
+            "쉽게",
+            "개발하기"
         ],
-        "url": "post_store/docs/Dev/about-mvc.md"
+        "url": "post_store/docs/Study/simple-is-best.md"
     },
     {
         "id": "become-a-better-developer-by-building-projects",
@@ -1498,18 +1518,6 @@
         "url": "post_store/docs/Dev/github-seed-vault.md"
     },
     {
-        "id": "simple-is-best",
-        "section": "Study",
-        "title": "개발도 쉽게 풀어가야 합니다.",
-        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
-        "publishDate": "2020-08-05",
-        "tags": [
-            "쉽게",
-            "개발하기"
-        ],
-        "url": "post_store/docs/Study/simple-is-best.md"
-    },
-    {
         "id": "about-shallow-copy-and-deep-copy",
         "section": "Dev",
         "title": "깊은 복사와 얕은 복사에 대한 심도있는 이야기",
@@ -1521,17 +1529,6 @@
         "url": "post_store/docs/Dev/about-shallow-copy-and-deep-copy.md"
     },
     {
-        "id": "goodbye-clean-code",
-        "section": "Dev",
-        "title": "잘가, 클린 코드",
-        "link": "https://overreacted.io/ko/goodbye-clean-code/",
-        "publishDate": "2020-08-03",
-        "tags": [
-            "cleancode"
-        ],
-        "url": "post_store/docs/Dev/goodbye-clean-code.md"
-    },
-    {
         "id": "how-to-get-the-answer-you-want",
         "section": "Life",
         "title": "빠르고 정확하게 답변을 받을 수 있는 질문하는 법",
@@ -1541,6 +1538,17 @@
             "work"
         ],
         "url": "post_store/docs/Life/how-to-get-the-answer-you-want.md"
+    },
+    {
+        "id": "goodbye-clean-code",
+        "section": "Dev",
+        "title": "잘가, 클린 코드",
+        "link": "https://overreacted.io/ko/goodbye-clean-code/",
+        "publishDate": "2020-08-03",
+        "tags": [
+            "cleancode"
+        ],
+        "url": "post_store/docs/Dev/goodbye-clean-code.md"
     },
     {
         "id": "advice-for-front-end-developer",
@@ -1622,17 +1630,6 @@
         "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
     },
     {
-        "id": "about-https",
-        "section": "Dev",
-        "title": "HTTPS에 대해 알아야 할 것들",
-        "link": "https://www.mimul.com/blog/about-https/",
-        "publishDate": "2020-07-27",
-        "tags": [
-            "http"
-        ],
-        "url": "post_store/docs/Dev/about-https.md"
-    },
-    {
         "id": "things-that-no-one-told-me",
         "section": "Study",
         "title": "아무도 가르쳐 주지 않는 것",
@@ -1643,6 +1640,17 @@
             "developer"
         ],
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
+    },
+    {
+        "id": "about-https",
+        "section": "Dev",
+        "title": "HTTPS에 대해 알아야 할 것들",
+        "link": "https://www.mimul.com/blog/about-https/",
+        "publishDate": "2020-07-27",
+        "tags": [
+            "http"
+        ],
+        "url": "post_store/docs/Dev/about-https.md"
     },
     {
         "id": "today-is-not-the-only-day-for-coding",
@@ -1669,6 +1677,18 @@
         "url": "post_store/docs/Design/text-fields-and-forms-design.md"
     },
     {
+        "id": "things-to-know-when-you-prepare-presentation-first-time",
+        "section": "Study",
+        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
+        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
+        "publishDate": "2020-07-25",
+        "tags": [
+            "발표",
+            "developer"
+        ],
+        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
+    },
+    {
         "id": "Salary-is-not-the-result-of-ability.",
         "section": "Business",
         "title": "연봉은 실력의 결과가 아니다",
@@ -1692,18 +1712,6 @@
             "이직"
         ],
         "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
-    },
-    {
-        "id": "things-to-know-when-you-prepare-presentation-first-time",
-        "section": "Study",
-        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
-        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
-        "publishDate": "2020-07-25",
-        "tags": [
-            "발표",
-            "developer"
-        ],
-        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
     },
     {
         "id": "the-IT-blog-is-not-dead-yet",
@@ -1734,6 +1742,18 @@
         "url": "post_store/docs/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md"
     },
     {
+        "id": "the-fastest-way-to-learn",
+        "section": "Study",
+        "title": "공개적으로 학습하라!",
+        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
+        "publishDate": "2020-07-22",
+        "tags": [
+            "developer",
+            "학습"
+        ],
+        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+    },
+    {
         "id": "how-i-became-a-better-programmer",
         "section": "Dev",
         "title": "나는 어떻게 더 나은 프로그래머가 되었는가",
@@ -1747,16 +1767,14 @@
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
     },
     {
-        "id": "the-fastest-way-to-learn",
-        "section": "Study",
-        "title": "공개적으로 학습하라!",
-        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
-        "publishDate": "2020-07-22",
+        "id": "GIMZIMEAN",
+        "section": "Technology",
+        "title": "AI",
+        "publishDate": "2020-07-21",
         "tags": [
-            "developer",
-            "학습"
+            "data-science"
         ],
-        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+        "url": "post_store/docs/Technology/GIMZIMEAN.md"
     },
     {
         "id": "don't-use-else",
@@ -1770,16 +1788,6 @@
             "else"
         ],
         "url": "post_store/docs/Dev/don't-use-else.md"
-    },
-    {
-        "id": "GIMZIMEAN",
-        "section": "Technology",
-        "title": "AI",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "data-science"
-        ],
-        "url": "post_store/docs/Technology/GIMZIMEAN.md"
     },
     {
         "id": "Day01",
@@ -1803,6 +1811,17 @@
         "url": "post_store/docs/Business/naver-naver-and-naver.md"
     },
     {
+        "id": "why-side-projects-are-so-damn-important",
+        "section": "Dev",
+        "title": "사이드 프로젝트가 개 중요한 이유",
+        "link": "https://usecode.pw/why-side-projects-are-so-damn-important/",
+        "publishDate": "2020-07-20",
+        "tags": [
+            "사이드프로젝트"
+        ],
+        "url": "post_store/docs/Dev/why-side-projects-are-so-damn-important.md"
+    },
+    {
         "id": "introduction-to-svelte",
         "section": "Dev",
         "title": "처음 만나는 Svelte",
@@ -1813,16 +1832,5 @@
             "svelte"
         ],
         "url": "post_store/docs/Dev/introduction-to-svelte.md"
-    },
-    {
-        "id": "why-side-projects-are-so-damn-important",
-        "section": "Dev",
-        "title": "사이드 프로젝트가 개 중요한 이유",
-        "link": "https://usecode.pw/why-side-projects-are-so-damn-important/",
-        "publishDate": "2020-07-20",
-        "tags": [
-            "사이드프로젝트"
-        ],
-        "url": "post_store/docs/Dev/why-side-projects-are-so-damn-important.md"
     }
 ]
