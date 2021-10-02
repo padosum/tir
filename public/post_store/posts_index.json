@@ -1,5 +1,16 @@
 [
     {
+        "id": "banana",
+        "section": "History",
+        "title": "별게 다 과학 바나나 껍질의 사회적 약속에 대한 과학적 증명",
+        "link": "https://bung015a.tistory.com/258?category=822580",
+        "publishDate": "2021-10-02",
+        "tags": [
+            "comics"
+        ],
+        "url": "post_store/docs/History/banana.md"
+    },
+    {
         "id": "programmers-naming",
         "section": "Dev",
         "title": "프로그래머를 위한 이름 짓는 원리",
@@ -1189,6 +1200,17 @@
         "url": "post_store/docs/Dev/understanding-developers-terms.md"
     },
     {
+        "id": "working-in-a-field-realated-to-your-fandom",
+        "section": "Life",
+        "title": "덕업일치",
+        "link": "https://www.thestartupbible.com/2020/08/doing-what-you-love.html",
+        "publishDate": "2020-08-30",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Life/working-in-a-field-realated-to-your-fandom.md"
+    },
+    {
         "id": "whether-or-not-to-put-semicolons-in-javaScript",
         "section": "Dev",
         "title": "자바스크립트, 세미콜론을 써야 하나 말아야 하나",
@@ -1200,17 +1222,6 @@
             "asi"
         ],
         "url": "post_store/docs/Dev/whether-or-not-to-put-semicolons-in-javaScript.md"
-    },
-    {
-        "id": "working-in-a-field-realated-to-your-fandom",
-        "section": "Life",
-        "title": "덕업일치",
-        "link": "https://www.thestartupbible.com/2020/08/doing-what-you-love.html",
-        "publishDate": "2020-08-30",
-        "tags": [
-            "work"
-        ],
-        "url": "post_store/docs/Life/working-in-a-field-realated-to-your-fandom.md"
     },
     {
         "id": "object-oriented-philosophy",
@@ -1356,6 +1367,17 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
+    },
+    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1368,17 +1390,6 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
-    },
-    {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1403,17 +1414,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "important-purpose-of-codereview",
-        "section": "Dev",
-        "title": "코드리뷰의 진짜 목적은 따로있다.",
-        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "코드리뷰"
-        ],
-        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
-    },
-    {
         "id": "to-you-who-became-a-software-developer",
         "section": "Dev",
         "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
@@ -1425,15 +1425,15 @@
         "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
-        "id": "what-is-TDD",
+        "id": "important-purpose-of-codereview",
         "section": "Dev",
-        "title": "다 함께 TDD",
-        "link": "https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e",
-        "publishDate": "2020-08-09",
+        "title": "코드리뷰의 진짜 목적은 따로있다.",
+        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
+        "publishDate": "2020-08-10",
         "tags": [
-            "TDD"
+            "코드리뷰"
         ],
-        "url": "post_store/docs/Dev/what-is-TDD.md"
+        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
     },
     {
         "id": "no-hello",
@@ -1445,6 +1445,17 @@
             "work"
         ],
         "url": "post_store/docs/Dev/no-hello.md"
+    },
+    {
+        "id": "what-is-TDD",
+        "section": "Dev",
+        "title": "다 함께 TDD",
+        "link": "https://velog.io/@hax0r/%EB%8B%A4-%ED%95%A8%EA%BB%98-TDD-u5v3zo6e",
+        "publishDate": "2020-08-09",
+        "tags": [
+            "TDD"
+        ],
+        "url": "post_store/docs/Dev/what-is-TDD.md"
     },
     {
         "id": "becoming-a-10x-developer",
@@ -1459,18 +1470,6 @@
         "url": "post_store/docs/Dev/becoming-a-10x-developer.md"
     },
     {
-        "id": "my-advice-on-studying-algorithms",
-        "section": "Dev",
-        "title": "알고리즘 학습에 대한 조언",
-        "link": "https://edykim.com/ko/post/advice-on-learning-algorithms/",
-        "publishDate": "2020-08-07",
-        "tags": [
-            "학습",
-            "algorithm"
-        ],
-        "url": "post_store/docs/Dev/my-advice-on-studying-algorithms.md"
-    },
-    {
         "id": "why-we-use-react",
         "section": "Dev",
         "title": "React를 사용하는 이유",
@@ -1483,15 +1482,16 @@
         "url": "post_store/docs/Dev/why-we-use-react.md"
     },
     {
-        "id": "about-mvc",
+        "id": "my-advice-on-studying-algorithms",
         "section": "Dev",
-        "title": "MVC design pattern",
-        "link": "https://velog.io/@denmark-choco/MVC-design-pattern",
-        "publishDate": "2020-08-06",
+        "title": "알고리즘 학습에 대한 조언",
+        "link": "https://edykim.com/ko/post/advice-on-learning-algorithms/",
+        "publishDate": "2020-08-07",
         "tags": [
-            "MVC"
+            "학습",
+            "algorithm"
         ],
-        "url": "post_store/docs/Dev/about-mvc.md"
+        "url": "post_store/docs/Dev/my-advice-on-studying-algorithms.md"
     },
     {
         "id": "javascript-trend-2020",
@@ -1505,16 +1505,15 @@
         "url": "post_store/docs/Dev/javascript-trend-2020.md"
     },
     {
-        "id": "simple-is-best",
-        "section": "Study",
-        "title": "개발도 쉽게 풀어가야 합니다.",
-        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
-        "publishDate": "2020-08-05",
+        "id": "about-mvc",
+        "section": "Dev",
+        "title": "MVC design pattern",
+        "link": "https://velog.io/@denmark-choco/MVC-design-pattern",
+        "publishDate": "2020-08-06",
         "tags": [
-            "쉽게",
-            "개발하기"
+            "MVC"
         ],
-        "url": "post_store/docs/Study/simple-is-best.md"
+        "url": "post_store/docs/Dev/about-mvc.md"
     },
     {
         "id": "become-a-better-developer-by-building-projects",
@@ -1527,6 +1526,18 @@
             "학습"
         ],
         "url": "post_store/docs/Study/become-a-better-developer-by-building-projects.md"
+    },
+    {
+        "id": "simple-is-best",
+        "section": "Study",
+        "title": "개발도 쉽게 풀어가야 합니다.",
+        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "publishDate": "2020-08-05",
+        "tags": [
+            "쉽게",
+            "개발하기"
+        ],
+        "url": "post_store/docs/Study/simple-is-best.md"
     },
     {
         "id": "github-seed-vault",
@@ -1625,6 +1636,17 @@
         "url": "post_store/docs/Dev/use-chrome-devTools-like-a-senior-frontend-developer.md"
     },
     {
+        "id": "show-daily-coding-time-in-github",
+        "section": "Dev",
+        "title": "Github 프로필에 Daily 코딩 시간 출력",
+        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
+        "publishDate": "2020-07-28",
+        "tags": [
+            "tip"
+        ],
+        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
+    },
+    {
         "id": "what-is-the-difference-between-cookie-and-session",
         "section": "Dev",
         "title": "쿠키와 세션의 차이",
@@ -1638,15 +1660,15 @@
         "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
     },
     {
-        "id": "show-daily-coding-time-in-github",
+        "id": "about-https",
         "section": "Dev",
-        "title": "Github 프로필에 Daily 코딩 시간 출력",
-        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
-        "publishDate": "2020-07-28",
+        "title": "HTTPS에 대해 알아야 할 것들",
+        "link": "https://www.mimul.com/blog/about-https/",
+        "publishDate": "2020-07-27",
         "tags": [
-            "tip"
+            "http"
         ],
-        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
+        "url": "post_store/docs/Dev/about-https.md"
     },
     {
         "id": "things-that-no-one-told-me",
@@ -1661,15 +1683,15 @@
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
     },
     {
-        "id": "about-https",
-        "section": "Dev",
-        "title": "HTTPS에 대해 알아야 할 것들",
-        "link": "https://www.mimul.com/blog/about-https/",
-        "publishDate": "2020-07-27",
+        "id": "text-fields-and-forms-design",
+        "section": "Design",
+        "title": "텍스트를 입력하세요",
+        "link": "https://brunch.co.kr/@bundi/36",
+        "publishDate": "2020-07-26",
         "tags": [
-            "http"
+            "UI"
         ],
-        "url": "post_store/docs/Dev/about-https.md"
+        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
     },
     {
         "id": "today-is-not-the-only-day-for-coding",
@@ -1685,27 +1707,17 @@
         "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
     },
     {
-        "id": "text-fields-and-forms-design",
-        "section": "Design",
-        "title": "텍스트를 입력하세요",
-        "link": "https://brunch.co.kr/@bundi/36",
-        "publishDate": "2020-07-26",
-        "tags": [
-            "UI"
-        ],
-        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
-    },
-    {
-        "id": "things-to-know-when-you-prepare-presentation-first-time",
-        "section": "Study",
-        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
-        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
+        "id": "a-secret-book-of-developer",
+        "section": "Dev",
+        "title": "개발자 비급",
+        "link": "http://channy.creation.net/blog/1186",
         "publishDate": "2020-07-25",
         "tags": [
-            "발표",
-            "developer"
+            "developer",
+            "연봉",
+            "이직"
         ],
-        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
+        "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
     },
     {
         "id": "Salary-is-not-the-result-of-ability.",
@@ -1720,17 +1732,16 @@
         "url": "post_store/docs/Business/Salary-is-not-the-result-of-ability..md"
     },
     {
-        "id": "a-secret-book-of-developer",
-        "section": "Dev",
-        "title": "개발자 비급",
-        "link": "http://channy.creation.net/blog/1186",
+        "id": "things-to-know-when-you-prepare-presentation-first-time",
+        "section": "Study",
+        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
+        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
         "publishDate": "2020-07-25",
         "tags": [
-            "developer",
-            "연봉",
-            "이직"
+            "발표",
+            "developer"
         ],
-        "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
+        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
     },
     {
         "id": "css-layout",
@@ -1761,6 +1772,18 @@
         "url": "post_store/docs/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md"
     },
     {
+        "id": "the-fastest-way-to-learn",
+        "section": "Study",
+        "title": "공개적으로 학습하라!",
+        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
+        "publishDate": "2020-07-22",
+        "tags": [
+            "developer",
+            "학습"
+        ],
+        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+    },
+    {
         "id": "how-i-became-a-better-programmer",
         "section": "Dev",
         "title": "나는 어떻게 더 나은 프로그래머가 되었는가",
@@ -1772,18 +1795,6 @@
             "work"
         ],
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
-    },
-    {
-        "id": "the-fastest-way-to-learn",
-        "section": "Study",
-        "title": "공개적으로 학습하라!",
-        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
-        "publishDate": "2020-07-22",
-        "tags": [
-            "developer",
-            "학습"
-        ],
-        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
     },
     {
         "id": "naver-naver-and-naver",
