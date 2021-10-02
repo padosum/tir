@@ -1,5 +1,5 @@
 ---
-title: 별게 다 과학: 바나나 껍질의 사회적 약속에 대한 과학적 증명 
+title: 별게 다 과학 바나나 껍질의 사회적 약속에 대한 과학적 증명 
 link: https://bung015a.tistory.com/258?category=822580
 publishDate: 2021-10-02
 tags: ["comics"]
