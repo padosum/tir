@@ -1,5 +1,13 @@
 [
     {
+        "id": "CPU",
+        "section": "Technology",
+        "title": "CPU는 어떻게 작동할까?",
+        "link": "https://youtu.be/Fg00LN30Ezg",
+        "publishDate": "2021-10-05",
+        "url": "post_store/docs/Technology/CPU.md"
+    },
+    {
         "id": "banana",
         "section": "History",
         "title": "별게 다 과학 바나나 껍질의 사회적 약속에 대한 과학적 증명",
@@ -1559,17 +1567,6 @@
         "url": "post_store/docs/Dev/about-shallow-copy-and-deep-copy.md"
     },
     {
-        "id": "goodbye-clean-code",
-        "section": "Dev",
-        "title": "잘가, 클린 코드",
-        "link": "https://overreacted.io/ko/goodbye-clean-code/",
-        "publishDate": "2020-08-03",
-        "tags": [
-            "cleancode"
-        ],
-        "url": "post_store/docs/Dev/goodbye-clean-code.md"
-    },
-    {
         "id": "how-to-get-the-answer-you-want",
         "section": "Life",
         "title": "빠르고 정확하게 답변을 받을 수 있는 질문하는 법",
@@ -1579,6 +1576,17 @@
             "work"
         ],
         "url": "post_store/docs/Life/how-to-get-the-answer-you-want.md"
+    },
+    {
+        "id": "goodbye-clean-code",
+        "section": "Dev",
+        "title": "잘가, 클린 코드",
+        "link": "https://overreacted.io/ko/goodbye-clean-code/",
+        "publishDate": "2020-08-03",
+        "tags": [
+            "cleancode"
+        ],
+        "url": "post_store/docs/Dev/goodbye-clean-code.md"
     },
     {
         "id": "advice-for-front-end-developer",
@@ -1636,17 +1644,6 @@
         "url": "post_store/docs/Dev/use-chrome-devTools-like-a-senior-frontend-developer.md"
     },
     {
-        "id": "show-daily-coding-time-in-github",
-        "section": "Dev",
-        "title": "Github 프로필에 Daily 코딩 시간 출력",
-        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
-        "publishDate": "2020-07-28",
-        "tags": [
-            "tip"
-        ],
-        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
-    },
-    {
         "id": "what-is-the-difference-between-cookie-and-session",
         "section": "Dev",
         "title": "쿠키와 세션의 차이",
@@ -1658,6 +1655,17 @@
             "http"
         ],
         "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
+    },
+    {
+        "id": "show-daily-coding-time-in-github",
+        "section": "Dev",
+        "title": "Github 프로필에 Daily 코딩 시간 출력",
+        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
+        "publishDate": "2020-07-28",
+        "tags": [
+            "tip"
+        ],
+        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
     },
     {
         "id": "about-https",
@@ -1683,17 +1691,6 @@
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
     },
     {
-        "id": "text-fields-and-forms-design",
-        "section": "Design",
-        "title": "텍스트를 입력하세요",
-        "link": "https://brunch.co.kr/@bundi/36",
-        "publishDate": "2020-07-26",
-        "tags": [
-            "UI"
-        ],
-        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
-    },
-    {
         "id": "today-is-not-the-only-day-for-coding",
         "section": "Study",
         "title": "오늘만 코딩할 건 아니잖아",
@@ -1707,17 +1704,27 @@
         "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
     },
     {
-        "id": "a-secret-book-of-developer",
-        "section": "Dev",
-        "title": "개발자 비급",
-        "link": "http://channy.creation.net/blog/1186",
+        "id": "text-fields-and-forms-design",
+        "section": "Design",
+        "title": "텍스트를 입력하세요",
+        "link": "https://brunch.co.kr/@bundi/36",
+        "publishDate": "2020-07-26",
+        "tags": [
+            "UI"
+        ],
+        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
+    },
+    {
+        "id": "things-to-know-when-you-prepare-presentation-first-time",
+        "section": "Study",
+        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
+        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
         "publishDate": "2020-07-25",
         "tags": [
-            "developer",
-            "연봉",
-            "이직"
+            "발표",
+            "developer"
         ],
-        "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
+        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
     },
     {
         "id": "Salary-is-not-the-result-of-ability.",
@@ -1732,16 +1739,17 @@
         "url": "post_store/docs/Business/Salary-is-not-the-result-of-ability..md"
     },
     {
-        "id": "things-to-know-when-you-prepare-presentation-first-time",
-        "section": "Study",
-        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
-        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
+        "id": "a-secret-book-of-developer",
+        "section": "Dev",
+        "title": "개발자 비급",
+        "link": "http://channy.creation.net/blog/1186",
         "publishDate": "2020-07-25",
         "tags": [
-            "발표",
-            "developer"
+            "developer",
+            "연봉",
+            "이직"
         ],
-        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
+        "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
     },
     {
         "id": "css-layout",
@@ -1772,18 +1780,6 @@
         "url": "post_store/docs/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md"
     },
     {
-        "id": "the-fastest-way-to-learn",
-        "section": "Study",
-        "title": "공개적으로 학습하라!",
-        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
-        "publishDate": "2020-07-22",
-        "tags": [
-            "developer",
-            "학습"
-        ],
-        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
-    },
-    {
         "id": "how-i-became-a-better-programmer",
         "section": "Dev",
         "title": "나는 어떻게 더 나은 프로그래머가 되었는가",
@@ -1797,6 +1793,18 @@
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
     },
     {
+        "id": "the-fastest-way-to-learn",
+        "section": "Study",
+        "title": "공개적으로 학습하라!",
+        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
+        "publishDate": "2020-07-22",
+        "tags": [
+            "developer",
+            "학습"
+        ],
+        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+    },
+    {
         "id": "naver-naver-and-naver",
         "section": "Business",
         "title": "네이버, 네이버, 그리고 네이버",
@@ -1806,6 +1814,16 @@
             "기업"
         ],
         "url": "post_store/docs/Business/naver-naver-and-naver.md"
+    },
+    {
+        "id": "GIMZIMEAN",
+        "section": "Technology",
+        "title": "AI",
+        "publishDate": "2020-07-21",
+        "tags": [
+            "data-science"
+        ],
+        "url": "post_store/docs/Technology/GIMZIMEAN.md"
     },
     {
         "id": "don't-use-else",
@@ -1819,16 +1837,6 @@
             "else"
         ],
         "url": "post_store/docs/Dev/don't-use-else.md"
-    },
-    {
-        "id": "GIMZIMEAN",
-        "section": "Technology",
-        "title": "AI",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "data-science"
-        ],
-        "url": "post_store/docs/Technology/GIMZIMEAN.md"
     },
     {
         "id": "Day01",
