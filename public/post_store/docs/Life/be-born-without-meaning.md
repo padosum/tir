@@ -4,6 +4,7 @@ link: https://n.news.naver.com/mnews/article/140/0000023635?sid=004
 publishDate: 2021-10-22
 tags:
   - movie
+  - 칼럼
 ---
 ## 📝 요약 
 - 영화 <그래비티> 칼럼
