@@ -63,6 +63,11 @@ html {
   scroll-behavior: smooth;
 }
 
+html,
+body {
+  word-break: keep-all;
+}
+
 /* variable dark theme  */
 body.dark-theme {
   --title-color: #f1f3f2;
