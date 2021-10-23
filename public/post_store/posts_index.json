@@ -1,5 +1,17 @@
 [
     {
+        "id": "the-golden-age-of-8-bit-PC-and-genius-who-disappeared",
+        "section": "Life",
+        "title": "8비트 PC의 황금기와 사라진 영재",
+        "link": "https://zdnet.co.kr/view/?no=00000039129860",
+        "publishDate": "2021-10-23",
+        "tags": [
+            "칼럼",
+            "PC"
+        ],
+        "url": "post_store/docs/Life/the-golden-age-of-8-bit-PC-and-genius-who-disappeared.md"
+    },
+    {
         "id": "cry-Djokovic-inside-me",
         "section": "Life",
         "title": "울어라, 내 안의 조코비치여",
@@ -17,7 +29,8 @@
         "link": "https://n.news.naver.com/mnews/article/140/0000023635?sid=004",
         "publishDate": "2021-10-22",
         "tags": [
-            "movie"
+            "movie",
+            "칼럼"
         ],
         "url": "post_store/docs/Life/be-born-without-meaning.md"
     },
@@ -132,18 +145,6 @@
         "url": "post_store/docs/Dev/vanilla-js-component.md"
     },
     {
-        "id": "lets-be-a-developer-who-works-until-gray",
-        "section": "Dev",
-        "title": "백발 될때까지 일하는 개발자가 되어보자",
-        "link": "https://youtu.be/I92EXIR8H6M",
-        "publishDate": "2021-08-23",
-        "tags": [
-            "developer",
-            "성장"
-        ],
-        "url": "post_store/docs/Dev/lets-be-a-developer-who-works-until-gray.md"
-    },
-    {
         "id": "programming-doesnt-require-talent-or-even-passion",
         "section": "Dev",
         "title": "재능과 열정 없이도 프로그래밍을 하는 사람들",
@@ -154,6 +155,18 @@
             "성장"
         ],
         "url": "post_store/docs/Dev/programming-doesnt-require-talent-or-even-passion.md"
+    },
+    {
+        "id": "lets-be-a-developer-who-works-until-gray",
+        "section": "Dev",
+        "title": "백발 될때까지 일하는 개발자가 되어보자",
+        "link": "https://youtu.be/I92EXIR8H6M",
+        "publishDate": "2021-08-23",
+        "tags": [
+            "developer",
+            "성장"
+        ],
+        "url": "post_store/docs/Dev/lets-be-a-developer-who-works-until-gray.md"
     },
     {
         "id": "how-can-git-know-that-the-folder-path-has-changed",
@@ -1405,6 +1418,17 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
+    },
+    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1417,17 +1441,6 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
-    },
-    {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1452,17 +1465,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "important-purpose-of-codereview",
-        "section": "Dev",
-        "title": "코드리뷰의 진짜 목적은 따로있다.",
-        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "코드리뷰"
-        ],
-        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
-    },
-    {
         "id": "to-you-who-became-a-software-developer",
         "section": "Dev",
         "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
@@ -1472,6 +1474,17 @@
             "developer"
         ],
         "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
+    },
+    {
+        "id": "important-purpose-of-codereview",
+        "section": "Dev",
+        "title": "코드리뷰의 진짜 목적은 따로있다.",
+        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
+        "publishDate": "2020-08-10",
+        "tags": [
+            "코드리뷰"
+        ],
+        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
     },
     {
         "id": "no-hello",
@@ -1554,18 +1567,6 @@
         "url": "post_store/docs/Dev/about-mvc.md"
     },
     {
-        "id": "simple-is-best",
-        "section": "Study",
-        "title": "개발도 쉽게 풀어가야 합니다.",
-        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
-        "publishDate": "2020-08-05",
-        "tags": [
-            "쉽게",
-            "개발하기"
-        ],
-        "url": "post_store/docs/Study/simple-is-best.md"
-    },
-    {
         "id": "become-a-better-developer-by-building-projects",
         "section": "Study",
         "title": "How to Become a Better Front-end Developer by Building Projects",
@@ -1586,6 +1587,18 @@
         "url": "post_store/docs/Dev/github-seed-vault.md"
     },
     {
+        "id": "simple-is-best",
+        "section": "Study",
+        "title": "개발도 쉽게 풀어가야 합니다.",
+        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "publishDate": "2020-08-05",
+        "tags": [
+            "쉽게",
+            "개발하기"
+        ],
+        "url": "post_store/docs/Study/simple-is-best.md"
+    },
+    {
         "id": "about-shallow-copy-and-deep-copy",
         "section": "Dev",
         "title": "깊은 복사와 얕은 복사에 대한 심도있는 이야기",
@@ -1597,17 +1610,6 @@
         "url": "post_store/docs/Dev/about-shallow-copy-and-deep-copy.md"
     },
     {
-        "id": "goodbye-clean-code",
-        "section": "Dev",
-        "title": "잘가, 클린 코드",
-        "link": "https://overreacted.io/ko/goodbye-clean-code/",
-        "publishDate": "2020-08-03",
-        "tags": [
-            "cleancode"
-        ],
-        "url": "post_store/docs/Dev/goodbye-clean-code.md"
-    },
-    {
         "id": "how-to-get-the-answer-you-want",
         "section": "Life",
         "title": "빠르고 정확하게 답변을 받을 수 있는 질문하는 법",
@@ -1617,6 +1619,17 @@
             "work"
         ],
         "url": "post_store/docs/Life/how-to-get-the-answer-you-want.md"
+    },
+    {
+        "id": "goodbye-clean-code",
+        "section": "Dev",
+        "title": "잘가, 클린 코드",
+        "link": "https://overreacted.io/ko/goodbye-clean-code/",
+        "publishDate": "2020-08-03",
+        "tags": [
+            "cleancode"
+        ],
+        "url": "post_store/docs/Dev/goodbye-clean-code.md"
     },
     {
         "id": "advice-for-front-end-developer",
@@ -1674,19 +1687,6 @@
         "url": "post_store/docs/Dev/use-chrome-devTools-like-a-senior-frontend-developer.md"
     },
     {
-        "id": "what-is-the-difference-between-cookie-and-session",
-        "section": "Dev",
-        "title": "쿠키와 세션의 차이",
-        "link": "https://velog.io/@stay136/%EA%B8%B0%EC%88%A0-%EC%BF%A0%ED%82%A4%EC%99%80-%EC%84%B8%EC%85%98%EC%9D%98-%EC%B0%A8%EC%9D%B4",
-        "publishDate": "2020-07-28",
-        "tags": [
-            "cookie",
-            "session",
-            "http"
-        ],
-        "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
-    },
-    {
         "id": "show-daily-coding-time-in-github",
         "section": "Dev",
         "title": "Github 프로필에 Daily 코딩 시간 출력",
@@ -1698,15 +1698,17 @@
         "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
     },
     {
-        "id": "about-https",
+        "id": "what-is-the-difference-between-cookie-and-session",
         "section": "Dev",
-        "title": "HTTPS에 대해 알아야 할 것들",
-        "link": "https://www.mimul.com/blog/about-https/",
-        "publishDate": "2020-07-27",
+        "title": "쿠키와 세션의 차이",
+        "link": "https://velog.io/@stay136/%EA%B8%B0%EC%88%A0-%EC%BF%A0%ED%82%A4%EC%99%80-%EC%84%B8%EC%85%98%EC%9D%98-%EC%B0%A8%EC%9D%B4",
+        "publishDate": "2020-07-28",
         "tags": [
+            "cookie",
+            "session",
             "http"
         ],
-        "url": "post_store/docs/Dev/about-https.md"
+        "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
     },
     {
         "id": "things-that-no-one-told-me",
@@ -1721,17 +1723,15 @@
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
     },
     {
-        "id": "today-is-not-the-only-day-for-coding",
-        "section": "Study",
-        "title": "오늘만 코딩할 건 아니잖아",
-        "link": "https://velog.io/@snoop2head/self-coaching",
-        "publishDate": "2020-07-26",
+        "id": "about-https",
+        "section": "Dev",
+        "title": "HTTPS에 대해 알아야 할 것들",
+        "link": "https://www.mimul.com/blog/about-https/",
+        "publishDate": "2020-07-27",
         "tags": [
-            "자기관리",
-            "건강",
-            "developer"
+            "http"
         ],
-        "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
+        "url": "post_store/docs/Dev/about-https.md"
     },
     {
         "id": "text-fields-and-forms-design",
@@ -1743,6 +1743,19 @@
             "UI"
         ],
         "url": "post_store/docs/Design/text-fields-and-forms-design.md"
+    },
+    {
+        "id": "today-is-not-the-only-day-for-coding",
+        "section": "Study",
+        "title": "오늘만 코딩할 건 아니잖아",
+        "link": "https://velog.io/@snoop2head/self-coaching",
+        "publishDate": "2020-07-26",
+        "tags": [
+            "자기관리",
+            "건강",
+            "developer"
+        ],
+        "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
     },
     {
         "id": "Salary-is-not-the-result-of-ability.",
@@ -1810,6 +1823,18 @@
         "url": "post_store/docs/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md"
     },
     {
+        "id": "the-fastest-way-to-learn",
+        "section": "Study",
+        "title": "공개적으로 학습하라!",
+        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
+        "publishDate": "2020-07-22",
+        "tags": [
+            "developer",
+            "학습"
+        ],
+        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+    },
+    {
         "id": "how-i-became-a-better-programmer",
         "section": "Dev",
         "title": "나는 어떻게 더 나은 프로그래머가 되었는가",
@@ -1823,16 +1848,14 @@
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
     },
     {
-        "id": "the-fastest-way-to-learn",
-        "section": "Study",
-        "title": "공개적으로 학습하라!",
-        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
-        "publishDate": "2020-07-22",
+        "id": "Day01",
+        "section": "Technology",
+        "title": "AI, Data Science, ML, 그리고 DL의 차이점?",
+        "publishDate": "2020-07-21",
         "tags": [
-            "developer",
-            "학습"
+            "data-science"
         ],
-        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+        "url": "post_store/docs/Technology/Day01.md"
     },
     {
         "id": "naver-naver-and-naver",
@@ -1867,16 +1890,6 @@
             "data-science"
         ],
         "url": "post_store/docs/Technology/GIMZIMEAN.md"
-    },
-    {
-        "id": "Day01",
-        "section": "Technology",
-        "title": "AI, Data Science, ML, 그리고 DL의 차이점?",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "data-science"
-        ],
-        "url": "post_store/docs/Technology/Day01.md"
     },
     {
         "id": "introduction-to-svelte",
