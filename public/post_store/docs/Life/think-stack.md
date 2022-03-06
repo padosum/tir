@@ -1,5 +1,5 @@
 ---
-title: Think Stack 나의 생각을 관리하는 도구들
+title: "Think Stack: 나의 생각을 관리하는 도구들"
 link: https://www.canda.blog/think-stack/
 publishDate: 2022-03-06
 tags:
