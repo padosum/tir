@@ -28,17 +28,12 @@
 
 <script lang="ts">
 import { defineComponent, inject } from "vue";
-import { onBeforeRouteUpdate } from "vue-router";
 import { PostIndex } from "@/types/PostIndex";
 import Comment from "@/components/Comment.vue";
 import axios from "redaxios";
 import MarkdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
 import router from "@/router";
-
-const { NODE_ENV, BASE_URL = "/" } = process.env;
-
-const tag = "[Post]";
 
 const markDownIt = new MarkdownIt({ html: true }).use(emoji);
 
