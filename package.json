@@ -18,7 +18,7 @@
     "remark": "^9.0.0",
     "remark-github": "^7.0.3",
     "remark-highlight.js": "^5.0.0",
-    "remark-html": "^7.0.0",
+    "remark-html": "^13.0.2",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vue3-calendar-heatmap": "^1.0.9",
