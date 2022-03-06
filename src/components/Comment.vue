@@ -8,21 +8,21 @@ export default {
     repo: String,
   },
   mounted() {
-    const utterances = document.createElement('script');
+    const utterances = document.createElement("script");
 
-    let theme = 'boxy-light';
-    const savedTheme = localStorage.getItem('selected-theme');
+    let theme = "boxy-light";
+    const savedTheme = localStorage.getItem("selected-theme");
     if (savedTheme !== null) {
-      theme = savedTheme === 'dark' ? 'dark-blue' : 'boxy-light';
+      theme = savedTheme === "dark" ? "dark-blue" : "boxy-light";
     }
-    utterances.type = 'text/javascript';
+    utterances.type = "text/javascript";
     utterances.async = true;
-    utterances.crossorigin = 'anonymous';
-    utterances.src = 'https://utteranc.es/client.js';
+    utterances.crossorigin = "anonymous";
+    utterances.src = "https://utteranc.es/client.js";
 
-    utterances.setAttribute('issue-term', 'pathname');
-    utterances.setAttribute('theme', theme);
-    utterances.setAttribute('repo', this.repo);
+    utterances.setAttribute("issue-term", "pathname");
+    utterances.setAttribute("theme", theme);
+    utterances.setAttribute("repo", this.repo);
 
     // script tag 삽입
     this.$refs.comment.appendChild(utterances);

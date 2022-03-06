@@ -16,10 +16,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from 'vue';
-import { scrollTop } from '@/utils/scroll';
-import NavBar from '@/components/NavBar.vue';
-import Footer from '@/components/Footer.vue';
+import { defineComponent, inject } from "vue";
+import { scrollTop } from "@/utils/scroll";
+import NavBar from "@/components/NavBar.vue";
+import Footer from "@/components/Footer.vue";
 
 export default defineComponent({
   components: {
@@ -27,20 +27,20 @@ export default defineComponent({
     Footer,
   },
   setup() {
-    const sections = inject('sections', []);
+    const sections = inject("sections", []);
     return { sections };
   },
   methods: {
     topClick() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     },
   },
   mounted() {
-    window.addEventListener('scroll', scrollTop);
+    window.addEventListener("scroll", scrollTop);
   },
 });
 </script>
 
 <style>
-@import '~@/assets/style/styles.css';
+@import "~@/assets/style/styles.css";
 </style>

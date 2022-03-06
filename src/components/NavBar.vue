@@ -38,12 +38,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from 'vue';
-import { showMenu, linkAction } from '@/utils/menu';
-import { scrollHeader } from '@/utils/scroll';
-import { PostIndex } from '@/types/PostIndex';
-
-const tag = 'NavBar';
+import { defineComponent, inject } from "vue";
+import { showMenu, linkAction } from "@/utils/menu";
+import { scrollHeader } from "@/utils/scroll";
+import { PostIndex } from "@/types/PostIndex";
 
 export default defineComponent({
   props: {
@@ -62,74 +60,74 @@ export default defineComponent({
       this.$router.push(`/${section}/${id}`);
     },
     changeTheme() {
-      const themeButton = document.getElementById('theme-button');
-      const darkTheme = 'dark-theme';
-      const iconTheme = 'bx-sun';
+      const themeButton = document.getElementById("theme-button");
+      const darkTheme = "dark-theme";
+      const iconTheme = "bx-sun";
 
       document.body.classList.toggle(darkTheme);
       themeButton.classList.toggle(iconTheme);
 
       // change utteraces theme
       const commentTheme =
-        localStorage.getItem('selected-theme') === 'dark'
-          ? 'boxy-light'
-          : 'dark-blue';
+        localStorage.getItem("selected-theme") === "dark"
+          ? "boxy-light"
+          : "dark-blue";
 
       const message = {
-        type: 'set-theme',
+        type: "set-theme",
         theme: commentTheme,
       };
 
       const commentFrame: any = document.querySelector(
-        'iframe.utterances-frame',
+        "iframe.utterances-frame"
       );
       if (commentFrame !== null)
-        commentFrame.contentWindow.postMessage(message, 'https://utteranc.es');
+        commentFrame.contentWindow.postMessage(message, "https://utteranc.es");
 
-      localStorage.setItem('selected-theme', this.getCurrentTheme(darkTheme));
+      localStorage.setItem("selected-theme", this.getCurrentTheme(darkTheme));
       localStorage.setItem(
-        'selected-icon',
-        this.getCurrentIcon(iconTheme, themeButton),
+        "selected-icon",
+        this.getCurrentIcon(iconTheme, themeButton)
       );
     },
     getCurrentTheme(darkTheme) {
-      return document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+      return document.body.classList.contains(darkTheme) ? "dark" : "light";
     },
     getCurrentIcon(iconTheme, themeButton) {
-      return themeButton.classList.contains(iconTheme) ? 'bx-moon' : 'bx-sun';
+      return themeButton.classList.contains(iconTheme) ? "bx-moon" : "bx-sun";
     },
   },
   mounted() {
-    showMenu('nav-toggle', 'nav-menu');
+    showMenu("nav-toggle", "nav-menu");
 
     /*========================= remove menu mobile =================================*/
-    const navLink = document.querySelectorAll('.nav__link');
-    navLink.forEach(n => n.addEventListener('click', linkAction));
+    const navLink = document.querySelectorAll(".nav__link");
+    navLink.forEach((n) => n.addEventListener("click", linkAction));
 
-    const tools = document.querySelectorAll('.tools');
-    tools.forEach(n => n.addEventListener('click', linkAction));
+    const tools = document.querySelectorAll(".tools");
+    tools.forEach((n) => n.addEventListener("click", linkAction));
 
-    window.addEventListener('scroll', scrollHeader);
+    window.addEventListener("scroll", scrollHeader);
 
     // previously selected theme
-    const themeButton = document.getElementById('theme-button');
-    const darkTheme = 'dark-theme';
-    const iconTheme = 'bx-sun';
+    const themeButton = document.getElementById("theme-button");
+    const darkTheme = "dark-theme";
+    const iconTheme = "bx-sun";
 
-    const selectedTheme = localStorage.getItem('selected-theme');
-    const selectedIcon = localStorage.getItem('selected-icon');
+    const selectedTheme = localStorage.getItem("selected-theme");
+    const selectedIcon = localStorage.getItem("selected-icon");
 
     if (selectedTheme) {
-      document.body.classList[selectedTheme == 'dark' ? 'add' : 'remove'](
-        darkTheme,
+      document.body.classList[selectedTheme == "dark" ? "add" : "remove"](
+        darkTheme
       );
-      themeButton.classList[selectedIcon == 'bx-moon' ? 'add' : 'remove'](
-        iconTheme,
+      themeButton.classList[selectedIcon == "bx-moon" ? "add" : "remove"](
+        iconTheme
       );
     }
   },
   setup() {
-    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     return {
       postsIndex,
     };

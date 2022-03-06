@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -26,19 +26,19 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import(/* webpackChunkName: "post" */ '@/views/Post.vue'),
     props: true,
   },
-];
+]
 
 const router = createRouter({
   history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
-      return savedPosition;
+      return savedPosition
     } else {
-      document.getElementById('app').scrollIntoView();
-      return { el: '#app' };
+      document.getElementById('app').scrollIntoView()
+      return { el: '#app' }
     }
   },
-});
+})
 
-export default router;
+export default router

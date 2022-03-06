@@ -70,14 +70,12 @@
   </main>
 </template>
 <script lang="ts">
-import { defineComponent, reactive, toRefs, inject, computed } from 'vue';
-import { PostIndex } from '@/types/PostIndex';
-import { CalendarHeatmap } from 'vue3-calendar-heatmap';
-import PostList from '@/components/PostList.vue';
-import paginate from '@/utils/paginate';
+import { defineComponent, reactive, toRefs, inject, computed } from "vue";
+import { PostIndex } from "@/types/PostIndex";
+import { CalendarHeatmap } from "vue3-calendar-heatmap";
+import PostList from "@/components/PostList.vue";
+import paginate from "@/utils/paginate";
 const { VUE_APP_POSTS_PER_PAGE } = process.env;
-
-const tag = 'Archive';
 
 export default defineComponent({
   components: {
@@ -87,27 +85,27 @@ export default defineComponent({
   props: {
     section: {
       type: String,
-      default: '',
+      default: "",
     },
     tag: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   data() {
     return {
-      selectedDate: '',
+      selectedDate: "",
       selectedList: [],
     };
   },
   computed: {
     title() {
-      return this.section ? this.section : this.tag ? this.tag : 'Today I Read';
+      return this.section ? this.section : this.tag ? this.tag : "Today I Read";
     },
     today() {
       let today = new Date();
-      const dd = String(today.getDate()).padStart(2, '0');
-      const mm = String(today.getMonth() + 1).padStart(2, '0');
+      const dd = String(today.getDate()).padStart(2, "0");
+      const mm = String(today.getMonth() + 1).padStart(2, "0");
       const yyyy = today.getFullYear();
       return `${yyyy}-${mm}-${dd}`;
     },
@@ -118,7 +116,7 @@ export default defineComponent({
 
       this.selectedDate = new Date(day.date - d.getTimezoneOffset() * 60000)
         .toISOString()
-        .split('T')[0];
+        .split("T")[0];
 
       this.selectedList = this.postsIndex.filter(({ publishDate }) => {
         return publishDate === this.selectedDate;
@@ -128,13 +126,13 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const state = reactive({
       currentPage: 1,
     });
 
     const heatMapData = postsIndex.reduce((acc, { publishDate }) => {
-      let idx = acc.findIndex(x => x.date === publishDate);
+      let idx = acc.findIndex((x) => x.date === publishDate);
       if (idx === -1) {
         acc.push({ date: publishDate, count: 1 });
       } else {
@@ -150,7 +148,7 @@ export default defineComponent({
         : props.section
         ? postsIndex.filter(({ section }) => section === props.section)
         : postsIndex.filter(({ tags }) => {
-            if (typeof tags !== 'undefined') {
+            if (typeof tags !== "undefined") {
               return tags.includes(props.tag.toString());
             }
           });
@@ -158,14 +156,14 @@ export default defineComponent({
       const { startPage, endPage, startIndex, endIndex } = paginate(
         categoryPosts.length,
         state.currentPage,
-        VUE_APP_POSTS_PER_PAGE,
+        VUE_APP_POSTS_PER_PAGE
       );
 
       const prev =
         state.currentPage - 1 >= startPage ? state.currentPage - 1 : 0;
       const next = state.currentPage + 1 <= endPage ? state.currentPage + 1 : 0;
       const midPages = [prev, state.currentPage, next].filter(
-        p => p > startPage && p < endPage,
+        (p) => p > startPage && p < endPage
       );
 
       const visiblePosts = categoryPosts.slice(startIndex, endIndex + 1);

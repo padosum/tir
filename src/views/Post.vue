@@ -27,18 +27,18 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from 'vue';
-import { onBeforeRouteUpdate } from 'vue-router';
-import { PostIndex } from '@/types/PostIndex';
-import Comment from '@/components/Comment.vue';
-import axios from 'redaxios';
-import MarkdownIt from 'markdown-it';
-import emoji from 'markdown-it-emoji';
-import router from '@/router';
+import { defineComponent, inject } from "vue";
+import { onBeforeRouteUpdate } from "vue-router";
+import { PostIndex } from "@/types/PostIndex";
+import Comment from "@/components/Comment.vue";
+import axios from "redaxios";
+import MarkdownIt from "markdown-it";
+import emoji from "markdown-it-emoji";
+import router from "@/router";
 
-const { NODE_ENV, BASE_URL = '/' } = process.env;
+const { NODE_ENV, BASE_URL = "/" } = process.env;
 
-const tag = '[Post]';
+const tag = "[Post]";
 
 const markDownIt = new MarkdownIt({ html: true }).use(emoji);
 
@@ -49,11 +49,11 @@ export default defineComponent({
   props: {
     section: {
       type: String,
-      default: '',
+      default: "",
     },
     id: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   async setup(props) {
@@ -63,9 +63,9 @@ export default defineComponent({
     // });
 
     // fetch post
-    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const {
-      url = '',
+      url = "",
       title,
       link,
       tags,
@@ -74,7 +74,7 @@ export default defineComponent({
 
     const { data: markDownSource } = await axios.get(`../${url}`);
 
-    const [, , content] = markDownSource.split('---');
+    const [, , content] = markDownSource.split("---");
     const postHtml = markDownIt.render(content);
 
     const hasHistory = () => window.history?.length > 2;
@@ -93,8 +93,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@import '~@/assets/style/github-markdown.css';
-@import '~@/assets/style/highlight.scss';
+@import "~@/assets/style/github-markdown.css";
+@import "~@/assets/style/highlight.scss";
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;

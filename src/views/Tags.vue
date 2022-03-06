@@ -15,19 +15,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from 'vue';
-import { PostIndex } from '@/types/PostIndex';
-
-const tag = 'Tags';
+import { defineComponent, inject } from "vue";
+import { PostIndex } from "@/types/PostIndex";
 
 export default defineComponent({
   setup() {
-    const postsIndex: PostIndex[] = inject<PostIndex[]>('postsIndex', []);
+    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
 
     const tags = postsIndex.reduce((acc, { tags }) => {
       let prev = acc;
-      if (typeof tags !== 'undefined') {
-        tags.forEach(tag => {
+      if (typeof tags !== "undefined") {
+        tags.forEach((tag) => {
           prev = prev[tag]
             ? { ...prev, [tag]: prev[tag] + 1 }
             : { ...prev, [tag]: 1 };
@@ -38,7 +36,8 @@ export default defineComponent({
     }, {});
 
     const sortTags = Object.fromEntries(
-      Object.entries(tags).sort(([, a]: any, [, b]: any) => b - a),
+      // eslint-disable-next-line
+      Object.entries(tags).sort(([, a]: any, [, b]: any) => b - a)
     );
     return {
       sortTags,
