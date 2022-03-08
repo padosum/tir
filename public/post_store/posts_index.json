@@ -1,5 +1,13 @@
 [
     {
+        "id": "packet-travel",
+        "section": "Dev",
+        "title": "브라우저 주소창에 URL을 치면 일어나는 일들",
+        "link": "https://maxkim-j.github.io/posts/packet-travel",
+        "publishDate": "2022-03-08",
+        "url": "post_store/docs/Dev/packet-travel.md"
+    },
+    {
         "id": "think-stack",
         "section": "Life",
         "title": "Think Stack: 나의 생각을 관리하는 도구들",
@@ -13,17 +21,6 @@
         "url": "post_store/docs/Life/think-stack.md"
     },
     {
-        "id": "easiest-way-to-start-tdd",
-        "section": "Dev",
-        "title": "누구나 테스트 주도 개발 당장 시작할 수 있는 방법",
-        "link": "https://www.sungdoo.dev/programming/easiest-way-to-start-tdd",
-        "publishDate": "2022-02-27",
-        "tags": [
-            "TDD"
-        ],
-        "url": "post_store/docs/Dev/easiest-way-to-start-tdd.md"
-    },
-    {
         "id": "early-return",
         "section": "Dev",
         "title": "Early Return 하는 코드를 작성하자",
@@ -33,6 +30,17 @@
             "cleancode"
         ],
         "url": "post_store/docs/Dev/early-return.md"
+    },
+    {
+        "id": "easiest-way-to-start-tdd",
+        "section": "Dev",
+        "title": "누구나 테스트 주도 개발 당장 시작할 수 있는 방법",
+        "link": "https://www.sungdoo.dev/programming/easiest-way-to-start-tdd",
+        "publishDate": "2022-02-27",
+        "tags": [
+            "TDD"
+        ],
+        "url": "post_store/docs/Dev/easiest-way-to-start-tdd.md"
     },
     {
         "id": "the-baseline-for-web-development-in-2022",
@@ -1528,18 +1536,6 @@
         "url": "post_store/docs/Study/how-to-write-clean-code-function-in-javascript.md"
     },
     {
-        "id": "software-learning-attitude",
-        "section": "Study",
-        "title": "소프트웨어 학습 태도",
-        "link": "https://brunch.co.kr/@godrm77/16",
-        "publishDate": "2020-08-18",
-        "tags": [
-            "학습",
-            "성장"
-        ],
-        "url": "post_store/docs/Study/software-learning-attitude.md"
-    },
-    {
         "id": "first-start-typescript",
         "section": "Dev",
         "title": "Typescript로 블록체인 만들기",
@@ -1551,6 +1547,18 @@
             "블록체인"
         ],
         "url": "post_store/docs/Dev/first-start-typescript.md"
+    },
+    {
+        "id": "software-learning-attitude",
+        "section": "Study",
+        "title": "소프트웨어 학습 태도",
+        "link": "https://brunch.co.kr/@godrm77/16",
+        "publishDate": "2020-08-18",
+        "tags": [
+            "학습",
+            "성장"
+        ],
+        "url": "post_store/docs/Study/software-learning-attitude.md"
     },
     {
         "id": "indistractable",
@@ -1575,6 +1583,17 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
+    },
+    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1587,17 +1606,6 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
-    },
-    {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1622,17 +1630,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "important-purpose-of-codereview",
-        "section": "Dev",
-        "title": "코드리뷰의 진짜 목적은 따로있다.",
-        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "코드리뷰"
-        ],
-        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
-    },
-    {
         "id": "to-you-who-became-a-software-developer",
         "section": "Dev",
         "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
@@ -1644,15 +1641,15 @@
         "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
-        "id": "no-hello",
+        "id": "important-purpose-of-codereview",
         "section": "Dev",
-        "title": "채팅에서 그냥 \"안녕하세요\"라고 말하지 마세요.",
-        "link": "https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3",
-        "publishDate": "2020-08-09",
+        "title": "코드리뷰의 진짜 목적은 따로있다.",
+        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
+        "publishDate": "2020-08-10",
         "tags": [
-            "work"
+            "코드리뷰"
         ],
-        "url": "post_store/docs/Dev/no-hello.md"
+        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
     },
     {
         "id": "what-is-TDD",
@@ -1664,6 +1661,17 @@
             "TDD"
         ],
         "url": "post_store/docs/Dev/what-is-TDD.md"
+    },
+    {
+        "id": "no-hello",
+        "section": "Dev",
+        "title": "채팅에서 그냥 \"안녕하세요\"라고 말하지 마세요.",
+        "link": "https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3",
+        "publishDate": "2020-08-09",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Dev/no-hello.md"
     },
     {
         "id": "becoming-a-10x-developer",
@@ -1724,18 +1732,6 @@
         "url": "post_store/docs/Dev/javascript-trend-2020.md"
     },
     {
-        "id": "simple-is-best",
-        "section": "Study",
-        "title": "개발도 쉽게 풀어가야 합니다.",
-        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
-        "publishDate": "2020-08-05",
-        "tags": [
-            "쉽게",
-            "개발하기"
-        ],
-        "url": "post_store/docs/Study/simple-is-best.md"
-    },
-    {
         "id": "become-a-better-developer-by-building-projects",
         "section": "Study",
         "title": "How to Become a Better Front-end Developer by Building Projects",
@@ -1754,6 +1750,18 @@
         "link": "https://tykimos.github.io/2020/07/22/Github_Seed_Vault/",
         "publishDate": "2020-08-05",
         "url": "post_store/docs/Dev/github-seed-vault.md"
+    },
+    {
+        "id": "simple-is-best",
+        "section": "Study",
+        "title": "개발도 쉽게 풀어가야 합니다.",
+        "link": "https://velog.io/@melangyun/%EA%B0%9C%EB%B0%9C%EB%8F%84-%EC%89%BD%EA%B2%8C-%ED%92%80%EC%96%B4%EA%B0%80%EC%95%BC-%ED%95%A9%EB%8B%88%EB%8B%A4",
+        "publishDate": "2020-08-05",
+        "tags": [
+            "쉽게",
+            "개발하기"
+        ],
+        "url": "post_store/docs/Study/simple-is-best.md"
     },
     {
         "id": "about-shallow-copy-and-deep-copy",
@@ -1844,17 +1852,6 @@
         "url": "post_store/docs/Dev/use-chrome-devTools-like-a-senior-frontend-developer.md"
     },
     {
-        "id": "show-daily-coding-time-in-github",
-        "section": "Dev",
-        "title": "Github 프로필에 Daily 코딩 시간 출력",
-        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
-        "publishDate": "2020-07-28",
-        "tags": [
-            "tip"
-        ],
-        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
-    },
-    {
         "id": "what-is-the-difference-between-cookie-and-session",
         "section": "Dev",
         "title": "쿠키와 세션의 차이",
@@ -1866,6 +1863,17 @@
             "http"
         ],
         "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
+    },
+    {
+        "id": "show-daily-coding-time-in-github",
+        "section": "Dev",
+        "title": "Github 프로필에 Daily 코딩 시간 출력",
+        "link": "https://fernando.kr/develop/2020-05-02-github-gist-posting/",
+        "publishDate": "2020-07-28",
+        "tags": [
+            "tip"
+        ],
+        "url": "post_store/docs/Dev/show-daily-coding-time-in-github.md"
     },
     {
         "id": "things-that-no-one-told-me",
@@ -2005,6 +2013,16 @@
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
     },
     {
+        "id": "GIMZIMEAN",
+        "section": "Technology",
+        "title": "AI",
+        "publishDate": "2020-07-21",
+        "tags": [
+            "data-science"
+        ],
+        "url": "post_store/docs/Technology/GIMZIMEAN.md"
+    },
+    {
         "id": "don't-use-else",
         "section": "Dev",
         "title": "니들은 else 같은거 쓰지마라",
@@ -2027,16 +2045,6 @@
             "기업"
         ],
         "url": "post_store/docs/Business/naver-naver-and-naver.md"
-    },
-    {
-        "id": "GIMZIMEAN",
-        "section": "Technology",
-        "title": "AI",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "data-science"
-        ],
-        "url": "post_store/docs/Technology/GIMZIMEAN.md"
     },
     {
         "id": "Day01",
