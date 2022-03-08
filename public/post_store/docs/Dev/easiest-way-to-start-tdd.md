@@ -18,4 +18,4 @@ tags:
 
 ## ⛓️ 연결고리
 
-- [다 함께 TDD](../Dev/what-is-TDD.md)
+- [다 함께 TDD](../Dev/what-is-TDD)

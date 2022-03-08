@@ -30,4 +30,4 @@ tags:
 ## ⛓️ 연결고리
 
 - [에버노트 심폐소생술](https://blog.naver.com/zklab/222351904746)
-- [메모는 성공을 가져온다](./memos-bring-success.md)
+- [메모는 성공을 가져온다](../Life/memos-bring-success)
