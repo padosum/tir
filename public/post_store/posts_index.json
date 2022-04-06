@@ -1,5 +1,13 @@
 [
     {
+        "id": "development-of-a-gift-service",
+        "section": "Dev",
+        "title": "선물하기 서비스 개발기",
+        "link": "https://medium.com/29cm/%EC%84%A0%EB%AC%BC%ED%95%98%EA%B8%B0-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B0%9C%EB%B0%9C%EA%B8%B0-c5cdca816269",
+        "publishDate": "2022-04-06",
+        "url": "post_store/docs/Dev/development-of-a-gift-service.md"
+    },
+    {
         "id": "severity-of-bug-that-blocks-people-from-daegue",
         "section": "Dev",
         "title": "\"대구 사람들은 우리 앱을 못 쓴대요\"라는 버그의 심각성은?",
@@ -201,6 +209,14 @@
         "url": "post_store/docs/Life/be-born-without-meaning.md"
     },
     {
+        "id": "what-is-CI-CD",
+        "section": "Dev",
+        "title": "CI/CD가 뭔가요? - 이론편",
+        "link": "https://tecoble.techcourse.co.kr/post/2021-08-14-ci-cd/",
+        "publishDate": "2021-10-22",
+        "url": "post_store/docs/Dev/what-is-CI-CD.md"
+    },
+    {
         "id": "cry-Djokovic-inside-me",
         "section": "Life",
         "title": "울어라, 내 안의 조코비치여",
@@ -210,14 +226,6 @@
             "에세이"
         ],
         "url": "post_store/docs/Life/cry-Djokovic-inside-me.md"
-    },
-    {
-        "id": "what-is-CI-CD",
-        "section": "Dev",
-        "title": "CI/CD가 뭔가요? - 이론편",
-        "link": "https://tecoble.techcourse.co.kr/post/2021-08-14-ci-cd/",
-        "publishDate": "2021-10-22",
-        "url": "post_store/docs/Dev/what-is-CI-CD.md"
     },
     {
         "id": "CPU",
@@ -322,18 +330,6 @@
         "url": "post_store/docs/Dev/vanilla-js-component.md"
     },
     {
-        "id": "programming-doesnt-require-talent-or-even-passion",
-        "section": "Dev",
-        "title": "재능과 열정 없이도 프로그래밍을 하는 사람들",
-        "link": "https://flearning-blog.tistory.com/237",
-        "publishDate": "2021-08-23",
-        "tags": [
-            "developer",
-            "성장"
-        ],
-        "url": "post_store/docs/Dev/programming-doesnt-require-talent-or-even-passion.md"
-    },
-    {
         "id": "lets-be-a-developer-who-works-until-gray",
         "section": "Dev",
         "title": "백발 될때까지 일하는 개발자가 되어보자",
@@ -344,6 +340,18 @@
             "성장"
         ],
         "url": "post_store/docs/Dev/lets-be-a-developer-who-works-until-gray.md"
+    },
+    {
+        "id": "programming-doesnt-require-talent-or-even-passion",
+        "section": "Dev",
+        "title": "재능과 열정 없이도 프로그래밍을 하는 사람들",
+        "link": "https://flearning-blog.tistory.com/237",
+        "publishDate": "2021-08-23",
+        "tags": [
+            "developer",
+            "성장"
+        ],
+        "url": "post_store/docs/Dev/programming-doesnt-require-talent-or-even-passion.md"
     },
     {
         "id": "how-can-git-know-that-the-folder-path-has-changed",
