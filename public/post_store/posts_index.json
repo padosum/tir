@@ -1,5 +1,17 @@
 [
     {
+        "id": "using-article-tag",
+        "section": "Dev",
+        "title": "<section>을 버리고 HTML5 <article> 써야 하는 이유",
+        "link": "https://webactually.com/2020/03/03/%3Csection%3E%EC%9D%84-%EB%B2%84%EB%A6%AC%EA%B3%A0-HTML5-%3Carticle%3E%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/",
+        "publishDate": "2022-04-18",
+        "tags": [
+            "accessibility",
+            "browser"
+        ],
+        "url": "post_store/docs/Dev/using-article-tag.md"
+    },
+    {
         "id": "development-of-a-gift-service",
         "section": "Dev",
         "title": "선물하기 서비스 개발기",
@@ -96,14 +108,6 @@
         "url": "post_store/docs/Life/how-long-can-the-longest-lived-whale-on-earth-survive.md"
     },
     {
-        "id": "geonhi",
-        "section": "Art",
-        "title": "박건희문화재단",
-        "link": "http://geonhi.com/korean/pf-introduce/",
-        "publishDate": "2022-01-24",
-        "url": "post_store/docs/Art/geonhi.md"
-    },
-    {
         "id": "when-you-feel-that-your-life-is-stagnant-bring-out-your-memories",
         "section": "Life",
         "title": "삶이 정체되어 있다고 느낄 때, 기억을 꺼내보라",
@@ -113,6 +117,14 @@
             "심리학"
         ],
         "url": "post_store/docs/Life/when-you-feel-that-your-life-is-stagnant-bring-out-your-memories.md"
+    },
+    {
+        "id": "geonhi",
+        "section": "Art",
+        "title": "박건희문화재단",
+        "link": "http://geonhi.com/korean/pf-introduce/",
+        "publishDate": "2022-01-24",
+        "url": "post_store/docs/Art/geonhi.md"
     },
     {
         "id": "why-javascript-choose-prototype",
@@ -197,6 +209,14 @@
         "url": "post_store/docs/Life/the-golden-age-of-8-bit-PC-and-genius-who-disappeared.md"
     },
     {
+        "id": "what-is-CI-CD",
+        "section": "Dev",
+        "title": "CI/CD가 뭔가요? - 이론편",
+        "link": "https://tecoble.techcourse.co.kr/post/2021-08-14-ci-cd/",
+        "publishDate": "2021-10-22",
+        "url": "post_store/docs/Dev/what-is-CI-CD.md"
+    },
+    {
         "id": "be-born-without-meaning",
         "section": "Life",
         "title": "태어나라, 의미 없이",
@@ -207,14 +227,6 @@
             "칼럼"
         ],
         "url": "post_store/docs/Life/be-born-without-meaning.md"
-    },
-    {
-        "id": "what-is-CI-CD",
-        "section": "Dev",
-        "title": "CI/CD가 뭔가요? - 이론편",
-        "link": "https://tecoble.techcourse.co.kr/post/2021-08-14-ci-cd/",
-        "publishDate": "2021-10-22",
-        "url": "post_store/docs/Dev/what-is-CI-CD.md"
     },
     {
         "id": "cry-Djokovic-inside-me",
@@ -1505,6 +1517,17 @@
         "url": "post_store/docs/Study/javascript-understanding-of-prototype.md"
     },
     {
+        "id": "2020-naver-tech-concert-online",
+        "section": "Dev",
+        "title": "2020 NAVER TECH CONCERT ONLINE",
+        "link": "https://d2.naver.com/news/6137384",
+        "publishDate": "2020-08-23",
+        "tags": [
+            "conference"
+        ],
+        "url": "post_store/docs/Dev/2020-naver-tech-concert-online.md"
+    },
+    {
         "id": "commit-message-guide",
         "section": "Study",
         "title": "Udacity Git Commit Message Style Guide",
@@ -1515,17 +1538,6 @@
             "tip"
         ],
         "url": "post_store/docs/Study/commit-message-guide.md"
-    },
-    {
-        "id": "2020-naver-tech-concert-online",
-        "section": "Dev",
-        "title": "2020 NAVER TECH CONCERT ONLINE",
-        "link": "https://d2.naver.com/news/6137384",
-        "publishDate": "2020-08-23",
-        "tags": [
-            "conference"
-        ],
-        "url": "post_store/docs/Dev/2020-naver-tech-concert-online.md"
     },
     {
         "id": "read-me-project",
@@ -1654,17 +1666,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "important-purpose-of-codereview",
-        "section": "Dev",
-        "title": "코드리뷰의 진짜 목적은 따로있다.",
-        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "코드리뷰"
-        ],
-        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
-    },
-    {
         "id": "to-you-who-became-a-software-developer",
         "section": "Dev",
         "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
@@ -1676,15 +1677,15 @@
         "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
-        "id": "no-hello",
+        "id": "important-purpose-of-codereview",
         "section": "Dev",
-        "title": "채팅에서 그냥 \"안녕하세요\"라고 말하지 마세요.",
-        "link": "https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3",
-        "publishDate": "2020-08-09",
+        "title": "코드리뷰의 진짜 목적은 따로있다.",
+        "link": "https://blog.logi-spot.com/%EC%BD%94%EB%93%9C%EB%A6%AC%EB%B7%B0%EC%9D%98-%EC%A7%84%EC%A7%9C-%EB%AA%A9%EC%A0%81%EC%9D%80-%EB%94%B0%EB%A1%9C%EC%9E%88%EB%8B%A4/",
+        "publishDate": "2020-08-10",
         "tags": [
-            "work"
+            "코드리뷰"
         ],
-        "url": "post_store/docs/Dev/no-hello.md"
+        "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
     },
     {
         "id": "what-is-TDD",
@@ -1696,6 +1697,17 @@
             "TDD"
         ],
         "url": "post_store/docs/Dev/what-is-TDD.md"
+    },
+    {
+        "id": "no-hello",
+        "section": "Dev",
+        "title": "채팅에서 그냥 \"안녕하세요\"라고 말하지 마세요.",
+        "link": "https://www.notion.so/No-Hello-d16d6868a6d940d2a8a1d43ab2e24cf3",
+        "publishDate": "2020-08-09",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Dev/no-hello.md"
     },
     {
         "id": "becoming-a-10x-developer",
@@ -1710,18 +1722,6 @@
         "url": "post_store/docs/Dev/becoming-a-10x-developer.md"
     },
     {
-        "id": "why-we-use-react",
-        "section": "Dev",
-        "title": "React를 사용하는 이유",
-        "link": "https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
-        "publishDate": "2020-08-07",
-        "tags": [
-            "front-end",
-            "react"
-        ],
-        "url": "post_store/docs/Dev/why-we-use-react.md"
-    },
-    {
         "id": "my-advice-on-studying-algorithms",
         "section": "Dev",
         "title": "알고리즘 학습에 대한 조언",
@@ -1732,6 +1732,18 @@
             "algorithm"
         ],
         "url": "post_store/docs/Dev/my-advice-on-studying-algorithms.md"
+    },
+    {
+        "id": "why-we-use-react",
+        "section": "Dev",
+        "title": "React를 사용하는 이유",
+        "link": "https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
+        "publishDate": "2020-08-07",
+        "tags": [
+            "front-end",
+            "react"
+        ],
+        "url": "post_store/docs/Dev/why-we-use-react.md"
     },
     {
         "id": "javascript-trend-2020",
@@ -1799,17 +1811,6 @@
         "url": "post_store/docs/Dev/about-shallow-copy-and-deep-copy.md"
     },
     {
-        "id": "how-to-get-the-answer-you-want",
-        "section": "Life",
-        "title": "빠르고 정확하게 답변을 받을 수 있는 질문하는 법",
-        "link": "https://blog.2dal.com/2020/04/01/%eb%b9%a0%eb%a5%b4%ea%b3%a0-%ec%a0%95%ed%99%95%ed%95%98%ea%b2%8c-%eb%8b%b5%eb%b3%80%ec%9d%84-%eb%b0%9b%ec%9d%84-%ec%88%98-%ec%9e%88%eb%8a%94-%ec%a7%88%eb%ac%b8%ed%95%98%eb%8a%94-%eb%b2%95/",
-        "publishDate": "2020-08-03",
-        "tags": [
-            "work"
-        ],
-        "url": "post_store/docs/Life/how-to-get-the-answer-you-want.md"
-    },
-    {
         "id": "goodbye-clean-code",
         "section": "Dev",
         "title": "잘가, 클린 코드",
@@ -1819,6 +1820,17 @@
             "cleancode"
         ],
         "url": "post_store/docs/Dev/goodbye-clean-code.md"
+    },
+    {
+        "id": "how-to-get-the-answer-you-want",
+        "section": "Life",
+        "title": "빠르고 정확하게 답변을 받을 수 있는 질문하는 법",
+        "link": "https://blog.2dal.com/2020/04/01/%eb%b9%a0%eb%a5%b4%ea%b3%a0-%ec%a0%95%ed%99%95%ed%95%98%ea%b2%8c-%eb%8b%b5%eb%b3%80%ec%9d%84-%eb%b0%9b%ec%9d%84-%ec%88%98-%ec%9e%88%eb%8a%94-%ec%a7%88%eb%ac%b8%ed%95%98%eb%8a%94-%eb%b2%95/",
+        "publishDate": "2020-08-03",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Life/how-to-get-the-answer-you-want.md"
     },
     {
         "id": "advice-for-front-end-developer",
@@ -1900,6 +1912,17 @@
         "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
     },
     {
+        "id": "about-https",
+        "section": "Dev",
+        "title": "HTTPS에 대해 알아야 할 것들",
+        "link": "https://www.mimul.com/blog/about-https/",
+        "publishDate": "2020-07-27",
+        "tags": [
+            "http"
+        ],
+        "url": "post_store/docs/Dev/about-https.md"
+    },
+    {
         "id": "things-that-no-one-told-me",
         "section": "Study",
         "title": "아무도 가르쳐 주지 않는 것",
@@ -1912,15 +1935,15 @@
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
     },
     {
-        "id": "about-https",
-        "section": "Dev",
-        "title": "HTTPS에 대해 알아야 할 것들",
-        "link": "https://www.mimul.com/blog/about-https/",
-        "publishDate": "2020-07-27",
+        "id": "text-fields-and-forms-design",
+        "section": "Design",
+        "title": "텍스트를 입력하세요",
+        "link": "https://brunch.co.kr/@bundi/36",
+        "publishDate": "2020-07-26",
         "tags": [
-            "http"
+            "UI"
         ],
-        "url": "post_store/docs/Dev/about-https.md"
+        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
     },
     {
         "id": "today-is-not-the-only-day-for-coding",
@@ -1936,17 +1959,6 @@
         "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
     },
     {
-        "id": "text-fields-and-forms-design",
-        "section": "Design",
-        "title": "텍스트를 입력하세요",
-        "link": "https://brunch.co.kr/@bundi/36",
-        "publishDate": "2020-07-26",
-        "tags": [
-            "UI"
-        ],
-        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
-    },
-    {
         "id": "Salary-is-not-the-result-of-ability.",
         "section": "Business",
         "title": "연봉은 실력의 결과가 아니다",
@@ -1957,6 +1969,18 @@
             "몸값"
         ],
         "url": "post_store/docs/Business/Salary-is-not-the-result-of-ability..md"
+    },
+    {
+        "id": "things-to-know-when-you-prepare-presentation-first-time",
+        "section": "Study",
+        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
+        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
+        "publishDate": "2020-07-25",
+        "tags": [
+            "발표",
+            "developer"
+        ],
+        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
     },
     {
         "id": "a-secret-book-of-developer",
@@ -1970,18 +1994,6 @@
             "이직"
         ],
         "url": "post_store/docs/Dev/a-secret-book-of-developer.md"
-    },
-    {
-        "id": "things-to-know-when-you-prepare-presentation-first-time",
-        "section": "Study",
-        "title": "처음 발표를 준비하는 개발자들이 알아두면 좋을 것들",
-        "link": "https://rinae.dev/posts/things-to-know-when-you-prepare-presentation-first-time",
-        "publishDate": "2020-07-25",
-        "tags": [
-            "발표",
-            "developer"
-        ],
-        "url": "post_store/docs/Study/things-to-know-when-you-prepare-presentation-first-time.md"
     },
     {
         "id": "css-layout",
@@ -2037,25 +2049,17 @@
         "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
     },
     {
-        "id": "naver-naver-and-naver",
-        "section": "Business",
-        "title": "네이버, 네이버, 그리고 네이버",
-        "link": "http://www.bloter.net/archives/396706",
+        "id": "don't-use-else",
+        "section": "Dev",
+        "title": "니들은 else 같은거 쓰지마라",
+        "link": "https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88",
         "publishDate": "2020-07-21",
         "tags": [
-            "기업"
+            "cleancode",
+            "earlys",
+            "else"
         ],
-        "url": "post_store/docs/Business/naver-naver-and-naver.md"
-    },
-    {
-        "id": "GIMZIMEAN",
-        "section": "Technology",
-        "title": "AI",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "data-science"
-        ],
-        "url": "post_store/docs/Technology/GIMZIMEAN.md"
+        "url": "post_store/docs/Dev/don't-use-else.md"
     },
     {
         "id": "Day01",
@@ -2068,17 +2072,25 @@
         "url": "post_store/docs/Technology/Day01.md"
     },
     {
-        "id": "don't-use-else",
-        "section": "Dev",
-        "title": "니들은 else 같은거 쓰지마라",
-        "link": "https://velog.io/@gomjellie/else-%EC%93%B0%EC%A7%80%EB%A7%88",
+        "id": "GIMZIMEAN",
+        "section": "Technology",
+        "title": "AI",
         "publishDate": "2020-07-21",
         "tags": [
-            "cleancode",
-            "earlys",
-            "else"
+            "data-science"
         ],
-        "url": "post_store/docs/Dev/don't-use-else.md"
+        "url": "post_store/docs/Technology/GIMZIMEAN.md"
+    },
+    {
+        "id": "naver-naver-and-naver",
+        "section": "Business",
+        "title": "네이버, 네이버, 그리고 네이버",
+        "link": "http://www.bloter.net/archives/396706",
+        "publishDate": "2020-07-21",
+        "tags": [
+            "기업"
+        ],
+        "url": "post_store/docs/Business/naver-naver-and-naver.md"
     },
     {
         "id": "introduction-to-svelte",
