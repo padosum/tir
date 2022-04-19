@@ -1,16 +1,16 @@
 <template>
   <main class="l-main">
-    <div class="bd-container">
-      <div class="title">Tags</div>
-      <section class="section">
+    <article class="bd-container">
+      <h1 class="title">Tags</h1>
+      <nav class="section">
         <div class="post-tags">
           <a v-for="(count, tag) in sortTags" :key="tag" :href="'/tags/' + tag">
             {{ tag }}
             <sup>{{ count }}</sup>
           </a>
         </div>
-      </section>
-    </div>
+      </nav>
+    </article>
   </main>
 </template>
 

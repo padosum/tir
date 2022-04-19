@@ -1,26 +1,25 @@
 <template>
   <main class="l-main">
-    <section class="section bd-container">
-      <div class="contents">
-        <h1 class="post-title">
-          <span v-if="!link">{{ title }}</span>
-          <a :href="link" target="_blank" v-else>
-            {{ title }}
-            <i class="bx bx-link"></i>
-          </a>
-        </h1>
-
-        <p class="post-date">
-          <i class="bx bx-calendar"></i>
-          {{ publishDate }}
-        </p>
-        <div class="post-tags">
-          <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
-            {{ value }}
-          </a>
-        </div>
-        <div v-html="postHtml" class="markdown-body"></div>
-      </div>
+    <article class="section bd-container contents">
+      <h1 class="post-title">
+        <span v-if="!link">{{ title }}</span>
+        <a :href="link" target="_blank" v-else>
+          {{ title }}
+          <i class="bx bx-link"></i>
+        </a>
+      </h1>
+      <h6 class="post-date">
+        <i class="bx bx-calendar"></i>
+        {{ publishDate }}
+      </h6>
+      <nav class="post-tags">
+        <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
+          {{ value }}
+        </a>
+      </nav>
+      <div v-html="postHtml" class="markdown-body"></div>
+    </article>
+    <section class="bd-container" aria-label="댓글">
       <Comment :repo="'padosum/tir'"></Comment>
     </section>
   </main>

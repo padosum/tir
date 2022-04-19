@@ -1,8 +1,12 @@
 <template>
   <main class="l-main">
-    <div class="bd-container archive__container">
-      <div class="title">{{ title }}</div>
-      <section class="section" v-if="!section && !tag">
+    <article class="bd-container archive__container">
+      <h1 class="title">{{ title }}</h1>
+      <section
+        aria-label="날짜별 기록 그래프"
+        class="section"
+        v-if="!section && !tag"
+      >
         <div class="heatmap">
           <CalendarHeatmap
             :values="heatMapData"
@@ -25,7 +29,7 @@
           </span>
         </ul>
       </section>
-      <section class="section">
+      <article class="section">
         <ul class="post-list">
           <post-list
             v-for="postItem in pageStatus.visiblePosts"
@@ -34,39 +38,41 @@
           >
           </post-list>
         </ul>
-      </section>
+      </article>
 
       <!-- PAGINATION -->
-      <ul
-        class="pagination"
-        v-if="pageStatus.endPage > pageStatus.startPage"
-        style="cursor: pointer"
-      >
-        <li
-          class="page-item"
-          :class="currentPage == pageStatus.startPage ? 'active' : ''"
-          @click="currentPage = pageStatus.startPage"
+      <nav>
+        <ul
+          class="pagination"
+          v-if="pageStatus.endPage > pageStatus.startPage"
+          style="cursor: pointer"
         >
-          <a class="page-link"> {{ pageStatus.startPage }}</a>
-        </li>
-        <li
-          v-for="(page, index) in pageStatus.midPages"
-          :key="index"
-          class="page-item"
-          :class="currentPage == page ? 'active' : ''"
-          @click="currentPage = page"
-        >
-          <a class="page-link">{{ page }}</a>
-        </li>
-        <li
-          class="page-item"
-          :class="currentPage == pageStatus.endPage ? 'active' : ''"
-          @click="currentPage = pageStatus.endPage"
-        >
-          <a class="page-link">{{ pageStatus.endPage }}</a>
-        </li>
-      </ul>
-    </div>
+          <li
+            class="page-item"
+            :class="currentPage == pageStatus.startPage ? 'active' : ''"
+            @click="currentPage = pageStatus.startPage"
+          >
+            <a class="page-link"> {{ pageStatus.startPage }}</a>
+          </li>
+          <li
+            v-for="(page, index) in pageStatus.midPages"
+            :key="index"
+            class="page-item"
+            :class="currentPage == page ? 'active' : ''"
+            @click="currentPage = page"
+          >
+            <a class="page-link">{{ page }}</a>
+          </li>
+          <li
+            class="page-item"
+            :class="currentPage == pageStatus.endPage ? 'active' : ''"
+            @click="currentPage = pageStatus.endPage"
+          >
+            <a class="page-link">{{ pageStatus.endPage }}</a>
+          </li>
+        </ul>
+      </nav>
+    </article>
   </main>
 </template>
 <script lang="ts">
