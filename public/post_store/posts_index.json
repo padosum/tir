@@ -1,5 +1,16 @@
 [
     {
+        "id": "good-things-to-keep-a-record-of",
+        "section": "Business",
+        "title": "기록해두면 좋은 것들",
+        "link": "https://brunch.co.kr/@drunkensky/200",
+        "publishDate": "2022-05-12",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Business/good-things-to-keep-a-record-of.md"
+    },
+    {
         "id": "front-end-developer-how-should-i-prepare",
         "section": "Dev",
         "title": "웹 프론트엔드 개발자, 어떻게 준비해야 할까?",
@@ -61,17 +72,6 @@
         "url": "post_store/docs/Life/think-stack.md"
     },
     {
-        "id": "early-return",
-        "section": "Dev",
-        "title": "Early Return 하는 코드를 작성하자",
-        "link": "https://jheloper.github.io/2019/06/write-early-return-code/",
-        "publishDate": "2022-02-27",
-        "tags": [
-            "cleancode"
-        ],
-        "url": "post_store/docs/Dev/early-return.md"
-    },
-    {
         "id": "easiest-way-to-start-tdd",
         "section": "Dev",
         "title": "누구나 테스트 주도 개발 당장 시작할 수 있는 방법",
@@ -81,6 +81,17 @@
             "TDD"
         ],
         "url": "post_store/docs/Dev/easiest-way-to-start-tdd.md"
+    },
+    {
+        "id": "early-return",
+        "section": "Dev",
+        "title": "Early Return 하는 코드를 작성하자",
+        "link": "https://jheloper.github.io/2019/06/write-early-return-code/",
+        "publishDate": "2022-02-27",
+        "tags": [
+            "cleancode"
+        ],
+        "url": "post_store/docs/Dev/early-return.md"
     },
     {
         "id": "the-baseline-for-web-development-in-2022",
@@ -1460,6 +1471,17 @@
         "url": "post_store/docs/Dev/understanding-developers-terms.md"
     },
     {
+        "id": "working-in-a-field-realated-to-your-fandom",
+        "section": "Life",
+        "title": "덕업일치",
+        "link": "https://www.thestartupbible.com/2020/08/doing-what-you-love.html",
+        "publishDate": "2020-08-30",
+        "tags": [
+            "work"
+        ],
+        "url": "post_store/docs/Life/working-in-a-field-realated-to-your-fandom.md"
+    },
+    {
         "id": "whether-or-not-to-put-semicolons-in-javaScript",
         "section": "Dev",
         "title": "자바스크립트, 세미콜론을 써야 하나 말아야 하나",
@@ -1471,17 +1493,6 @@
             "asi"
         ],
         "url": "post_store/docs/Dev/whether-or-not-to-put-semicolons-in-javaScript.md"
-    },
-    {
-        "id": "working-in-a-field-realated-to-your-fandom",
-        "section": "Life",
-        "title": "덕업일치",
-        "link": "https://www.thestartupbible.com/2020/08/doing-what-you-love.html",
-        "publishDate": "2020-08-30",
-        "tags": [
-            "work"
-        ],
-        "url": "post_store/docs/Life/working-in-a-field-realated-to-your-fandom.md"
     },
     {
         "id": "object-oriented-philosophy",
@@ -1580,18 +1591,6 @@
         "url": "post_store/docs/Study/how-to-write-clean-code-function-in-javascript.md"
     },
     {
-        "id": "software-learning-attitude",
-        "section": "Study",
-        "title": "소프트웨어 학습 태도",
-        "link": "https://brunch.co.kr/@godrm77/16",
-        "publishDate": "2020-08-18",
-        "tags": [
-            "학습",
-            "성장"
-        ],
-        "url": "post_store/docs/Study/software-learning-attitude.md"
-    },
-    {
         "id": "first-start-typescript",
         "section": "Dev",
         "title": "Typescript로 블록체인 만들기",
@@ -1603,6 +1602,18 @@
             "블록체인"
         ],
         "url": "post_store/docs/Dev/first-start-typescript.md"
+    },
+    {
+        "id": "software-learning-attitude",
+        "section": "Study",
+        "title": "소프트웨어 학습 태도",
+        "link": "https://brunch.co.kr/@godrm77/16",
+        "publishDate": "2020-08-18",
+        "tags": [
+            "학습",
+            "성장"
+        ],
+        "url": "post_store/docs/Study/software-learning-attitude.md"
     },
     {
         "id": "indistractable",
@@ -1627,6 +1638,17 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
+    },
+    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1639,17 +1661,6 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
-    },
-    {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1674,17 +1685,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "to-you-who-became-a-software-developer",
-        "section": "Dev",
-        "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
-        "link": "https://brunch.co.kr/@lkj28/136",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "developer"
-        ],
-        "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
-    },
-    {
         "id": "important-purpose-of-codereview",
         "section": "Dev",
         "title": "코드리뷰의 진짜 목적은 따로있다.",
@@ -1694,6 +1694,17 @@
             "코드리뷰"
         ],
         "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
+    },
+    {
+        "id": "to-you-who-became-a-software-developer",
+        "section": "Dev",
+        "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
+        "link": "https://brunch.co.kr/@lkj28/136",
+        "publishDate": "2020-08-10",
+        "tags": [
+            "developer"
+        ],
+        "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
         "id": "what-is-TDD",
