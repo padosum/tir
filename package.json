@@ -14,25 +14,18 @@
     "build:index": "ts-node-script scripts/generate_index.ts"
   },
   "dependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
     "core-js": "^3.6.5",
     "markdown-it": "^12.3.2",
     "markdown-it-emoji": "^2.0.0",
     "redaxios": "^0.4.1",
+    "vite": "^4.0.4",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vue3-calendar-heatmap": "^1.0.9",
     "yaml-front-matter": "^3.4.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "@vue/cli-plugin-babel": "^5.0.4",
-    "@vue/cli-plugin-eslint": "^5.0.4",
-    "@vue/cli-plugin-typescript": "^5.0.4",
-    "@vue/cli-service": "^5.0.4",
-    "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-prettier": "^6.0.0",
-    "@vue/eslint-config-typescript": "^7.0.0",
     "eslint": "^8.12.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-vue": "^8.2.0",
