@@ -1,7 +1,6 @@
 <template>
   <div>
     <NavBar :sections="sections"></NavBar>
-    <!--======= scrolltop =======-->
     <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
@@ -11,7 +10,7 @@
       </template>
       <template #fallback> </template>
     </Suspense>
-    <Footer />
+    <AppFooter />
   </div>
 </template>
 
@@ -19,15 +18,16 @@
 import { defineComponent, inject } from "vue";
 import { scrollTop } from "@/utils/scroll";
 import NavBar from "@/components/NavBar.vue";
-import Footer from "@/components/Footer.vue";
+import AppFooter from "@/components/AppFooter.vue";
+import type { PostIndex } from "@/types/PostIndex";
 
 export default defineComponent({
   components: {
     NavBar,
-    Footer,
+    AppFooter,
   },
   setup() {
-    const sections = inject("sections", []);
+    const sections: PostIndex[] = inject("sections", []);
     return { sections };
   },
   methods: {
@@ -42,5 +42,6 @@ export default defineComponent({
 </script>
 
 <style>
-@import "~@/assets/style/styles.css";
+@import "@/assets/style/styles.css";
+@import "vue3-calendar-heatmap/dist/style.css";
 </style>
