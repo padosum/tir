@@ -9,7 +9,7 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/tags",
-    component: () => import("@/views/Tags.vue"),
+    component: () => import("@/views/TagsPage.vue"),
     props: true,
   },
   {
