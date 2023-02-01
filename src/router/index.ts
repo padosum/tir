@@ -1,9 +1,10 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
+import type { RouteRecordRaw } from "vue-router";
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    component: () => import("@/views/Archive.vue"),
+    component: () => import("@/views/ArchivePage.vue"),
     props: true,
   },
   {
@@ -13,17 +14,17 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/:section",
-    component: () => import("@/views/Archive.vue"),
+    component: () => import("@/views/ArchivePage.vue"),
     props: true,
   },
   {
     path: "/tags/:tag",
-    component: () => import("@/views/Archive.vue"),
+    component: () => import("@/views/ArchivePage.vue"),
     props: true,
   },
   {
     path: "/:section/:id",
-    component: () => import(/* webpackChunkName: "post" */ "@/views/Post.vue"),
+    component: () => import("@/views/PostPage.vue"),
     props: true,
   },
 ];
@@ -35,7 +36,7 @@ const router = createRouter({
     if (savedPosition) {
       return savedPosition;
     } else {
-      document.getElementById("app").scrollIntoView();
+      document.getElementById("app")?.scrollIntoView();
       return { el: "#app" };
     }
   },

@@ -10,7 +10,7 @@ function showMenu(toggleID: string, navId: string) {
 }
 
 function linkAction() {
-  const navMenu = document.getElementById("nav-menu");
+  const navMenu = document.getElementById("nav-menu") as HTMLElement;
   navMenu.classList.remove("show-menu");
 }
 

@@ -6,7 +6,7 @@
       </router-link>
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
-          <li v-for="section of sections" :key="section" class="nav__item">
+          <li v-for="section of sections" :key="section.id" class="nav__item">
             <router-link
               :to="`/${section}`"
               class="nav__link"
@@ -25,6 +25,7 @@
               class="bx bx-moon change-theme"
               id="theme-button"
               v-on:click="changeTheme"
+              ref="themeButton"
             ></i>
           </li>
         </ul>
@@ -38,15 +39,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from "vue";
+import { defineComponent, inject, type HtmlHTMLAttributes } from "vue";
 import { showMenu, linkAction } from "@/utils/menu";
 import { scrollHeader } from "@/utils/scroll";
-import { PostIndex } from "@/types/PostIndex";
+import type { PostIndex } from "@/types/PostIndex";
+import type { PropType } from "vue";
 
 export default defineComponent({
   props: {
     sections: {
-      type: [],
+      type: Array as PropType<PostIndex[]>,
     },
   },
   methods: {
@@ -60,9 +62,9 @@ export default defineComponent({
       this.$router.push(`/${section}/${id}`);
     },
     changeTheme() {
-      const themeButton = document.getElementById("theme-button");
-      const darkTheme = "dark-theme";
-      const iconTheme = "bx-sun";
+      const themeButton = this.$refs.themeButton as HTMLElement;
+      const darkTheme: string = "dark-theme";
+      const iconTheme: string = "bx-sun";
 
       document.body.classList.toggle(darkTheme);
       themeButton.classList.toggle(iconTheme);
@@ -90,10 +92,10 @@ export default defineComponent({
         this.getCurrentIcon(iconTheme, themeButton)
       );
     },
-    getCurrentTheme(darkTheme) {
+    getCurrentTheme(darkTheme: string) {
       return document.body.classList.contains(darkTheme) ? "dark" : "light";
     },
-    getCurrentIcon(iconTheme, themeButton) {
+    getCurrentIcon(iconTheme: string, themeButton: HTMLElement) {
       return themeButton.classList.contains(iconTheme) ? "bx-moon" : "bx-sun";
     },
   },
@@ -121,7 +123,7 @@ export default defineComponent({
       document.body.classList[selectedTheme == "dark" ? "add" : "remove"](
         darkTheme
       );
-      themeButton.classList[selectedIcon == "bx-moon" ? "add" : "remove"](
+      themeButton?.classList[selectedIcon == "bx-moon" ? "add" : "remove"](
         iconTheme
       );
     }

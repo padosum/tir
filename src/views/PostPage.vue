@@ -19,23 +19,18 @@
       </nav>
       <div v-html="postHtml" class="markdown-body"></div>
     </article>
-    <section class="bd-container" aria-label="댓글">
-      <Comment :repo="'padosum/tir'"></Comment>
-    </section>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent, inject } from "vue";
-import { PostIndex } from "@/types/PostIndex";
-import Comment from "@/components/Comment.vue";
+import type { PostIndex } from "@/types/PostIndex";
 import axios from "redaxios";
 import MarkdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
 import router from "@/router";
 
 const markDownIt = new MarkdownIt({ html: true }).use(emoji);
-
 // 콘텐츠 링크 태그 target="_blank"로 설정
 const defaultRender =
   markDownIt.renderer.rules.link_open ||
@@ -51,12 +46,17 @@ markDownIt.renderer.rules.link_open = function (
   self
 ) {
   // If you are sure other plugins can't add `target` - drop check below
-  var aIndex = tokens[idx].attrIndex("target");
+  let aIndex = tokens[idx].attrIndex("target");
 
   if (aIndex < 0) {
     tokens[idx].attrPush(["target", "_blank"]); // add new attribute
   } else {
-    tokens[idx].attrs[aIndex][1] = "_blank"; // replace value of existing attr
+    if (tokens[idx]) {
+      const attrs = tokens[idx].attrs;
+      if (attrs) {
+        attrs[aIndex][1] = "_blank"; // replace value of existing attr
+      }
+    }
   }
 
   // pass token to default renderer.
@@ -64,9 +64,6 @@ markDownIt.renderer.rules.link_open = function (
 };
 
 export default defineComponent({
-  components: {
-    Comment,
-  },
   props: {
     section: {
       type: String,
@@ -78,12 +75,6 @@ export default defineComponent({
     },
   },
   async setup(props) {
-    /* Hacky navigation when a href link is clicked within the compiled html Post */
-    // onBeforeRouteUpdate(() => {
-    //   location.reload();
-    // });
-
-    // fetch post
     const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const {
       url = "",
@@ -98,10 +89,7 @@ export default defineComponent({
     const [, , content] = markDownSource.split("---");
     const postHtml = markDownIt.render(content);
 
-    const hasHistory = () => window.history?.length > 2;
-
     return {
-      hasHistory,
       postHtml,
       router,
       title,
@@ -114,8 +102,8 @@ export default defineComponent({
 </script>
 
 <style scoped>
-@import "~@/assets/style/github-markdown.css";
-@import "~@/assets/style/highlight.scss";
+@import "@/assets/style/github-markdown.css";
+@import "@/assets/style/highlight.scss";
 .markdown-body {
   box-sizing: border-box;
   min-width: 200px;

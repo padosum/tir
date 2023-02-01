@@ -17,12 +17,15 @@
   </li>
 </template>
 
-<script>
+<script lang="ts">
+import type { PostIndex } from "@/types/PostIndex";
+import type { PropType } from "vue";
+
 export default {
   props: {
     postItem: {
-      type: Object,
-      require: true,
+      type: Object as PropType<PostIndex>,
+      required: true,
     },
   },
 };

@@ -31,12 +31,12 @@
       </section>
       <article class="section">
         <ul class="post-list">
-          <post-list
+          <PostList
             v-for="postItem in pageStatus.visiblePosts"
             :key="postItem.id"
             :postItem="postItem"
           >
-          </post-list>
+          </PostList>
         </ul>
       </article>
 
@@ -76,12 +76,15 @@
   </main>
 </template>
 <script lang="ts">
-import { defineComponent, reactive, toRefs, inject, computed } from "vue";
-import { PostIndex } from "@/types/PostIndex";
+import { defineComponent, ref, inject, computed } from "vue";
+import type { PostIndex } from "@/types/PostIndex";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
 import PostList from "@/components/PostList.vue";
 import paginate from "@/utils/paginate";
-const { VUE_APP_POSTS_PER_PAGE } = process.env;
+
+type heatmapDate = {
+  date: number;
+};
 
 export default defineComponent({
   components: {
@@ -101,7 +104,7 @@ export default defineComponent({
   data() {
     return {
       selectedDate: "",
-      selectedList: [],
+      selectedList: [] as PostIndex[],
     };
   },
   computed: {
@@ -109,15 +112,15 @@ export default defineComponent({
       return this.section ? this.section : this.tag ? this.tag : "Today I Read";
     },
     today() {
-      let today = new Date();
-      const dd = String(today.getDate()).padStart(2, "0");
-      const mm = String(today.getMonth() + 1).padStart(2, "0");
-      const yyyy = today.getFullYear();
-      return `${yyyy}-${mm}-${dd}`;
+      const today = new Date();
+      const offset = today.getTimezoneOffset() * 60000;
+      const dateOffset = new Date(today.getTime() - offset);
+      const [date] = dateOffset.toISOString().split("T");
+      return date;
     },
   },
   methods: {
-    handleDayClick(day) {
+    handleDayClick(day: heatmapDate) {
       const d = new Date();
 
       this.selectedDate = new Date(day.date - d.getTimezoneOffset() * 60000)
@@ -133,19 +136,25 @@ export default defineComponent({
   },
   setup(props) {
     const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
-    const state = reactive({
-      currentPage: 1,
-    });
+    const currentPage = ref(1);
 
-    const heatMapData = postsIndex.reduce((acc, { publishDate }) => {
-      let idx = acc.findIndex((x) => x.date === publishDate);
-      if (idx === -1) {
-        acc.push({ date: publishDate, count: 1 });
-      } else {
-        acc[idx].count = acc[idx].count + 1;
-      }
-      return acc;
-    }, []);
+    type heatMapDate = {
+      date: string;
+      count: number;
+    };
+    const heatMapData = postsIndex.reduce(
+      (acc: heatMapDate[], { publishDate }) => {
+        let idx = acc.findIndex((x) => x.date === publishDate);
+        if (idx === -1) {
+          acc.push({ date: publishDate, count: 1 });
+        } else {
+          acc[idx].count = acc[idx].count + 1;
+        }
+        return acc;
+      },
+      []
+    );
+    console.log(heatMapData.filter((item) => item.date === "2022-05-23"));
 
     const pageStatus = computed(() => {
       const isHome = !props.section && !props.tag;
@@ -161,14 +170,14 @@ export default defineComponent({
 
       const { startPage, endPage, startIndex, endIndex } = paginate(
         categoryPosts.length,
-        state.currentPage,
-        VUE_APP_POSTS_PER_PAGE
+        currentPage.value,
+        import.meta.env.VITE_APP_POSTS_PER_PAGE
       );
 
       const prev =
-        state.currentPage - 1 >= startPage ? state.currentPage - 1 : 0;
-      const next = state.currentPage + 1 <= endPage ? state.currentPage + 1 : 0;
-      const midPages = [prev, state.currentPage, next].filter(
+        currentPage.value - 1 >= startPage ? currentPage.value - 1 : 0;
+      const next = currentPage.value + 1 <= endPage ? currentPage.value + 1 : 0;
+      const midPages = [prev, currentPage.value, next].filter(
         (p) => p > startPage && p < endPage
       );
 
@@ -183,7 +192,7 @@ export default defineComponent({
     });
 
     return {
-      ...toRefs(state),
+      currentPage,
       pageStatus,
       postsIndex,
       heatMapData,
