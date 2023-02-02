@@ -69,7 +69,7 @@ body {
 }
 
 /* variable dark theme  */
-body.dark-theme {
+body:has(.dark-theme) {
   --title-color: #f1f3f2;
   --text-color: #c7d1cc;
   --body-color: #2e353c;
