@@ -82,6 +82,7 @@ import type { PostIndex } from "@/types/PostIndex";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
 import PostList from "@/components/PostList.vue";
 import paginate from "@/utils/paginate";
+import { POSTS_PER_PAGE } from "@/constants";
 
 type heatmapDate = {
   date: number;
@@ -193,7 +194,7 @@ export default defineComponent({
       const { startPage, endPage, startIndex, endIndex } = paginate(
         categoryPosts.length,
         currentPage.value,
-        import.meta.env.VITE_APP_POSTS_PER_PAGE
+        POSTS_PER_PAGE
       );
 
       const prev =
