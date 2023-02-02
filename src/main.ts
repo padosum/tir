@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "@/App.vue";
-import router from "@/router/index";
+import router from "@/router";
+import { store } from "@/store";
 import axios from "redaxios";
 import type { PostIndex } from "@/types/PostIndex";
 
@@ -16,6 +17,7 @@ const loadApp = async () => {
   sections.sort((a, b) => a.localeCompare(b));
   createApp(App)
     .use(router)
+    .use(store)
     .provide<PostIndex[]>("postsIndex", postsIndex)
     .provide("sections", sections)
     .mount("#app");

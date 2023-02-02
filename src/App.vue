@@ -1,15 +1,10 @@
 <template>
-  <div>
+  <div :class="themeClass">
     <NavBar :sections="sections"></NavBar>
     <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <Suspense>
-      <template #default>
-        <router-view :key="$route.fullPath" />
-      </template>
-      <template #fallback> </template>
-    </Suspense>
+    <router-view :key="$route.fullPath" />
     <AppFooter />
   </div>
 </template>
@@ -25,6 +20,11 @@ export default defineComponent({
   components: {
     NavBar,
     AppFooter,
+  },
+  computed: {
+    themeClass() {
+      return this.$store.state.darkTheme ? "dark-theme" : "";
+    },
   },
   setup() {
     const sections: PostIndex[] = inject("sections", []);
