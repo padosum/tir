@@ -18,17 +18,10 @@
           >
           </CalendarHeatmap>
         </div>
-        <h3>{{ selectedDate }}</h3>
-        <ul class="selected-list" v-if="selectedDate">
-          <li v-for="(value, key) in selectedList" :key="key">
-            <router-link :to="'/' + value.section + '/' + value.id">
-              {{ value.title }}
-            </router-link>
-          </li>
-          <span v-if="!selectedList.length && selectedDate">
-            조회된 항목이 없습니다.
-          </span>
-        </ul>
+        <SelectedPostList
+          :selected-date="selectedDate"
+          :selected-list="getPostItemsByDate"
+        ></SelectedPostList>
       </section>
       <article class="section">
         <ul class="post-list">
@@ -80,18 +73,19 @@
 import { defineComponent, ref, inject, computed } from "vue";
 import type { PostIndex } from "@/types/PostIndex";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
+import SelectedPostList from "@/components/SelectedPostList.vue";
 import PostList from "@/components/PostList.vue";
 import paginate from "@/utils/paginate";
 import { POSTS_PER_PAGE } from "@/constants";
-
-type heatmapDate = {
-  date: number;
-};
+import { getFormatDate } from "@/utils/date";
+import { MutationTypes } from "@/store/mutations";
+import { mapGetters, mapState } from "vuex";
 
 export default defineComponent({
   components: {
     CalendarHeatmap,
     PostList,
+    SelectedPostList,
   },
   props: {
     section: {
@@ -105,7 +99,6 @@ export default defineComponent({
   },
   data() {
     return {
-      selectedDate: "",
       selectedList: [] as PostIndex[],
       lightColors: [
         "rgb(235, 237, 240)",
@@ -142,20 +135,13 @@ export default defineComponent({
     heatmapRangeColor() {
       return this.darkMode ? this.darkColors : this.lightColors;
     },
+    ...mapState(["selectedDate"]),
+    ...mapGetters(["getPostItemsByDate"]),
   },
   methods: {
-    handleDayClick(day: heatmapDate) {
-      const d = new Date();
-
-      this.selectedDate = new Date(day.date - d.getTimezoneOffset() * 60000)
-        .toISOString()
-        .split("T")[0];
-
-      this.selectedList = this.postsIndex.filter(({ publishDate }) => {
-        return publishDate === this.selectedDate;
-      });
-
-      this.selectedDate = `📖 ${this.selectedDate}`;
+    handleDayClick(day: any) {
+      const date = getFormatDate(day.date);
+      this.$store.commit(MutationTypes.SET_DATE, date);
     },
   },
   setup(props) {
