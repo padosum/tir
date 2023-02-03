@@ -7,20 +7,18 @@
         class="section"
         v-if="!section && !tag"
       >
-        <div class="heatmap">
-          <CalendarHeatmap
-            :values="heatMapData"
-            :end-date="today"
-            :max="5"
-            tooltip-unit="read"
-            @day-click="handleDayClick"
-            :range-color="heatmapRangeColor"
-          >
-          </CalendarHeatmap>
-        </div>
+        <CalendarHeatmap
+          :values="heatmapData"
+          :end-date="today"
+          :max="5"
+          tooltip-unit="read"
+          @day-click="handleDayClick"
+          :range-color="heatmapRangeColor"
+        >
+        </CalendarHeatmap>
         <SelectedPostList
           :selected-date="selectedDate"
-          :selected-list="getPostItemsByDate"
+          :selected-list="postItemsByDate"
         ></SelectedPostList>
       </section>
       <article class="section">
@@ -79,7 +77,8 @@ import paginate from "@/utils/paginate";
 import { POSTS_PER_PAGE } from "@/constants";
 import { getFormatDate } from "@/utils/date";
 import { MutationTypes } from "@/store/mutations";
-import { mapGetters, mapState } from "vuex";
+import { useStore } from "vuex";
+import { HEATMAP_DARK_COLORS, HEATMAP_LIGHT_COLORS } from "@/constants";
 
 export default defineComponent({
   components: {
@@ -97,47 +96,6 @@ export default defineComponent({
       default: "",
     },
   },
-  data() {
-    return {
-      selectedList: [] as PostIndex[],
-      lightColors: [
-        "rgb(235, 237, 240)",
-        "rgb(218, 226, 239)",
-        "rgb(192, 221, 249)",
-        "rgb(115, 179, 243)",
-        "rgb(56, 134, 225)",
-        "rgb(23, 69, 158)",
-      ],
-      darkColors: [
-        "#1f1f22",
-        "#1e334a",
-        "#1d466c",
-        "#1d5689",
-        "#1d69ac",
-        "#1B95D1",
-      ],
-    };
-  },
-  computed: {
-    title() {
-      return this.section ? this.section : this.tag ? this.tag : "Today I Read";
-    },
-    today() {
-      const today = new Date();
-      const offset = today.getTimezoneOffset() * 60000;
-      const dateOffset = new Date(today.getTime() - offset);
-      const [date] = dateOffset.toISOString().split("T");
-      return date;
-    },
-    darkMode() {
-      return this.$store.state.darkTheme;
-    },
-    heatmapRangeColor() {
-      return this.darkMode ? this.darkColors : this.lightColors;
-    },
-    ...mapState(["selectedDate"]),
-    ...mapGetters(["getPostItemsByDate"]),
-  },
   methods: {
     handleDayClick(day: any) {
       const date = getFormatDate(day.date);
@@ -145,25 +103,25 @@ export default defineComponent({
     },
   },
   setup(props) {
+    const store = useStore();
+    const title = computed(() => {
+      return props.section
+        ? props.section
+        : props.tag
+        ? props.tag
+        : "Today I Read";
+    });
+
+    const today = computed(() => {
+      return getFormatDate(new Date());
+    });
+
+    const heatmapRangeColor = computed(() => {
+      return store.state.darkTheme ? HEATMAP_DARK_COLORS : HEATMAP_LIGHT_COLORS;
+    });
+
     const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const currentPage = ref(1);
-
-    type heatMapDate = {
-      date: string;
-      count: number;
-    };
-    const heatMapData = postsIndex.reduce(
-      (acc: heatMapDate[], { publishDate }) => {
-        let idx = acc.findIndex((x) => x.date === publishDate);
-        if (idx === -1) {
-          acc.push({ date: publishDate, count: 1 });
-        } else {
-          acc[idx].count = acc[idx].count + 1;
-        }
-        return acc;
-      },
-      []
-    );
 
     const pageStatus = computed(() => {
       const isHome = !props.section && !props.tag;
@@ -201,16 +159,17 @@ export default defineComponent({
     });
 
     return {
+      title,
+      heatmapRangeColor,
       currentPage,
       pageStatus,
       postsIndex,
-      heatMapData,
+      today,
+      selectedDate: computed(() => store.state.selectedDate),
+      postItemsByDate: computed(() => store.getters.getPostItemsByDate),
+      heatmapData: computed(() => store.getters.getHeatmapData),
     };
   },
 });
 </script>
-<style scoped>
-.heatmap {
-  padding: 10px;
-}
-</style>
+<style scoped></style>
