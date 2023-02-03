@@ -1,34 +1,18 @@
 <template>
   <main class="l-main">
-    <article class="section bd-container contents">
-      <h1 class="post-title">
-        <span v-if="!link">{{ title }}</span>
-        <a :href="link" target="_blank" v-else>
-          {{ title }}
-          <i class="bx bx-link"></i>
-        </a>
-      </h1>
-      <h6 class="post-date">
-        <i class="bx bx-calendar"></i>
-        {{ publishDate }}
-      </h6>
-      <nav class="post-tags">
-        <a v-for="(value, key) in tags" :key="key" :href="'/tags/' + value">
-          {{ value }}
-        </a>
-      </nav>
-      <div v-html="postHtml" class="markdown-body"></div>
-    </article>
+    <PostView
+      :postItem="{ title, link, tags, publishDate, postHtml }"
+    ></PostView>
   </main>
 </template>
 
 <script lang="ts">
 import { defineComponent, inject, onMounted, ref } from "vue";
 import type { PostIndex } from "@/types/PostIndex";
+import PostView from "@/components/PostView.vue";
 import axios from "redaxios";
 import MarkdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
-import router from "@/router";
 
 const markDownIt = new MarkdownIt({ html: true }).use(emoji);
 
@@ -75,8 +59,11 @@ export default defineComponent({
       default: "",
     },
   },
+  components: {
+    PostView,
+  },
   setup(props) {
-    const postHtml = ref("");
+    const postHtml = ref<string>("");
     const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const {
       url = "",
@@ -93,12 +80,11 @@ export default defineComponent({
     });
 
     return {
-      postHtml,
-      router,
       title,
       link,
       tags,
       publishDate,
+      postHtml,
     };
   },
 });
