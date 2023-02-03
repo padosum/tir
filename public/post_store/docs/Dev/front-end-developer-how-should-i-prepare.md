@@ -19,4 +19,4 @@ publishDate: 2022-05-11
 
 ## ⛓️ 연결고리
 
-- [신입 프론트엔드 개발자를 위한 면접 조언](../Dev/advice-for-front-end-developer.md)
+- [신입 프론트엔드 개발자를 위한 면접 조언](../Dev/advice-for-front-end-developer)

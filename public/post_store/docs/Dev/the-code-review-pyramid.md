@@ -17,4 +17,4 @@ publishDate: 2022-05-23
 
 - [그림 한글 번역](https://drive.google.com/file/d/1_WlI6JwOmveoMZOyEhj6bPblPQv4h2c3/view)
 - [글 번역](https://jiyeonseo.github.io/2022/04/03/the-code-review-pyramid/)
-- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview.md)
+- [코드리뷰의 진짜 목적은 따로있다](../Dev/important-purpose-of-codereview)
