@@ -23,7 +23,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from "vue";
+import { defineComponent, inject, onMounted, ref } from "vue";
 import type { PostIndex } from "@/types/PostIndex";
 import axios from "redaxios";
 import MarkdownIt from "markdown-it";
@@ -31,6 +31,7 @@ import emoji from "markdown-it-emoji";
 import router from "@/router";
 
 const markDownIt = new MarkdownIt({ html: true }).use(emoji);
+
 // 콘텐츠 링크 태그 target="_blank"로 설정
 const defaultRender =
   markDownIt.renderer.rules.link_open ||
@@ -46,7 +47,7 @@ markDownIt.renderer.rules.link_open = function (
   self
 ) {
   // If you are sure other plugins can't add `target` - drop check below
-  let aIndex = tokens[idx].attrIndex("target");
+  const aIndex = tokens[idx].attrIndex("target");
 
   if (aIndex < 0) {
     tokens[idx].attrPush(["target", "_blank"]); // add new attribute
@@ -74,7 +75,8 @@ export default defineComponent({
       default: "",
     },
   },
-  async setup(props) {
+  setup(props) {
+    const postHtml = ref("");
     const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
     const {
       url = "",
@@ -84,10 +86,11 @@ export default defineComponent({
       publishDate,
     } = postsIndex.find(({ id }) => id === props.id) || {};
 
-    const { data: markDownSource } = await axios.get(`../${url}`);
-
-    const [, , content] = markDownSource.split("---");
-    const postHtml = markDownIt.render(content);
+    onMounted(async () => {
+      const { data: markDownSource } = await axios.get(`../${url}`);
+      const [, , content] = markDownSource.split("---");
+      postHtml.value = markDownIt.render(content);
+    });
 
     return {
       postHtml,
