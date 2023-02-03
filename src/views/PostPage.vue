@@ -7,46 +7,9 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject, onMounted, ref } from "vue";
-import type { PostIndex } from "@/types/PostIndex";
+import { defineComponent } from "vue";
 import PostView from "@/components/PostView.vue";
-import axios from "redaxios";
-import MarkdownIt from "markdown-it";
-import emoji from "markdown-it-emoji";
-
-const markDownIt = new MarkdownIt({ html: true }).use(emoji);
-
-// 콘텐츠 링크 태그 target="_blank"로 설정
-const defaultRender =
-  markDownIt.renderer.rules.link_open ||
-  function (tokens, idx, options, env, self) {
-    return self.renderToken(tokens, idx, options);
-  };
-
-markDownIt.renderer.rules.link_open = function (
-  tokens,
-  idx,
-  options,
-  env,
-  self
-) {
-  // If you are sure other plugins can't add `target` - drop check below
-  const aIndex = tokens[idx].attrIndex("target");
-
-  if (aIndex < 0) {
-    tokens[idx].attrPush(["target", "_blank"]); // add new attribute
-  } else {
-    if (tokens[idx]) {
-      const attrs = tokens[idx].attrs;
-      if (attrs) {
-        attrs[aIndex][1] = "_blank"; // replace value of existing attr
-      }
-    }
-  }
-
-  // pass token to default renderer.
-  return defaultRender(tokens, idx, options, env, self);
-};
+import usePost from "@/hooks/usePost";
 
 export default defineComponent({
   props: {
@@ -63,20 +26,8 @@ export default defineComponent({
     PostView,
   },
   setup(props) {
-    const postHtml = ref<string>("");
-    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
-    const {
-      url = "",
-      title,
-      link,
-      tags,
-      publishDate,
-    } = postsIndex.find(({ id }) => id === props.id) || {};
-
-    onMounted(async () => {
-      const { data: markDownSource } = await axios.get(`../${url}`);
-      const [, , content] = markDownSource.split("---");
-      postHtml.value = markDownIt.render(content);
+    const { title, link, postHtml, publishDate, tags } = usePost({
+      postId: props.id,
     });
 
     return {
