@@ -1,6 +1,6 @@
 import { join, resolve } from "path";
 import { writeFileSync, readdirSync, readFileSync } from "fs";
-import type { PostIndex } from "@/types/PostIndex";
+import type { PostIndex } from "../src/types/PostIndex";
 
 const YFM = require("yaml-front-matter");
 
