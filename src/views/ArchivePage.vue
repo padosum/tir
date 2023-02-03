@@ -1,39 +1,37 @@
 <template>
-  <main class="l-main">
-    <article class="bd-container archive__container">
-      <h1 class="title">{{ title }}</h1>
-      <section
-        aria-label="날짜별 기록 그래프"
-        class="section"
-        v-if="!section && !tag"
+  <article class="bd-container archive__container">
+    <h1 class="title">{{ title }}</h1>
+    <section
+      aria-label="날짜별 기록 그래프"
+      class="section"
+      v-if="!section && !tag"
+    >
+      <CalendarHeatmap
+        :values="heatmapData"
+        :end-date="today"
+        :max="5"
+        tooltip-unit="read"
+        @day-click="handleDayClick"
+        :range-color="heatmapRangeColor"
       >
-        <CalendarHeatmap
-          :values="heatmapData"
-          :end-date="today"
-          :max="5"
-          tooltip-unit="read"
-          @day-click="handleDayClick"
-          :range-color="heatmapRangeColor"
+      </CalendarHeatmap>
+      <SelectedPostList
+        :selected-date="selectedDate"
+        :selected-list="postItemsByDate"
+      ></SelectedPostList>
+    </section>
+    <article class="section">
+      <ul class="post-list">
+        <PostListItem
+          v-for="postItem in visiblePostItems"
+          :key="postItem.id"
+          :postItem="postItem"
         >
-        </CalendarHeatmap>
-        <SelectedPostList
-          :selected-date="selectedDate"
-          :selected-list="postItemsByDate"
-        ></SelectedPostList>
-      </section>
-      <article class="section">
-        <ul class="post-list">
-          <PostListItem
-            v-for="postItem in visiblePostItems"
-            :key="postItem.id"
-            :postItem="postItem"
-          >
-          </PostListItem>
-        </ul>
-      </article>
-      <PaginationList :post-items="postItems"></PaginationList>
+        </PostListItem>
+      </ul>
     </article>
-  </main>
+    <PaginationList :post-items="postItems"></PaginationList>
+  </article>
 </template>
 <script lang="ts">
 import { defineComponent, computed } from "vue";

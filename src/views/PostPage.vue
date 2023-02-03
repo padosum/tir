@@ -1,9 +1,5 @@
 <template>
-  <main class="l-main">
-    <PostView
-      :postItem="{ title, link, tags, publishDate, postHtml }"
-    ></PostView>
-  </main>
+  <PostView :postItem="{ title, link, tags, publishDate, postHtml }"></PostView>
 </template>
 
 <script lang="ts">

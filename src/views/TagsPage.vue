@@ -1,21 +1,19 @@
 <template>
-  <main class="l-main">
-    <article class="bd-container">
-      <h1 class="title">Tags</h1>
-      <nav class="section">
-        <div class="post-tags">
-          <router-link
-            v-for="(count, tag) in tags"
-            :key="tag"
-            :to="'/tags/' + tag"
-          >
-            {{ tag }}
-            <sup>{{ count }}</sup>
-          </router-link>
-        </div>
-      </nav>
-    </article>
-  </main>
+  <article class="bd-container">
+    <h1 class="title">Tags</h1>
+    <nav class="section">
+      <div class="post-tags">
+        <router-link
+          v-for="(count, tag) in tags"
+          :key="tag"
+          :to="'/tags/' + tag"
+        >
+          {{ tag }}
+          <sup>{{ count }}</sup>
+        </router-link>
+      </div>
+    </nav>
+  </article>
 </template>
 
 <script lang="ts">

@@ -4,7 +4,9 @@
     <a @click="topClick" class="scrolltop" id="scroll-top">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
-    <router-view :key="$route.fullPath" />
+    <main class="l-main">
+      <router-view :key="$route.fullPath" />
+    </main>
     <AppFooter />
   </div>
 </template>
