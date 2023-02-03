@@ -1,9 +1,5 @@
 <template>
-  <main class="l-main">
-    <PostView
-      :postItem="{ title, link, tags, publishDate, postHtml }"
-    ></PostView>
-  </main>
+  <PostView :postItem="{ title, link, tags, publishDate, postHtml }"></PostView>
 </template>
 
 <script lang="ts">
@@ -13,10 +9,6 @@ import usePost from "@/hooks/usePost";
 
 export default defineComponent({
   props: {
-    section: {
-      type: String,
-      default: "",
-    },
     id: {
       type: String,
       default: "",

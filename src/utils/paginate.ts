@@ -16,11 +16,9 @@ const paginate = (
   endIndex: number;
   pages: number[];
 } => {
-  // 총 페이지 계산
   pageSize = parseInt(pageSize.toString());
   const totalPages = Math.ceil(totalItems / pageSize);
 
-  // 현재 페이지가 범위를 넘지 않는지 확인
   if (currentPage < 1) {
     currentPage = 1;
   } else if (currentPage > totalPages) {
@@ -28,14 +26,13 @@ const paginate = (
   }
 
   let startPage: number, endPage: number;
+
   if (totalPages <= maxPages) {
-    // 총 페이지가 max 보다 작기 때문에 모든 페이지 보여주기
     startPage = 1;
     endPage = totalPages;
   } else {
-    // 총 페이지가 max 보다 크면 시작, 끝 페이지 계산
-    const maxPagesBeforeCurrentPage = Math.floor(maxPages / 2); // 5
-    const maxPagesAfterCurrentPage = Math.ceil(maxPages / 2) - 1; // 4
+    const maxPagesBeforeCurrentPage = Math.floor(maxPages / 2);
+    const maxPagesAfterCurrentPage = Math.ceil(maxPages / 2) - 1;
 
     if (currentPage <= maxPagesBeforeCurrentPage) {
       // current page near the start
