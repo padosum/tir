@@ -2,31 +2,20 @@
   <article class="bd-container">
     <h1 class="title">Tags</h1>
     <nav class="section">
-      <div class="post-tags">
-        <router-link
-          v-for="(count, tag) in tags"
-          :key="tag"
-          :to="'/tags/' + tag"
-        >
-          {{ tag }}
-          <sup>{{ count }}</sup>
-        </router-link>
-      </div>
+      <TagsItemList />
     </nav>
   </article>
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue";
-import { useStore } from "vuex";
+import { defineComponent } from "vue";
+import TagsItemList from "@/components/TagsItemList.vue";
 
 export default defineComponent({
-  setup() {
-    const store = useStore();
-    return {
-      tags: computed(() => store.getters.getTags),
-    };
+  components: {
+    TagsItemList,
   },
+  setup() {},
 });
 </script>
 
