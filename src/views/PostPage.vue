@@ -9,10 +9,6 @@ import usePost from "@/hooks/usePost";
 
 export default defineComponent({
   props: {
-    section: {
-      type: String,
-      default: "",
-    },
     id: {
       type: String,
       default: "",
