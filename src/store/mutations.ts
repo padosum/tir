@@ -5,6 +5,7 @@ export enum MutationTypes {
   TOGGLE_THEME = "TOGGLE_THEME",
   SET_DATE = "SET_DATE",
   SET_ITEMS = "SET_ITEMS",
+  SET_VISIBLE_POSTS = "SET_VISIBLE_POSTS",
 }
 
 export const mutations = {
@@ -16,6 +17,9 @@ export const mutations = {
   },
   [MutationTypes.SET_ITEMS](state: RootState, newItems: PostIndex[]) {
     state.postItems = newItems;
+  },
+  [MutationTypes.SET_VISIBLE_POSTS](state: RootState, newItems: PostIndex[]) {
+    state.visiblePostItems = newItems;
   },
 };
 

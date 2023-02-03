@@ -24,60 +24,26 @@
       <article class="section">
         <ul class="post-list">
           <PostListItem
-            v-for="postItem in pageStatus.visiblePosts"
+            v-for="postItem in visiblePostItems"
             :key="postItem.id"
             :postItem="postItem"
           >
           </PostListItem>
         </ul>
       </article>
-
-      <!-- PAGINATION -->
-      <nav>
-        <ul
-          class="pagination"
-          v-if="pageStatus.endPage > pageStatus.startPage"
-          style="cursor: pointer"
-        >
-          <li
-            class="page-item"
-            :class="currentPage == pageStatus.startPage ? 'active' : ''"
-            @click="currentPage = pageStatus.startPage"
-          >
-            <a class="page-link"> {{ pageStatus.startPage }}</a>
-          </li>
-          <li
-            v-for="(page, index) in pageStatus.midPages"
-            :key="index"
-            class="page-item"
-            :class="currentPage == page ? 'active' : ''"
-            @click="currentPage = page"
-          >
-            <a class="page-link">{{ page }}</a>
-          </li>
-          <li
-            class="page-item"
-            :class="currentPage == pageStatus.endPage ? 'active' : ''"
-            @click="currentPage = pageStatus.endPage"
-          >
-            <a class="page-link">{{ pageStatus.endPage }}</a>
-          </li>
-        </ul>
-      </nav>
+      <PaginationList :post-items="postItems"></PaginationList>
     </article>
   </main>
 </template>
 <script lang="ts">
-import { defineComponent, ref, inject, computed } from "vue";
-import type { PostIndex } from "@/types/PostIndex";
+import { defineComponent, computed } from "vue";
+import { useStore } from "vuex";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
 import SelectedPostList from "@/components/SelectedPostList.vue";
 import PostListItem from "@/components/PostListItem.vue";
-import paginate from "@/utils/paginate";
-import { POSTS_PER_PAGE } from "@/constants";
-import { getFormatDate } from "@/utils/date";
+import PaginationList from "@/components/PaginationList.vue";
 import { MutationTypes } from "@/store/mutations";
-import { useStore } from "vuex";
+import { getFormatDate } from "@/utils/date";
 import { HEATMAP_DARK_COLORS, HEATMAP_LIGHT_COLORS } from "@/constants";
 
 export default defineComponent({
@@ -85,6 +51,7 @@ export default defineComponent({
     CalendarHeatmap,
     PostListItem,
     SelectedPostList,
+    PaginationList,
   },
   props: {
     section: {
@@ -105,11 +72,7 @@ export default defineComponent({
   setup(props) {
     const store = useStore();
     const title = computed(() => {
-      return props.section
-        ? props.section
-        : props.tag
-        ? props.tag
-        : "Today I Read";
+      return props.section || props.tag || "Today I Read";
     });
 
     const today = computed(() => {
@@ -120,54 +83,21 @@ export default defineComponent({
       return store.state.darkTheme ? HEATMAP_DARK_COLORS : HEATMAP_LIGHT_COLORS;
     });
 
-    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
-    const currentPage = ref(1);
-
-    const pageStatus = computed(() => {
-      const isHome = !props.section && !props.tag;
-      const categoryPosts = isHome
-        ? postsIndex
-        : props.section
-        ? postsIndex.filter(({ section }) => section === props.section)
-        : postsIndex.filter(({ tags }) => {
-            if (typeof tags !== "undefined") {
-              return tags.includes(props.tag.toString());
-            }
-          });
-
-      const { startPage, endPage, startIndex, endIndex } = paginate(
-        categoryPosts.length,
-        currentPage.value,
-        POSTS_PER_PAGE
-      );
-
-      const prev =
-        currentPage.value - 1 >= startPage ? currentPage.value - 1 : 0;
-      const next = currentPage.value + 1 <= endPage ? currentPage.value + 1 : 0;
-      const midPages = [prev, currentPage.value, next].filter(
-        (p) => p > startPage && p < endPage
-      );
-
-      const visiblePosts = categoryPosts.slice(startIndex, endIndex + 1);
-
-      return {
-        startPage,
-        midPages,
-        endPage,
-        visiblePosts,
-      };
-    });
+    const postItems = props.section
+      ? store.getters.getPostItemsBySection(props.section)
+      : props.tag
+      ? store.getters.getPostItemsByTag(props.tag)
+      : store.state.postItems;
 
     return {
       title,
       heatmapRangeColor,
-      currentPage,
-      pageStatus,
-      postsIndex,
       today,
+      postItems,
       selectedDate: computed(() => store.state.selectedDate),
       postItemsByDate: computed(() => store.getters.getPostItemsByDate),
       heatmapData: computed(() => store.getters.getHeatmapData),
+      visiblePostItems: computed(() => store.state.visiblePostItems),
     };
   },
 });

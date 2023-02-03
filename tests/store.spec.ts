@@ -21,6 +21,7 @@ describe("mutations", () => {
       darkTheme: false,
       selectedDate: "",
       postItems: [],
+      visiblePostItems: [],
     };
 
     mutations[MutationTypes.TOGGLE_THEME](state);
@@ -32,6 +33,7 @@ describe("mutations", () => {
       darkTheme: false,
       selectedDate: "",
       postItems: [],
+      visiblePostItems: [],
     };
 
     const newDate = "2023-02-03";
@@ -44,6 +46,7 @@ describe("mutations", () => {
       darkTheme: false,
       selectedDate: "",
       postItems: [],
+      visiblePostItems: [],
     };
 
     const newItems = [
@@ -96,6 +99,7 @@ describe("getters", () => {
         url: "url",
       },
     ],
+    visiblePostItems: [],
   };
   test("getPostItemsByDate", () => {
     expect(getters.getPostItemsByDate(state).length).toEqual(2);

@@ -4,6 +4,7 @@ export const state = {
   darkTheme: getTheme() === "dark" || false,
   selectedDate: "",
   postItems: [] as PostIndex[],
+  visiblePostItems: [] as PostIndex[],
 };
 
 export type RootState = typeof state;

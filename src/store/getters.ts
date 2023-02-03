@@ -45,6 +45,18 @@ export const getters = {
 
     return sortedTag;
   },
+
+  getPostItemsBySection: (state: RootState) => (sectionName: string) => {
+    return state.postItems.filter(({ section }) => section === sectionName);
+  },
+
+  getPostItemsByTag: (state: RootState) => (tagName: string) => {
+    return state.postItems.filter(({ tags }) => {
+      if (typeof tags !== "undefined") {
+        return tags.includes(tagName);
+      }
+    });
+  },
 };
 
 export type Getters = typeof getters;
