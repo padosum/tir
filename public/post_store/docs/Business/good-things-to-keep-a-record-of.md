@@ -17,5 +17,5 @@ tags:
 
 ## ⛓️ 연결고리
 
-- [선물하기 서비스 개발기](../Dev/development-of-a-gift-service.md)
+- [선물하기 서비스 개발기](../Dev/development-of-a-gift-service)
   - 프로젝트에 대한 내용을 잘 기록한 글이어서 생각이 났다.
