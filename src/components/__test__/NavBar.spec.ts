@@ -23,12 +23,6 @@ describe("NavBar.vue theme 변경", () => {
   });
 
   test("theme 변경 버튼을 클릭하면 store state 값이 반대로 변경된다.", () => {
-    const wrapper = shallowMount(NavBar, {
-      global: {
-        plugins: [store, router],
-      },
-    });
-
     const beforeState = store.state.darkTheme;
     const themeButton = wrapper.find("#theme-button");
     themeButton.trigger("click");
