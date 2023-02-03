@@ -23,12 +23,12 @@
       </section>
       <article class="section">
         <ul class="post-list">
-          <PostList
+          <PostListItem
             v-for="postItem in pageStatus.visiblePosts"
             :key="postItem.id"
             :postItem="postItem"
           >
-          </PostList>
+          </PostListItem>
         </ul>
       </article>
 
@@ -72,7 +72,7 @@ import { defineComponent, ref, inject, computed } from "vue";
 import type { PostIndex } from "@/types/PostIndex";
 import { CalendarHeatmap } from "vue3-calendar-heatmap";
 import SelectedPostList from "@/components/SelectedPostList.vue";
-import PostList from "@/components/PostList.vue";
+import PostListItem from "@/components/PostListItem.vue";
 import paginate from "@/utils/paginate";
 import { POSTS_PER_PAGE } from "@/constants";
 import { getFormatDate } from "@/utils/date";
@@ -83,7 +83,7 @@ import { HEATMAP_DARK_COLORS, HEATMAP_LIGHT_COLORS } from "@/constants";
 export default defineComponent({
   components: {
     CalendarHeatmap,
-    PostList,
+    PostListItem,
     SelectedPostList,
   },
   props: {
