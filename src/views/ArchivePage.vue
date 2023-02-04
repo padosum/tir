@@ -1,25 +1,7 @@
 <template>
   <article class="bd-container archive__container">
     <h1 class="title">{{ title }}</h1>
-    <section
-      aria-label="날짜별 기록 그래프"
-      class="section"
-      v-if="!section && !tag"
-    >
-      <CalendarHeatmap
-        :values="heatmapData"
-        :end-date="today"
-        :max="5"
-        tooltip-unit="read"
-        @day-click="handleDayClick"
-        :range-color="heatmapRangeColor"
-      >
-      </CalendarHeatmap>
-      <SelectedPostList
-        :selected-date="selectedDate"
-        :selected-list="postItemsByDate"
-      ></SelectedPostList>
-    </section>
+    <DailyLog v-if="home"></DailyLog>
     <article class="section">
       <ul class="post-list">
         <PostListItem
@@ -36,19 +18,14 @@
 <script lang="ts">
 import { defineComponent, computed } from "vue";
 import { useStore } from "vuex";
-import { CalendarHeatmap } from "vue3-calendar-heatmap";
-import SelectedPostList from "@/components/SelectedPostList.vue";
 import PostListItem from "@/components/PostListItem.vue";
 import PaginationList from "@/components/PaginationList.vue";
-import { MutationTypes } from "@/store/mutations";
-import { getFormatDate } from "@/utils/date";
-import { HEATMAP_DARK_COLORS, HEATMAP_LIGHT_COLORS } from "@/constants";
+import DailyLog from "@/components/DailyLog.vue";
 
 export default defineComponent({
   components: {
-    CalendarHeatmap,
+    DailyLog,
     PostListItem,
-    SelectedPostList,
     PaginationList,
   },
   props: {
@@ -61,24 +38,11 @@ export default defineComponent({
       default: "",
     },
   },
-  methods: {
-    handleDayClick(day: any) {
-      const date = getFormatDate(day.date);
-      this.$store.commit(MutationTypes.SET_DATE, date);
-    },
-  },
   setup(props) {
     const store = useStore();
+    const home = !(props.section || props.tag);
     const title = computed(() => {
       return props.section || props.tag || "Today I Read";
-    });
-
-    const today = computed(() => {
-      return getFormatDate(new Date());
-    });
-
-    const heatmapRangeColor = computed(() => {
-      return store.state.darkTheme ? HEATMAP_DARK_COLORS : HEATMAP_LIGHT_COLORS;
     });
 
     const postItems = props.section
@@ -88,13 +52,9 @@ export default defineComponent({
       : store.state.postItems;
 
     return {
+      home,
       title,
-      heatmapRangeColor,
-      today,
       postItems,
-      selectedDate: computed(() => store.state.selectedDate),
-      postItemsByDate: computed(() => store.getters.getPostItemsByDate),
-      heatmapData: computed(() => store.getters.getHeatmapData),
       visiblePostItems: computed(() => store.state.visiblePostItems),
     };
   },
