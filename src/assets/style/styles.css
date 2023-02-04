@@ -290,6 +290,7 @@ img {
 .scrolltop__icon {
   font-size: 1.8rem;
   color: var(--body-color);
+  cursor: pointer;
 }
 
 /* show scrolltop */
@@ -442,12 +443,12 @@ img {
 /* pagination */
 .pagination {
   display: flex;
-  width: fit-content;
   list-style: none;
   background-color: var(--container-color);
   box-shadow: 0px 1px 2px rgb(167 79 79 / 10%);
   padding-inline-start: 1rem;
   padding-inline-end: 1rem;
+  justify-content: center;
 }
 
 .pagination li {
