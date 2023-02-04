@@ -1,12 +1,17 @@
 <template>
-  <header class="l-header" id="header">
+  <header class="l-header" id="header" ref="header">
     <nav class="nav bd-container">
       <router-link to="/" class="nav__logo">
         <i class="bx bx-book-bookmark"></i> TIR
       </router-link>
-      <div class="nav__menu" id="nav-menu">
+      <div class="nav__menu" id="nav-menu" :class="navMenuClass">
         <ul class="nav__list">
-          <li v-for="section of sections" :key="section.id" class="nav__item">
+          <li
+            v-for="section of sections"
+            :key="section.id"
+            class="nav__item"
+            @click="linkAction"
+          >
             <router-link
               :to="`/${section}`"
               class="nav__link"
@@ -14,13 +19,13 @@
               >{{ section }}</router-link
             >
           </li>
-          <li class="tools">
+          <li class="tools" @click="linkAction">
             <i class="bx bx-purchase-tag-alt tags" @click="routeTagsPage"></i>
           </li>
-          <li class="tools">
+          <li class="tools" @click="linkAction">
             <i class="bx bx-dice-3 random" @click="randomPage"></i>
           </li>
-          <li class="tools">
+          <li class="tools" @click="linkAction">
             <i
               class="bx change-theme"
               id="theme-button"
@@ -31,8 +36,7 @@
           </li>
         </ul>
       </div>
-
-      <div class="nav__toggle" id="nav-toggle">
+      <div class="nav__toggle" id="nav-toggle" @click="toggleMenu">
         <i class="bx bx-menu"></i>
       </div>
     </nav>
@@ -40,59 +44,76 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from "vue";
-import { showMenu, linkAction } from "@/utils/menu";
-import { scrollHeader } from "@/utils/scroll";
+import { defineComponent, computed, onMounted, onUnmounted, ref } from "vue";
+import { useRouter } from "vue-router";
 import type { PostIndex } from "@/types/PostIndex";
 import type { PropType } from "vue";
 import { MutationTypes } from "@/store/mutations";
 import { setTheme } from "@/utils/theme";
-
+import { useStore } from "vuex";
 export default defineComponent({
   props: {
     sections: {
       type: Array as PropType<PostIndex[]>,
     },
   },
-  computed: {
-    themeIcon() {
-      return this.$store.state.darkTheme ? "bx-sun" : "bx-moon";
-    },
-    theme() {
-      return this.$store.state.darkTheme ? "dark" : "light";
-    },
-  },
-  methods: {
-    routeTagsPage() {
-      this.$router.push(`/tags`);
-    },
-    randomPage() {
-      const { section, id } =
-        this.postsIndex[Math.floor(Math.random() * this.postsIndex.length)];
-
-      this.$router.push(`/${section}/${id}`);
-    },
-    changeTheme() {
-      this.$store.commit(MutationTypes.TOGGLE_THEME);
-      setTheme(this.theme);
-    },
-  },
-  mounted() {
-    showMenu("nav-toggle", "nav-menu");
-
-    /*========================= remove menu mobile =================================*/
-    const navLink = document.querySelectorAll(".nav__link");
-    navLink.forEach((n) => n.addEventListener("click", linkAction));
-
-    const tools = document.querySelectorAll(".tools");
-    tools.forEach((n) => n.addEventListener("click", linkAction));
-
-    window.addEventListener("scroll", scrollHeader);
-  },
   setup() {
-    const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
+    const store = useStore();
+    const router = useRouter();
+    const postItems: PostIndex[] = store.state.postItems;
+    const showMenu = ref(false);
+    const header = ref();
+    const navMenuClass = computed(() => (showMenu.value ? "show-menu" : ""));
+
+    const theme = computed(() => (store.state.darkTheme ? "dark" : "light"));
+
+    const randomPage = () => {
+      const { section, id } =
+        postItems[Math.floor(Math.random() * postItems.length)];
+      router.push(`/${section}/${id}`);
+    };
+
+    const routeTagsPage = () => {
+      router.push(`/tags`);
+    };
+
+    const changeTheme = () => {
+      store.commit(MutationTypes.TOGGLE_THEME);
+      setTheme(theme.value);
+    };
+
+    const linkAction = () => {
+      showMenu.value = false;
+    };
+
+    const toggleMenu = () => {
+      showMenu.value = !showMenu.value;
+    };
+
+    const scrollHeader = () => {
+      if (window.scrollY >= 200) header.value.classList.add("scroll-header");
+      else header.value.classList.remove("scroll-header");
+    };
+
+    onMounted(() => {
+      window.addEventListener("scroll", scrollHeader);
+    });
+
+    onUnmounted(() => {
+      window.addEventListener("scroll", scrollHeader);
+    });
+
     return {
-      postsIndex,
+      postItems,
+      randomPage,
+      routeTagsPage,
+      changeTheme,
+      themeIcon: computed(() => (store.state.darkTheme ? "bx-sun" : "bx-moon")),
+      linkAction,
+      showMenu,
+      navMenuClass,
+      toggleMenu,
+      header,
     };
   },
 });

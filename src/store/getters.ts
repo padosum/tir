@@ -45,6 +45,16 @@ export const getters = {
 
     return sortedTag;
   },
+  getSections(state: RootState) {
+    const sections = state.postItems
+      .reduce((prev: string[], { section }) => {
+        if (!prev.includes(section)) prev.push(section);
+        return prev;
+      }, [])
+      .sort((a, b) => a.localeCompare(b));
+
+    return sections;
+  },
 
   getPostItemsBySection: (state: RootState) => (sectionName: string) => {
     return state.postItems.filter(({ section }) => section === sectionName);

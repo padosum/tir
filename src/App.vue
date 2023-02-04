@@ -1,7 +1,7 @@
 <template>
   <div :class="themeClass">
     <NavBar :sections="sections"></NavBar>
-    <a @click="topClick" class="scrolltop" id="scroll-top">
+    <a @click="topClick" class="scrolltop" id="scroll-top" ref="scrollTopBtn">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>
     <main class="l-main">
@@ -12,34 +12,46 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, inject } from "vue";
-import { scrollTop } from "@/utils/scroll";
+import {
+  defineComponent,
+  computed,
+  onMounted,
+  onBeforeUnmount,
+  ref,
+} from "vue";
+import { useStore } from "vuex";
 import NavBar from "@/components/NavBar.vue";
 import AppFooter from "@/components/AppFooter.vue";
-import type { PostIndex } from "@/types/PostIndex";
 
 export default defineComponent({
   components: {
     NavBar,
     AppFooter,
   },
-  computed: {
-    themeClass() {
-      return this.$store.state.darkTheme ? "dark-theme" : "";
-    },
-  },
   setup() {
-    const sections: PostIndex[] = inject("sections", []);
-    return { sections };
-  },
-  methods: {
-    topClick() {
+    const store = useStore();
+    const sections = computed(() => store.getters.getSections);
+    const scrollTopBtn = ref();
+
+    const topClick = () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
-    },
+    };
+
+    const themeClass = computed(() =>
+      store.state.darkTheme ? "dark-theme" : ""
+    );
+
+    const scrollTop = () => {
+      if (window.scrollY >= 560) scrollTopBtn.value.classList.add("scroll-top");
+      else scrollTopBtn.value.classList.remove("scroll-top");
+    };
+
+    onMounted(() => window.addEventListener("scroll", scrollTop));
+    onBeforeUnmount(() => window.removeEventListener("scroll", scrollTop));
+
+    return { sections, topClick, scrollTopBtn, themeClass };
   },
-  mounted() {
-    window.addEventListener("scroll", scrollTop);
-  },
+  mounted() {},
 });
 </script>
 

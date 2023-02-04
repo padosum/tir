@@ -30,12 +30,6 @@ export default defineComponent({
     SelectedPostList,
     CalendarHeatmap,
   },
-  methods: {
-    handleDayClick(day: any) {
-      const date = getFormatDate(day.date);
-      this.$store.commit(MutationTypes.SET_DATE, date);
-    },
-  },
   setup() {
     const store = useStore();
 
@@ -46,12 +40,18 @@ export default defineComponent({
       return store.state.darkTheme ? HEATMAP_DARK_COLORS : HEATMAP_LIGHT_COLORS;
     });
 
+    const handleDayClick = (day: any) => {
+      const date = getFormatDate(day.date);
+      store.commit(MutationTypes.SET_DATE, date);
+    };
+
     return {
       today,
       heatmapRangeColor,
       heatmapData: computed(() => store.getters.getHeatmapData),
       selectedDate: computed(() => store.state.selectedDate),
       postItemsByDate: computed(() => store.getters.getPostItemsByDate),
+      handleDayClick,
     };
   },
 });
