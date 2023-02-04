@@ -1,19 +1,22 @@
 import axios from "redaxios";
 import MarkdownIt from "markdown-it";
 import emoji from "markdown-it-emoji";
-import { ref, onMounted, inject } from "vue";
+import { ref, onMounted } from "vue";
 import { linkToBlank } from "@/utils/markdown";
-import type { PostIndex } from "@/types/PostIndex";
+import { useStore } from "vuex";
+import type { RootState } from "@/store/state";
 
 export default function usePost({ postId }: { postId: string }) {
+  const store = useStore();
+  const { state }: { state: RootState } = store;
+
   const postHtml = ref<string>("");
-  const postsIndex: PostIndex[] = inject<PostIndex[]>("postsIndex", []);
   const markDownIt = new MarkdownIt({ html: true }).use(emoji);
 
   linkToBlank(markDownIt);
 
   const { url, title, link, tags, publishDate } =
-    postsIndex.find(({ id }) => id === postId) || {};
+    state.postItems.find(({ id }) => id === postId) || {};
 
   onMounted(async () => {
     const { data: markDownSource } = await axios.get(`../${url}`);

@@ -12,11 +12,7 @@ const loadApp = async () => {
 
   store.commit(MutationTypes.SET_ITEMS, postsIndex);
 
-  createApp(App)
-    .use(router)
-    .use(store)
-    .provide<PostIndex[]>("postsIndex", postsIndex)
-    .mount("#app");
+  createApp(App).use(router).use(store).mount("#app");
 };
 
 loadApp();
