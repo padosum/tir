@@ -60,7 +60,6 @@ export default defineComponent({
   setup() {
     const store = useStore();
     const router = useRouter();
-    const postItems: PostIndex[] = store.state.postItems;
     const showMenu = ref(false);
     const header = ref();
     const navMenuClass = computed(() => (showMenu.value ? "show-menu" : ""));
@@ -68,6 +67,10 @@ export default defineComponent({
     const theme = computed(() => (store.state.darkTheme ? "dark" : "light"));
 
     const randomPage = () => {
+      const {
+        state: { postItems },
+      } = store;
+
       const { section, id } =
         postItems[Math.floor(Math.random() * postItems.length)];
       router.push(`/${section}/${id}`);
@@ -104,7 +107,6 @@ export default defineComponent({
     });
 
     return {
-      postItems,
       randomPage,
       routeTagsPage,
       changeTheme,
