@@ -7,12 +7,11 @@
       tooltip-unit="read"
       @day-click="handleDayClick"
       :range-color="heatmapRangeColor"
-    >
-    </CalendarHeatmap>
+    />
     <SelectedPostList
       :selected-date="selectedDate"
       :selected-list="postItemsByDate"
-    ></SelectedPostList>
+    />
   </section>
 </template>
 
