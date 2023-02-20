@@ -12,33 +12,25 @@
   </template>
 </template>
 
-<script lang="ts">
-import { defineComponent, computed } from "vue";
+<script setup lang="ts">
+import { computed } from "vue";
 import type { PropType } from "vue";
 import type { PostIndex } from "@/types/PostIndex";
 
-export default defineComponent({
-  props: {
-    selectedDate: String,
-    selectedList: {
-      type: Array as PropType<PostIndex[]>,
-      required: true,
-    },
+const props = defineProps({
+  selectedDate: String,
+  selectedList: {
+    type: Array as PropType<PostIndex[]>,
+    required: true,
   },
-  setup(props) {
-    const postExists = computed(() => {
-      return props.selectedList.length > 0;
-    });
+});
 
-    const title = computed(() => {
-      return `📖 ${props.selectedDate}`;
-    });
+const postExists = computed(() => {
+  return props.selectedList.length > 0;
+});
 
-    return {
-      title,
-      postExists,
-    };
-  },
+const title = computed(() => {
+  return `📖 ${props.selectedDate}`;
 });
 </script>
 

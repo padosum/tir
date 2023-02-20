@@ -43,82 +43,72 @@
   </header>
 </template>
 
-<script lang="ts">
-import { defineComponent, computed, onMounted, onUnmounted, ref } from "vue";
+<script setup lang="ts">
+import { computed, onMounted, onUnmounted, ref } from "vue";
 import { useRouter } from "vue-router";
-import type { PostIndex } from "@/types/PostIndex";
-import type { PropType } from "vue";
 import { MutationTypes } from "@/store/mutations";
 import { setTheme } from "@/utils/theme";
 import { useStore } from "vuex";
-export default defineComponent({
-  props: {
-    sections: {
-      type: Array as PropType<PostIndex[]>,
-    },
-  },
-  setup() {
-    const store = useStore();
-    const router = useRouter();
-    const showMenu = ref(false);
-    const header = ref();
-    const navMenuClass = computed(() => (showMenu.value ? "show-menu" : ""));
+import type { PostIndex } from "@/types/PostIndex";
+import type { PropType } from "vue";
 
-    const theme = computed(() => (store.state.darkTheme ? "dark" : "light"));
-
-    const randomPage = () => {
-      const {
-        state: { postItems },
-      } = store;
-
-      const { section, id } =
-        postItems[Math.floor(Math.random() * postItems.length)];
-      router.push(`/${section}/${id}`);
-    };
-
-    const routeTagsPage = () => {
-      router.push(`/tags`);
-    };
-
-    const changeTheme = () => {
-      store.commit(MutationTypes.TOGGLE_THEME);
-      setTheme(theme.value);
-    };
-
-    const linkAction = () => {
-      showMenu.value = false;
-    };
-
-    const toggleMenu = () => {
-      showMenu.value = !showMenu.value;
-    };
-
-    const scrollHeader = () => {
-      if (window.scrollY >= 200) header.value.classList.add("scroll-header");
-      else header.value.classList.remove("scroll-header");
-    };
-
-    onMounted(() => {
-      window.addEventListener("scroll", scrollHeader);
-    });
-
-    onUnmounted(() => {
-      window.addEventListener("scroll", scrollHeader);
-    });
-
-    return {
-      randomPage,
-      routeTagsPage,
-      changeTheme,
-      themeIcon: computed(() => (store.state.darkTheme ? "bx-sun" : "bx-moon")),
-      linkAction,
-      showMenu,
-      navMenuClass,
-      toggleMenu,
-      header,
-    };
+defineProps({
+  sections: {
+    type: Array as PropType<PostIndex[]>,
   },
 });
+
+const store = useStore();
+const router = useRouter();
+const showMenu = ref(false);
+const header = ref();
+const navMenuClass = computed(() => (showMenu.value ? "show-menu" : ""));
+
+const theme = computed(() => (store.state.darkTheme ? "dark" : "light"));
+
+const randomPage = () => {
+  const {
+    state: { postItems },
+  } = store;
+
+  const { section, id } =
+    postItems[Math.floor(Math.random() * postItems.length)];
+  router.push(`/${section}/${id}`);
+};
+
+const routeTagsPage = () => {
+  router.push(`/tags`);
+};
+
+const changeTheme = () => {
+  store.commit(MutationTypes.TOGGLE_THEME);
+  setTheme(theme.value);
+};
+
+const linkAction = () => {
+  showMenu.value = false;
+};
+
+const toggleMenu = () => {
+  showMenu.value = !showMenu.value;
+};
+
+const scrollHeader = () => {
+  if (window.scrollY >= 200) header.value.classList.add("scroll-header");
+  else header.value.classList.remove("scroll-header");
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", scrollHeader);
+});
+
+onUnmounted(() => {
+  window.addEventListener("scroll", scrollHeader);
+});
+
+const themeIcon = computed(() =>
+  store.state.darkTheme ? "bx-sun" : "bx-moon"
+);
 </script>
 
 <style></style>

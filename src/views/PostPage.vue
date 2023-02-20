@@ -2,34 +2,19 @@
   <PostView :postItem="{ title, link, tags, publishDate, postHtml }"></PostView>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import PostView from "@/components/PostView.vue";
 import usePost from "@/hooks/usePost";
 
-export default defineComponent({
-  props: {
-    id: {
-      type: String,
-      default: "",
-    },
+const props = defineProps({
+  id: {
+    type: String,
+    default: "",
   },
-  components: {
-    PostView,
-  },
-  setup(props) {
-    const { title, link, postHtml, publishDate, tags } = usePost({
-      postId: props.id,
-    });
+});
 
-    return {
-      title,
-      link,
-      tags,
-      publishDate,
-      postHtml,
-    };
-  },
+const { title, link, postHtml, publishDate, tags } = usePost({
+  postId: props.id,
 });
 </script>
 

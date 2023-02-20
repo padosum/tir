@@ -11,48 +11,30 @@
   </div>
 </template>
 
-<script lang="ts">
-import {
-  defineComponent,
-  computed,
-  onMounted,
-  onBeforeUnmount,
-  ref,
-} from "vue";
+<script setup lang="ts">
+import { computed, onMounted, onBeforeUnmount, ref } from "vue";
 import { useStore } from "vuex";
+
 import NavBar from "@/components/NavBar.vue";
 import AppFooter from "@/components/AppFooter.vue";
 
-export default defineComponent({
-  components: {
-    NavBar,
-    AppFooter,
-  },
-  setup() {
-    const store = useStore();
-    const sections = computed(() => store.getters.getSections);
-    const scrollTopBtn = ref();
+const scrollTopBtn = ref();
+const store = useStore();
+const sections = computed(() => store.getters.getSections);
 
-    const topClick = () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    };
+const topClick = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
-    const themeClass = computed(() =>
-      store.state.darkTheme ? "dark-theme" : ""
-    );
+const themeClass = computed(() => (store.state.darkTheme ? "dark-theme" : ""));
 
-    const scrollTop = () => {
-      if (window.scrollY >= 560) scrollTopBtn.value.classList.add("scroll-top");
-      else scrollTopBtn.value.classList.remove("scroll-top");
-    };
+const scrollTop = () => {
+  if (window.scrollY >= 560) scrollTopBtn.value.classList.add("scroll-top");
+  else scrollTopBtn.value.classList.remove("scroll-top");
+};
 
-    onMounted(() => window.addEventListener("scroll", scrollTop));
-    onBeforeUnmount(() => window.removeEventListener("scroll", scrollTop));
-
-    return { sections, topClick, scrollTopBtn, themeClass };
-  },
-  mounted() {},
-});
+onMounted(() => window.addEventListener("scroll", scrollTop));
+onBeforeUnmount(() => window.removeEventListener("scroll", scrollTop));
 </script>
 
 <style>

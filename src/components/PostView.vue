@@ -24,17 +24,14 @@
   </article>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import type { PropType } from "vue";
 import type { PostItem } from "@/types/PostItem";
 
-export default defineComponent({
-  props: {
-    postItem: {
-      type: Object as PropType<PostItem>,
-      required: true,
-    },
+defineProps({
+  postItem: {
+    type: Object as PropType<PostItem>,
+    required: true,
   },
 });
 </script>

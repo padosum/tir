@@ -7,16 +7,8 @@
   </article>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
+<script setup lang="ts">
 import TagsItemList from "@/components/TagsItemList.vue";
-
-export default defineComponent({
-  components: {
-    TagsItemList,
-  },
-  setup() {},
-});
 </script>
 
 <style></style>

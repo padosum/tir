@@ -18,48 +18,40 @@
   </nav>
 </template>
 
-<script lang="ts">
+<script setup lang="ts">
 import { MAX_PAGES, POSTS_PER_PAGE } from "@/constants";
 import { MutationTypes } from "@/store/mutations";
 import type { PostIndex } from "@/types/PostIndex";
-import { defineComponent, computed, ref, type PropType } from "vue";
+import { computed, ref, type PropType } from "vue";
 import { useStore } from "vuex";
 import paginate from "@/utils/paginate";
 
-export default defineComponent({
-  props: {
-    postItems: {
-      type: Object as PropType<PostIndex[]>,
-      required: true,
-    },
+const props = defineProps({
+  postItems: {
+    type: Object as PropType<PostIndex[]>,
+    required: true,
   },
-  setup(props) {
-    const store = useStore();
-    const currentPage = ref(1);
+});
 
-    const pageStatus = computed(() => {
-      const { startIndex, endIndex, pages } = paginate(
-        props.postItems.length,
-        currentPage.value,
-        POSTS_PER_PAGE,
-        MAX_PAGES
-      );
+const store = useStore();
+const currentPage = ref(1);
 
-      store.commit(
-        MutationTypes.SET_VISIBLE_POSTS,
-        props.postItems.slice(startIndex, endIndex + 1)
-      );
+const pageStatus = computed(() => {
+  const { startIndex, endIndex, pages } = paginate(
+    props.postItems.length,
+    currentPage.value,
+    POSTS_PER_PAGE,
+    MAX_PAGES
+  );
 
-      return {
-        pages,
-      };
-    });
+  store.commit(
+    MutationTypes.SET_VISIBLE_POSTS,
+    props.postItems.slice(startIndex, endIndex + 1)
+  );
 
-    return {
-      currentPage,
-      pageStatus,
-    };
-  },
+  return {
+    pages,
+  };
 });
 </script>
 
