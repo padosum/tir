@@ -7,18 +7,12 @@
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, computed } from "vue";
+<script setup lang="ts">
+import { computed } from "vue";
 import { useStore } from "vuex";
 
-export default defineComponent({
-  setup() {
-    const store = useStore();
-    return {
-      tags: computed(() => store.getters.getTags),
-    };
-  },
-});
+const store = useStore();
+const tags = computed(() => store.getters.getTags);
 </script>
 
 <style scoped></style>
