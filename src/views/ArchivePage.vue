@@ -1,18 +1,17 @@
 <template>
   <article class="bd-container archive__container">
     <h1 class="title">{{ title }}</h1>
-    <DailyLog v-if="home"></DailyLog>
+    <DailyLog v-if="home" />
     <article class="section">
       <ul class="post-list">
         <PostListItem
           v-for="postItem in visiblePostItems"
           :key="postItem.id"
           :postItem="postItem"
-        >
-        </PostListItem>
+        />
       </ul>
     </article>
-    <PaginationList :post-items="postItems"></PaginationList>
+    <PaginationList :post-items="postItems" />
   </article>
 </template>
 <script setup lang="ts">

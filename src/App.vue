@@ -1,6 +1,6 @@
 <template>
   <div :class="themeClass">
-    <NavBar :sections="sections"></NavBar>
+    <NavBar :sections="sections" />
     <a @click="topClick" class="scrolltop" id="scroll-top" ref="scrollTopBtn">
       <i class="bx bx-chevron-up scrolltop__icon"></i>
     </a>

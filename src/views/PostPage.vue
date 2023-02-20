@@ -1,5 +1,5 @@
 <template>
-  <PostView :postItem="{ title, link, tags, publishDate, postHtml }"></PostView>
+  <PostView :postItem="{ title, link, tags, publishDate, postHtml }" />
 </template>
 
 <script setup lang="ts">
