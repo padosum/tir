@@ -1,5 +1,39 @@
 [
     {
+        "id": "Why-am-I-obsessed-with-TDD",
+        "section": "Dev",
+        "title": "내가 TDD에 집착하는 이유는?",
+        "link": "https://youtu.be/Sb3fMvIIsqQ",
+        "publishDate": "2023-02-23",
+        "tags": [
+            "TDD"
+        ],
+        "url": "post_store/docs/Dev/Why-am-I-obsessed-with-TDD.md"
+    },
+    {
+        "id": "the-dummies-guide-to-web-3-0-everything-you-need-to-know",
+        "section": "Technology",
+        "title": "웹 3.0 왕초보 가이드 당신이 알아야 할 모든 것",
+        "link": "https://velog.io/@sehyunny/the-dummies-guide-to-web3",
+        "publishDate": "2023-02-17",
+        "tags": [
+            "web"
+        ],
+        "url": "post_store/docs/Technology/the-dummies-guide-to-web-3-0-everything-you-need-to-know.md"
+    },
+    {
+        "id": "Reactjs The Documentary",
+        "section": "Dev",
+        "title": "React.js: The Documentary",
+        "link": "https://youtube.com/watch?v=8pDqJVdNa44&si=EnSIkaIECMiOmarE",
+        "publishDate": "2023-02-14",
+        "tags": [
+            "react",
+            "documentary"
+        ],
+        "url": "post_store/docs/Dev/Reactjs The Documentary.md"
+    },
+    {
         "id": "developers-lifelong-study",
         "section": "Dev",
         "title": "개발자의 평생공부",
@@ -155,6 +189,14 @@
         "url": "post_store/docs/Life/how-long-can-the-longest-lived-whale-on-earth-survive.md"
     },
     {
+        "id": "geonhi",
+        "section": "Art",
+        "title": "박건희문화재단",
+        "link": "http://geonhi.com/korean/pf-introduce/",
+        "publishDate": "2022-01-24",
+        "url": "post_store/docs/Art/geonhi.md"
+    },
+    {
         "id": "when-you-feel-that-your-life-is-stagnant-bring-out-your-memories",
         "section": "Life",
         "title": "삶이 정체되어 있다고 느낄 때, 기억을 꺼내보라",
@@ -164,14 +206,6 @@
             "심리학"
         ],
         "url": "post_store/docs/Life/when-you-feel-that-your-life-is-stagnant-bring-out-your-memories.md"
-    },
-    {
-        "id": "geonhi",
-        "section": "Art",
-        "title": "박건희문화재단",
-        "link": "http://geonhi.com/korean/pf-introduce/",
-        "publishDate": "2022-01-24",
-        "url": "post_store/docs/Art/geonhi.md"
     },
     {
         "id": "why-javascript-choose-prototype",
@@ -256,17 +290,6 @@
         "url": "post_store/docs/Life/the-golden-age-of-8-bit-PC-and-genius-who-disappeared.md"
     },
     {
-        "id": "cry-Djokovic-inside-me",
-        "section": "Life",
-        "title": "울어라, 내 안의 조코비치여",
-        "link": "https://www.chosun.com/opinion/essay/2021/10/14/KEXDISFSNZFVFJBL5AXMVDSAWM/",
-        "publishDate": "2021-10-22",
-        "tags": [
-            "에세이"
-        ],
-        "url": "post_store/docs/Life/cry-Djokovic-inside-me.md"
-    },
-    {
         "id": "what-is-CI-CD",
         "section": "Dev",
         "title": "CI/CD가 뭔가요? - 이론편",
@@ -285,6 +308,17 @@
             "칼럼"
         ],
         "url": "post_store/docs/Life/be-born-without-meaning.md"
+    },
+    {
+        "id": "cry-Djokovic-inside-me",
+        "section": "Life",
+        "title": "울어라, 내 안의 조코비치여",
+        "link": "https://www.chosun.com/opinion/essay/2021/10/14/KEXDISFSNZFVFJBL5AXMVDSAWM/",
+        "publishDate": "2021-10-22",
+        "tags": [
+            "에세이"
+        ],
+        "url": "post_store/docs/Life/cry-Djokovic-inside-me.md"
     },
     {
         "id": "CPU",
@@ -1619,18 +1653,6 @@
         "url": "post_store/docs/Study/how-to-write-clean-code-function-in-javascript.md"
     },
     {
-        "id": "software-learning-attitude",
-        "section": "Study",
-        "title": "소프트웨어 학습 태도",
-        "link": "https://brunch.co.kr/@godrm77/16",
-        "publishDate": "2020-08-18",
-        "tags": [
-            "학습",
-            "성장"
-        ],
-        "url": "post_store/docs/Study/software-learning-attitude.md"
-    },
-    {
         "id": "first-start-typescript",
         "section": "Dev",
         "title": "Typescript로 블록체인 만들기",
@@ -1642,6 +1664,18 @@
             "블록체인"
         ],
         "url": "post_store/docs/Dev/first-start-typescript.md"
+    },
+    {
+        "id": "software-learning-attitude",
+        "section": "Study",
+        "title": "소프트웨어 학습 태도",
+        "link": "https://brunch.co.kr/@godrm77/16",
+        "publishDate": "2020-08-18",
+        "tags": [
+            "학습",
+            "성장"
+        ],
+        "url": "post_store/docs/Study/software-learning-attitude.md"
     },
     {
         "id": "indistractable",
@@ -1666,17 +1700,6 @@
         "url": "post_store/docs/Dev/10-tips-for-starting-and-creating-side-projects.md"
     },
     {
-        "id": "what-is-javascript-made-of",
-        "section": "Study",
-        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
-        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
-        "publishDate": "2020-08-13",
-        "tags": [
-            "javascript"
-        ],
-        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
-    },
-    {
         "id": "burnout",
         "section": "Study",
         "title": "개발자 번아웃 대처방법의 모든 것",
@@ -1689,6 +1712,17 @@
             "건강"
         ],
         "url": "post_store/docs/Study/burnout.md"
+    },
+    {
+        "id": "what-is-javascript-made-of",
+        "section": "Study",
+        "title": "자바스크립트는 무엇으로 구성되어 있을까?",
+        "link": "https://ui.toast.com/weekly-pick/ko_20200219/",
+        "publishDate": "2020-08-13",
+        "tags": [
+            "javascript"
+        ],
+        "url": "post_store/docs/Study/what-is-javascript-made-of.md"
     },
     {
         "id": "how-javascript-works-inside-engine",
@@ -1713,17 +1747,6 @@
         "url": "post_store/docs/Dev/ui-for-developers.md"
     },
     {
-        "id": "to-you-who-became-a-software-developer",
-        "section": "Dev",
-        "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
-        "link": "https://brunch.co.kr/@lkj28/136",
-        "publishDate": "2020-08-10",
-        "tags": [
-            "developer"
-        ],
-        "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
-    },
-    {
         "id": "important-purpose-of-codereview",
         "section": "Dev",
         "title": "코드리뷰의 진짜 목적은 따로있다.",
@@ -1733,6 +1756,17 @@
             "코드리뷰"
         ],
         "url": "post_store/docs/Dev/important-purpose-of-codereview.md"
+    },
+    {
+        "id": "to-you-who-became-a-software-developer",
+        "section": "Dev",
+        "title": "이제 소프트웨어 개발자가 된 젊은 그대에게",
+        "link": "https://brunch.co.kr/@lkj28/136",
+        "publishDate": "2020-08-10",
+        "tags": [
+            "developer"
+        ],
+        "url": "post_store/docs/Dev/to-you-who-became-a-software-developer.md"
     },
     {
         "id": "no-hello",
@@ -1769,18 +1803,6 @@
         "url": "post_store/docs/Dev/becoming-a-10x-developer.md"
     },
     {
-        "id": "why-we-use-react",
-        "section": "Dev",
-        "title": "React를 사용하는 이유",
-        "link": "https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
-        "publishDate": "2020-08-07",
-        "tags": [
-            "front-end",
-            "react"
-        ],
-        "url": "post_store/docs/Dev/why-we-use-react.md"
-    },
-    {
         "id": "my-advice-on-studying-algorithms",
         "section": "Dev",
         "title": "알고리즘 학습에 대한 조언",
@@ -1791,6 +1813,18 @@
             "algorithm"
         ],
         "url": "post_store/docs/Dev/my-advice-on-studying-algorithms.md"
+    },
+    {
+        "id": "why-we-use-react",
+        "section": "Dev",
+        "title": "React를 사용하는 이유",
+        "link": "https://velog.io/@youthfulhps/React-React%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0",
+        "publishDate": "2020-08-07",
+        "tags": [
+            "front-end",
+            "react"
+        ],
+        "url": "post_store/docs/Dev/why-we-use-react.md"
     },
     {
         "id": "about-mvc",
@@ -1959,6 +1993,17 @@
         "url": "post_store/docs/Dev/what-is-the-difference-between-cookie-and-session.md"
     },
     {
+        "id": "about-https",
+        "section": "Dev",
+        "title": "HTTPS에 대해 알아야 할 것들",
+        "link": "https://www.mimul.com/blog/about-https/",
+        "publishDate": "2020-07-27",
+        "tags": [
+            "http"
+        ],
+        "url": "post_store/docs/Dev/about-https.md"
+    },
+    {
         "id": "things-that-no-one-told-me",
         "section": "Study",
         "title": "아무도 가르쳐 주지 않는 것",
@@ -1971,15 +2016,15 @@
         "url": "post_store/docs/Study/things-that-no-one-told-me.md"
     },
     {
-        "id": "about-https",
-        "section": "Dev",
-        "title": "HTTPS에 대해 알아야 할 것들",
-        "link": "https://www.mimul.com/blog/about-https/",
-        "publishDate": "2020-07-27",
+        "id": "text-fields-and-forms-design",
+        "section": "Design",
+        "title": "텍스트를 입력하세요",
+        "link": "https://brunch.co.kr/@bundi/36",
+        "publishDate": "2020-07-26",
         "tags": [
-            "http"
+            "UI"
         ],
-        "url": "post_store/docs/Dev/about-https.md"
+        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
     },
     {
         "id": "today-is-not-the-only-day-for-coding",
@@ -1993,17 +2038,6 @@
             "developer"
         ],
         "url": "post_store/docs/Study/today-is-not-the-only-day-for-coding.md"
-    },
-    {
-        "id": "text-fields-and-forms-design",
-        "section": "Design",
-        "title": "텍스트를 입력하세요",
-        "link": "https://brunch.co.kr/@bundi/36",
-        "publishDate": "2020-07-26",
-        "tags": [
-            "UI"
-        ],
-        "url": "post_store/docs/Design/text-fields-and-forms-design.md"
     },
     {
         "id": "Salary-is-not-the-result-of-ability.",
@@ -2071,18 +2105,6 @@
         "url": "post_store/docs/Dev/what-is-an-alt-tag-and-how-should-you-use-it.md"
     },
     {
-        "id": "the-fastest-way-to-learn",
-        "section": "Study",
-        "title": "공개적으로 학습하라!",
-        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
-        "publishDate": "2020-07-22",
-        "tags": [
-            "developer",
-            "학습"
-        ],
-        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
-    },
-    {
         "id": "how-i-became-a-better-programmer",
         "section": "Dev",
         "title": "나는 어떻게 더 나은 프로그래머가 되었는가",
@@ -2096,14 +2118,27 @@
         "url": "post_store/docs/Dev/how-i-became-a-better-programmer.md"
     },
     {
-        "id": "Day01",
-        "section": "Technology",
-        "title": "AI, Data Science, ML, 그리고 DL의 차이점?",
+        "id": "the-fastest-way-to-learn",
+        "section": "Study",
+        "title": "공개적으로 학습하라!",
+        "link": "https://velog.io/@kwanwooi/%EA%B3%B5%EA%B0%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%ED%95%99%EC%8A%B5%ED%95%98%EB%9D%BC",
+        "publishDate": "2020-07-22",
+        "tags": [
+            "developer",
+            "학습"
+        ],
+        "url": "post_store/docs/Study/the-fastest-way-to-learn.md"
+    },
+    {
+        "id": "naver-naver-and-naver",
+        "section": "Business",
+        "title": "네이버, 네이버, 그리고 네이버",
+        "link": "http://www.bloter.net/archives/396706",
         "publishDate": "2020-07-21",
         "tags": [
-            "data-science"
+            "기업"
         ],
-        "url": "post_store/docs/Technology/Day01.md"
+        "url": "post_store/docs/Business/naver-naver-and-naver.md"
     },
     {
         "id": "don't-use-else",
@@ -2119,6 +2154,16 @@
         "url": "post_store/docs/Dev/don't-use-else.md"
     },
     {
+        "id": "Day01",
+        "section": "Technology",
+        "title": "AI, Data Science, ML, 그리고 DL의 차이점?",
+        "publishDate": "2020-07-21",
+        "tags": [
+            "data-science"
+        ],
+        "url": "post_store/docs/Technology/Day01.md"
+    },
+    {
         "id": "GIMZIMEAN",
         "section": "Technology",
         "title": "AI",
@@ -2127,28 +2172,6 @@
             "data-science"
         ],
         "url": "post_store/docs/Technology/GIMZIMEAN.md"
-    },
-    {
-        "id": "naver-naver-and-naver",
-        "section": "Business",
-        "title": "네이버, 네이버, 그리고 네이버",
-        "link": "http://www.bloter.net/archives/396706",
-        "publishDate": "2020-07-21",
-        "tags": [
-            "기업"
-        ],
-        "url": "post_store/docs/Business/naver-naver-and-naver.md"
-    },
-    {
-        "id": "why-side-projects-are-so-damn-important",
-        "section": "Dev",
-        "title": "사이드 프로젝트가 개 중요한 이유",
-        "link": "https://usecode.pw/why-side-projects-are-so-damn-important/",
-        "publishDate": "2020-07-20",
-        "tags": [
-            "사이드프로젝트"
-        ],
-        "url": "post_store/docs/Dev/why-side-projects-are-so-damn-important.md"
     },
     {
         "id": "introduction-to-svelte",
@@ -2161,5 +2184,16 @@
             "svelte"
         ],
         "url": "post_store/docs/Dev/introduction-to-svelte.md"
+    },
+    {
+        "id": "why-side-projects-are-so-damn-important",
+        "section": "Dev",
+        "title": "사이드 프로젝트가 개 중요한 이유",
+        "link": "https://usecode.pw/why-side-projects-are-so-damn-important/",
+        "publishDate": "2020-07-20",
+        "tags": [
+            "사이드프로젝트"
+        ],
+        "url": "post_store/docs/Dev/why-side-projects-are-so-damn-important.md"
     }
 ]
