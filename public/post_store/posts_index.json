@@ -1,5 +1,17 @@
 [
     {
+        "id": "what-is-idempotent",
+        "section": "Dev",
+        "title": "멱등성이 뭔가요?",
+        "link": "https://velog.io/@tosspayments/%EB%A9%B1%EB%93%B1%EC%84%B1%EC%9D%B4-%EB%AD%94%EA%B0%80%EC%9A%94",
+        "publishDate": "2023-03-07",
+        "tags": [
+            "http",
+            "network"
+        ],
+        "url": "post_store/docs/Dev/what-is-idempotent.md"
+    },
+    {
         "id": "Four-Eras-of-JavaScript-Frameworks",
         "section": "Dev",
         "title": "네 시대의 자바스크립트 프레임워크",
