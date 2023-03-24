@@ -1,5 +1,51 @@
 [
     {
+        "id": "you-are-solving-the-wrong-problem",
+        "section": "Business",
+        "title": "당신은 엉뚱한 문제를 풀고 있다",
+        "link": "https://www.neozest.com/entry/TheWrongProblemTranslation",
+        "publishDate": "2023-03-24",
+        "url": "post_store/docs/Business/you-are-solving-the-wrong-problem.md"
+    },
+    {
+        "id": "16-little-UI-design-rules-that-make-a-big-impact",
+        "section": "Design",
+        "title": "큰 영향을 미치는 16가지 작은 UI 디자인 규칙",
+        "link": "https://uxplanet.org/16-ui-design-tips-ba2e7524d203",
+        "publishDate": "2023-03-24",
+        "tags": [
+            "UI"
+        ],
+        "url": "post_store/docs/Design/16-little-UI-design-rules-that-make-a-big-impact.md"
+    },
+    {
+        "id": "Utilize ChatGPT to avoid being left behind",
+        "section": "Technology",
+        "title": "도태되지 않기 위해서는 챗GPT 활용 필요",
+        "link": "https://www.huffingtonpost.kr/news/articleView.html?idxno=207422",
+        "publishDate": "2023-03-09",
+        "tags": [
+            "ai"
+        ],
+        "url": "post_store/docs/Technology/Utilize ChatGPT to avoid being left behind.md"
+    },
+    {
+        "id": "open-source-specific-analytics",
+        "section": "Dev",
+        "title": "오픈소스 어떻게 보는지 모르면 꼭 봐야 할 구체적인 분석 방법",
+        "link": "https://youtu.be/1Lhfcz9MnmQ",
+        "publishDate": "2023-03-08",
+        "url": "post_store/docs/Dev/open-source-specific-analytics.md"
+    },
+    {
+        "id": "you-dont-need-a-build-step",
+        "section": "Dev",
+        "title": "You Don't Need a Build Step",
+        "link": "https://deno.com/blog/you-dont-need-a-build-step",
+        "publishDate": "2023-03-08",
+        "url": "post_store/docs/Dev/you-dont-need-a-build-step.md"
+    },
+    {
         "id": "what-is-idempotent",
         "section": "Dev",
         "title": "멱등성이 뭔가요?",
