@@ -1,3 +1,4 @@
+import { AsyncLocalStorage } from "async_hooks";
 import type { RootState } from "./state";
 
 export const getters = {
@@ -31,9 +32,11 @@ export const getters = {
     const tags = state.postItems.reduce((acc: Tag, { tags }) => {
       if (typeof tags !== "undefined") {
         tags.forEach((tag) => {
-          acc = acc[tag]
-            ? { ...acc, [tag]: acc[tag] + 1 }
-            : { ...acc, [tag]: 1 };
+          if (acc[tag]) {
+            acc[tag] += 1;
+          } else {
+            acc[tag] = 1;
+          }
         });
       }
       return acc;
