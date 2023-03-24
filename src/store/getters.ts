@@ -1,4 +1,3 @@
-import { AsyncLocalStorage } from "async_hooks";
 import type { RootState } from "./state";
 
 export const getters = {
