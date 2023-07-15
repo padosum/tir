@@ -1,5 +1,60 @@
 [
     {
+        "id": "how-to-take-notes-properly",
+        "section": "Life",
+        "title": "25년 기록학 전문가가 말하는 메모 '제대로' 하는 법",
+        "link": "https://youtu.be/L7zWucx7TR8",
+        "publishDate": "2023-07-15",
+        "tags": [
+            "자기관리",
+            "노트"
+        ],
+        "url": "post_store/docs/Life/how-to-take-notes-properly.md"
+    },
+    {
+        "id": "where-and-how-to-implement-authentication-authorization",
+        "section": "Dev",
+        "title": "인증/인가는 어디에 어떻게 구현해야 할까?",
+        "link": "https://dev.gmarket.com/45",
+        "publishDate": "2023-05-30",
+        "tags": [
+            "authentication",
+            "authorization"
+        ],
+        "url": "post_store/docs/Dev/where-and-how-to-implement-authentication-authorization.md"
+    },
+    {
+        "id": "The-AI-Revolution",
+        "section": "Technology",
+        "title": "왜 최근에 빌 게이츠, 일론 머스크, 스티븐 호킹 등 많은 유명인들이 인공지능을 경계하라고 호소하는가?",
+        "link": "https://coolspeed.wordpress.com/2016/01/03/the_ai_revolution_1_korean/",
+        "publishDate": "2023-05-01",
+        "tags": [
+            "ai"
+        ],
+        "url": "post_store/docs/Technology/The-AI-Revolution.md"
+    },
+    {
+        "id": "Luck-or-Ability",
+        "section": "Life",
+        "title": "운인가 능력인가",
+        "link": "https://www.wavve.com/player/stream/vod?contentid=S06_22000095046.1",
+        "publishDate": "2023-04-29",
+        "tags": [
+            "공정성",
+            "능력주의"
+        ],
+        "url": "post_store/docs/Life/Luck-or-Ability.md"
+    },
+    {
+        "id": "how-fateful",
+        "section": "Dev",
+        "title": "How fateful?",
+        "link": "https://chan.co.za/how-fateful",
+        "publishDate": "2023-04-17",
+        "url": "post_store/docs/Dev/how-fateful.md"
+    },
+    {
         "id": "you-are-solving-the-wrong-problem",
         "section": "Business",
         "title": "당신은 엉뚱한 문제를 풀고 있다",
